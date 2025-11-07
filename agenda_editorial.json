@@ -1,57 +1,33 @@
 {
-  "version": "1.0",
-  "description": "Agenda editorial para o bot Bet Masterson — define slots explícitos de publicação quando MODE=editorial.",
-  "timezone": "America/Sao_Paulo",
-  "effective_date": "2025-11-07",
-  "notes": [
-    "Picks unitários: de hora em hora a partir das 08:00.",
-    "Combos: a cada 2 horas a partir das 08:30.",
-    "Publicar somente com lead mínimo de 25 minutos antes do kickoff.",
-    "Reservar SLS altos para o fim da tarde/noite (slots com sls_floor)."
-  ],
-  "defaults": {
-    "min_prob": "env",
-    "min_ev": "env",
-    "min_lead_min": "env",
-    "reserve_cutoff_hour": "env",
-    "reserve_sls_threshold": "env",
-    "reserve_expiry_release_min": "env"
-  },
-  "filters": {
-    "publish_window": {
-      "start": "08:00",
-      "end": "23:00"
-    },
-    "kickoff_window": {
-      "min_lead_min": 25
-    }
-  },
-  "slots": [
+  "schedule_plan": [
     {
-      "name": "picks_hourly_morning",
-      "kind": "singles",
-      "rrule": "FREQ=HOURLY;BYHOUR=8,9,10,11;BYMINUTE=0",
-      "max_cards": 1
+      "time_local": "00:30",
+      "refs": ["coruja_card"]
     },
-    {
-      "name": "combos_bi_hourly",
-      "kind": "combos",
-      "rrule": "FREQ=HOURLY;INTERVAL=2;BYHOUR=8,10,12,14,16,18,20,22;BYMINUTE=30",
-      "max_cards": 1
-    },
-    {
-      "name": "picks_hourly_afternoon",
-      "kind": "singles",
-      "rrule": "FREQ=HOURLY;BYHOUR=12,13,14,15,16,17;BYMINUTE=0",
-      "max_cards": 1,
-      "sls_floor": 70
-    },
-    {
-      "name": "picks_hourly_evening",
-      "kind": "singles",
-      "rrule": "FREQ=HOURLY;BYHOUR=18,19,20,21,22;BYMINUTE=0",
-      "max_cards": 1,
-      "sls_floor": 75
-    }
+
+    { "time_local": "07:00", "selection_rule": { "sections": ["singles"], "max_cards": 1 } },
+    { "time_local": "08:00", "selection_rule": { "sections": ["singles"], "max_cards": 1 } },
+    { "time_local": "09:00", "selection_rule": { "sections": ["singles"], "max_cards": 1 } },
+    { "time_local": "10:00", "selection_rule": { "sections": ["singles"], "max_cards": 1 } },
+    { "time_local": "11:00", "selection_rule": { "sections": ["singles"], "max_cards": 1 } },
+    { "time_local": "12:00", "selection_rule": { "sections": ["singles"], "max_cards": 1 } },
+    { "time_local": "13:00", "selection_rule": { "sections": ["singles"], "max_cards": 1 } },
+    { "time_local": "14:00", "selection_rule": { "sections": ["singles"], "max_cards": 1 } },
+    { "time_local": "15:00", "selection_rule": { "sections": ["singles"], "max_cards": 1 } },
+    { "time_local": "16:00", "selection_rule": { "sections": ["singles"], "max_cards": 1 } },
+    { "time_local": "17:00", "selection_rule": { "sections": ["singles"], "max_cards": 1 } },
+    { "time_local": "18:00", "selection_rule": { "sections": ["singles"], "max_cards": 1 } },
+    { "time_local": "19:00", "selection_rule": { "sections": ["singles"], "max_cards": 1 } },
+    { "time_local": "20:00", "selection_rule": { "sections": ["singles"], "max_cards": 1 } },
+    { "time_local": "21:00", "selection_rule": { "sections": ["singles"], "max_cards": 1 } },
+    { "time_local": "22:00", "selection_rule": { "sections": ["singles"], "max_cards": 1 } },
+
+    { "time_local": "07:30", "selection_rule": { "sections": ["doubles", "intra_game_combos"], "max_cards": 1 } },
+    { "time_local": "09:30", "selection_rule": { "sections": ["trebles"], "max_cards": 1 } },
+    { "time_local": "11:30", "selection_rule": { "sections": ["multiples", "inter_game_multiples"], "max_cards": 1 } },
+    { "time_local": "13:30", "selection_rule": { "sections": ["doubles"], "max_cards": 1 } },
+    { "time_local": "15:30", "selection_rule": { "sections": ["trebles"], "max_cards": 1 } },
+    { "time_local": "17:30", "selection_rule": { "sections": ["multiples"], "max_cards": 1 } },
+    { "time_local": "19:30", "selection_rule": { "sections": ["doubles", "trebles"], "max_cards": 1 } }
   ]
 }

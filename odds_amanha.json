@@ -1,0 +1,3977 @@
+{
+  "gerado_em": "2025-11-07T00:46:09Z",
+  "picks": [
+    {
+      "campeonato": "Cup",
+      "pais": "Jordan",
+      "hora_utc": "2025-11-07T13:00:00-03:00",
+      "mandante": "Al Salt",
+      "visitante": "Al Hashemeya",
+      "mercado": "Over 2.5 Goals",
+      "selecao": "Over 2.5",
+      "prob_real": 0.99,
+      "fair_odd": 1.01,
+      "odd_mercado": 2.15,
+      "ev": 112.85,
+      "roi": 112.85,
+      "nota": "Al Salt chega em fase mais estável e tende a conduzir o ritmo em casa. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. O volume pelos lados do campo indica bom número de chegadas à linha de fundo. Indicador máximo detectado; avaliar robustez da amostra."
+    },
+    {
+      "campeonato": "Cup",
+      "pais": "Jordan",
+      "hora_utc": "2025-11-07T13:00:00-03:00",
+      "mandante": "Al Salt",
+      "visitante": "Al Hashemeya",
+      "mercado": "BTTS Yes",
+      "selecao": "BTTS Yes",
+      "prob_real": 0.99,
+      "fair_odd": 1.01,
+      "odd_mercado": 2.0,
+      "ev": 98.0,
+      "roi": 98.0,
+      "nota": "Al Salt chega em fase mais estável e tende a conduzir o ritmo em casa. Há sinais de partida aberta, com volume ofensivo acima da média. A tendência é de jogo franco, com espaços para finalizações de ambos os lados. A sinergia com linhas de gols é positiva para este cenário. O volume pelos lados do campo indica bom número de chegadas à linha de fundo. Indicador máximo detectado; avaliar robustez da amostra."
+    },
+    {
+      "campeonato": "Cup",
+      "pais": "Jordan",
+      "hora_utc": "2025-11-07T10:00:00-03:00",
+      "mandante": "Ma'an",
+      "visitante": "Shabab Al Ordon",
+      "mercado": "Under 2.5 Goals",
+      "selecao": "Under 2.5",
+      "prob_real": 0.99,
+      "fair_odd": 1.01,
+      "odd_mercado": 1.85,
+      "ev": 83.15,
+      "roi": 83.15,
+      "nota": "Ma'an chega em fase mais estável e tende a conduzir o ritmo em casa. A construção do jogo tende a ser mais paciente e controlada, com menos espaços. Os sinais indicam um jogo mais contido, com defesas compactas e menor volatilidade no placar. O histórico recente respalda a leitura de poucos gols. O volume pelos lados do campo indica bom número de chegadas à linha de fundo. Indicador máximo detectado; avaliar robustez da amostra."
+    },
+    {
+      "campeonato": "Cup",
+      "pais": "Jordan",
+      "hora_utc": "2025-11-07T13:00:00-03:00",
+      "mandante": "Al Ahli",
+      "visitante": "Al Sareeh",
+      "mercado": "Under 2.5 Goals",
+      "selecao": "Under 2.5",
+      "prob_real": 0.99,
+      "fair_odd": 1.01,
+      "odd_mercado": 1.75,
+      "ev": 73.25,
+      "roi": 73.25,
+      "nota": "Al Ahli chega em fase mais estável e tende a conduzir o ritmo em casa. A construção do jogo tende a ser mais paciente e controlada, com menos espaços. Os sinais indicam um jogo mais contido, com defesas compactas e menor volatilidade no placar. O histórico recente respalda a leitura de poucos gols. Indicador máximo detectado; avaliar robustez da amostra."
+    },
+    {
+      "campeonato": "Serie A Women",
+      "pais": "Italy",
+      "hora_utc": "2025-11-07T16:00:00-03:00",
+      "mandante": "Fiorentina W",
+      "visitante": "Roma W",
+      "mercado": "Over 2.5 Goals",
+      "selecao": "Over 2.5",
+      "prob_real": 0.99,
+      "fair_odd": 1.01,
+      "odd_mercado": 1.65,
+      "ev": 63.35,
+      "roi": 63.35,
+      "nota": "Roma W vive momento melhor e pode impor dificuldades mesmo fora. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. O volume pelos lados do campo indica bom número de chegadas à linha de fundo. Indicador máximo detectado; avaliar robustez da amostra."
+    },
+    {
+      "campeonato": "Serie A Women",
+      "pais": "Italy",
+      "hora_utc": "2025-11-07T16:00:00-03:00",
+      "mandante": "Fiorentina W",
+      "visitante": "Roma W",
+      "mercado": "BTTS Yes",
+      "selecao": "BTTS Yes",
+      "prob_real": 0.99,
+      "fair_odd": 1.01,
+      "odd_mercado": 1.63,
+      "ev": 61.37,
+      "roi": 61.37,
+      "nota": "Roma W vive momento melhor e pode impor dificuldades mesmo fora. Há sinais de partida aberta, com volume ofensivo acima da média. A tendência é de jogo franco, com espaços para finalizações de ambos os lados. A sinergia com linhas de gols é positiva para este cenário. O volume pelos lados do campo indica bom número de chegadas à linha de fundo. Indicador máximo detectado; avaliar robustez da amostra."
+    },
+    {
+      "campeonato": "Ethiopia Premier League",
+      "pais": "Ethiopia",
+      "hora_utc": "2025-11-07T10:00:00-03:00",
+      "mandante": "Mebrat Hayl",
+      "visitante": "Negele Arsi Ketema",
+      "mercado": "Over 2.5 Goals",
+      "selecao": "Over 2.5",
+      "prob_real": 0.75,
+      "fair_odd": 1.333,
+      "odd_mercado": 2.62,
+      "ev": 96.5,
+      "roi": 96.5,
+      "nota": "Mebrat Hayl chega em fase mais estável e tende a conduzir o ritmo em casa. O encaixe tático favorece a progressão ofensiva ao longo da partida. A recorrência de ambas marcarem reforça a aposta em linhas de gols. O volume pelos lados do campo indica bom número de chegadas à linha de fundo."
+    },
+    {
+      "campeonato": "Division One",
+      "pais": "UAE",
+      "hora_utc": "2025-11-07T09:45:00-03:00",
+      "mandante": "Hatta",
+      "visitante": "Gulf United",
+      "mercado": "BTTS Yes",
+      "selecao": "BTTS Yes",
+      "prob_real": 0.99,
+      "fair_odd": 1.01,
+      "odd_mercado": 1.58,
+      "ev": 56.42,
+      "roi": 56.42,
+      "nota": "Hatta chega em fase mais estável e tende a conduzir o ritmo em casa. Há sinais de partida aberta, com volume ofensivo acima da média. A tendência é de jogo franco, com espaços para finalizações de ambos os lados. A sinergia com linhas de gols é positiva para este cenário. O volume pelos lados do campo indica bom número de chegadas à linha de fundo. Indicador máximo detectado; avaliar robustez da amostra."
+    },
+    {
+      "campeonato": "National",
+      "pais": "France",
+      "hora_utc": "2025-11-07T15:30:00-03:00",
+      "mandante": "Quevilly Rouen",
+      "visitante": "Châteauroux",
+      "mercado": "BTTS Yes",
+      "selecao": "BTTS Yes",
+      "prob_real": 0.9,
+      "fair_odd": 1.111,
+      "odd_mercado": 1.84,
+      "ev": 65.6,
+      "roi": 65.6,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. A tendência é de jogo franco, com espaços para finalizações de ambos os lados. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "National",
+      "pais": "France",
+      "hora_utc": "2025-11-07T15:30:00-03:00",
+      "mandante": "Aubagne",
+      "visitante": "Le Puy F.43 Auvergne",
+      "mercado": "BTTS Yes",
+      "selecao": "BTTS Yes",
+      "prob_real": 0.88,
+      "fair_odd": 1.136,
+      "odd_mercado": 1.88,
+      "ev": 65.44,
+      "roi": 65.44,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. A tendência é de jogo franco, com espaços para finalizações de ambos os lados. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "Division One",
+      "pais": "UAE",
+      "hora_utc": "2025-11-07T09:45:00-03:00",
+      "mandante": "Al Fujairah",
+      "visitante": "Masfut",
+      "mercado": "BTTS No",
+      "selecao": "BTTS No",
+      "prob_real": 0.83,
+      "fair_odd": 1.205,
+      "odd_mercado": 2.0,
+      "ev": 66.0,
+      "roi": 66.0,
+      "nota": "Masfut vive momento melhor e pode impor dificuldades mesmo fora. A construção do jogo tende a ser mais paciente e controlada, com menos espaços. O desenho do confronto sugere controle territorial e menor exposição defensiva."
+    },
+    {
+      "campeonato": "Campionato Primavera 1",
+      "pais": "Italy",
+      "hora_utc": "2025-11-07T11:00:00-03:00",
+      "mandante": "Parma U19",
+      "visitante": "Cesena U20",
+      "mercado": "1st Half Over 1.5",
+      "selecao": "1st Half Over 1.5",
+      "prob_real": 0.8,
+      "fair_odd": 1.25,
+      "odd_mercado": 2.13,
+      "ev": 70.4,
+      "roi": 70.4,
+      "nota": "Parma U19 chega em fase mais estável e tende a conduzir o ritmo em casa. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. O volume pelos lados do campo indica bom número de chegadas à linha de fundo."
+    },
+    {
+      "campeonato": "Campionato Primavera 1",
+      "pais": "Italy",
+      "hora_utc": "2025-11-07T11:00:00-03:00",
+      "mandante": "Parma U19",
+      "visitante": "Cesena U20",
+      "mercado": "Over 2.5 Goals",
+      "selecao": "Over 2.5",
+      "prob_real": 0.99,
+      "fair_odd": 1.01,
+      "odd_mercado": 1.42,
+      "ev": 40.58,
+      "roi": 40.58,
+      "nota": "Parma U19 chega em fase mais estável e tende a conduzir o ritmo em casa. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. O volume pelos lados do campo indica bom número de chegadas à linha de fundo. Indicador máximo detectado; avaliar robustez da amostra."
+    },
+    {
+      "campeonato": "Prva HNL",
+      "pais": "Croatia",
+      "hora_utc": "2025-11-07T14:00:00-03:00",
+      "mandante": "Gorica",
+      "visitante": "HNK Vukovar 1991",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.99,
+      "fair_odd": 1.01,
+      "odd_mercado": 1.39,
+      "ev": 37.61,
+      "roi": 37.61,
+      "nota": "Gorica chega em fase mais estável e tende a conduzir o ritmo em casa. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo. Indicador máximo detectado; avaliar robustez da amostra."
+    },
+    {
+      "campeonato": "2. Liga",
+      "pais": "Austria",
+      "hora_utc": "2025-11-07T14:00:00-03:00",
+      "mandante": "WSPG Wels",
+      "visitante": "First Vienna",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.99,
+      "fair_odd": 1.01,
+      "odd_mercado": 1.36,
+      "ev": 34.64,
+      "roi": 34.64,
+      "nota": "First Vienna vive momento melhor e pode impor dificuldades mesmo fora. O encaixe tático favorece a progressão ofensiva ao longo da partida. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo. Indicador máximo detectado; avaliar robustez da amostra."
+    },
+    {
+      "campeonato": "Persian Gulf Pro League",
+      "pais": "Iran",
+      "hora_utc": "2025-11-07T10:00:00-03:00",
+      "mandante": "Persepolis",
+      "visitante": "Esteghlal Khuzestan",
+      "mercado": "BTTS Yes",
+      "selecao": "BTTS Yes",
+      "prob_real": 0.68,
+      "fair_odd": 1.471,
+      "odd_mercado": 2.64,
+      "ev": 79.52,
+      "roi": 79.52,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. A tendência é de jogo franco, com espaços para finalizações de ambos os lados. Em síntese, o contexto sustenta a aposta indicada."
+    },
+    {
+      "campeonato": "Premier League 2 Division One U23",
+      "pais": "England",
+      "hora_utc": "2025-11-07T16:00:00-03:00",
+      "mandante": "Sunderland U21",
+      "visitante": "Ipswich Town U21",
+      "mercado": "1st Half Over 1.5",
+      "selecao": "1st Half Over 1.5",
+      "prob_real": 0.84,
+      "fair_odd": 1.19,
+      "odd_mercado": 1.85,
+      "ev": 55.4,
+      "roi": 55.4,
+      "nota": "Ipswich Town U21 vive momento melhor e pode impor dificuldades mesmo fora. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "Reserve Pro League",
+      "pais": "Belgium",
+      "hora_utc": "2025-11-07T16:00:00-03:00",
+      "mandante": "Charleroi-Marchienne U21",
+      "visitante": "RFC Seraing U21",
+      "mercado": "Over 2.5 Goals",
+      "selecao": "Over 2.5",
+      "prob_real": 0.99,
+      "fair_odd": 1.01,
+      "odd_mercado": 1.33,
+      "ev": 31.67,
+      "roi": 31.67,
+      "nota": "RFC Seraing U21 vive momento melhor e pode impor dificuldades mesmo fora. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. O volume pelos lados do campo indica bom número de chegadas à linha de fundo. Indicador máximo detectado; avaliar robustez da amostra."
+    },
+    {
+      "campeonato": "Reserve Pro League",
+      "pais": "Belgium",
+      "hora_utc": "2025-11-07T16:00:00-03:00",
+      "mandante": "Francs Borains U21",
+      "visitante": "Kortrijk U21",
+      "mercado": "Over 2.5 Goals",
+      "selecao": "Over 2.5",
+      "prob_real": 0.99,
+      "fair_odd": 1.01,
+      "odd_mercado": 1.33,
+      "ev": 31.67,
+      "roi": 31.67,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. Indicador máximo detectado; avaliar robustez da amostra."
+    },
+    {
+      "campeonato": "A-League",
+      "pais": "Australia",
+      "hora_utc": "2025-11-07T07:45:00-03:00",
+      "mandante": "Perth Glory FC",
+      "visitante": "Central Coast Mariners",
+      "mercado": "BTTS No",
+      "selecao": "BTTS No",
+      "prob_real": 0.75,
+      "fair_odd": 1.333,
+      "odd_mercado": 2.23,
+      "ev": 67.25,
+      "roi": 67.25,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. O desenho do confronto sugere controle territorial e menor exposição defensiva. Isso conversa bem com leituras de linhas de baixo placar. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "Feminine Division 1",
+      "pais": "France",
+      "hora_utc": "2025-11-07T17:00:00-03:00",
+      "mandante": "Dijon Women",
+      "visitante": "Olympique Marseille Women",
+      "mercado": "Over 2.5 Goals",
+      "selecao": "Over 2.5",
+      "prob_real": 0.84,
+      "fair_odd": 1.19,
+      "odd_mercado": 1.8,
+      "ev": 51.2,
+      "roi": 51.2,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols."
+    },
+    {
+      "campeonato": "Regionalliga Ost",
+      "pais": "Austria",
+      "hora_utc": "2025-11-07T15:10:00-03:00",
+      "mandante": "Favoritner AC",
+      "visitante": "Leobendorf",
+      "mercado": "Under 2.5 Goals",
+      "selecao": "Under 2.5",
+      "prob_real": 0.75,
+      "fair_odd": 1.333,
+      "odd_mercado": 2.17,
+      "ev": 62.75,
+      "roi": 62.75,
+      "nota": "Leobendorf vive momento melhor e pode impor dificuldades mesmo fora. Os sinais indicam um jogo mais contido, com defesas compactas e menor volatilidade no placar. O histórico recente respalda a leitura de poucos gols."
+    },
+    {
+      "campeonato": "Superliga",
+      "pais": "Denmark",
+      "hora_utc": "2025-11-07T15:00:00-03:00",
+      "mandante": "OB",
+      "visitante": "Silkeborg",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.99,
+      "fair_odd": 1.01,
+      "odd_mercado": 1.28,
+      "ev": 26.72,
+      "roi": 26.72,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. Indicador máximo detectado; avaliar robustez da amostra."
+    },
+    {
+      "campeonato": "National 2 Group C",
+      "pais": "France",
+      "hora_utc": "2025-11-07T16:00:00-03:00",
+      "mandante": "Bobigny AC",
+      "visitante": "Cannes",
+      "mercado": "Under 2.5 Goals",
+      "selecao": "Under 2.5",
+      "prob_real": 0.88,
+      "fair_odd": 1.136,
+      "odd_mercado": 1.62,
+      "ev": 42.56,
+      "roi": 42.56,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. A construção do jogo tende a ser mais paciente e controlada, com menos espaços. Os sinais indicam um jogo mais contido, com defesas compactas e menor volatilidade no placar. O histórico recente respalda a leitura de poucos gols. O volume pelos lados do campo indica bom número de chegadas à linha de fundo."
+    },
+    {
+      "campeonato": "Division One",
+      "pais": "UAE",
+      "hora_utc": "2025-11-07T09:45:00-03:00",
+      "mandante": "Hatta",
+      "visitante": "Gulf United",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.99,
+      "fair_odd": 1.01,
+      "odd_mercado": 1.27,
+      "ev": 25.73,
+      "roi": 25.73,
+      "nota": "Hatta chega em fase mais estável e tende a conduzir o ritmo em casa. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. O volume pelos lados do campo indica bom número de chegadas à linha de fundo. Indicador máximo detectado; avaliar robustez da amostra."
+    },
+    {
+      "campeonato": "Eredivisie",
+      "pais": "Netherlands",
+      "hora_utc": "2025-11-07T16:00:00-03:00",
+      "mandante": "Twente",
+      "visitante": "Telstar",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.99,
+      "fair_odd": 1.01,
+      "odd_mercado": 1.22,
+      "ev": 20.78,
+      "roi": 20.78,
+      "nota": "Twente chega em fase mais estável e tende a conduzir o ritmo em casa. O encaixe tático favorece a progressão ofensiva ao longo da partida. O volume pelos lados do campo indica bom número de chegadas à linha de fundo. Indicador máximo detectado; avaliar robustez da amostra."
+    },
+    {
+      "campeonato": "A-League",
+      "pais": "Australia",
+      "hora_utc": "2025-11-07T07:45:00-03:00",
+      "mandante": "Perth Glory FC",
+      "visitante": "Central Coast Mariners",
+      "mercado": "Under 2.5 Goals",
+      "selecao": "Under 2.5",
+      "prob_real": 0.75,
+      "fair_odd": 1.333,
+      "odd_mercado": 2.08,
+      "ev": 56.0,
+      "roi": 56.0,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. Os sinais indicam um jogo mais contido, com defesas compactas e menor volatilidade no placar. O histórico recente respalda a leitura de poucos gols. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "Superliga",
+      "pais": "Denmark",
+      "hora_utc": "2025-11-07T15:00:00-03:00",
+      "mandante": "OB",
+      "visitante": "Silkeborg",
+      "mercado": "Over 2.5 Goals",
+      "selecao": "Over 2.5",
+      "prob_real": 0.86,
+      "fair_odd": 1.163,
+      "odd_mercado": 1.62,
+      "ev": 39.32,
+      "roi": 39.32,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols."
+    },
+    {
+      "campeonato": "FNL",
+      "pais": "Czech Republic",
+      "hora_utc": "2025-11-07T14:00:00-03:00",
+      "mandante": "České Budějovice",
+      "visitante": "Opava",
+      "mercado": "Under 2.5 Goals",
+      "selecao": "Under 2.5",
+      "prob_real": 0.82,
+      "fair_odd": 1.22,
+      "odd_mercado": 1.77,
+      "ev": 45.14,
+      "roi": 45.14,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. A construção do jogo tende a ser mais paciente e controlada, com menos espaços. Os sinais indicam um jogo mais contido, com defesas compactas e menor volatilidade no placar. O histórico recente respalda a leitura de poucos gols. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "Kuwait Premier League",
+      "pais": "Kuwait",
+      "hora_utc": "2025-11-07T13:40:00-03:00",
+      "mandante": "Al Tadhamon",
+      "visitante": "Al Shabab",
+      "mercado": "Under 2.5 Goals",
+      "selecao": "Under 2.5",
+      "prob_real": 0.75,
+      "fair_odd": 1.333,
+      "odd_mercado": 2.07,
+      "ev": 55.25,
+      "roi": 55.25,
+      "nota": "Al Shabab vive momento melhor e pode impor dificuldades mesmo fora. A construção do jogo tende a ser mais paciente e controlada, com menos espaços. Os sinais indicam um jogo mais contido, com defesas compactas e menor volatilidade no placar. O histórico recente respalda a leitura de poucos gols."
+    },
+    {
+      "campeonato": "Regionalliga Ost",
+      "pais": "Austria",
+      "hora_utc": "2025-11-07T15:10:00-03:00",
+      "mandante": "Favoritner AC",
+      "visitante": "Leobendorf",
+      "mercado": "BTTS No",
+      "selecao": "BTTS No",
+      "prob_real": 0.75,
+      "fair_odd": 1.333,
+      "odd_mercado": 2.07,
+      "ev": 55.25,
+      "roi": 55.25,
+      "nota": "Leobendorf vive momento melhor e pode impor dificuldades mesmo fora. O desenho do confronto sugere controle territorial e menor exposição defensiva. Isso conversa bem com leituras de linhas de baixo placar."
+    },
+    {
+      "campeonato": "Campionato Primavera 1",
+      "pais": "Italy",
+      "hora_utc": "2025-11-07T11:00:00-03:00",
+      "mandante": "Parma U19",
+      "visitante": "Cesena U20",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.99,
+      "fair_odd": 1.01,
+      "odd_mercado": 1.2,
+      "ev": 18.8,
+      "roi": 18.8,
+      "nota": "Parma U19 chega em fase mais estável e tende a conduzir o ritmo em casa. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. O volume pelos lados do campo indica bom número de chegadas à linha de fundo. Indicador máximo detectado; avaliar robustez da amostra."
+    },
+    {
+      "campeonato": "Liga A1",
+      "pais": "Malaysia",
+      "hora_utc": "2025-11-07T09:45:00-03:00",
+      "mandante": "Kelantan WTS",
+      "visitante": "Kedah FA",
+      "mercado": "Under 2.5 Goals",
+      "selecao": "Under 2.5",
+      "prob_real": 0.69,
+      "fair_odd": 1.449,
+      "odd_mercado": 2.35,
+      "ev": 62.15,
+      "roi": 62.15,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. A construção do jogo tende a ser mais paciente e controlada, com menos espaços. Os sinais indicam um jogo mais contido, com defesas compactas e menor volatilidade no placar. O histórico recente respalda a leitura de poucos gols."
+    },
+    {
+      "campeonato": "Liga 1",
+      "pais": "Indonesia",
+      "hora_utc": "2025-11-07T05:30:00-03:00",
+      "mandante": "Bhayangkara",
+      "visitante": "Bali United",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.92,
+      "fair_odd": 1.087,
+      "odd_mercado": 1.36,
+      "ev": 25.12,
+      "roi": 25.12,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "Campionato Primavera 1",
+      "pais": "Italy",
+      "hora_utc": "2025-11-07T11:00:00-03:00",
+      "mandante": "Parma U19",
+      "visitante": "Cesena U20",
+      "mercado": "BTTS Yes",
+      "selecao": "BTTS Yes",
+      "prob_real": 0.9,
+      "fair_odd": 1.111,
+      "odd_mercado": 1.41,
+      "ev": 26.9,
+      "roi": 26.9,
+      "nota": "Parma U19 chega em fase mais estável e tende a conduzir o ritmo em casa. Há sinais de partida aberta, com volume ofensivo acima da média. A tendência é de jogo franco, com espaços para finalizações de ambos os lados. A sinergia com linhas de gols é positiva para este cenário. O volume pelos lados do campo indica bom número de chegadas à linha de fundo."
+    },
+    {
+      "campeonato": "National",
+      "pais": "France",
+      "hora_utc": "2025-11-07T15:30:00-03:00",
+      "mandante": "Quevilly Rouen",
+      "visitante": "Châteauroux",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.9,
+      "fair_odd": 1.111,
+      "odd_mercado": 1.41,
+      "ev": 26.9,
+      "roi": 26.9,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. O encaixe tático favorece a progressão ofensiva ao longo da partida. A recorrência de ambas marcarem reforça a aposta em linhas de gols. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "Premier League 2 Division One U23",
+      "pais": "England",
+      "hora_utc": "2025-11-07T09:00:00-03:00",
+      "mandante": "Crystal Palace U21",
+      "visitante": "Stoke City U21",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.99,
+      "fair_odd": 1.01,
+      "odd_mercado": 1.14,
+      "ev": 12.86,
+      "roi": 12.86,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo. Indicador máximo detectado; avaliar robustez da amostra."
+    },
+    {
+      "campeonato": "Premier League 2 Division One U23",
+      "pais": "England",
+      "hora_utc": "2025-11-07T16:00:00-03:00",
+      "mandante": "West Ham United U21",
+      "visitante": "Liverpool U21",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.99,
+      "fair_odd": 1.01,
+      "odd_mercado": 1.14,
+      "ev": 12.86,
+      "roi": 12.86,
+      "nota": "West Ham United U21 chega em fase mais estável e tende a conduzir o ritmo em casa. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo. Indicador máximo detectado; avaliar robustez da amostra."
+    },
+    {
+      "campeonato": "Regionalliga Nordost",
+      "pais": "Germany",
+      "hora_utc": "2025-11-07T15:00:00-03:00",
+      "mandante": "Chemnitzer FC",
+      "visitante": "Altglienicke",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.93,
+      "fair_odd": 1.075,
+      "odd_mercado": 1.31,
+      "ev": 21.83,
+      "roi": 21.83,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. O encaixe tático favorece a progressão ofensiva ao longo da partida. Em síntese, o contexto sustenta a aposta indicada."
+    },
+    {
+      "campeonato": "Second Division",
+      "pais": "Cyprus",
+      "hora_utc": "2025-11-07T14:00:00-03:00",
+      "mandante": "Digenis Morphou",
+      "visitante": "Ahironas / Onisilos",
+      "mercado": "BTTS No",
+      "selecao": "BTTS No",
+      "prob_real": 0.75,
+      "fair_odd": 1.333,
+      "odd_mercado": 1.98,
+      "ev": 48.5,
+      "roi": 48.5,
+      "nota": "Digenis Morphou chega em fase mais estável e tende a conduzir o ritmo em casa. O desenho do confronto sugere controle territorial e menor exposição defensiva. Em síntese, o contexto sustenta a aposta indicada."
+    },
+    {
+      "campeonato": "Superliga",
+      "pais": "Denmark",
+      "hora_utc": "2025-11-07T15:00:00-03:00",
+      "mandante": "OB",
+      "visitante": "Silkeborg",
+      "mercado": "BTTS Yes",
+      "selecao": "BTTS Yes",
+      "prob_real": 0.86,
+      "fair_odd": 1.163,
+      "odd_mercado": 1.53,
+      "ev": 31.58,
+      "roi": 31.58,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. Há sinais de partida aberta, com volume ofensivo acima da média. A tendência é de jogo franco, com espaços para finalizações de ambos os lados. A sinergia com linhas de gols é positiva para este cenário."
+    },
+    {
+      "campeonato": "Division One",
+      "pais": "UAE",
+      "hora_utc": "2025-11-07T09:45:00-03:00",
+      "mandante": "Hatta",
+      "visitante": "Gulf United",
+      "mercado": "Over 2.5 Goals",
+      "selecao": "Over 2.5",
+      "prob_real": 0.84,
+      "fair_odd": 1.19,
+      "odd_mercado": 1.59,
+      "ev": 33.56,
+      "roi": 33.56,
+      "nota": "Hatta chega em fase mais estável e tende a conduzir o ritmo em casa. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. O volume pelos lados do campo indica bom número de chegadas à linha de fundo."
+    },
+    {
+      "campeonato": "Ligue 1",
+      "pais": "France",
+      "hora_utc": "2025-11-07T16:45:00-03:00",
+      "mandante": "Paris",
+      "visitante": "Rennes",
+      "mercado": "Over 2.5 Goals",
+      "selecao": "Over 2.5",
+      "prob_real": 0.8,
+      "fair_odd": 1.25,
+      "odd_mercado": 1.74,
+      "ev": 39.2,
+      "roi": 39.2,
+      "nota": "Paris chega em fase mais estável e tende a conduzir o ritmo em casa. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "1. Liga",
+      "pais": "Poland",
+      "hora_utc": "2025-11-07T13:00:00-03:00",
+      "mandante": "Ruch Chorzów",
+      "visitante": "Miedź Legnica",
+      "mercado": "Over 2.5 Goals",
+      "selecao": "Over 2.5",
+      "prob_real": 0.8,
+      "fair_odd": 1.25,
+      "odd_mercado": 1.72,
+      "ev": 37.6,
+      "roi": 37.6,
+      "nota": "Ruch Chorzów chega em fase mais estável e tende a conduzir o ritmo em casa. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "Challenge League",
+      "pais": "Switzerland",
+      "hora_utc": "2025-11-07T16:15:00-03:00",
+      "mandante": "Neuchâtel Xamax",
+      "visitante": "Yverdon Sport",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.92,
+      "fair_odd": 1.087,
+      "odd_mercado": 1.3,
+      "ev": 19.6,
+      "roi": 19.6,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. O encaixe tático favorece a progressão ofensiva ao longo da partida. A recorrência de ambas marcarem reforça a aposta em linhas de gols. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "Vysheyshaya Liga",
+      "pais": "Belarus",
+      "hora_utc": "2025-11-07T07:00:00-03:00",
+      "mandante": "Molodechno-DYuSSh 4",
+      "visitante": "MKK-Dnepr",
+      "mercado": "Under 2.5 Goals",
+      "selecao": "Under 2.5",
+      "prob_real": 0.66,
+      "fair_odd": 1.515,
+      "odd_mercado": 2.4,
+      "ev": 58.4,
+      "roi": 58.4,
+      "nota": "MKK-Dnepr vive momento melhor e pode impor dificuldades mesmo fora. Os sinais indicam um jogo mais contido, com defesas compactas e menor volatilidade no placar. O histórico recente respalda a leitura de poucos gols. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "Ligue 2",
+      "pais": "France",
+      "hora_utc": "2025-11-07T16:00:00-03:00",
+      "mandante": "Nancy",
+      "visitante": "Laval",
+      "mercado": "Under 2.5 Goals",
+      "selecao": "Under 2.5",
+      "prob_real": 0.83,
+      "fair_odd": 1.205,
+      "odd_mercado": 1.6,
+      "ev": 32.8,
+      "roi": 32.8,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. A construção do jogo tende a ser mais paciente e controlada, com menos espaços. Os sinais indicam um jogo mais contido, com defesas compactas e menor volatilidade no placar. O histórico recente respalda a leitura de poucos gols."
+    },
+    {
+      "campeonato": "Welsh Premier League",
+      "pais": "Wales",
+      "hora_utc": "2025-11-07T16:45:00-03:00",
+      "mandante": "Briton Ferry",
+      "visitante": "Bala Town",
+      "mercado": "BTTS No",
+      "selecao": "BTTS No",
+      "prob_real": 0.71,
+      "fair_odd": 1.408,
+      "odd_mercado": 2.12,
+      "ev": 50.52,
+      "roi": 50.52,
+      "nota": "Bala Town vive momento melhor e pode impor dificuldades mesmo fora. O desenho do confronto sugere controle territorial e menor exposição defensiva. Isso conversa bem com leituras de linhas de baixo placar."
+    },
+    {
+      "campeonato": "2. Liga",
+      "pais": "Poland",
+      "hora_utc": "2025-11-07T14:00:00-03:00",
+      "mandante": "Chojniczanka Chojnice",
+      "visitante": "Unia Skierniewice",
+      "mercado": "Over 2.5 Goals",
+      "selecao": "Over 2.5",
+      "prob_real": 0.79,
+      "fair_odd": 1.266,
+      "odd_mercado": 1.75,
+      "ev": 38.25,
+      "roi": 38.25,
+      "nota": "Unia Skierniewice vive momento melhor e pode impor dificuldades mesmo fora. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "2nd Division",
+      "pais": "Denmark",
+      "hora_utc": "2025-11-07T14:30:00-03:00",
+      "mandante": "Skive",
+      "visitante": "Roskilde",
+      "mercado": "BTTS Yes",
+      "selecao": "BTTS Yes",
+      "prob_real": 0.77,
+      "fair_odd": 1.299,
+      "odd_mercado": 1.81,
+      "ev": 39.37,
+      "roi": 39.37,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. A tendência é de jogo franco, com espaços para finalizações de ambos os lados. Em síntese, o contexto sustenta a aposta indicada."
+    },
+    {
+      "campeonato": "Eerste Divisie",
+      "pais": "Netherlands",
+      "hora_utc": "2025-11-07T16:00:00-03:00",
+      "mandante": "Vitesse",
+      "visitante": "Cambuur",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.93,
+      "fair_odd": 1.075,
+      "odd_mercado": 1.24,
+      "ev": 15.32,
+      "roi": 15.32,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. O encaixe tático favorece a progressão ofensiva ao longo da partida. A recorrência de ambas marcarem reforça a aposta em linhas de gols. O volume pelos lados do campo indica bom número de chegadas à linha de fundo."
+    },
+    {
+      "campeonato": "Division One",
+      "pais": "UAE",
+      "hora_utc": "2025-11-07T09:45:00-03:00",
+      "mandante": "Hatta",
+      "visitante": "Gulf United",
+      "mercado": "1st Half Over 1.5",
+      "selecao": "1st Half Over 1.5",
+      "prob_real": 0.67,
+      "fair_odd": 1.493,
+      "odd_mercado": 2.3,
+      "ev": 54.1,
+      "roi": 54.1,
+      "nota": "Hatta chega em fase mais estável e tende a conduzir o ritmo em casa. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. O volume pelos lados do campo indica bom número de chegadas à linha de fundo."
+    },
+    {
+      "campeonato": "Ligue 1",
+      "pais": "France",
+      "hora_utc": "2025-11-07T16:45:00-03:00",
+      "mandante": "Paris",
+      "visitante": "Rennes",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.9,
+      "fair_odd": 1.111,
+      "odd_mercado": 1.32,
+      "ev": 18.8,
+      "roi": 18.8,
+      "nota": "Paris chega em fase mais estável e tende a conduzir o ritmo em casa. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "Prva HNL",
+      "pais": "Croatia",
+      "hora_utc": "2025-11-07T14:00:00-03:00",
+      "mandante": "Gorica",
+      "visitante": "HNK Vukovar 1991",
+      "mercado": "Over 2.5 Goals",
+      "selecao": "Over 2.5",
+      "prob_real": 0.72,
+      "fair_odd": 1.389,
+      "odd_mercado": 2.02,
+      "ev": 45.44,
+      "roi": 45.44,
+      "nota": "Gorica chega em fase mais estável e tende a conduzir o ritmo em casa. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "Campionato Primavera 2",
+      "pais": "Italy",
+      "hora_utc": "2025-11-07T10:00:00-03:00",
+      "mandante": "Reggiana U19",
+      "visitante": "Vicenza U19",
+      "mercado": "Over 2.5 Goals",
+      "selecao": "Over 2.5",
+      "prob_real": 0.86,
+      "fair_odd": 1.163,
+      "odd_mercado": 1.44,
+      "ev": 23.84,
+      "roi": 23.84,
+      "nota": "Vicenza U19 vive momento melhor e pode impor dificuldades mesmo fora. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols."
+    },
+    {
+      "campeonato": "2. Liga",
+      "pais": "Poland",
+      "hora_utc": "2025-11-07T14:00:00-03:00",
+      "mandante": "Sandecja Nowy Sącz",
+      "visitante": "Sokół Kleczew",
+      "mercado": "BTTS Yes",
+      "selecao": "BTTS Yes",
+      "prob_real": 0.86,
+      "fair_odd": 1.163,
+      "odd_mercado": 1.44,
+      "ev": 23.84,
+      "roi": 23.84,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. Há sinais de partida aberta, com volume ofensivo acima da média. A tendência é de jogo franco, com espaços para finalizações de ambos os lados. A sinergia com linhas de gols é positiva para este cenário. O volume pelos lados do campo indica bom número de chegadas à linha de fundo."
+    },
+    {
+      "campeonato": "2. Liga",
+      "pais": "Slovakia",
+      "hora_utc": "2025-11-07T14:00:00-03:00",
+      "mandante": "Zlaté Moravce",
+      "visitante": "Inter Bratislava",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.93,
+      "fair_odd": 1.075,
+      "odd_mercado": 1.21,
+      "ev": 12.53,
+      "roi": 12.53,
+      "nota": "Zlaté Moravce chega em fase mais estável e tende a conduzir o ritmo em casa. O encaixe tático favorece a progressão ofensiva ao longo da partida. A recorrência de ambas marcarem reforça a aposta em linhas de gols. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo. O volume pelos lados do campo indica bom número de chegadas à linha de fundo."
+    },
+    {
+      "campeonato": "Regionalliga Mitte",
+      "pais": "Austria",
+      "hora_utc": "2025-11-07T15:00:00-03:00",
+      "mandante": "Gleisdorf 09",
+      "visitante": "Velden",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.93,
+      "fair_odd": 1.075,
+      "odd_mercado": 1.21,
+      "ev": 12.53,
+      "roi": 12.53,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols."
+    },
+    {
+      "campeonato": "Division One",
+      "pais": "UAE",
+      "hora_utc": "2025-11-07T09:45:00-03:00",
+      "mandante": "Al Jazira Al Hamra",
+      "visitante": "Al Arabi",
+      "mercado": "Under 2.5 Goals",
+      "selecao": "Under 2.5",
+      "prob_real": 0.75,
+      "fair_odd": 1.333,
+      "odd_mercado": 1.86,
+      "ev": 39.5,
+      "roi": 39.5,
+      "nota": "Al Arabi vive momento melhor e pode impor dificuldades mesmo fora. A construção do jogo tende a ser mais paciente e controlada, com menos espaços. Os sinais indicam um jogo mais contido, com defesas compactas e menor volatilidade no placar. O histórico recente respalda a leitura de poucos gols. O volume pelos lados do campo indica bom número de chegadas à linha de fundo."
+    },
+    {
+      "campeonato": "FNL",
+      "pais": "Czech Republic",
+      "hora_utc": "2025-11-07T14:00:00-03:00",
+      "mandante": "České Budějovice",
+      "visitante": "Opava",
+      "mercado": "BTTS No",
+      "selecao": "BTTS No",
+      "prob_real": 0.72,
+      "fair_odd": 1.389,
+      "odd_mercado": 2.0,
+      "ev": 44.0,
+      "roi": 44.0,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. A construção do jogo tende a ser mais paciente e controlada, com menos espaços. O desenho do confronto sugere controle territorial e menor exposição defensiva. Isso conversa bem com leituras de linhas de baixo placar. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "Druga HNL",
+      "pais": "Croatia",
+      "hora_utc": "2025-11-07T10:00:00-03:00",
+      "mandante": "Orijent 1919",
+      "visitante": "Rudeš",
+      "mercado": "Under 2.5 Goals",
+      "selecao": "Under 2.5",
+      "prob_real": 0.83,
+      "fair_odd": 1.205,
+      "odd_mercado": 1.53,
+      "ev": 26.99,
+      "roi": 26.99,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. A construção do jogo tende a ser mais paciente e controlada, com menos espaços. Os sinais indicam um jogo mais contido, com defesas compactas e menor volatilidade no placar. O histórico recente respalda a leitura de poucos gols. O volume pelos lados do campo indica bom número de chegadas à linha de fundo."
+    },
+    {
+      "campeonato": "Professional Development League",
+      "pais": "England",
+      "hora_utc": "2025-11-07T16:00:00-03:00",
+      "mandante": "Swansea City U21",
+      "visitante": "Charlton Athletic U21",
+      "mercado": "Over 2.5 Goals",
+      "selecao": "Over 2.5",
+      "prob_real": 0.92,
+      "fair_odd": 1.087,
+      "odd_mercado": 1.23,
+      "ev": 13.16,
+      "roi": 13.16,
+      "nota": "Swansea City U21 chega em fase mais estável e tende a conduzir o ritmo em casa. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. O volume pelos lados do campo indica bom número de chegadas à linha de fundo."
+    },
+    {
+      "campeonato": "National",
+      "pais": "France",
+      "hora_utc": "2025-11-07T15:30:00-03:00",
+      "mandante": "Villefranche",
+      "visitante": "Stade Briochin",
+      "mercado": "Over 2.5 Goals",
+      "selecao": "Over 2.5",
+      "prob_real": 0.74,
+      "fair_odd": 1.351,
+      "odd_mercado": 1.89,
+      "ev": 39.86,
+      "roi": 39.86,
+      "nota": "Villefranche chega em fase mais estável e tende a conduzir o ritmo em casa. O encaixe tático favorece a progressão ofensiva ao longo da partida. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "National First Division",
+      "pais": "South Africa",
+      "hora_utc": "2025-11-07T10:30:00-03:00",
+      "mandante": "Casric Stars",
+      "visitante": "Upington City",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.84,
+      "fair_odd": 1.19,
+      "odd_mercado": 1.48,
+      "ev": 24.32,
+      "roi": 24.32,
+      "nota": "Casric Stars chega em fase mais estável e tende a conduzir o ritmo em casa. O encaixe tático favorece a progressão ofensiva ao longo da partida. O volume pelos lados do campo indica bom número de chegadas à linha de fundo."
+    },
+    {
+      "campeonato": "Serie B",
+      "pais": "Italy",
+      "hora_utc": "2025-11-07T16:30:00-03:00",
+      "mandante": "Spezia",
+      "visitante": "Bari 1908",
+      "mercado": "Over 2.5 Goals",
+      "selecao": "Over 2.5",
+      "prob_real": 0.65,
+      "fair_odd": 1.538,
+      "odd_mercado": 2.35,
+      "ev": 52.75,
+      "roi": 52.75,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. O encaixe tático favorece a progressão ofensiva ao longo da partida. A recorrência de ambas marcarem reforça a aposta em linhas de gols. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "First Division B",
+      "pais": "Belgium",
+      "hora_utc": "2025-11-07T16:00:00-03:00",
+      "mandante": "RFC Liege",
+      "visitante": "KAA Gent II",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.9,
+      "fair_odd": 1.111,
+      "odd_mercado": 1.28,
+      "ev": 15.2,
+      "roi": 15.2,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência."
+    },
+    {
+      "campeonato": "Welsh Premier League",
+      "pais": "Wales",
+      "hora_utc": "2025-11-07T16:45:00-03:00",
+      "mandante": "The New Saints",
+      "visitante": "Cardiff MU",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.93,
+      "fair_odd": 1.075,
+      "odd_mercado": 1.19,
+      "ev": 10.67,
+      "roi": 10.67,
+      "nota": "The New Saints chega em fase mais estável e tende a conduzir o ritmo em casa. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. O volume pelos lados do campo indica bom número de chegadas à linha de fundo."
+    },
+    {
+      "campeonato": "Regionalliga Südwest",
+      "pais": "Germany",
+      "hora_utc": "2025-11-07T15:00:00-03:00",
+      "mandante": "Kickers Offenbach",
+      "visitante": "Freiburg II",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.94,
+      "fair_odd": 1.064,
+      "odd_mercado": 1.14,
+      "ev": 7.16,
+      "roi": 7.16,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols."
+    },
+    {
+      "campeonato": "Liga MX",
+      "pais": "Mexico",
+      "hora_utc": "2025-11-07T22:00:00-03:00",
+      "mandante": "Juárez",
+      "visitante": "Querétaro",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.88,
+      "fair_odd": 1.136,
+      "odd_mercado": 1.32,
+      "ev": 16.16,
+      "roi": 16.16,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "3. Liga CFL",
+      "pais": "Czech Republic",
+      "hora_utc": "2025-11-07T14:00:00-03:00",
+      "mandante": "Písek",
+      "visitante": "Dukla Praha II",
+      "mercado": "Over 2.5 Goals",
+      "selecao": "Over 2.5",
+      "prob_real": 0.79,
+      "fair_odd": 1.266,
+      "odd_mercado": 1.64,
+      "ev": 29.56,
+      "roi": 29.56,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols."
+    },
+    {
+      "campeonato": "Kuwait Premier League",
+      "pais": "Kuwait",
+      "hora_utc": "2025-11-07T11:25:52-03:00",
+      "mandante": "Al Fahaheel",
+      "visitante": "Al Salmiyah",
+      "mercado": "BTTS No",
+      "selecao": "BTTS No",
+      "prob_real": 0.67,
+      "fair_odd": 1.493,
+      "odd_mercado": 2.2,
+      "ev": 47.4,
+      "roi": 47.4,
+      "nota": "Al Salmiyah vive momento melhor e pode impor dificuldades mesmo fora. O desenho do confronto sugere controle territorial e menor exposição defensiva. O volume pelos lados do campo indica bom número de chegadas à linha de fundo."
+    },
+    {
+      "campeonato": "Ligue 1",
+      "pais": "France",
+      "hora_utc": "2025-11-07T16:45:00-03:00",
+      "mandante": "Paris",
+      "visitante": "Rennes",
+      "mercado": "BTTS Yes",
+      "selecao": "BTTS Yes",
+      "prob_real": 0.8,
+      "fair_odd": 1.25,
+      "odd_mercado": 1.57,
+      "ev": 25.6,
+      "roi": 25.6,
+      "nota": "Paris chega em fase mais estável e tende a conduzir o ritmo em casa. Há sinais de partida aberta, com volume ofensivo acima da média. A tendência é de jogo franco, com espaços para finalizações de ambos os lados. A sinergia com linhas de gols é positiva para este cenário. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "Serie A",
+      "pais": "Italy",
+      "hora_utc": "2025-11-07T16:45:00-03:00",
+      "mandante": "Pisa",
+      "visitante": "Cremonese",
+      "mercado": "Under 2.5 Goals",
+      "selecao": "Under 2.5",
+      "prob_real": 0.8,
+      "fair_odd": 1.25,
+      "odd_mercado": 1.57,
+      "ev": 25.6,
+      "roi": 25.6,
+      "nota": "Cremonese vive momento melhor e pode impor dificuldades mesmo fora. A construção do jogo tende a ser mais paciente e controlada, com menos espaços. Os sinais indicam um jogo mais contido, com defesas compactas e menor volatilidade no placar. O histórico recente respalda a leitura de poucos gols. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "1st Division",
+      "pais": "Denmark",
+      "hora_utc": "2025-11-07T15:00:00-03:00",
+      "mandante": "Kolding IF",
+      "visitante": "Horsens",
+      "mercado": "BTTS No",
+      "selecao": "BTTS No",
+      "prob_real": 0.72,
+      "fair_odd": 1.389,
+      "odd_mercado": 1.91,
+      "ev": 37.52,
+      "roi": 37.52,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. A construção do jogo tende a ser mais paciente e controlada, com menos espaços. O desenho do confronto sugere controle territorial e menor exposição defensiva. Isso conversa bem com leituras de linhas de baixo placar. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "Serie B",
+      "pais": "Italy",
+      "hora_utc": "2025-11-07T16:30:00-03:00",
+      "mandante": "Spezia",
+      "visitante": "Bari 1908",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.82,
+      "fair_odd": 1.22,
+      "odd_mercado": 1.49,
+      "ev": 22.18,
+      "roi": 22.18,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. O encaixe tático favorece a progressão ofensiva ao longo da partida. A recorrência de ambas marcarem reforça a aposta em linhas de gols. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "2. Bundesliga",
+      "pais": "Germany",
+      "hora_utc": "2025-11-07T14:30:00-03:00",
+      "mandante": "Greuther Fürth",
+      "visitante": "Preußen Münster",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.9,
+      "fair_odd": 1.111,
+      "odd_mercado": 1.22,
+      "ev": 9.8,
+      "roi": 9.8,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "Reserve Pro League",
+      "pais": "Belgium",
+      "hora_utc": "2025-11-07T16:00:00-03:00",
+      "mandante": "Beerschot-Wilrijk U21",
+      "visitante": "Westerlo U21",
+      "mercado": "Over 2.5 Goals",
+      "selecao": "Over 2.5",
+      "prob_real": 0.88,
+      "fair_odd": 1.136,
+      "odd_mercado": 1.28,
+      "ev": 12.64,
+      "roi": 12.64,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols."
+    },
+    {
+      "campeonato": "First Division B",
+      "pais": "Belgium",
+      "hora_utc": "2025-11-07T16:00:00-03:00",
+      "mandante": "RFC Liege",
+      "visitante": "KAA Gent II",
+      "mercado": "BTTS No",
+      "selecao": "BTTS No",
+      "prob_real": 0.65,
+      "fair_odd": 1.538,
+      "odd_mercado": 2.26,
+      "ev": 46.9,
+      "roi": 46.9,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. Há sinais de partida aberta, com volume ofensivo acima da média. O desenho do confronto sugere controle territorial e menor exposição defensiva."
+    },
+    {
+      "campeonato": "Liga A1",
+      "pais": "Malaysia",
+      "hora_utc": "2025-11-07T05:45:00-03:00",
+      "mandante": "Bunga Raya",
+      "visitante": "Perak",
+      "mercado": "Over 2.5 Goals",
+      "selecao": "Over 2.5",
+      "prob_real": 0.75,
+      "fair_odd": 1.333,
+      "odd_mercado": 1.75,
+      "ev": 31.25,
+      "roi": 31.25,
+      "nota": "Perak vive momento melhor e pode impor dificuldades mesmo fora. O encaixe tático favorece a progressão ofensiva ao longo da partida. A recorrência de ambas marcarem reforça a aposta em linhas de gols."
+    },
+    {
+      "campeonato": "Ligue 2",
+      "pais": "France",
+      "hora_utc": "2025-11-07T16:00:00-03:00",
+      "mandante": "Clermont",
+      "visitante": "Amiens SC",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.84,
+      "fair_odd": 1.19,
+      "odd_mercado": 1.4,
+      "ev": 17.6,
+      "roi": 17.6,
+      "nota": "Amiens SC vive momento melhor e pode impor dificuldades mesmo fora. O encaixe tático favorece a progressão ofensiva ao longo da partida. A recorrência de ambas marcarem reforça a aposta em linhas de gols."
+    },
+    {
+      "campeonato": "Regionalliga Mitte",
+      "pais": "Austria",
+      "hora_utc": "2025-11-07T15:00:00-03:00",
+      "mandante": "Gleisdorf 09",
+      "visitante": "Velden",
+      "mercado": "1st Half Over 1.5",
+      "selecao": "1st Half Over 1.5",
+      "prob_real": 0.69,
+      "fair_odd": 1.449,
+      "odd_mercado": 2.03,
+      "ev": 40.07,
+      "roi": 40.07,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols."
+    },
+    {
+      "campeonato": "Regionalliga West",
+      "pais": "Austria",
+      "hora_utc": "2025-11-07T15:00:00-03:00",
+      "mandante": "Wals-Grünau",
+      "visitante": "Seekirchen",
+      "mercado": "Over 2.5 Goals",
+      "selecao": "Over 2.5",
+      "prob_real": 0.86,
+      "fair_odd": 1.163,
+      "odd_mercado": 1.33,
+      "ev": 14.38,
+      "roi": 14.38,
+      "nota": "Seekirchen vive momento melhor e pode impor dificuldades mesmo fora. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. O volume pelos lados do campo indica bom número de chegadas à linha de fundo."
+    },
+    {
+      "campeonato": "3. Liga CFL",
+      "pais": "Czech Republic",
+      "hora_utc": "2025-11-07T14:00:00-03:00",
+      "mandante": "Písek",
+      "visitante": "Dukla Praha II",
+      "mercado": "BTTS Yes",
+      "selecao": "BTTS Yes",
+      "prob_real": 0.79,
+      "fair_odd": 1.266,
+      "odd_mercado": 1.58,
+      "ev": 24.82,
+      "roi": 24.82,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. Há sinais de partida aberta, com volume ofensivo acima da média. A tendência é de jogo franco, com espaços para finalizações de ambos os lados. A sinergia com linhas de gols é positiva para este cenário."
+    },
+    {
+      "campeonato": "Regionalliga Südwest",
+      "pais": "Germany",
+      "hora_utc": "2025-11-07T15:00:00-03:00",
+      "mandante": "TSV Steinbach",
+      "visitante": "Hessen Kassel",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.9,
+      "fair_odd": 1.111,
+      "odd_mercado": 1.2,
+      "ev": 8.0,
+      "roi": 8.0,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols."
+    },
+    {
+      "campeonato": "2. Liga",
+      "pais": "Slovakia",
+      "hora_utc": "2025-11-07T09:30:00-03:00",
+      "mandante": "Malženice",
+      "visitante": "Pohronie",
+      "mercado": "Over 2.5 Goals",
+      "selecao": "Over 2.5",
+      "prob_real": 0.79,
+      "fair_odd": 1.266,
+      "odd_mercado": 1.57,
+      "ev": 24.03,
+      "roi": 24.03,
+      "nota": "Malženice chega em fase mais estável e tende a conduzir o ritmo em casa. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "Premyer Liqası",
+      "pais": "Azerbaijan",
+      "hora_utc": "2025-11-07T09:44:00-03:00",
+      "mandante": "Qabala",
+      "visitante": "Sumqayıt",
+      "mercado": "BTTS No",
+      "selecao": "BTTS No",
+      "prob_real": 0.75,
+      "fair_odd": 1.333,
+      "odd_mercado": 1.73,
+      "ev": 29.75,
+      "roi": 29.75,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. A construção do jogo tende a ser mais paciente e controlada, com menos espaços. O desenho do confronto sugere controle territorial e menor exposição defensiva. Isso conversa bem com leituras de linhas de baixo placar."
+    },
+    {
+      "campeonato": "Regionalliga Südwest",
+      "pais": "Germany",
+      "hora_utc": "2025-11-07T15:00:00-03:00",
+      "mandante": "Kickers Offenbach",
+      "visitante": "Freiburg II",
+      "mercado": "Over 2.5 Goals",
+      "selecao": "Over 2.5",
+      "prob_real": 0.87,
+      "fair_odd": 1.149,
+      "odd_mercado": 1.28,
+      "ev": 11.36,
+      "roi": 11.36,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols."
+    },
+    {
+      "campeonato": "2. Bundesliga",
+      "pais": "Germany",
+      "hora_utc": "2025-11-07T14:30:00-03:00",
+      "mandante": "Greuther Fürth",
+      "visitante": "Preußen Münster",
+      "mercado": "Over 2.5 Goals",
+      "selecao": "Over 2.5",
+      "prob_real": 0.8,
+      "fair_odd": 1.25,
+      "odd_mercado": 1.52,
+      "ev": 21.6,
+      "roi": 21.6,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "Bundesliga",
+      "pais": "Germany",
+      "hora_utc": "2025-11-07T16:30:00-03:00",
+      "mandante": "Werder Bremen",
+      "visitante": "Wolfsburg",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.88,
+      "fair_odd": 1.136,
+      "odd_mercado": 1.24,
+      "ev": 9.12,
+      "roi": 9.12,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. O encaixe tático favorece a progressão ofensiva ao longo da partida. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "Professional Development League",
+      "pais": "England",
+      "hora_utc": "2025-11-07T16:00:00-03:00",
+      "mandante": "Swansea City U21",
+      "visitante": "Charlton Athletic U21",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.92,
+      "fair_odd": 1.087,
+      "odd_mercado": 1.12,
+      "ev": 3.04,
+      "roi": 3.04,
+      "nota": "Swansea City U21 chega em fase mais estável e tende a conduzir o ritmo em casa. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. O volume pelos lados do campo indica bom número de chegadas à linha de fundo."
+    },
+    {
+      "campeonato": "Vysheyshaya Liga",
+      "pais": "Belarus",
+      "hora_utc": "2025-11-07T07:00:00-03:00",
+      "mandante": "Molodechno-DYuSSh 4",
+      "visitante": "MKK-Dnepr",
+      "mercado": "BTTS No",
+      "selecao": "BTTS No",
+      "prob_real": 0.77,
+      "fair_odd": 1.299,
+      "odd_mercado": 1.63,
+      "ev": 25.51,
+      "roi": 25.51,
+      "nota": "MKK-Dnepr vive momento melhor e pode impor dificuldades mesmo fora. O desenho do confronto sugere controle territorial e menor exposição defensiva. Isso conversa bem com leituras de linhas de baixo placar. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "1. Lig",
+      "pais": "Turkey",
+      "hora_utc": "2025-11-07T08:30:00-03:00",
+      "mandante": "Sarıyer",
+      "visitante": "Van BB",
+      "mercado": "Under 2.5 Goals",
+      "selecao": "Under 2.5",
+      "prob_real": 0.74,
+      "fair_odd": 1.351,
+      "odd_mercado": 1.75,
+      "ev": 29.5,
+      "roi": 29.5,
+      "nota": "Van BB vive momento melhor e pode impor dificuldades mesmo fora. Os sinais indicam um jogo mais contido, com defesas compactas e menor volatilidade no placar. O histórico recente respalda a leitura de poucos gols. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "Kenyan Premier League",
+      "pais": "Kenya",
+      "hora_utc": "2025-11-07T10:00:00-03:00",
+      "mandante": "Bidco United",
+      "visitante": "Tusker",
+      "mercado": "Under 2.5 Goals",
+      "selecao": "Under 2.5",
+      "prob_real": 0.84,
+      "fair_odd": 1.19,
+      "odd_mercado": 1.36,
+      "ev": 14.24,
+      "roi": 14.24,
+      "nota": "Bidco United chega em fase mais estável e tende a conduzir o ritmo em casa. A construção do jogo tende a ser mais paciente e controlada, com menos espaços. Os sinais indicam um jogo mais contido, com defesas compactas e menor volatilidade no placar. O histórico recente respalda a leitura de poucos gols."
+    },
+    {
+      "campeonato": "Premyer Liqası",
+      "pais": "Azerbaijan",
+      "hora_utc": "2025-11-07T06:44:00-03:00",
+      "mandante": "İnter Bakı",
+      "visitante": "Mil Mugan FK",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.8,
+      "fair_odd": 1.25,
+      "odd_mercado": 1.5,
+      "ev": 20.0,
+      "roi": 20.0,
+      "nota": "Mil Mugan FK vive momento melhor e pode impor dificuldades mesmo fora. O encaixe tático favorece a progressão ofensiva ao longo da partida. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "Persian Gulf Pro League",
+      "pais": "Iran",
+      "hora_utc": "2025-11-07T10:00:00-03:00",
+      "mandante": "Persepolis",
+      "visitante": "Esteghlal Khuzestan",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.8,
+      "fair_odd": 1.25,
+      "odd_mercado": 1.5,
+      "ev": 20.0,
+      "roi": 20.0,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. O encaixe tático favorece a progressão ofensiva ao longo da partida. A recorrência de ambas marcarem reforça a aposta em linhas de gols."
+    },
+    {
+      "campeonato": "2. Liga",
+      "pais": "Poland",
+      "hora_utc": "2025-11-07T14:00:00-03:00",
+      "mandante": "Chojniczanka Chojnice",
+      "visitante": "Unia Skierniewice",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.86,
+      "fair_odd": 1.163,
+      "odd_mercado": 1.29,
+      "ev": 10.94,
+      "roi": 10.94,
+      "nota": "Unia Skierniewice vive momento melhor e pode impor dificuldades mesmo fora. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "Premier League 2 Division One U23",
+      "pais": "England",
+      "hora_utc": "2025-11-07T16:00:00-03:00",
+      "mandante": "Southampton U21",
+      "visitante": "Arsenal U21",
+      "mercado": "Over 2.5 Goals",
+      "selecao": "Over 2.5",
+      "prob_real": 0.84,
+      "fair_odd": 1.19,
+      "odd_mercado": 1.35,
+      "ev": 13.4,
+      "roi": 13.4,
+      "nota": "Southampton U21 chega em fase mais estável e tende a conduzir o ritmo em casa. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "3. Liga CFL",
+      "pais": "Czech Republic",
+      "hora_utc": "2025-11-07T14:00:00-03:00",
+      "mandante": "Písek",
+      "visitante": "Dukla Praha II",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.86,
+      "fair_odd": 1.163,
+      "odd_mercado": 1.28,
+      "ev": 10.08,
+      "roi": 10.08,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols."
+    },
+    {
+      "campeonato": "Segunda División",
+      "pais": "Spain",
+      "hora_utc": "2025-11-07T16:30:00-03:00",
+      "mandante": "Mirandés",
+      "visitante": "Sporting Gijón",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.8,
+      "fair_odd": 1.25,
+      "odd_mercado": 1.48,
+      "ev": 18.4,
+      "roi": 18.4,
+      "nota": "Sporting Gijón vive momento melhor e pode impor dificuldades mesmo fora. O encaixe tático favorece a progressão ofensiva ao longo da partida. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "FAW Championship North",
+      "pais": "Wales",
+      "hora_utc": "2025-11-07T17:00:00-03:00",
+      "mandante": "Airbus UK",
+      "visitante": "Ruthin Town",
+      "mercado": "Over 2.5 Goals",
+      "selecao": "Over 2.5",
+      "prob_real": 0.85,
+      "fair_odd": 1.176,
+      "odd_mercado": 1.3,
+      "ev": 10.5,
+      "roi": 10.5,
+      "nota": "Airbus UK chega em fase mais estável e tende a conduzir o ritmo em casa. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência."
+    },
+    {
+      "campeonato": "Persian Gulf Pro League",
+      "pais": "Iran",
+      "hora_utc": "2025-11-07T10:00:00-03:00",
+      "mandante": "Persepolis",
+      "visitante": "Esteghlal Khuzestan",
+      "mercado": "Under 2.5 Goals",
+      "selecao": "Under 2.5",
+      "prob_real": 0.75,
+      "fair_odd": 1.333,
+      "odd_mercado": 1.67,
+      "ev": 25.25,
+      "roi": 25.25,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. Os sinais indicam um jogo mais contido, com defesas compactas e menor volatilidade no placar. O histórico recente respalda a leitura de poucos gols."
+    },
+    {
+      "campeonato": "Kuwait Premier League",
+      "pais": "Kuwait",
+      "hora_utc": "2025-11-07T11:25:52-03:00",
+      "mandante": "Al Fahaheel",
+      "visitante": "Al Salmiyah",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.84,
+      "fair_odd": 1.19,
+      "odd_mercado": 1.33,
+      "ev": 11.72,
+      "roi": 11.72,
+      "nota": "Al Salmiyah vive momento melhor e pode impor dificuldades mesmo fora. O encaixe tático favorece a progressão ofensiva ao longo da partida. O volume pelos lados do campo indica bom número de chegadas à linha de fundo."
+    },
+    {
+      "campeonato": "Regionalliga Mitte",
+      "pais": "Austria",
+      "hora_utc": "2025-11-07T15:00:00-03:00",
+      "mandante": "Lafnitz",
+      "visitante": "Ried II",
+      "mercado": "Over 2.5 Goals",
+      "selecao": "Over 2.5",
+      "prob_real": 0.84,
+      "fair_odd": 1.19,
+      "odd_mercado": 1.33,
+      "ev": 11.72,
+      "roi": 11.72,
+      "nota": "Lafnitz chega em fase mais estável e tende a conduzir o ritmo em casa. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols."
+    },
+    {
+      "campeonato": "Premier League 2 Division One U23",
+      "pais": "England",
+      "hora_utc": "2025-11-07T16:00:00-03:00",
+      "mandante": "Southampton U21",
+      "visitante": "Arsenal U21",
+      "mercado": "BTTS Yes",
+      "selecao": "BTTS Yes",
+      "prob_real": 0.84,
+      "fair_odd": 1.19,
+      "odd_mercado": 1.33,
+      "ev": 11.72,
+      "roi": 11.72,
+      "nota": "Southampton U21 chega em fase mais estável e tende a conduzir o ritmo em casa. Há sinais de partida aberta, com volume ofensivo acima da média. A tendência é de jogo franco, com espaços para finalizações de ambos os lados. A sinergia com linhas de gols é positiva para este cenário. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "First Division B",
+      "pais": "Belgium",
+      "hora_utc": "2025-11-07T16:00:00-03:00",
+      "mandante": "Lommel United",
+      "visitante": "Waasland-Beveren",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.84,
+      "fair_odd": 1.19,
+      "odd_mercado": 1.33,
+      "ev": 11.72,
+      "roi": 11.72,
+      "nota": "Waasland-Beveren vive momento melhor e pode impor dificuldades mesmo fora. O encaixe tático favorece a progressão ofensiva ao longo da partida. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo. O volume pelos lados do campo indica bom número de chegadas à linha de fundo."
+    },
+    {
+      "campeonato": "2. Bundesliga",
+      "pais": "Germany",
+      "hora_utc": "2025-11-07T14:30:00-03:00",
+      "mandante": "Dynamo Dresden",
+      "visitante": "Nürnberg",
+      "mercado": "BTTS Yes",
+      "selecao": "BTTS Yes",
+      "prob_real": 0.8,
+      "fair_odd": 1.25,
+      "odd_mercado": 1.47,
+      "ev": 17.6,
+      "roi": 17.6,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. Há sinais de partida aberta, com volume ofensivo acima da média. A tendência é de jogo franco, com espaços para finalizações de ambos os lados. A sinergia com linhas de gols é positiva para este cenário. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "Eerste Divisie",
+      "pais": "Netherlands",
+      "hora_utc": "2025-11-07T16:00:00-03:00",
+      "mandante": "ADO Den Haag",
+      "visitante": "Roda JC",
+      "mercado": "Over 2.5 Goals",
+      "selecao": "Over 2.5",
+      "prob_real": 0.83,
+      "fair_odd": 1.205,
+      "odd_mercado": 1.36,
+      "ev": 12.88,
+      "roi": 12.88,
+      "nota": "ADO Den Haag chega em fase mais estável e tende a conduzir o ritmo em casa. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. O volume pelos lados do campo indica bom número de chegadas à linha de fundo."
+    },
+    {
+      "campeonato": "Premier League 2 Division One U23",
+      "pais": "England",
+      "hora_utc": "2025-11-07T09:00:00-03:00",
+      "mandante": "Crystal Palace U21",
+      "visitante": "Stoke City U21",
+      "mercado": "BTTS Yes",
+      "selecao": "BTTS Yes",
+      "prob_real": 0.84,
+      "fair_odd": 1.19,
+      "odd_mercado": 1.32,
+      "ev": 10.88,
+      "roi": 10.88,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. Há sinais de partida aberta, com volume ofensivo acima da média. A tendência é de jogo franco, com espaços para finalizações de ambos os lados. A sinergia com linhas de gols é positiva para este cenário. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "Eerste Divisie",
+      "pais": "Netherlands",
+      "hora_utc": "2025-11-07T16:00:00-03:00",
+      "mandante": "ADO Den Haag",
+      "visitante": "Roda JC",
+      "mercado": "BTTS Yes",
+      "selecao": "BTTS Yes",
+      "prob_real": 0.75,
+      "fair_odd": 1.333,
+      "odd_mercado": 1.64,
+      "ev": 23.0,
+      "roi": 23.0,
+      "nota": "ADO Den Haag chega em fase mais estável e tende a conduzir o ritmo em casa. Há sinais de partida aberta, com volume ofensivo acima da média. A tendência é de jogo franco, com espaços para finalizações de ambos os lados. A sinergia com linhas de gols é positiva para este cenário. O volume pelos lados do campo indica bom número de chegadas à linha de fundo."
+    },
+    {
+      "campeonato": "PrvaLiga",
+      "pais": "Slovenia",
+      "hora_utc": "2025-11-07T16:15:00-03:00",
+      "mandante": "Olimpija",
+      "visitante": "NK Primorje",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.85,
+      "fair_odd": 1.176,
+      "odd_mercado": 1.27,
+      "ev": 7.95,
+      "roi": 7.95,
+      "nota": "Olimpija chega em fase mais estável e tende a conduzir o ritmo em casa. O encaixe tático favorece a progressão ofensiva ao longo da partida. Em síntese, o contexto sustenta a aposta indicada."
+    },
+    {
+      "campeonato": "Ligue 2",
+      "pais": "Algeria",
+      "hora_utc": "2025-11-07T11:00:00-03:00",
+      "mandante": "Koléa",
+      "visitante": "RC Kouba",
+      "mercado": "BTTS No",
+      "selecao": "BTTS No",
+      "prob_real": 0.74,
+      "fair_odd": 1.351,
+      "odd_mercado": 1.68,
+      "ev": 24.32,
+      "roi": 24.32,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. A construção do jogo tende a ser mais paciente e controlada, com menos espaços. O desenho do confronto sugere controle territorial e menor exposição defensiva. Isso conversa bem com leituras de linhas de baixo placar."
+    },
+    {
+      "campeonato": "Regionalliga Mitte",
+      "pais": "Austria",
+      "hora_utc": "2025-11-07T15:00:00-03:00",
+      "mandante": "Wallern / Marienkirchen",
+      "visitante": "Kalsdorf",
+      "mercado": "1st Half Over 1.5",
+      "selecao": "1st Half Over 1.5",
+      "prob_real": 0.66,
+      "fair_odd": 1.515,
+      "odd_mercado": 2.06,
+      "ev": 35.96,
+      "roi": 35.96,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência."
+    },
+    {
+      "campeonato": "FAW Championship North",
+      "pais": "Wales",
+      "hora_utc": "2025-11-07T16:45:00-03:00",
+      "mandante": "Denbigh Town",
+      "visitante": "Llandudno",
+      "mercado": "Over 2.5 Goals",
+      "selecao": "Over 2.5",
+      "prob_real": 0.81,
+      "fair_odd": 1.235,
+      "odd_mercado": 1.4,
+      "ev": 13.4,
+      "roi": 13.4,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. O volume pelos lados do campo indica bom número de chegadas à linha de fundo."
+    },
+    {
+      "campeonato": "Championship",
+      "pais": "England",
+      "hora_utc": "2025-11-07T17:00:00-03:00",
+      "mandante": "Watford",
+      "visitante": "Bristol City",
+      "mercado": "Over 2.5 Goals",
+      "selecao": "Over 2.5",
+      "prob_real": 0.68,
+      "fair_odd": 1.471,
+      "odd_mercado": 1.95,
+      "ev": 32.6,
+      "roi": 32.6,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. O encaixe tático favorece a progressão ofensiva ao longo da partida. A recorrência de ambas marcarem reforça a aposta em linhas de gols. O volume pelos lados do campo indica bom número de chegadas à linha de fundo."
+    },
+    {
+      "campeonato": "National",
+      "pais": "France",
+      "hora_utc": "2025-11-07T15:30:00-03:00",
+      "mandante": "Concarneau",
+      "visitante": "Orléans",
+      "mercado": "BTTS No",
+      "selecao": "BTTS No",
+      "prob_real": 0.67,
+      "fair_odd": 1.493,
+      "odd_mercado": 2.0,
+      "ev": 34.0,
+      "roi": 34.0,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. O desenho do confronto sugere controle territorial e menor exposição defensiva. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo. O volume pelos lados do campo indica bom número de chegadas à linha de fundo."
+    },
+    {
+      "campeonato": "National",
+      "pais": "France",
+      "hora_utc": "2025-11-07T15:30:00-03:00",
+      "mandante": "Versailles",
+      "visitante": "Valenciennes",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.8,
+      "fair_odd": 1.25,
+      "odd_mercado": 1.43,
+      "ev": 14.4,
+      "roi": 14.4,
+      "nota": "Versailles chega em fase mais estável e tende a conduzir o ritmo em casa. O encaixe tático favorece a progressão ofensiva ao longo da partida. A recorrência de ambas marcarem reforça a aposta em linhas de gols. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo. O volume pelos lados do campo indica bom número de chegadas à linha de fundo."
+    },
+    {
+      "campeonato": "Regionalliga Südwest",
+      "pais": "Germany",
+      "hora_utc": "2025-11-07T15:00:00-03:00",
+      "mandante": "Kickers Offenbach",
+      "visitante": "Freiburg II",
+      "mercado": "BTTS Yes",
+      "selecao": "BTTS Yes",
+      "prob_real": 0.84,
+      "fair_odd": 1.19,
+      "odd_mercado": 1.29,
+      "ev": 8.36,
+      "roi": 8.36,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. Há sinais de partida aberta, com volume ofensivo acima da média. A tendência é de jogo franco, com espaços para finalizações de ambos os lados. A sinergia com linhas de gols é positiva para este cenário."
+    },
+    {
+      "campeonato": "Regionalliga Mitte",
+      "pais": "Austria",
+      "hora_utc": "2025-11-07T15:00:00-03:00",
+      "mandante": "Wallern / Marienkirchen",
+      "visitante": "Kalsdorf",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.86,
+      "fair_odd": 1.163,
+      "odd_mercado": 1.22,
+      "ev": 4.92,
+      "roi": 4.92,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência."
+    },
+    {
+      "campeonato": "Premier League 2 Division One U23",
+      "pais": "England",
+      "hora_utc": "2025-11-07T09:00:00-03:00",
+      "mandante": "Crystal Palace U21",
+      "visitante": "Stoke City U21",
+      "mercado": "Over 2.5 Goals",
+      "selecao": "Over 2.5",
+      "prob_real": 0.84,
+      "fair_odd": 1.19,
+      "odd_mercado": 1.28,
+      "ev": 7.52,
+      "roi": 7.52,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. Há sinais de partida aberta, com volume ofensivo acima da média. Com esse perfil, a leitura favorece cenários de gol e momentos de pressão em sequência. A recorrência de ambas marcarem reforça a aposta em linhas de gols. A tendência de cartões sugere duelo físico, com disputas fortes no meio-campo."
+    },
+    {
+      "campeonato": "Division One",
+      "pais": "UAE",
+      "hora_utc": "2025-11-07T09:45:00-03:00",
+      "mandante": "Dibba Al Hisn",
+      "visitante": "Dubai United",
+      "mercado": "1st Half Over 0.5",
+      "selecao": "1st Half Over 0.5",
+      "prob_real": 0.84,
+      "fair_odd": 1.19,
+      "odd_mercado": 1.28,
+      "ev": 7.52,
+      "roi": 7.52,
+      "nota": "O jogo aponta para relativo equilíbrio de forças. O encaixe tático favorece a progressão ofensiva ao longo da partida. O volume pelos lados do campo indica bom número de chegadas à linha de fundo."
+    }
+  ],
+  "combos": [
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.960572,
+      "fair_combo": 1.041,
+      "odd_combo": 3.98,
+      "ev_combo": 282.07,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.735019,
+      "fair_combo": 1.361,
+      "odd_combo": 5.63,
+      "ev_combo": 314.04,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Mebrat Hayl vs Negele Arsi Ketema — Over 2.5 Goals Over 2.5 @2.62"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.955745,
+      "fair_combo": 1.046,
+      "odd_combo": 3.76,
+      "ev_combo": 259.6,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.960572,
+      "fair_combo": 1.041,
+      "odd_combo": 3.7,
+      "ev_combo": 255.41,
+      "legs": [
+        "Al Salt vs Al Hashemeya — BTTS Yes BTTS Yes @2.00",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.970225,
+      "fair_combo": 1.031,
+      "odd_combo": 3.55,
+      "ev_combo": 244.19,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Fiorentina W vs Roma W — Over 2.5 Goals Over 2.5 @1.65"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.970225,
+      "fair_combo": 1.031,
+      "odd_combo": 3.5,
+      "ev_combo": 240.02,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Fiorentina W vs Roma W — BTTS Yes BTTS Yes @1.63"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.882023,
+      "fair_combo": 1.134,
+      "odd_combo": 3.96,
+      "ev_combo": 248.93,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Quevilly Rouen vs Châteauroux — BTTS Yes BTTS Yes @1.84"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.666418,
+      "fair_combo": 1.501,
+      "odd_combo": 5.68,
+      "ev_combo": 278.26,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Persepolis vs Esteghlal Khuzestan — BTTS Yes BTTS Yes @2.64"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.862423,
+      "fair_combo": 1.16,
+      "odd_combo": 4.04,
+      "ev_combo": 248.59,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Aubagne vs Le Puy F.43 Auvergne — BTTS Yes BTTS Yes @1.88"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.955745,
+      "fair_combo": 1.046,
+      "odd_combo": 3.5,
+      "ev_combo": 234.51,
+      "legs": [
+        "Al Salt vs Al Hashemeya — BTTS Yes BTTS Yes @2.00",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.784021,
+      "fair_combo": 1.275,
+      "odd_combo": 4.58,
+      "ev_combo": 259.04,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Parma U19 vs Cesena U20 — 1st Half Over 1.5 1st Half Over 1.5 @2.13"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.970225,
+      "fair_combo": 1.031,
+      "odd_combo": 3.4,
+      "ev_combo": 229.59,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Hatta vs Gulf United — BTTS Yes BTTS Yes @1.58"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.813421,
+      "fair_combo": 1.229,
+      "odd_combo": 4.3,
+      "ev_combo": 249.77,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Al Fujairah vs Masfut — BTTS No BTTS No @2.00"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.735019,
+      "fair_combo": 1.361,
+      "odd_combo": 4.79,
+      "ev_combo": 252.41,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Perth Glory FC vs Central Coast Mariners — BTTS No BTTS No @2.23"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.735019,
+      "fair_combo": 1.361,
+      "odd_combo": 4.67,
+      "ev_combo": 242.92,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Favoritner AC vs Leobendorf — Under 2.5 Goals Under 2.5 @2.17"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.823222,
+      "fair_combo": 1.215,
+      "odd_combo": 3.98,
+      "ev_combo": 227.44,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Sunderland U21 vs Ipswich Town U21 — 1st Half Over 1.5 1st Half Over 1.5 @1.85"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.676218,
+      "fair_combo": 1.479,
+      "odd_combo": 5.05,
+      "ev_combo": 241.66,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Kelantan WTS vs Kedah FA — Under 2.5 Goals Under 2.5 @2.35"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.823222,
+      "fair_combo": 1.215,
+      "odd_combo": 3.87,
+      "ev_combo": 218.59,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Dijon Women vs Olympique Marseille Women — Over 2.5 Goals Over 2.5 @1.80"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.970225,
+      "fair_combo": 1.031,
+      "odd_combo": 3.05,
+      "ev_combo": 196.21,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Parma U19 vs Cesena U20 — Over 2.5 Goals Over 2.5 @1.42"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.735019,
+      "fair_combo": 1.361,
+      "odd_combo": 4.47,
+      "ev_combo": 228.7,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Perth Glory FC vs Central Coast Mariners — Under 2.5 Goals Under 2.5 @2.08"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.735019,
+      "fair_combo": 1.361,
+      "odd_combo": 4.45,
+      "ev_combo": 227.12,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Favoritner AC vs Leobendorf — BTTS No BTTS No @2.07"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.731362,
+      "fair_combo": 1.367,
+      "odd_combo": 4.45,
+      "ev_combo": 225.49,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Al Tadhamon vs Al Shabab — Under 2.5 Goals Under 2.5 @2.07"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.965398,
+      "fair_combo": 1.036,
+      "odd_combo": 2.99,
+      "ev_combo": 188.51,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Gorica vs HNK Vukovar 1991 — 1st Half Over 0.5 1st Half Over 0.5 @1.39"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.646817,
+      "fair_combo": 1.546,
+      "odd_combo": 5.16,
+      "ev_combo": 233.76,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Molodechno-DYuSSh 4 vs MKK-Dnepr — Under 2.5 Goals Under 2.5 @2.40"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.862423,
+      "fair_combo": 1.16,
+      "odd_combo": 3.48,
+      "ev_combo": 200.38,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Bobigny AC vs Cannes — Under 2.5 Goals Under 2.5 @1.62"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.965398,
+      "fair_combo": 1.036,
+      "odd_combo": 2.92,
+      "ev_combo": 182.28,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "WSPG Wels vs First Vienna — 1st Half Over 0.5 1st Half Over 0.5 @1.36"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.799623,
+      "fair_combo": 1.251,
+      "odd_combo": 3.81,
+      "ev_combo": 204.3,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "České Budějovice vs Opava — Under 2.5 Goals Under 2.5 @1.77"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.656617,
+      "fair_combo": 1.523,
+      "odd_combo": 4.94,
+      "ev_combo": 224.7,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Hatta vs Gulf United — 1st Half Over 1.5 1st Half Over 1.5 @2.30"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.970225,
+      "fair_combo": 1.031,
+      "odd_combo": 2.86,
+      "ev_combo": 177.44,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Charleroi-Marchienne U21 vs RFC Seraing U21 — Over 2.5 Goals Over 2.5 @1.33"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.970225,
+      "fair_combo": 1.031,
+      "odd_combo": 2.86,
+      "ev_combo": 177.44,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Francs Borains U21 vs Kortrijk U21 — Over 2.5 Goals Over 2.5 @1.33"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.695818,
+      "fair_combo": 1.437,
+      "odd_combo": 4.56,
+      "ev_combo": 217.15,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Briton Ferry vs Bala Town — BTTS No BTTS No @2.12"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.731362,
+      "fair_combo": 1.367,
+      "odd_combo": 4.26,
+      "ev_combo": 211.34,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Digenis Morphou vs Ahironas / Onisilos — BTTS No BTTS No @1.98"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.842822,
+      "fair_combo": 1.186,
+      "odd_combo": 3.48,
+      "ev_combo": 193.55,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "OB vs Silkeborg — Over 2.5 Goals Over 2.5 @1.62"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.970225,
+      "fair_combo": 1.031,
+      "odd_combo": 2.75,
+      "ev_combo": 167.01,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "OB vs Silkeborg — 1st Half Over 0.5 1st Half Over 0.5 @1.28"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.784021,
+      "fair_combo": 1.275,
+      "odd_combo": 3.74,
+      "ev_combo": 193.3,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Paris vs Rennes — Over 2.5 Goals Over 2.5 @1.74"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.970225,
+      "fair_combo": 1.031,
+      "odd_combo": 2.73,
+      "ev_combo": 164.92,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Hatta vs Gulf United — 1st Half Over 0.5 1st Half Over 0.5 @1.27"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.702108,
+      "fair_combo": 1.424,
+      "odd_combo": 4.34,
+      "ev_combo": 204.93,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Gorica vs HNK Vukovar 1991 — Over 2.5 Goals Over 2.5 @2.02"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.702108,
+      "fair_combo": 1.424,
+      "odd_combo": 4.3,
+      "ev_combo": 201.91,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "České Budějovice vs Opava — BTTS No BTTS No @2.00"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.75462,
+      "fair_combo": 1.325,
+      "odd_combo": 3.89,
+      "ev_combo": 193.66,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Skive vs Roskilde — BTTS Yes BTTS Yes @1.81"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.78012,
+      "fair_combo": 1.282,
+      "odd_combo": 3.7,
+      "ev_combo": 188.49,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ruch Chorzów vs Miedź Legnica — Over 2.5 Goals Over 2.5 @1.72"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.770368,
+      "fair_combo": 1.298,
+      "odd_combo": 3.76,
+      "ev_combo": 189.85,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Chojniczanka Chojnice vs Unia Skierniewice — Over 2.5 Goals Over 2.5 @1.75"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.823222,
+      "fair_combo": 1.215,
+      "odd_combo": 3.42,
+      "ev_combo": 181.42,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Hatta vs Gulf United — Over 2.5 Goals Over 2.5 @1.59"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.735019,
+      "fair_combo": 1.361,
+      "odd_combo": 4.0,
+      "ev_combo": 193.93,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Al Jazira Al Hamra vs Al Arabi — Under 2.5 Goals Under 2.5 @1.86"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.842822,
+      "fair_combo": 1.186,
+      "odd_combo": 3.29,
+      "ev_combo": 177.25,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "OB vs Silkeborg — BTTS Yes BTTS Yes @1.53"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.813421,
+      "fair_combo": 1.229,
+      "odd_combo": 3.44,
+      "ev_combo": 179.82,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Nancy vs Laval — Under 2.5 Goals Under 2.5 @1.60"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.970225,
+      "fair_combo": 1.031,
+      "odd_combo": 2.62,
+      "ev_combo": 154.49,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Twente vs Telstar — 1st Half Over 0.5 1st Half Over 0.5 @1.22"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.882023,
+      "fair_combo": 1.134,
+      "odd_combo": 3.03,
+      "ev_combo": 167.39,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Parma U19 vs Cesena U20 — BTTS Yes BTTS Yes @1.41"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.882023,
+      "fair_combo": 1.134,
+      "odd_combo": 3.03,
+      "ev_combo": 167.39,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Quevilly Rouen vs Châteauroux — 1st Half Over 0.5 1st Half Over 0.5 @1.41"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.901624,
+      "fair_combo": 1.109,
+      "odd_combo": 2.92,
+      "ev_combo": 163.63,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Bhayangkara vs Bali United — 1st Half Over 0.5 1st Half Over 0.5 @1.36"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.970225,
+      "fair_combo": 1.031,
+      "odd_combo": 2.58,
+      "ev_combo": 150.32,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Parma U19 vs Cesena U20 — 1st Half Over 0.5 1st Half Over 0.5 @1.20"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.911424,
+      "fair_combo": 1.097,
+      "odd_combo": 2.82,
+      "ev_combo": 156.7,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Chemnitzer FC vs Altglienicke — 1st Half Over 0.5 1st Half Over 0.5 @1.31"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.842822,
+      "fair_combo": 1.186,
+      "odd_combo": 3.1,
+      "ev_combo": 160.94,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Reggiana U19 vs Vicenza U19 — Over 2.5 Goals Over 2.5 @1.44"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.901624,
+      "fair_combo": 1.109,
+      "odd_combo": 2.79,
+      "ev_combo": 152.0,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Neuchâtel Xamax vs Yverdon Sport — 1st Half Over 0.5 1st Half Over 0.5 @1.30"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.838629,
+      "fair_combo": 1.192,
+      "odd_combo": 3.1,
+      "ev_combo": 159.64,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Sandecja Nowy Sącz vs Sokół Kleczew — BTTS Yes BTTS Yes @1.44"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.970225,
+      "fair_combo": 1.031,
+      "odd_combo": 2.45,
+      "ev_combo": 137.8,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Crystal Palace U21 vs Stoke City U21 — 1st Half Over 0.5 1st Half Over 0.5 @1.14"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.970225,
+      "fair_combo": 1.031,
+      "odd_combo": 2.45,
+      "ev_combo": 137.8,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "West Ham United U21 vs Liverpool U21 — 1st Half Over 0.5 1st Half Over 0.5 @1.14"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.882023,
+      "fair_combo": 1.134,
+      "odd_combo": 2.84,
+      "ev_combo": 150.32,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Paris vs Rennes — 1st Half Over 0.5 1st Half Over 0.5 @1.32"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.911424,
+      "fair_combo": 1.097,
+      "odd_combo": 2.67,
+      "ev_combo": 142.99,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Vitesse vs Cambuur — 1st Half Over 0.5 1st Half Over 0.5 @1.24"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.911424,
+      "fair_combo": 1.097,
+      "odd_combo": 2.6,
+      "ev_combo": 137.11,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Gleisdorf 09 vs Velden — 1st Half Over 0.5 1st Half Over 0.5 @1.21"
+      ]
+    },
+    {
+      "titulo": "Múltipla 2 — inter",
+      "prob_real_combo": 0.906889,
+      "fair_combo": 1.103,
+      "odd_combo": 2.6,
+      "ev_combo": 135.93,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Zlaté Moravce vs Inter Bratislava — 1st Half Over 0.5 1st Half Over 0.5 @1.21"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.709622,
+      "fair_combo": 1.409,
+      "odd_combo": 10.42,
+      "ev_combo": 639.5,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Mebrat Hayl vs Negele Arsi Ketema — Over 2.5 Goals Over 2.5 @2.62"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.931994,
+      "fair_combo": 1.073,
+      "odd_combo": 6.96,
+      "ev_combo": 548.73,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.643391,
+      "fair_combo": 1.554,
+      "odd_combo": 10.5,
+      "ev_combo": 575.6,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Persepolis vs Esteghlal Khuzestan — BTTS Yes BTTS Yes @2.64"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.941408,
+      "fair_combo": 1.062,
+      "odd_combo": 6.56,
+      "ev_combo": 517.83,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Fiorentina W vs Roma W — Over 2.5 Goals Over 2.5 @1.65"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.75693,
+      "fair_combo": 1.321,
+      "odd_combo": 8.47,
+      "ev_combo": 541.28,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Parma U19 vs Cesena U20 — 1st Half Over 1.5 1st Half Over 1.5 @2.13"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.855826,
+      "fair_combo": 1.168,
+      "odd_combo": 7.32,
+      "ev_combo": 526.34,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Quevilly Rouen vs Châteauroux — BTTS Yes BTTS Yes @1.84"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.941408,
+      "fair_combo": 1.062,
+      "odd_combo": 6.48,
+      "ev_combo": 510.35,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Fiorentina W vs Roma W — BTTS Yes BTTS Yes @1.63"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.836807,
+      "fair_combo": 1.195,
+      "odd_combo": 7.48,
+      "ev_combo": 525.74,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Aubagne vs Le Puy F.43 Auvergne — BTTS Yes BTTS Yes @1.88"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.785315,
+      "fair_combo": 1.273,
+      "odd_combo": 7.96,
+      "ev_combo": 524.72,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Fujairah vs Masfut — BTTS No BTTS No @2.00"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.713188,
+      "fair_combo": 1.402,
+      "odd_combo": 8.87,
+      "ev_combo": 532.59,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Perth Glory FC vs Central Coast Mariners — BTTS No BTTS No @2.23"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.936701,
+      "fair_combo": 1.068,
+      "odd_combo": 6.28,
+      "ev_combo": 488.67,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Hatta vs Gulf United — BTTS Yes BTTS Yes @1.58"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.713188,
+      "fair_combo": 1.402,
+      "odd_combo": 8.63,
+      "ev_combo": 515.57,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Favoritner AC vs Leobendorf — Under 2.5 Goals Under 2.5 @2.17"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.652852,
+      "fair_combo": 1.532,
+      "odd_combo": 9.35,
+      "ev_combo": 510.23,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Kelantan WTS vs Kedah FA — Under 2.5 Goals Under 2.5 @2.35"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.798771,
+      "fair_combo": 1.252,
+      "odd_combo": 7.36,
+      "ev_combo": 487.77,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Sunderland U21 vs Ipswich Town U21 — 1st Half Over 1.5 1st Half Over 1.5 @1.85"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.713188,
+      "fair_combo": 1.402,
+      "odd_combo": 8.27,
+      "ev_combo": 490.03,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Perth Glory FC vs Central Coast Mariners — Under 2.5 Goals Under 2.5 @2.08"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.713188,
+      "fair_combo": 1.402,
+      "odd_combo": 8.23,
+      "ev_combo": 487.2,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Favoritner AC vs Leobendorf — BTTS No BTTS No @2.07"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.798771,
+      "fair_combo": 1.252,
+      "odd_combo": 7.16,
+      "ev_combo": 471.88,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Dijon Women vs Olympique Marseille Women — Over 2.5 Goals Over 2.5 @1.80"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.709622,
+      "fair_combo": 1.409,
+      "odd_combo": 8.23,
+      "ev_combo": 484.26,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Tadhamon vs Al Shabab — Under 2.5 Goals Under 2.5 @2.07"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.936701,
+      "fair_combo": 1.068,
+      "odd_combo": 5.65,
+      "ev_combo": 429.05,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Parma U19 vs Cesena U20 — Over 2.5 Goals Over 2.5 @1.42"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.709622,
+      "fair_combo": 1.409,
+      "odd_combo": 7.88,
+      "ev_combo": 458.86,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Digenis Morphou vs Ahironas / Onisilos — BTTS No BTTS No @1.98"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.836807,
+      "fair_combo": 1.195,
+      "odd_combo": 6.44,
+      "ev_combo": 439.2,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Bobigny AC vs Cannes — Under 2.5 Goals Under 2.5 @1.62"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.775854,
+      "fair_combo": 1.289,
+      "odd_combo": 7.04,
+      "ev_combo": 446.21,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "České Budějovice vs Opava — Under 2.5 Goals Under 2.5 @1.77"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.936701,
+      "fair_combo": 1.068,
+      "odd_combo": 5.53,
+      "ev_combo": 417.88,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Gorica vs HNK Vukovar 1991 — 1st Half Over 0.5 1st Half Over 0.5 @1.39"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.817789,
+      "fair_combo": 1.223,
+      "odd_combo": 6.44,
+      "ev_combo": 426.95,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "OB vs Silkeborg — Over 2.5 Goals Over 2.5 @1.62"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.936701,
+      "fair_combo": 1.068,
+      "odd_combo": 5.41,
+      "ev_combo": 406.7,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "WSPG Wels vs First Vienna — 1st Half Over 0.5 1st Half Over 0.5 @1.36"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.760734,
+      "fair_combo": 1.315,
+      "odd_combo": 6.92,
+      "ev_combo": 426.49,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Paris vs Rennes — Over 2.5 Goals Over 2.5 @1.74"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.941408,
+      "fair_combo": 1.062,
+      "odd_combo": 5.29,
+      "ev_combo": 398.01,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Charleroi-Marchienne U21 vs RFC Seraing U21 — Over 2.5 Goals Over 2.5 @1.33"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.941408,
+      "fair_combo": 1.062,
+      "odd_combo": 5.29,
+      "ev_combo": 398.01,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Francs Borains U21 vs Kortrijk U21 — Over 2.5 Goals Over 2.5 @1.33"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.794777,
+      "fair_combo": 1.258,
+      "odd_combo": 6.32,
+      "ev_combo": 402.63,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Hatta vs Gulf United — Over 2.5 Goals Over 2.5 @1.59"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.941408,
+      "fair_combo": 1.062,
+      "odd_combo": 5.09,
+      "ev_combo": 379.29,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "OB vs Silkeborg — 1st Half Over 0.5 1st Half Over 0.5 @1.28"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.817789,
+      "fair_combo": 1.223,
+      "odd_combo": 6.09,
+      "ev_combo": 397.67,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "OB vs Silkeborg — BTTS Yes BTTS Yes @1.53"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.936701,
+      "fair_combo": 1.068,
+      "odd_combo": 5.05,
+      "ev_combo": 373.17,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Hatta vs Gulf United — 1st Half Over 0.5 1st Half Over 0.5 @1.27"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.855826,
+      "fair_combo": 1.168,
+      "odd_combo": 5.61,
+      "ev_combo": 379.97,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Quevilly Rouen vs Châteauroux — 1st Half Over 0.5 1st Half Over 0.5 @1.41"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.851547,
+      "fair_combo": 1.174,
+      "odd_combo": 5.61,
+      "ev_combo": 377.57,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Parma U19 vs Cesena U20 — BTTS Yes BTTS Yes @1.41"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.874844,
+      "fair_combo": 1.143,
+      "odd_combo": 5.41,
+      "ev_combo": 373.24,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Bhayangkara vs Bali United — 1st Half Over 0.5 1st Half Over 0.5 @1.36"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.941408,
+      "fair_combo": 1.062,
+      "odd_combo": 4.85,
+      "ev_combo": 356.82,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Twente vs Telstar — 1st Half Over 0.5 1st Half Over 0.5 @1.22"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.884353,
+      "fair_combo": 1.131,
+      "odd_combo": 5.21,
+      "ev_combo": 360.79,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Chemnitzer FC vs Altglienicke — 1st Half Over 0.5 1st Half Over 0.5 @1.31"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.936701,
+      "fair_combo": 1.068,
+      "odd_combo": 4.77,
+      "ev_combo": 347.09,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Parma U19 vs Cesena U20 — 1st Half Over 0.5 1st Half Over 0.5 @1.20"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.941408,
+      "fair_combo": 1.062,
+      "odd_combo": 4.53,
+      "ev_combo": 326.87,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "West Ham United U21 vs Liverpool U21 — 1st Half Over 0.5 1st Half Over 0.5 @1.14"
+      ]
+    },
+    {
+      "titulo": "Múltipla 3 — inter",
+      "prob_real_combo": 0.936701,
+      "fair_combo": 1.068,
+      "odd_combo": 4.53,
+      "ev_combo": 324.73,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Crystal Palace U21 vs Stoke City U21 — 1st Half Over 0.5 1st Half Over 0.5 @1.14"
+      ]
+    },
+    {
+      "titulo": "Múltipla 4 — inter",
+      "prob_real_combo": 0.691988,
+      "fair_combo": 1.445,
+      "odd_combo": 18.24,
+      "ev_combo": 1161.97,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Mebrat Hayl vs Negele Arsi Ketema — Over 2.5 Goals Over 2.5 @2.62"
+      ]
+    },
+    {
+      "titulo": "Múltipla 4 — inter",
+      "prob_real_combo": 0.627403,
+      "fair_combo": 1.594,
+      "odd_combo": 18.38,
+      "ev_combo": 1052.92,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Persepolis vs Esteghlal Khuzestan — BTTS Yes BTTS Yes @2.64"
+      ]
+    },
+    {
+      "titulo": "Múltipla 4 — inter",
+      "prob_real_combo": 0.738121,
+      "fair_combo": 1.355,
+      "odd_combo": 14.83,
+      "ev_combo": 994.35,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Parma U19 vs Cesena U20 — 1st Half Over 1.5 1st Half Over 1.5 @2.13"
+      ]
+    },
+    {
+      "titulo": "Múltipla 4 — inter",
+      "prob_real_combo": 0.830386,
+      "fair_combo": 1.204,
+      "odd_combo": 12.81,
+      "ev_combo": 963.52,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Quevilly Rouen vs Châteauroux — BTTS Yes BTTS Yes @1.84"
+      ]
+    },
+    {
+      "titulo": "Múltipla 4 — inter",
+      "prob_real_combo": 0.913424,
+      "fair_combo": 1.095,
+      "odd_combo": 11.49,
+      "ev_combo": 949.07,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Fiorentina W vs Roma W — Over 2.5 Goals Over 2.5 @1.65"
+      ]
+    },
+    {
+      "titulo": "Múltipla 4 — inter",
+      "prob_real_combo": 0.811933,
+      "fair_combo": 1.232,
+      "odd_combo": 13.09,
+      "ev_combo": 962.49,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Aubagne vs Le Puy F.43 Auvergne — BTTS Yes BTTS Yes @1.88"
+      ]
+    },
+    {
+      "titulo": "Múltipla 4 — inter",
+      "prob_real_combo": 0.7658,
+      "fair_combo": 1.306,
+      "odd_combo": 13.92,
+      "ev_combo": 966.09,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Al Fujairah vs Masfut — BTTS No BTTS No @2.00"
+      ]
+    },
+    {
+      "titulo": "Múltipla 4 — inter",
+      "prob_real_combo": 0.691988,
+      "fair_combo": 1.445,
+      "odd_combo": 15.52,
+      "ev_combo": 974.12,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Perth Glory FC vs Central Coast Mariners — BTTS No BTTS No @2.23"
+      ]
+    },
+    {
+      "titulo": "Múltipla 4 — inter",
+      "prob_real_combo": 0.913424,
+      "fair_combo": 1.095,
+      "odd_combo": 11.35,
+      "ev_combo": 936.35,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Fiorentina W vs Roma W — BTTS Yes BTTS Yes @1.63"
+      ]
+    },
+    {
+      "titulo": "Múltipla 4 — inter",
+      "prob_real_combo": 0.691988,
+      "fair_combo": 1.445,
+      "odd_combo": 15.1,
+      "ev_combo": 945.22,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Favoritner AC vs Leobendorf — Under 2.5 Goals Under 2.5 @2.17"
+      ]
+    },
+    {
+      "titulo": "Múltipla 4 — inter",
+      "prob_real_combo": 0.913424,
+      "fair_combo": 1.095,
+      "odd_combo": 11.0,
+      "ev_combo": 904.56,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Hatta vs Gulf United — BTTS Yes BTTS Yes @1.58"
+      ]
+    },
+    {
+      "titulo": "Múltipla 4 — inter",
+      "prob_real_combo": 0.775027,
+      "fair_combo": 1.29,
+      "odd_combo": 12.88,
+      "ev_combo": 898.01,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Sunderland U21 vs Ipswich Town U21 — 1st Half Over 1.5 1st Half Over 1.5 @1.85"
+      ]
+    },
+    {
+      "titulo": "Múltipla 4 — inter",
+      "prob_real_combo": 0.775027,
+      "fair_combo": 1.29,
+      "odd_combo": 12.53,
+      "ev_combo": 871.04,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Dijon Women vs Olympique Marseille Women — Over 2.5 Goals Over 2.5 @1.80"
+      ]
+    },
+    {
+      "titulo": "Múltipla 4 — inter",
+      "prob_real_combo": 0.913424,
+      "fair_combo": 1.095,
+      "odd_combo": 9.88,
+      "ev_combo": 802.84,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Parma U19 vs Cesena U20 — Over 2.5 Goals Over 2.5 @1.42"
+      ]
+    },
+    {
+      "titulo": "Múltipla 4 — inter",
+      "prob_real_combo": 0.811933,
+      "fair_combo": 1.232,
+      "odd_combo": 11.28,
+      "ev_combo": 815.55,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Bobigny AC vs Cannes — Under 2.5 Goals Under 2.5 @1.62"
+      ]
+    },
+    {
+      "titulo": "Múltipla 4 — inter",
+      "prob_real_combo": 0.913424,
+      "fair_combo": 1.095,
+      "odd_combo": 9.68,
+      "ev_combo": 783.76,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Gorica vs HNK Vukovar 1991 — 1st Half Over 0.5 1st Half Over 0.5 @1.39"
+      ]
+    },
+    {
+      "titulo": "Múltipla 4 — inter",
+      "prob_real_combo": 0.913424,
+      "fair_combo": 1.095,
+      "odd_combo": 9.47,
+      "ev_combo": 764.69,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "WSPG Wels vs First Vienna — 1st Half Over 0.5 1st Half Over 0.5 @1.36"
+      ]
+    },
+    {
+      "titulo": "Múltipla 4 — inter",
+      "prob_real_combo": 0.913424,
+      "fair_combo": 1.095,
+      "odd_combo": 9.26,
+      "ev_combo": 745.61,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Charleroi-Marchienne U21 vs RFC Seraing U21 — Over 2.5 Goals Over 2.5 @1.33"
+      ]
+    },
+    {
+      "titulo": "Múltipla 4 — inter",
+      "prob_real_combo": 0.913424,
+      "fair_combo": 1.095,
+      "odd_combo": 9.26,
+      "ev_combo": 745.61,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Francs Borains U21 vs Kortrijk U21 — Over 2.5 Goals Over 2.5 @1.33"
+      ]
+    },
+    {
+      "titulo": "Múltipla 4 — inter",
+      "prob_real_combo": 0.913424,
+      "fair_combo": 1.095,
+      "odd_combo": 8.91,
+      "ev_combo": 713.82,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "OB vs Silkeborg — 1st Half Over 0.5 1st Half Over 0.5 @1.28"
+      ]
+    },
+    {
+      "titulo": "Múltipla 5 — inter",
+      "prob_real_combo": 0.674792,
+      "fair_combo": 1.482,
+      "odd_combo": 30.09,
+      "ev_combo": 1930.5,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Fiorentina W vs Roma W — Over 2.5 Goals Over 2.5 @1.65",
+        "Mebrat Hayl vs Negele Arsi Ketema — Over 2.5 Goals Over 2.5 @2.62"
+      ]
+    },
+    {
+      "titulo": "Múltipla 5 — inter",
+      "prob_real_combo": 0.611812,
+      "fair_combo": 1.634,
+      "odd_combo": 30.32,
+      "ev_combo": 1755.04,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Fiorentina W vs Roma W — Over 2.5 Goals Over 2.5 @1.65",
+        "Persepolis vs Esteghlal Khuzestan — BTTS Yes BTTS Yes @2.64"
+      ]
+    },
+    {
+      "titulo": "Múltipla 5 — inter",
+      "prob_real_combo": 0.719778,
+      "fair_combo": 1.389,
+      "odd_combo": 24.46,
+      "ev_combo": 1660.8,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Fiorentina W vs Roma W — Over 2.5 Goals Over 2.5 @1.65",
+        "Parma U19 vs Cesena U20 — 1st Half Over 1.5 1st Half Over 1.5 @2.13"
+      ]
+    },
+    {
+      "titulo": "Múltipla 5 — inter",
+      "prob_real_combo": 0.809751,
+      "fair_combo": 1.235,
+      "odd_combo": 21.13,
+      "ev_combo": 1611.2,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Fiorentina W vs Roma W — Over 2.5 Goals Over 2.5 @1.65",
+        "Quevilly Rouen vs Châteauroux — BTTS Yes BTTS Yes @1.84"
+      ]
+    },
+    {
+      "titulo": "Múltipla 5 — inter",
+      "prob_real_combo": 0.791756,
+      "fair_combo": 1.263,
+      "odd_combo": 21.59,
+      "ev_combo": 1609.55,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Fiorentina W vs Roma W — Over 2.5 Goals Over 2.5 @1.65",
+        "Aubagne vs Le Puy F.43 Auvergne — BTTS Yes BTTS Yes @1.88"
+      ]
+    },
+    {
+      "titulo": "Múltipla 5 — inter",
+      "prob_real_combo": 0.74677,
+      "fair_combo": 1.339,
+      "odd_combo": 22.97,
+      "ev_combo": 1615.34,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Fiorentina W vs Roma W — Over 2.5 Goals Over 2.5 @1.65",
+        "Al Fujairah vs Masfut — BTTS No BTTS No @2.00"
+      ]
+    },
+    {
+      "titulo": "Múltipla 5 — inter",
+      "prob_real_combo": 0.890726,
+      "fair_combo": 1.123,
+      "odd_combo": 18.15,
+      "ev_combo": 1516.34,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Fiorentina W vs Roma W — Over 2.5 Goals Over 2.5 @1.65",
+        "Hatta vs Gulf United — BTTS Yes BTTS Yes @1.58"
+      ]
+    },
+    {
+      "titulo": "Múltipla 5 — inter",
+      "prob_real_combo": 0.755767,
+      "fair_combo": 1.323,
+      "odd_combo": 21.25,
+      "ev_combo": 1505.8,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Fiorentina W vs Roma W — Over 2.5 Goals Over 2.5 @1.65",
+        "Sunderland U21 vs Ipswich Town U21 — 1st Half Over 1.5 1st Half Over 1.5 @1.85"
+      ]
+    },
+    {
+      "titulo": "Múltipla 5 — inter",
+      "prob_real_combo": 0.890726,
+      "fair_combo": 1.123,
+      "odd_combo": 16.31,
+      "ev_combo": 1352.66,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Fiorentina W vs Roma W — Over 2.5 Goals Over 2.5 @1.65",
+        "Parma U19 vs Cesena U20 — Over 2.5 Goals Over 2.5 @1.42"
+      ]
+    },
+    {
+      "titulo": "Múltipla 5 — inter",
+      "prob_real_combo": 0.890726,
+      "fair_combo": 1.123,
+      "odd_combo": 15.96,
+      "ev_combo": 1321.97,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Fiorentina W vs Roma W — Over 2.5 Goals Over 2.5 @1.65",
+        "Gorica vs HNK Vukovar 1991 — 1st Half Over 0.5 1st Half Over 0.5 @1.39"
+      ]
+    },
+    {
+      "titulo": "Múltipla 5 — inter",
+      "prob_real_combo": 0.890726,
+      "fair_combo": 1.123,
+      "odd_combo": 15.62,
+      "ev_combo": 1291.28,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Fiorentina W vs Roma W — Over 2.5 Goals Over 2.5 @1.65",
+        "WSPG Wels vs First Vienna — 1st Half Over 0.5 1st Half Over 0.5 @1.36"
+      ]
+    },
+    {
+      "titulo": "Múltipla 5 — inter",
+      "prob_real_combo": 0.890726,
+      "fair_combo": 1.123,
+      "odd_combo": 15.28,
+      "ev_combo": 1260.59,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Fiorentina W vs Roma W — Over 2.5 Goals Over 2.5 @1.65",
+        "Charleroi-Marchienne U21 vs RFC Seraing U21 — Over 2.5 Goals Over 2.5 @1.33"
+      ]
+    },
+    {
+      "titulo": "Múltipla 6 — inter",
+      "prob_real_combo": 0.531736,
+      "fair_combo": 1.881,
+      "odd_combo": 64.09,
+      "ev_combo": 3308.08,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Fiorentina W vs Roma W — Over 2.5 Goals Over 2.5 @1.65",
+        "Mebrat Hayl vs Negele Arsi Ketema — Over 2.5 Goals Over 2.5 @2.62",
+        "Parma U19 vs Cesena U20 — 1st Half Over 1.5 1st Half Over 1.5 @2.13"
+      ]
+    },
+    {
+      "titulo": "Múltipla 6 — inter",
+      "prob_real_combo": 0.551676,
+      "fair_combo": 1.813,
+      "odd_combo": 60.18,
+      "ev_combo": 3220.07,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Fiorentina W vs Roma W — Over 2.5 Goals Over 2.5 @1.65",
+        "Mebrat Hayl vs Negele Arsi Ketema — Over 2.5 Goals Over 2.5 @2.62",
+        "Al Fujairah vs Masfut — BTTS No BTTS No @2.00"
+      ]
+    },
+    {
+      "titulo": "Múltipla 6 — inter",
+      "prob_real_combo": 0.598203,
+      "fair_combo": 1.672,
+      "odd_combo": 55.37,
+      "ev_combo": 3212.07,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Fiorentina W vs Roma W — Over 2.5 Goals Over 2.5 @1.65",
+        "Mebrat Hayl vs Negele Arsi Ketema — Over 2.5 Goals Over 2.5 @2.62",
+        "Quevilly Rouen vs Châteauroux — BTTS Yes BTTS Yes @1.84"
+      ]
+    },
+    {
+      "titulo": "Múltipla 6 — inter",
+      "prob_real_combo": 0.58491,
+      "fair_combo": 1.71,
+      "odd_combo": 56.57,
+      "ev_combo": 3208.87,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Fiorentina W vs Roma W — Over 2.5 Goals Over 2.5 @1.65",
+        "Mebrat Hayl vs Negele Arsi Ketema — Over 2.5 Goals Over 2.5 @2.62",
+        "Aubagne vs Le Puy F.43 Auvergne — BTTS Yes BTTS Yes @1.88"
+      ]
+    },
+    {
+      "titulo": "Múltipla 6 — inter",
+      "prob_real_combo": 0.658024,
+      "fair_combo": 1.52,
+      "odd_combo": 47.54,
+      "ev_combo": 3028.47,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Fiorentina W vs Roma W — Over 2.5 Goals Over 2.5 @1.65",
+        "Mebrat Hayl vs Negele Arsi Ketema — Over 2.5 Goals Over 2.5 @2.62",
+        "Hatta vs Gulf United — BTTS Yes BTTS Yes @1.58"
+      ]
+    },
+    {
+      "titulo": "Múltipla 6 — inter",
+      "prob_real_combo": 0.658024,
+      "fair_combo": 1.52,
+      "odd_combo": 42.73,
+      "ev_combo": 2711.66,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Fiorentina W vs Roma W — Over 2.5 Goals Over 2.5 @1.65",
+        "Mebrat Hayl vs Negele Arsi Ketema — Over 2.5 Goals Over 2.5 @2.62",
+        "Parma U19 vs Cesena U20 — Over 2.5 Goals Over 2.5 @1.42"
+      ]
+    },
+    {
+      "titulo": "Múltipla 6 — inter",
+      "prob_real_combo": 0.658024,
+      "fair_combo": 1.52,
+      "odd_combo": 41.83,
+      "ev_combo": 2652.26,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Fiorentina W vs Roma W — Over 2.5 Goals Over 2.5 @1.65",
+        "Mebrat Hayl vs Negele Arsi Ketema — Over 2.5 Goals Over 2.5 @2.62",
+        "Gorica vs HNK Vukovar 1991 — 1st Half Over 0.5 1st Half Over 0.5 @1.39"
+      ]
+    },
+    {
+      "titulo": "Múltipla 6 — inter",
+      "prob_real_combo": 0.658024,
+      "fair_combo": 1.52,
+      "odd_combo": 40.92,
+      "ev_combo": 2592.86,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Ma'an vs Shabab Al Ordon — Under 2.5 Goals Under 2.5 @1.85",
+        "Al Ahli vs Al Sareeh — Under 2.5 Goals Under 2.5 @1.75",
+        "Fiorentina W vs Roma W — Over 2.5 Goals Over 2.5 @1.65",
+        "Mebrat Hayl vs Negele Arsi Ketema — Over 2.5 Goals Over 2.5 @2.62",
+        "WSPG Wels vs First Vienna — 1st Half Over 0.5 1st Half Over 0.5 @1.36"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.901692,
+      "fair_combo": 1.109,
+      "odd_combo": 4.3,
+      "ev_combo": 287.73,
+      "legs": [
+        "Al Salt vs Al Hashemeya — Over 2.5 Goals Over 2.5 @2.15",
+        "Al Salt vs Al Hashemeya — BTTS Yes BTTS Yes @2.00"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.901692,
+      "fair_combo": 1.109,
+      "odd_combo": 2.69,
+      "ev_combo": 142.51,
+      "legs": [
+        "Fiorentina W vs Roma W — Over 2.5 Goals Over 2.5 @1.65",
+        "Fiorentina W vs Roma W — BTTS Yes BTTS Yes @1.63"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.74448,
+      "fair_combo": 1.343,
+      "odd_combo": 3.02,
+      "ev_combo": 125.18,
+      "legs": [
+        "Parma U19 vs Cesena U20 — 1st Half Over 1.5 1st Half Over 1.5 @2.13",
+        "Parma U19 vs Cesena U20 — Over 2.5 Goals Over 2.5 @1.42"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.931095,
+      "fair_combo": 1.074,
+      "odd_combo": 2.01,
+      "ev_combo": 86.83,
+      "legs": [
+        "Hatta vs Gulf United — BTTS Yes BTTS Yes @1.58",
+        "Hatta vs Gulf United — 1st Half Over 0.5 1st Half Over 0.5 @1.27"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.630135,
+      "fair_combo": 1.587,
+      "odd_combo": 3.63,
+      "ev_combo": 128.99,
+      "legs": [
+        "Hatta vs Gulf United — BTTS Yes BTTS Yes @1.58",
+        "Hatta vs Gulf United — 1st Half Over 1.5 1st Half Over 1.5 @2.30"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.7695,
+      "fair_combo": 1.3,
+      "odd_combo": 2.59,
+      "ev_combo": 99.64,
+      "legs": [
+        "Quevilly Rouen vs Châteauroux — BTTS Yes BTTS Yes @1.84",
+        "Quevilly Rouen vs Châteauroux — 1st Half Over 0.5 1st Half Over 0.5 @1.41"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.684,
+      "fair_combo": 1.462,
+      "odd_combo": 3.0,
+      "ev_combo": 105.43,
+      "legs": [
+        "Parma U19 vs Cesena U20 — 1st Half Over 1.5 1st Half Over 1.5 @2.13",
+        "Parma U19 vs Cesena U20 — BTTS Yes BTTS Yes @1.41"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.765072,
+      "fair_combo": 1.307,
+      "odd_combo": 2.51,
+      "ev_combo": 92.2,
+      "legs": [
+        "Hatta vs Gulf United — BTTS Yes BTTS Yes @1.58",
+        "Hatta vs Gulf United — Over 2.5 Goals Over 2.5 @1.59"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.7524,
+      "fair_combo": 1.329,
+      "odd_combo": 2.56,
+      "ev_combo": 92.31,
+      "legs": [
+        "Parma U19 vs Cesena U20 — 1st Half Over 1.5 1st Half Over 1.5 @2.13",
+        "Parma U19 vs Cesena U20 — 1st Half Over 0.5 1st Half Over 0.5 @1.20"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.921294,
+      "fair_combo": 1.085,
+      "odd_combo": 1.7,
+      "ev_combo": 56.99,
+      "legs": [
+        "Parma U19 vs Cesena U20 — Over 2.5 Goals Over 2.5 @1.42",
+        "Parma U19 vs Cesena U20 — 1st Half Over 0.5 1st Half Over 0.5 @1.20"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.670032,
+      "fair_combo": 1.492,
+      "odd_combo": 2.81,
+      "ev_combo": 88.13,
+      "legs": [
+        "Gorica vs HNK Vukovar 1991 — 1st Half Over 0.5 1st Half Over 0.5 @1.39",
+        "Gorica vs HNK Vukovar 1991 — Over 2.5 Goals Over 2.5 @2.02"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.81972,
+      "fair_combo": 1.22,
+      "odd_combo": 2.0,
+      "ev_combo": 64.12,
+      "legs": [
+        "Parma U19 vs Cesena U20 — Over 2.5 Goals Over 2.5 @1.42",
+        "Parma U19 vs Cesena U20 — BTTS Yes BTTS Yes @1.41"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.800316,
+      "fair_combo": 1.25,
+      "odd_combo": 2.07,
+      "ev_combo": 65.95,
+      "legs": [
+        "OB vs Silkeborg — 1st Half Over 0.5 1st Half Over 0.5 @1.28",
+        "OB vs Silkeborg — Over 2.5 Goals Over 2.5 @1.62"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.80883,
+      "fair_combo": 1.236,
+      "odd_combo": 1.96,
+      "ev_combo": 58.4,
+      "legs": [
+        "OB vs Silkeborg — 1st Half Over 0.5 1st Half Over 0.5 @1.28",
+        "OB vs Silkeborg — BTTS Yes BTTS Yes @1.53"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.630135,
+      "fair_combo": 1.587,
+      "odd_combo": 2.92,
+      "ev_combo": 84.06,
+      "legs": [
+        "Hatta vs Gulf United — 1st Half Over 0.5 1st Half Over 0.5 @1.27",
+        "Hatta vs Gulf United — 1st Half Over 1.5 1st Half Over 1.5 @2.30"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.781704,
+      "fair_combo": 1.279,
+      "odd_combo": 2.02,
+      "ev_combo": 57.85,
+      "legs": [
+        "Hatta vs Gulf United — 1st Half Over 0.5 1st Half Over 0.5 @1.27",
+        "Hatta vs Gulf United — Over 2.5 Goals Over 2.5 @1.59"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.680432,
+      "fair_combo": 1.47,
+      "odd_combo": 2.48,
+      "ev_combo": 68.65,
+      "legs": [
+        "OB vs Silkeborg — Over 2.5 Goals Over 2.5 @1.62",
+        "OB vs Silkeborg — BTTS Yes BTTS Yes @1.53"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.84645,
+      "fair_combo": 1.181,
+      "odd_combo": 1.69,
+      "ev_combo": 43.22,
+      "legs": [
+        "Parma U19 vs Cesena U20 — 1st Half Over 0.5 1st Half Over 0.5 @1.20",
+        "Parma U19 vs Cesena U20 — BTTS Yes BTTS Yes @1.41"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.6768,
+      "fair_combo": 1.478,
+      "odd_combo": 2.3,
+      "ev_combo": 55.45,
+      "legs": [
+        "Paris vs Rennes — Over 2.5 Goals Over 2.5 @1.74",
+        "Paris vs Rennes — 1st Half Over 0.5 1st Half Over 0.5 @1.32"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.5888,
+      "fair_combo": 1.698,
+      "odd_combo": 2.73,
+      "ev_combo": 60.85,
+      "legs": [
+        "Paris vs Rennes — Over 2.5 Goals Over 2.5 @1.74",
+        "Paris vs Rennes — BTTS Yes BTTS Yes @1.57"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.684,
+      "fair_combo": 1.462,
+      "odd_combo": 2.07,
+      "ev_combo": 41.75,
+      "legs": [
+        "Paris vs Rennes — 1st Half Over 0.5 1st Half Over 0.5 @1.32",
+        "Paris vs Rennes — BTTS Yes BTTS Yes @1.57"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.55575,
+      "fair_combo": 1.799,
+      "odd_combo": 2.89,
+      "ev_combo": 60.77,
+      "legs": [
+        "RFC Liege vs KAA Gent II — 1st Half Over 0.5 1st Half Over 0.5 @1.28",
+        "RFC Liege vs KAA Gent II — BTTS No BTTS No @2.26"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.609615,
+      "fair_combo": 1.64,
+      "odd_combo": 2.46,
+      "ev_combo": 49.74,
+      "legs": [
+        "Gleisdorf 09 vs Velden — 1st Half Over 0.5 1st Half Over 0.5 @1.21",
+        "Gleisdorf 09 vs Velden — 1st Half Over 1.5 1st Half Over 1.5 @2.03"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.638636,
+      "fair_combo": 1.566,
+      "odd_combo": 2.26,
+      "ev_combo": 44.17,
+      "legs": [
+        "Chojniczanka Chojnice vs Unia Skierniewice — Over 2.5 Goals Over 2.5 @1.75",
+        "Chojniczanka Chojnice vs Unia Skierniewice — 1st Half Over 0.5 1st Half Over 0.5 @1.29"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.79002,
+      "fair_combo": 1.266,
+      "odd_combo": 1.5,
+      "ev_combo": 18.88,
+      "legs": [
+        "Crystal Palace U21 vs Stoke City U21 — 1st Half Over 0.5 1st Half Over 0.5 @1.14",
+        "Crystal Palace U21 vs Stoke City U21 — BTTS Yes BTTS Yes @1.32"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.574172,
+      "fair_combo": 1.742,
+      "odd_combo": 2.59,
+      "ev_combo": 48.78,
+      "legs": [
+        "Písek vs Dukla Praha II — Over 2.5 Goals Over 2.5 @1.64",
+        "Písek vs Dukla Praha II — BTTS Yes BTTS Yes @1.58"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.781704,
+      "fair_combo": 1.279,
+      "odd_combo": 1.46,
+      "ev_combo": 14.07,
+      "legs": [
+        "Crystal Palace U21 vs Stoke City U21 — 1st Half Over 0.5 1st Half Over 0.5 @1.14",
+        "Crystal Palace U21 vs Stoke City U21 — Over 2.5 Goals Over 2.5 @1.28"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.795616,
+      "fair_combo": 1.257,
+      "odd_combo": 1.38,
+      "ev_combo": 9.6,
+      "legs": [
+        "Swansea City U21 vs Charlton Athletic U21 — Over 2.5 Goals Over 2.5 @1.23",
+        "Swansea City U21 vs Charlton Athletic U21 — 1st Half Over 0.5 1st Half Over 0.5 @1.12"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.57,
+      "fair_combo": 1.754,
+      "odd_combo": 2.5,
+      "ev_combo": 42.79,
+      "legs": [
+        "Persepolis vs Esteghlal Khuzestan — 1st Half Over 0.5 1st Half Over 0.5 @1.50",
+        "Persepolis vs Esteghlal Khuzestan — Under 2.5 Goals Under 2.5 @1.67"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.768732,
+      "fair_combo": 1.301,
+      "odd_combo": 1.46,
+      "ev_combo": 12.17,
+      "legs": [
+        "Kickers Offenbach vs Freiburg II — 1st Half Over 0.5 1st Half Over 0.5 @1.14",
+        "Kickers Offenbach vs Freiburg II — Over 2.5 Goals Over 2.5 @1.28"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.6768,
+      "fair_combo": 1.478,
+      "odd_combo": 1.85,
+      "ev_combo": 25.51,
+      "legs": [
+        "Greuther Fürth vs Preußen Münster — 1st Half Over 0.5 1st Half Over 0.5 @1.22",
+        "Greuther Fürth vs Preußen Münster — Over 2.5 Goals Over 2.5 @1.52"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.649152,
+      "fair_combo": 1.54,
+      "odd_combo": 1.8,
+      "ev_combo": 16.56,
+      "legs": [
+        "Southampton U21 vs Arsenal U21 — Over 2.5 Goals Over 2.5 @1.35",
+        "Southampton U21 vs Arsenal U21 — BTTS Yes BTTS Yes @1.33"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.5727,
+      "fair_combo": 1.746,
+      "odd_combo": 2.23,
+      "ev_combo": 27.74,
+      "legs": [
+        "ADO Den Haag vs Roda JC — Over 2.5 Goals Over 2.5 @1.36",
+        "ADO Den Haag vs Roda JC — BTTS Yes BTTS Yes @1.64"
+      ]
+    },
+    {
+      "titulo": "Duplo — intra",
+      "prob_real_combo": 0.649152,
+      "fair_combo": 1.54,
+      "odd_combo": 1.69,
+      "ev_combo": 9.68,
+      "legs": [
+        "Crystal Palace U21 vs Stoke City U21 — BTTS Yes BTTS Yes @1.32",
+        "Crystal Palace U21 vs Stoke City U21 — Over 2.5 Goals Over 2.5 @1.28"
+      ]
+    },
+    {
+      "titulo": "Triplo — intra",
+      "prob_real_combo": 0.64152,
+      "fair_combo": 1.559,
+      "odd_combo": 4.26,
+      "ev_combo": 173.59,
+      "legs": [
+        "Parma U19 vs Cesena U20 — Over 2.5 Goals Over 2.5 @1.42",
+        "Parma U19 vs Cesena U20 — BTTS Yes BTTS Yes @1.41",
+        "Parma U19 vs Cesena U20 — 1st Half Over 1.5 1st Half Over 1.5 @2.13"
+      ]
+    },
+    {
+      "titulo": "Triplo — intra",
+      "prob_real_combo": 0.501455,
+      "fair_combo": 1.994,
+      "odd_combo": 5.78,
+      "ev_combo": 189.74,
+      "legs": [
+        "Hatta vs Gulf United — Over 2.5 Goals Over 2.5 @1.59",
+        "Hatta vs Gulf United — BTTS Yes BTTS Yes @1.58",
+        "Hatta vs Gulf United — 1st Half Over 1.5 1st Half Over 1.5 @2.30"
+      ]
+    },
+    {
+      "titulo": "Triplo — intra",
+      "prob_real_combo": 0.740956,
+      "fair_combo": 1.35,
+      "odd_combo": 3.19,
+      "ev_combo": 136.4,
+      "legs": [
+        "Hatta vs Gulf United — Over 2.5 Goals Over 2.5 @1.59",
+        "Hatta vs Gulf United — BTTS Yes BTTS Yes @1.58",
+        "Hatta vs Gulf United — 1st Half Over 0.5 1st Half Over 0.5 @1.27"
+      ]
+    },
+    {
+      "titulo": "Triplo — intra",
+      "prob_real_combo": 0.793881,
+      "fair_combo": 1.26,
+      "odd_combo": 2.4,
+      "ev_combo": 90.74,
+      "legs": [
+        "Parma U19 vs Cesena U20 — Over 2.5 Goals Over 2.5 @1.42",
+        "Parma U19 vs Cesena U20 — BTTS Yes BTTS Yes @1.41",
+        "Parma U19 vs Cesena U20 — 1st Half Over 0.5 1st Half Over 0.5 @1.20"
+      ]
+    },
+    {
+      "titulo": "Triplo — intra",
+      "prob_real_combo": 0.658984,
+      "fair_combo": 1.517,
+      "odd_combo": 3.17,
+      "ev_combo": 109.07,
+      "legs": [
+        "OB vs Silkeborg — Over 2.5 Goals Over 2.5 @1.62",
+        "OB vs Silkeborg — BTTS Yes BTTS Yes @1.53",
+        "OB vs Silkeborg — 1st Half Over 0.5 1st Half Over 0.5 @1.28"
+      ]
+    },
+    {
+      "titulo": "Triplo — intra",
+      "prob_real_combo": 0.5184,
+      "fair_combo": 1.929,
+      "odd_combo": 3.61,
+      "ev_combo": 86.93,
+      "legs": [
+        "Paris vs Rennes — Over 2.5 Goals Over 2.5 @1.74",
+        "Paris vs Rennes — BTTS Yes BTTS Yes @1.57",
+        "Paris vs Rennes — 1st Half Over 0.5 1st Half Over 0.5 @1.32"
+      ]
+    },
+    {
+      "titulo": "Triplo — intra",
+      "prob_real_combo": 0.483053,
+      "fair_combo": 2.07,
+      "odd_combo": 3.32,
+      "ev_combo": 60.22,
+      "legs": [
+        "Písek vs Dukla Praha II — Over 2.5 Goals Over 2.5 @1.64",
+        "Písek vs Dukla Praha II — BTTS Yes BTTS Yes @1.58",
+        "Písek vs Dukla Praha II — 1st Half Over 0.5 1st Half Over 0.5 @1.28"
+      ]
+    },
+    {
+      "titulo": "Triplo — intra",
+      "prob_real_combo": 0.62869,
+      "fair_combo": 1.591,
+      "odd_combo": 1.93,
+      "ev_combo": 21.09,
+      "legs": [
+        "Crystal Palace U21 vs Stoke City U21 — Over 2.5 Goals Over 2.5 @1.28",
+        "Crystal Palace U21 vs Stoke City U21 — BTTS Yes BTTS Yes @1.32",
+        "Crystal Palace U21 vs Stoke City U21 — 1st Half Over 0.5 1st Half Over 0.5 @1.14"
+      ]
+    },
+    {
+      "titulo": "Triplo — intra",
+      "prob_real_combo": 0.618257,
+      "fair_combo": 1.617,
+      "odd_combo": 1.88,
+      "ev_combo": 16.38,
+      "legs": [
+        "Kickers Offenbach vs Freiburg II — Over 2.5 Goals Over 2.5 @1.28",
+        "Kickers Offenbach vs Freiburg II — BTTS Yes BTTS Yes @1.29",
+        "Kickers Offenbach vs Freiburg II — 1st Half Over 0.5 1st Half Over 0.5 @1.14"
+      ]
+    }
+  ]
+}

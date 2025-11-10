@@ -1,0 +1,2056 @@
+{
+  "updated": "2025-11-10T02:27:37.634714Z",
+  "count": 200,
+  "entries": [
+    {
+      "id": 1,
+      "category": "Chance And Probability",
+      "tone": "wry",
+      "en": "The house always wins, but only because it keeps the score.",
+      "pt": "A casa sempre vence, mas só porque é ela quem faz a contagem.",
+      "year": 1974,
+      "html": "<b><i>The house always wins, but only because it keeps the score.</i></b>\n<i>A casa sempre vence, mas só porque é ela quem faz a contagem.</i>\n— Bet Masterson, 1974"
+    },
+    {
+      "id": 2,
+      "category": "Chance And Probability",
+      "tone": "wry",
+      "en": "Probability is just manners for uncertainty.",
+      "pt": "Probabilidade é apenas boas maneiras para a incerteza.",
+      "year": 1981,
+      "html": "<b><i>Probability is just manners for uncertainty.</i></b>\n<i>Probabilidade é apenas boas maneiras para a incerteza.</i>\n— Bet Masterson, 1981"
+    },
+    {
+      "id": 3,
+      "category": "Chance And Probability",
+      "tone": "wry",
+      "en": "Chance is the only honest accountant.",
+      "pt": "O acaso é o único contador honesto.",
+      "year": 1995,
+      "html": "<b><i>Chance is the only honest accountant.</i></b>\n<i>O acaso é o único contador honesto.</i>\n— Bet Masterson, 1995"
+    },
+    {
+      "id": 4,
+      "category": "Chance And Probability",
+      "tone": "bright",
+      "en": "Hope and risk share the same denominator.",
+      "pt": "A esperança e o risco compartilham o mesmo denominador.",
+      "year": 2003,
+      "html": "<b><i>Hope and risk share the same denominator.</i></b>\n<i>A esperança e o risco compartilham o mesmo denominador.</i>\n— Bet Masterson, 2003"
+    },
+    {
+      "id": 5,
+      "category": "Chance And Probability",
+      "tone": "bright",
+      "en": "Every miracle starts as a miscalculation.",
+      "pt": "Todo milagre começa como um erro de cálculo.",
+      "year": 1978,
+      "html": "<b><i>Every miracle starts as a miscalculation.</i></b>\n<i>Todo milagre começa como um erro de cálculo.</i>\n— Bet Masterson, 1978"
+    },
+    {
+      "id": 6,
+      "category": "Chance And Probability",
+      "tone": "wry",
+      "en": "A draw is just destiny taking the afternoon off.",
+      "pt": "Um empate é apenas o destino tirando a tarde de folga.",
+      "year": 1988,
+      "html": "<b><i>A draw is just destiny taking the afternoon off.</i></b>\n<i>Um empate é apenas o destino tirando a tarde de folga.</i>\n— Bet Masterson, 1988"
+    },
+    {
+      "id": 7,
+      "category": "Chance And Probability",
+      "tone": "wry",
+      "en": "Faith and failure share the same decimal place.",
+      "pt": "A fé e o fracasso ocupam o mesmo espaço decimal.",
+      "year": 2002,
+      "html": "<b><i>Faith and failure share the same decimal place.</i></b>\n<i>A fé e o fracasso ocupam o mesmo espaço decimal.</i>\n— Bet Masterson, 2002"
+    },
+    {
+      "id": 8,
+      "category": "Chance And Probability",
+      "tone": "wry",
+      "en": "The house calls it variance. I call it personality.",
+      "pt": "A casa chama de variância. Eu chamo de personalidade.",
+      "year": 1994,
+      "html": "<b><i>The house calls it variance. I call it personality.</i></b>\n<i>A casa chama de variância. Eu chamo de personalidade.</i>\n— Bet Masterson, 1994"
+    },
+    {
+      "id": 9,
+      "category": "Chance And Probability",
+      "tone": "bright",
+      "en": "Luck ages faster than reason.",
+      "pt": "A sorte envelhece mais rápido que a razão.",
+      "year": 1983,
+      "html": "<b><i>Luck ages faster than reason.</i></b>\n<i>A sorte envelhece mais rápido que a razão.</i>\n— Bet Masterson, 1983"
+    },
+    {
+      "id": 10,
+      "category": "Chance And Probability",
+      "tone": "wry",
+      "en": "Chance is democracy at its purest.",
+      "pt": "A chance é a democracia em sua forma mais pura.",
+      "year": 2011,
+      "html": "<b><i>Chance is democracy at its purest.</i></b>\n<i>A chance é a democracia em sua forma mais pura.</i>\n— Bet Masterson, 2011"
+    },
+    {
+      "id": 11,
+      "category": "Chance And Probability",
+      "tone": "wry",
+      "en": "Doubt is the most reliable constant.",
+      "pt": "A dúvida é a constante mais confiável.",
+      "year": 1987,
+      "html": "<b><i>Doubt is the most reliable constant.</i></b>\n<i>A dúvida é a constante mais confiável.</i>\n— Bet Masterson, 1987"
+    },
+    {
+      "id": 12,
+      "category": "Chance And Probability",
+      "tone": "wry",
+      "en": "Every gambler is a philosopher with worse handwriting.",
+      "pt": "Todo apostador é um filósofo com caligrafia pior.",
+      "year": 1990,
+      "html": "<b><i>Every gambler is a philosopher with worse handwriting.</i></b>\n<i>Todo apostador é um filósofo com caligrafia pior.</i>\n— Bet Masterson, 1990"
+    },
+    {
+      "id": 13,
+      "category": "Chance And Probability",
+      "tone": "dark",
+      "en": "Order is the briefest form of panic.",
+      "pt": "A ordem é a forma mais breve do pânico.",
+      "year": 2005,
+      "html": "<b><i>Order is the briefest form of panic.</i></b>\n<i>A ordem é a forma mais breve do pânico.</i>\n— Bet Masterson, 2005"
+    },
+    {
+      "id": 14,
+      "category": "Chance And Probability",
+      "tone": "bright",
+      "en": "Luck is history repeating with better lighting.",
+      "pt": "A sorte é a história se repetindo com uma iluminação melhor.",
+      "year": 2017,
+      "html": "<b><i>Luck is history repeating with better lighting.</i></b>\n<i>A sorte é a história se repetindo com uma iluminação melhor.</i>\n— Bet Masterson, 2017"
+    },
+    {
+      "id": 15,
+      "category": "Chance And Probability",
+      "tone": "wry",
+      "en": "Every pattern begins as an accident with ambition.",
+      "pt": "Todo padrão começa como um acidente com ambição.",
+      "year": 1976,
+      "html": "<b><i>Every pattern begins as an accident with ambition.</i></b>\n<i>Todo padrão começa como um acidente com ambição.</i>\n— Bet Masterson, 1976"
+    },
+    {
+      "id": 16,
+      "category": "Chance And Probability",
+      "tone": "wry",
+      "en": "Risk is curiosity with better shoes.",
+      "pt": "O risco é a curiosidade com sapatos melhores.",
+      "year": 1999,
+      "html": "<b><i>Risk is curiosity with better shoes.</i></b>\n<i>O risco é a curiosidade com sapatos melhores.</i>\n— Bet Masterson, 1999"
+    },
+    {
+      "id": 17,
+      "category": "Chance And Probability",
+      "tone": "bright",
+      "en": "Fairness and fiction share an editor.",
+      "pt": "A justiça e a ficção compartilham o mesmo editor.",
+      "year": 2015,
+      "html": "<b><i>Fairness and fiction share an editor.</i></b>\n<i>A justiça e a ficção compartilham o mesmo editor.</i>\n— Bet Masterson, 2015"
+    },
+    {
+      "id": 18,
+      "category": "Chance And Probability",
+      "tone": "bright",
+      "en": "Truth behaves best when no one’s looking.",
+      "pt": "A verdade se comporta melhor quando ninguém está olhando.",
+      "year": 1968,
+      "html": "<b><i>Truth behaves best when no one’s looking.</i></b>\n<i>A verdade se comporta melhor quando ninguém está olhando.</i>\n— Bet Masterson, 1968"
+    },
+    {
+      "id": 19,
+      "category": "Chance And Probability",
+      "tone": "bright",
+      "en": "Hope is leverage with bad collateral.",
+      "pt": "A esperança é uma alavanca com garantia ruim.",
+      "year": 1982,
+      "html": "<b><i>Hope is leverage with bad collateral.</i></b>\n<i>A esperança é uma alavanca com garantia ruim.</i>\n— Bet Masterson, 1982"
+    },
+    {
+      "id": 20,
+      "category": "Chance And Probability",
+      "tone": "wry",
+      "en": "The market is never wrong, only impatient.",
+      "pt": "O mercado nunca está errado, apenas impaciente.",
+      "year": 1997,
+      "html": "<b><i>The market is never wrong, only impatient.</i></b>\n<i>O mercado nunca está errado, apenas impaciente.</i>\n— Bet Masterson, 1997"
+    },
+    {
+      "id": 21,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "Every number hides a story, every story hides a mistake.",
+      "pt": "Todo número esconde uma história, toda história esconde um erro.",
+      "year": 1979,
+      "html": "<b><i>Every number hides a story, every story hides a mistake.</i></b>\n<i>Todo número esconde uma história, toda história esconde um erro.</i>\n— Bet Masterson, 1979"
+    },
+    {
+      "id": 22,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "Statistics are the poetry of those afraid of rhyme.",
+      "pt": "A estatística é a poesia de quem tem medo da rima.",
+      "year": 1998,
+      "html": "<b><i>Statistics are the poetry of those afraid of rhyme.</i></b>\n<i>A estatística é a poesia de quem tem medo da rima.</i>\n— Bet Masterson, 1998"
+    },
+    {
+      "id": 23,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "Time doesn’t heal. It merely recalculates.",
+      "pt": "O tempo não cura. Apenas recalcula.",
+      "year": 1986,
+      "html": "<b><i>Time doesn’t heal. It merely recalculates.</i></b>\n<i>O tempo não cura. Apenas recalcula.</i>\n— Bet Masterson, 1986"
+    },
+    {
+      "id": 24,
+      "category": "Numbers And Mathematics",
+      "tone": "dark",
+      "en": "Balance is what we call defeat in slow motion.",
+      "pt": "Equilíbrio é como chamamos a derrota em câmera lenta.",
+      "year": 2012,
+      "html": "<b><i>Balance is what we call defeat in slow motion.</i></b>\n<i>Equilíbrio é como chamamos a derrota em câmera lenta.</i>\n— Bet Masterson, 2012"
+    },
+    {
+      "id": 25,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "Regression is nostalgia wearing data.",
+      "pt": "A regressão é a nostalgia vestindo dados.",
+      "year": 1991,
+      "html": "<b><i>Regression is nostalgia wearing data.</i></b>\n<i>A regressão é a nostalgia vestindo dados.</i>\n— Bet Masterson, 1991"
+    },
+    {
+      "id": 26,
+      "category": "Numbers And Mathematics",
+      "tone": "bright",
+      "en": "Mathematics forgives everyone but the sentimental.",
+      "pt": "A matemática perdoa todos, menos os sentimentais.",
+      "year": 2019,
+      "html": "<b><i>Mathematics forgives everyone but the sentimental.</i></b>\n<i>A matemática perdoa todos, menos os sentimentais.</i>\n— Bet Masterson, 2019"
+    },
+    {
+      "id": 27,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "There’s beauty in the error term.",
+      "pt": "Há beleza no termo de erro.",
+      "year": 2001,
+      "html": "<b><i>There’s beauty in the error term.</i></b>\n<i>Há beleza no termo de erro.</i>\n— Bet Masterson, 2001"
+    },
+    {
+      "id": 28,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "Every formula hides a confession.",
+      "pt": "Cada fórmula esconde uma confissão.",
+      "year": 1993,
+      "html": "<b><i>Every formula hides a confession.</i></b>\n<i>Cada fórmula esconde uma confissão.</i>\n— Bet Masterson, 1993"
+    },
+    {
+      "id": 29,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "Order is a rumour started by statistics.",
+      "pt": "A ordem é um boato iniciado pela estatística.",
+      "year": 1985,
+      "html": "<b><i>Order is a rumour started by statistics.</i></b>\n<i>A ordem é um boato iniciado pela estatística.</i>\n— Bet Masterson, 1985"
+    },
+    {
+      "id": 30,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "Numbers don’t lie. They just withhold context.",
+      "pt": "Os números não mentem. Eles apenas omitem o contexto.",
+      "year": 1988,
+      "html": "<b><i>Numbers don’t lie. They just withhold context.</i></b>\n<i>Os números não mentem. Eles apenas omitem o contexto.</i>\n— Bet Masterson, 1988"
+    },
+    {
+      "id": 31,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "Precision is just vanity with decimals.",
+      "pt": "A precisão é apenas vaidade com decimais.",
+      "year": 2014,
+      "html": "<b><i>Precision is just vanity with decimals.</i></b>\n<i>A precisão é apenas vaidade com decimais.</i>\n— Bet Masterson, 2014"
+    },
+    {
+      "id": 32,
+      "category": "Numbers And Mathematics",
+      "tone": "dark",
+      "en": "Even chaos has its routines.",
+      "pt": "Mesmo o caos tem suas rotinas.",
+      "year": 1972,
+      "html": "<b><i>Even chaos has its routines.</i></b>\n<i>Mesmo o caos tem suas rotinas.</i>\n— Bet Masterson, 1972"
+    },
+    {
+      "id": 33,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "A misplaced decimal has more power than confession.",
+      "pt": "Um decimal fora do lugar tem mais poder que uma confissão.",
+      "year": 1996,
+      "html": "<b><i>A misplaced decimal has more power than confession.</i></b>\n<i>Um decimal fora do lugar tem mais poder que uma confissão.</i>\n— Bet Masterson, 1996"
+    },
+    {
+      "id": 34,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "Every equation is an argument disguised as logic.",
+      "pt": "Cada equação é uma discussão disfarçada de lógica.",
+      "year": 2007,
+      "html": "<b><i>Every equation is an argument disguised as logic.</i></b>\n<i>Cada equação é uma discussão disfarçada de lógica.</i>\n— Bet Masterson, 2007"
+    },
+    {
+      "id": 35,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "The cleanest models hide the dirtiest doubts.",
+      "pt": "Os modelos mais limpos escondem as dúvidas mais sujas.",
+      "year": 2004,
+      "html": "<b><i>The cleanest models hide the dirtiest doubts.</i></b>\n<i>Os modelos mais limpos escondem as dúvidas mais sujas.</i>\n— Bet Masterson, 2004"
+    },
+    {
+      "id": 36,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "Mathematics is religion for those who need proof.",
+      "pt": "A matemática é religião para quem exige prova.",
+      "year": 1980,
+      "html": "<b><i>Mathematics is religion for those who need proof.</i></b>\n<i>A matemática é religião para quem exige prova.</i>\n— Bet Masterson, 1980"
+    },
+    {
+      "id": 37,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "Certainty is arrogance in decimal form.",
+      "pt": "A certeza é arrogância em forma decimal.",
+      "year": 2016,
+      "html": "<b><i>Certainty is arrogance in decimal form.</i></b>\n<i>A certeza é arrogância em forma decimal.</i>\n— Bet Masterson, 2016"
+    },
+    {
+      "id": 38,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "I measure time in probabilities, not minutes.",
+      "pt": "Medi o tempo em probabilidades, não em minutos.",
+      "year": 1975,
+      "html": "<b><i>I measure time in probabilities, not minutes.</i></b>\n<i>Medi o tempo em probabilidades, não em minutos.</i>\n— Bet Masterson, 1975"
+    },
+    {
+      "id": 39,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "The spreadsheet is mightier than the sermon.",
+      "pt": "A planilha é mais poderosa que o sermão.",
+      "year": 1990,
+      "html": "<b><i>The spreadsheet is mightier than the sermon.</i></b>\n<i>A planilha é mais poderosa que o sermão.</i>\n— Bet Masterson, 1990"
+    },
+    {
+      "id": 40,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "Every average hides a rebellion.",
+      "pt": "Cada média esconde uma rebelião.",
+      "year": 1999,
+      "html": "<b><i>Every average hides a rebellion.</i></b>\n<i>Cada média esconde uma rebelião.</i>\n— Bet Masterson, 1999"
+    },
+    {
+      "id": 41,
+      "category": "Numbers And Mathematics",
+      "tone": "dark",
+      "en": "Numbers are quieter than regret.",
+      "pt": "Os números são mais silenciosos que o arrependimento.",
+      "year": 2008,
+      "html": "<b><i>Numbers are quieter than regret.</i></b>\n<i>Os números são mais silenciosos que o arrependimento.</i>\n— Bet Masterson, 2008"
+    },
+    {
+      "id": 42,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "Symmetry is vanity pretending to be order.",
+      "pt": "A simetria é vaidade fingindo ser ordem.",
+      "year": 2013,
+      "html": "<b><i>Symmetry is vanity pretending to be order.</i></b>\n<i>A simetria é vaidade fingindo ser ordem.</i>\n— Bet Masterson, 2013"
+    },
+    {
+      "id": 43,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "The model never sleeps. It only dreams of accuracy.",
+      "pt": "O modelo nunca dorme. Apenas sonha com precisão.",
+      "year": 2002,
+      "html": "<b><i>The model never sleeps. It only dreams of accuracy.</i></b>\n<i>O modelo nunca dorme. Apenas sonha com precisão.</i>\n— Bet Masterson, 2002"
+    },
+    {
+      "id": 44,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "Confidence is randomness rehearsed.",
+      "pt": "A confiança é o acaso ensaiado.",
+      "year": 1989,
+      "html": "<b><i>Confidence is randomness rehearsed.</i></b>\n<i>A confiança é o acaso ensaiado.</i>\n— Bet Masterson, 1989"
+    },
+    {
+      "id": 45,
+      "category": "Numbers And Mathematics",
+      "tone": "bright",
+      "en": "Mathematics forgives, but data never forgets.",
+      "pt": "A matemática perdoa, mas os dados nunca esquecem.",
+      "year": 2020,
+      "html": "<b><i>Mathematics forgives, but data never forgets.</i></b>\n<i>A matemática perdoa, mas os dados nunca esquecem.</i>\n— Bet Masterson, 2020"
+    },
+    {
+      "id": 46,
+      "category": "Numbers And Mathematics",
+      "tone": "dark",
+      "en": "Every variable lies about its past.",
+      "pt": "Cada variável mente sobre o seu passado.",
+      "year": 1995,
+      "html": "<b><i>Every variable lies about its past.</i></b>\n<i>Cada variável mente sobre o seu passado.</i>\n— Bet Masterson, 1995"
+    },
+    {
+      "id": 47,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "Equations are apologies disguised as confidence.",
+      "pt": "Equações são desculpas disfarçadas de confiança.",
+      "year": 2006,
+      "html": "<b><i>Equations are apologies disguised as confidence.</i></b>\n<i>Equações são desculpas disfarçadas de confiança.</i>\n— Bet Masterson, 2006"
+    },
+    {
+      "id": 48,
+      "category": "Numbers And Mathematics",
+      "tone": "bright",
+      "en": "Even algorithms need luck.",
+      "pt": "Até os algoritmos precisam de sorte.",
+      "year": 2011,
+      "html": "<b><i>Even algorithms need luck.</i></b>\n<i>Até os algoritmos precisam de sorte.</i>\n— Bet Masterson, 2011"
+    },
+    {
+      "id": 49,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "We model patterns to feel less mortal.",
+      "pt": "Modelamos padrões para nos sentirmos menos mortais.",
+      "year": 2018,
+      "html": "<b><i>We model patterns to feel less mortal.</i></b>\n<i>Modelamos padrões para nos sentirmos menos mortais.</i>\n— Bet Masterson, 2018"
+    },
+    {
+      "id": 50,
+      "category": "Numbers And Mathematics",
+      "tone": "dark",
+      "en": "The margin of error is where humanity lives.",
+      "pt": "A margem de erro é onde vive a humanidade.",
+      "year": 2010,
+      "html": "<b><i>The margin of error is where humanity lives.</i></b>\n<i>A margem de erro é onde vive a humanidade.</i>\n— Bet Masterson, 2010"
+    },
+    {
+      "id": 51,
+      "category": "Numbers And Mathematics",
+      "tone": "bright",
+      "en": "Fairness is a kind of faith. Some still play by it.",
+      "pt": "A justiça é uma espécie de fé. Alguns ainda jogam por ela.",
+      "year": 1984,
+      "html": "<b><i>Fairness is a kind of faith. Some still play by it.</i></b>\n<i>A justiça é uma espécie de fé. Alguns ainda jogam por ela.</i>\n— Bet Masterson, 1984"
+    },
+    {
+      "id": 52,
+      "category": "Numbers And Mathematics",
+      "tone": "bright",
+      "en": "Truth behaves best when no one’s keeping score.",
+      "pt": "A verdade se comporta melhor quando ninguém está marcando o placar.",
+      "year": 1969,
+      "html": "<b><i>Truth behaves best when no one’s keeping score.</i></b>\n<i>A verdade se comporta melhor quando ninguém está marcando o placar.</i>\n— Bet Masterson, 1969"
+    },
+    {
+      "id": 53,
+      "category": "Numbers And Mathematics",
+      "tone": "dark",
+      "en": "Justice isn’t blind. She’s tired.",
+      "pt": "A justiça não é cega. Está cansada.",
+      "year": 1992,
+      "html": "<b><i>Justice isn’t blind. She’s tired.</i></b>\n<i>A justiça não é cega. Está cansada.</i>\n— Bet Masterson, 1992"
+    },
+    {
+      "id": 54,
+      "category": "Numbers And Mathematics",
+      "tone": "bright",
+      "en": "Fairness and fiction share the same publisher.",
+      "pt": "A justiça e a ficção têm o mesmo editor.",
+      "year": 2003,
+      "html": "<b><i>Fairness and fiction share the same publisher.</i></b>\n<i>A justiça e a ficção têm o mesmo editor.</i>\n— Bet Masterson, 2003"
+    },
+    {
+      "id": 55,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "The game owes us nothing, which is why we trust it.",
+      "pt": "O jogo não nos deve nada, e é por isso que confiamos nele.",
+      "year": 2015,
+      "html": "<b><i>The game owes us nothing, which is why we trust it.</i></b>\n<i>O jogo não nos deve nada, e é por isso que confiamos nele.</i>\n— Bet Masterson, 2015"
+    },
+    {
+      "id": 56,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "Even mercy keeps a ledger.",
+      "pt": "Até a misericórdia mantém um livro-caixa.",
+      "year": 1977,
+      "html": "<b><i>Even mercy keeps a ledger.</i></b>\n<i>Até a misericórdia mantém um livro-caixa.</i>\n— Bet Masterson, 1977"
+    },
+    {
+      "id": 57,
+      "category": "Numbers And Mathematics",
+      "tone": "dark",
+      "en": "Every rule was written by someone who lost badly.",
+      "pt": "Cada regra foi escrita por alguém que perdeu feio.",
+      "year": 1988,
+      "html": "<b><i>Every rule was written by someone who lost badly.</i></b>\n<i>Cada regra foi escrita por alguém que perdeu feio.</i>\n— Bet Masterson, 1988"
+    },
+    {
+      "id": 58,
+      "category": "Numbers And Mathematics",
+      "tone": "bright",
+      "en": "Fairness has terrible timing but lovely manners.",
+      "pt": "A justiça tem um péssimo senso de tempo, mas ótimas maneiras.",
+      "year": 2011,
+      "html": "<b><i>Fairness has terrible timing but lovely manners.</i></b>\n<i>A justiça tem um péssimo senso de tempo, mas ótimas maneiras.</i>\n— Bet Masterson, 2011"
+    },
+    {
+      "id": 59,
+      "category": "Numbers And Mathematics",
+      "tone": "bright",
+      "en": "The crowd wants fairness. The house wants turnover.",
+      "pt": "A multidão quer justiça. A casa quer movimento.",
+      "year": 1996,
+      "html": "<b><i>The crowd wants fairness. The house wants turnover.</i></b>\n<i>A multidão quer justiça. A casa quer movimento.</i>\n— Bet Masterson, 1996"
+    },
+    {
+      "id": 60,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "Order is just morality with good PR.",
+      "pt": "A ordem é apenas moralidade com bom marketing.",
+      "year": 2007,
+      "html": "<b><i>Order is just morality with good PR.</i></b>\n<i>A ordem é apenas moralidade com bom marketing.</i>\n— Bet Masterson, 2007"
+    },
+    {
+      "id": 61,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "Ethics age faster than statistics.",
+      "pt": "A ética envelhece mais rápido que a estatística.",
+      "year": 2009,
+      "html": "<b><i>Ethics age faster than statistics.</i></b>\n<i>A ética envelhece mais rápido que a estatística.</i>\n— Bet Masterson, 2009"
+    },
+    {
+      "id": 62,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "The referee is God’s least convincing metaphor.",
+      "pt": "O árbitro é a metáfora menos convincente de Deus.",
+      "year": 1982,
+      "html": "<b><i>The referee is God’s least convincing metaphor.</i></b>\n<i>O árbitro é a metáfora menos convincente de Deus.</i>\n— Bet Masterson, 1982"
+    },
+    {
+      "id": 63,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "I once mistook boredom for balance.",
+      "pt": "Já confundi tédio com equilíbrio.",
+      "year": 1973,
+      "html": "<b><i>I once mistook boredom for balance.</i></b>\n<i>Já confundi tédio com equilíbrio.</i>\n— Bet Masterson, 1973"
+    },
+    {
+      "id": 64,
+      "category": "Numbers And Mathematics",
+      "tone": "bright",
+      "en": "The pitch forgives effort more than elegance.",
+      "pt": "O campo perdoa o esforço mais do que a elegância.",
+      "year": 2018,
+      "html": "<b><i>The pitch forgives effort more than elegance.</i></b>\n<i>O campo perdoa o esforço mais do que a elegância.</i>\n— Bet Masterson, 2018"
+    },
+    {
+      "id": 65,
+      "category": "Numbers And Mathematics",
+      "tone": "bright",
+      "en": "Fairness needs better marketing.",
+      "pt": "A justiça precisa de um marketing melhor.",
+      "year": 2016,
+      "html": "<b><i>Fairness needs better marketing.</i></b>\n<i>A justiça precisa de um marketing melhor.</i>\n— Bet Masterson, 2016"
+    },
+    {
+      "id": 66,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "The house doesn’t cheat. It just waits.",
+      "pt": "A casa não trapaceia. Apenas espera.",
+      "year": 1990,
+      "html": "<b><i>The house doesn’t cheat. It just waits.</i></b>\n<i>A casa não trapaceia. Apenas espera.</i>\n— Bet Masterson, 1990"
+    },
+    {
+      "id": 67,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "We count goals the way priests count sins.",
+      "pt": "Contamos gols como padres contam pecados.",
+      "year": 1987,
+      "html": "<b><i>We count goals the way priests count sins.</i></b>\n<i>Contamos gols como padres contam pecados.</i>\n— Bet Masterson, 1987"
+    },
+    {
+      "id": 68,
+      "category": "Numbers And Mathematics",
+      "tone": "bright",
+      "en": "Fairness is what luck calls itself in public.",
+      "pt": "A justiça é o nome que a sorte usa em público.",
+      "year": 2001,
+      "html": "<b><i>Fairness is what luck calls itself in public.</i></b>\n<i>A justiça é o nome que a sorte usa em público.</i>\n— Bet Masterson, 2001"
+    },
+    {
+      "id": 69,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "To calculate is to confess fear politely.",
+      "pt": "Calcular é confessar o medo com educação.",
+      "year": 1975,
+      "html": "<b><i>To calculate is to confess fear politely.</i></b>\n<i>Calcular é confessar o medo com educação.</i>\n— Bet Masterson, 1975"
+    },
+    {
+      "id": 70,
+      "category": "Numbers And Mathematics",
+      "tone": "dark",
+      "en": "Faith isn’t blind. It just refuses to update.",
+      "pt": "A fé não é cega. Apenas se recusa a se atualizar.",
+      "year": 1993,
+      "html": "<b><i>Faith isn’t blind. It just refuses to update.</i></b>\n<i>A fé não é cega. Apenas se recusa a se atualizar.</i>\n— Bet Masterson, 1993"
+    },
+    {
+      "id": 71,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "Doubt is courage in plain clothes.",
+      "pt": "A dúvida é a coragem à paisana.",
+      "year": 2005,
+      "html": "<b><i>Doubt is courage in plain clothes.</i></b>\n<i>A dúvida é a coragem à paisana.</i>\n— Bet Masterson, 2005"
+    },
+    {
+      "id": 72,
+      "category": "Numbers And Mathematics",
+      "tone": "dark",
+      "en": "A lost bet teaches more than a won argument.",
+      "pt": "Uma aposta perdida ensina mais que um argumento vencido.",
+      "year": 1986,
+      "html": "<b><i>A lost bet teaches more than a won argument.</i></b>\n<i>Uma aposta perdida ensina mais que um argumento vencido.</i>\n— Bet Masterson, 1986"
+    },
+    {
+      "id": 73,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "Confidence is a temporary religion.",
+      "pt": "A confiança é uma religião temporária.",
+      "year": 2010,
+      "html": "<b><i>Confidence is a temporary religion.</i></b>\n<i>A confiança é uma religião temporária.</i>\n— Bet Masterson, 2010"
+    },
+    {
+      "id": 74,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "Even probability prays before penalties.",
+      "pt": "Até a probabilidade reza antes dos pênaltis.",
+      "year": 2019,
+      "html": "<b><i>Even probability prays before penalties.</i></b>\n<i>Até a probabilidade reza antes dos pênaltis.</i>\n— Bet Masterson, 2019"
+    },
+    {
+      "id": 75,
+      "category": "Numbers And Mathematics",
+      "tone": "bright",
+      "en": "Fairness has a terrible sense of humour.",
+      "pt": "A justiça tem um péssimo senso de humor.",
+      "year": 2008,
+      "html": "<b><i>Fairness has a terrible sense of humour.</i></b>\n<i>A justiça tem um péssimo senso de humor.</i>\n— Bet Masterson, 2008"
+    },
+    {
+      "id": 76,
+      "category": "Numbers And Mathematics",
+      "tone": "bright",
+      "en": "To bet is to hope with decimals attached.",
+      "pt": "Apostar é ter esperança com decimais acoplados.",
+      "year": 1994,
+      "html": "<b><i>To bet is to hope with decimals attached.</i></b>\n<i>Apostar é ter esperança com decimais acoplados.</i>\n— Bet Masterson, 1994"
+    },
+    {
+      "id": 77,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "Luck and guilt are cousins.",
+      "pt": "A sorte e a culpa são primas.",
+      "year": 1980,
+      "html": "<b><i>Luck and guilt are cousins.</i></b>\n<i>A sorte e a culpa são primas.</i>\n— Bet Masterson, 1980"
+    },
+    {
+      "id": 78,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "Morality arrives late but demands interest.",
+      "pt": "A moralidade chega atrasada, mas cobra juros.",
+      "year": 1976,
+      "html": "<b><i>Morality arrives late but demands interest.</i></b>\n<i>A moralidade chega atrasada, mas cobra juros.</i>\n— Bet Masterson, 1976"
+    },
+    {
+      "id": 79,
+      "category": "Numbers And Mathematics",
+      "tone": "bright",
+      "en": "Fairness is polite enough to lose gracefully.",
+      "pt": "A justiça é educada o bastante para perder com elegância.",
+      "year": 2002,
+      "html": "<b><i>Fairness is polite enough to lose gracefully.</i></b>\n<i>A justiça é educada o bastante para perder com elegância.</i>\n— Bet Masterson, 2002"
+    },
+    {
+      "id": 80,
+      "category": "Numbers And Mathematics",
+      "tone": "neutral",
+      "en": "Every conscience needs a bookmaker.",
+      "pt": "Toda consciência precisa de um corretor de apostas.",
+      "year": 2014,
+      "html": "<b><i>Every conscience needs a bookmaker.</i></b>\n<i>Toda consciência precisa de um corretor de apostas.</i>\n— Bet Masterson, 2014"
+    },
+    {
+      "id": 81,
+      "category": "Football And The Game",
+      "tone": "spirited",
+      "en": "Football is philosophy in boots. It just runs faster.",
+      "pt": "O futebol é filosofia de chuteiras. Só corre mais rápido.",
+      "year": 1983,
+      "html": "<b><i>Football is philosophy in boots. It just runs faster.</i></b>\n<i>O futebol é filosofia de chuteiras. Só corre mais rápido.</i>\n— Bet Masterson, 1983"
+    },
+    {
+      "id": 82,
+      "category": "Football And The Game",
+      "tone": "spirited",
+      "en": "The game ends long after the whistle.",
+      "pt": "O jogo termina muito depois do apito.",
+      "year": 1992,
+      "html": "<b><i>The game ends long after the whistle.</i></b>\n<i>O jogo termina muito depois do apito.</i>\n— Bet Masterson, 1992"
+    },
+    {
+      "id": 83,
+      "category": "Football And The Game",
+      "tone": "spirited",
+      "en": "The pitch remembers every argument.",
+      "pt": "O campo se lembra de cada discussão.",
+      "year": 2004,
+      "html": "<b><i>The pitch remembers every argument.</i></b>\n<i>O campo se lembra de cada discussão.</i>\n— Bet Masterson, 2004"
+    },
+    {
+      "id": 84,
+      "category": "Football And The Game",
+      "tone": "spirited",
+      "en": "A clean sheet is God’s idea of suspense.",
+      "pt": "Um placar zerado é a ideia de suspense de Deus.",
+      "year": 1981,
+      "html": "<b><i>A clean sheet is God’s idea of suspense.</i></b>\n<i>Um placar zerado é a ideia de suspense de Deus.</i>\n— Bet Masterson, 1981"
+    },
+    {
+      "id": 85,
+      "category": "Football And The Game",
+      "tone": "spirited",
+      "en": "The crowd believes in certainty. I prefer suspense.",
+      "pt": "A torcida acredita na certeza. Eu prefiro o suspense.",
+      "year": 1999,
+      "html": "<b><i>The crowd believes in certainty. I prefer suspense.</i></b>\n<i>A torcida acredita na certeza. Eu prefiro o suspense.</i>\n— Bet Masterson, 1999"
+    },
+    {
+      "id": 86,
+      "category": "Football And The Game",
+      "tone": "bright",
+      "en": "The whistle forgives everything except memory.",
+      "pt": "O apito perdoa tudo, exceto a memória.",
+      "year": 2007,
+      "html": "<b><i>The whistle forgives everything except memory.</i></b>\n<i>O apito perdoa tudo, exceto a memória.</i>\n— Bet Masterson, 2007"
+    },
+    {
+      "id": 87,
+      "category": "Football And The Game",
+      "tone": "spirited",
+      "en": "The ball rolls truer than most men.",
+      "pt": "A bola rola com mais honestidade que a maioria dos homens.",
+      "year": 1975,
+      "html": "<b><i>The ball rolls truer than most men.</i></b>\n<i>A bola rola com mais honestidade que a maioria dos homens.</i>\n— Bet Masterson, 1975"
+    },
+    {
+      "id": 88,
+      "category": "Football And The Game",
+      "tone": "spirited",
+      "en": "Every foul is an experiment in ethics.",
+      "pt": "Cada falta é um experimento em ética.",
+      "year": 2006,
+      "html": "<b><i>Every foul is an experiment in ethics.</i></b>\n<i>Cada falta é um experimento em ética.</i>\n— Bet Masterson, 2006"
+    },
+    {
+      "id": 89,
+      "category": "Football And The Game",
+      "tone": "dark",
+      "en": "The pitch never lies, but it enjoys omission.",
+      "pt": "O campo nunca mente, mas adora omitir.",
+      "year": 1990,
+      "html": "<b><i>The pitch never lies, but it enjoys omission.</i></b>\n<i>O campo nunca mente, mas adora omitir.</i>\n— Bet Masterson, 1990"
+    },
+    {
+      "id": 90,
+      "category": "Football And The Game",
+      "tone": "spirited",
+      "en": "The goalpost has better ethics than the system.",
+      "pt": "A trave tem mais ética que o sistema.",
+      "year": 2015,
+      "html": "<b><i>The goalpost has better ethics than the system.</i></b>\n<i>A trave tem mais ética que o sistema.</i>\n— Bet Masterson, 2015"
+    },
+    {
+      "id": 91,
+      "category": "Football And The Game",
+      "tone": "bright",
+      "en": "Victory is noise pretending to be truth.",
+      "pt": "A vitória é barulho fingindo ser verdade.",
+      "year": 2009,
+      "html": "<b><i>Victory is noise pretending to be truth.</i></b>\n<i>A vitória é barulho fingindo ser verdade.</i>\n— Bet Masterson, 2009"
+    },
+    {
+      "id": 92,
+      "category": "Football And The Game",
+      "tone": "spirited",
+      "en": "The referee writes morality in chalk.",
+      "pt": "O árbitro escreve moralidade em giz.",
+      "year": 1978,
+      "html": "<b><i>The referee writes morality in chalk.</i></b>\n<i>O árbitro escreve moralidade em giz.</i>\n— Bet Masterson, 1978"
+    },
+    {
+      "id": 93,
+      "category": "Football And The Game",
+      "tone": "spirited",
+      "en": "Football is algebra in motion.",
+      "pt": "O futebol é álgebra em movimento.",
+      "year": 1987,
+      "html": "<b><i>Football is algebra in motion.</i></b>\n<i>O futebol é álgebra em movimento.</i>\n— Bet Masterson, 1987"
+    },
+    {
+      "id": 94,
+      "category": "Football And The Game",
+      "tone": "spirited",
+      "en": "A missed penalty is probability’s sense of humour.",
+      "pt": "Um pênalti perdido é o senso de humor da probabilidade.",
+      "year": 2000,
+      "html": "<b><i>A missed penalty is probability’s sense of humour.</i></b>\n<i>Um pênalti perdido é o senso de humor da probabilidade.</i>\n— Bet Masterson, 2000"
+    },
+    {
+      "id": 95,
+      "category": "Football And The Game",
+      "tone": "spirited",
+      "en": "We count goals the way priests count sins.",
+      "pt": "Contamos gols como padres contam pecados.",
+      "year": 1982,
+      "html": "<b><i>We count goals the way priests count sins.</i></b>\n<i>Contamos gols como padres contam pecados.</i>\n— Bet Masterson, 1982"
+    },
+    {
+      "id": 96,
+      "category": "Football And The Game",
+      "tone": "spirited",
+      "en": "The crowd prays louder after statistics fail.",
+      "pt": "A torcida reza mais alto quando a estatística falha.",
+      "year": 2011,
+      "html": "<b><i>The crowd prays louder after statistics fail.</i></b>\n<i>A torcida reza mais alto quando a estatística falha.</i>\n— Bet Masterson, 2011"
+    },
+    {
+      "id": 97,
+      "category": "Football And The Game",
+      "tone": "spirited",
+      "en": "Even perfection misses wide occasionally.",
+      "pt": "Mesmo a perfeição às vezes chuta pra fora.",
+      "year": 2013,
+      "html": "<b><i>Even perfection misses wide occasionally.</i></b>\n<i>Mesmo a perfeição às vezes chuta pra fora.</i>\n— Bet Masterson, 2013"
+    },
+    {
+      "id": 98,
+      "category": "Football And The Game",
+      "tone": "spirited",
+      "en": "The match begins where reason ends.",
+      "pt": "O jogo começa onde a razão termina.",
+      "year": 1974,
+      "html": "<b><i>The match begins where reason ends.</i></b>\n<i>O jogo começa onde a razão termina.</i>\n— Bet Masterson, 1974"
+    },
+    {
+      "id": 99,
+      "category": "Football And The Game",
+      "tone": "spirited",
+      "en": "The game owes us nothing. We owe it everything.",
+      "pt": "O jogo não nos deve nada. Nós é que devemos tudo a ele.",
+      "year": 2005,
+      "html": "<b><i>The game owes us nothing. We owe it everything.</i></b>\n<i>O jogo não nos deve nada. Nós é que devemos tudo a ele.</i>\n— Bet Masterson, 2005"
+    },
+    {
+      "id": 100,
+      "category": "Football And The Game",
+      "tone": "spirited",
+      "en": "Football is statistics pretending to have a soul.",
+      "pt": "O futebol é estatística fingindo ter alma.",
+      "year": 2018,
+      "html": "<b><i>Football is statistics pretending to have a soul.</i></b>\n<i>O futebol é estatística fingindo ter alma.</i>\n— Bet Masterson, 2018"
+    },
+    {
+      "id": 101,
+      "category": "Football And The Game",
+      "tone": "spirited",
+      "en": "The gods of chance wear boots on Saturdays.",
+      "pt": "Os deuses do acaso calçam chuteiras aos sábados.",
+      "year": 1991,
+      "html": "<b><i>The gods of chance wear boots on Saturdays.</i></b>\n<i>Os deuses do acaso calçam chuteiras aos sábados.</i>\n— Bet Masterson, 1991"
+    },
+    {
+      "id": 102,
+      "category": "Football And The Game",
+      "tone": "spirited",
+      "en": "The ball never argues. It only remembers.",
+      "pt": "A bola nunca discute. Apenas se lembra.",
+      "year": 1985,
+      "html": "<b><i>The ball never argues. It only remembers.</i></b>\n<i>A bola nunca discute. Apenas se lembra.</i>\n— Bet Masterson, 1985"
+    },
+    {
+      "id": 103,
+      "category": "Football And The Game",
+      "tone": "spirited",
+      "en": "The crowd forgives loss, never hesitation.",
+      "pt": "A torcida perdoa a derrota, nunca a hesitação.",
+      "year": 2016,
+      "html": "<b><i>The crowd forgives loss, never hesitation.</i></b>\n<i>A torcida perdoa a derrota, nunca a hesitação.</i>\n— Bet Masterson, 2016"
+    },
+    {
+      "id": 104,
+      "category": "Football And The Game",
+      "tone": "spirited",
+      "en": "We chase patterns like strikers chase ghosts.",
+      "pt": "Perseguimos padrões como atacantes perseguem fantasmas.",
+      "year": 2010,
+      "html": "<b><i>We chase patterns like strikers chase ghosts.</i></b>\n<i>Perseguimos padrões como atacantes perseguem fantasmas.</i>\n— Bet Masterson, 2010"
+    },
+    {
+      "id": 105,
+      "category": "Football And The Game",
+      "tone": "spirited",
+      "en": "Every draw is an unfinished sentence.",
+      "pt": "Todo empate é uma frase inacabada.",
+      "year": 2002,
+      "html": "<b><i>Every draw is an unfinished sentence.</i></b>\n<i>Todo empate é uma frase inacabada.</i>\n— Bet Masterson, 2002"
+    },
+    {
+      "id": 106,
+      "category": "Football And The Game",
+      "tone": "dark",
+      "en": "The scoreboard lies kindly.",
+      "pt": "O placar mente com gentileza.",
+      "year": 1988,
+      "html": "<b><i>The scoreboard lies kindly.</i></b>\n<i>O placar mente com gentileza.</i>\n— Bet Masterson, 1988"
+    },
+    {
+      "id": 107,
+      "category": "Football And The Game",
+      "tone": "spirited",
+      "en": "Football is the mathematics of collective delusion.",
+      "pt": "O futebol é a matemática da ilusão coletiva.",
+      "year": 1997,
+      "html": "<b><i>Football is the mathematics of collective delusion.</i></b>\n<i>O futebol é a matemática da ilusão coletiva.</i>\n— Bet Masterson, 1997"
+    },
+    {
+      "id": 108,
+      "category": "Football And The Game",
+      "tone": "bright",
+      "en": "The pitch forgives rain but not arrogance.",
+      "pt": "O campo perdoa a chuva, mas não a arrogância.",
+      "year": 1977,
+      "html": "<b><i>The pitch forgives rain but not arrogance.</i></b>\n<i>O campo perdoa a chuva, mas não a arrogância.</i>\n— Bet Masterson, 1977"
+    },
+    {
+      "id": 109,
+      "category": "Football And The Game",
+      "tone": "dark",
+      "en": "A goal is just chaos briefly agreeing with itself.",
+      "pt": "Um gol é apenas o caos concordando consigo mesmo por um instante.",
+      "year": 2020,
+      "html": "<b><i>A goal is just chaos briefly agreeing with itself.</i></b>\n<i>Um gol é apenas o caos concordando consigo mesmo por um instante.</i>\n— Bet Masterson, 2020"
+    },
+    {
+      "id": 110,
+      "category": "Football And The Game",
+      "tone": "spirited",
+      "en": "The game always knows more than we admit.",
+      "pt": "O jogo sempre sabe mais do que admitimos.",
+      "year": 2012,
+      "html": "<b><i>The game always knows more than we admit.</i></b>\n<i>O jogo sempre sabe mais do que admitimos.</i>\n— Bet Masterson, 2012"
+    },
+    {
+      "id": 111,
+      "category": "Human Nature And Time",
+      "tone": "bright",
+      "en": "Hope has no offside rule.",
+      "pt": "A esperança não tem regra de impedimento.",
+      "year": 1999,
+      "html": "<b><i>Hope has no offside rule.</i></b>\n<i>A esperança não tem regra de impedimento.</i>\n— Bet Masterson, 1999"
+    },
+    {
+      "id": 112,
+      "category": "Human Nature And Time",
+      "tone": "reflective",
+      "en": "I used to trust equations more than people. Then I met both.",
+      "pt": "Eu costumava confiar mais nas equações do que nas pessoas. Depois conheci as duas.",
+      "year": 1970,
+      "html": "<b><i>I used to trust equations more than people. Then I met both.</i></b>\n<i>Eu costumava confiar mais nas equações do que nas pessoas. Depois conheci as duas.</i>\n— Bet Masterson, 1970"
+    },
+    {
+      "id": 113,
+      "category": "Human Nature And Time",
+      "tone": "bright",
+      "en": "Truth keeps poor time but lovely rhythm.",
+      "pt": "A verdade tem péssimo senso de tempo, mas ritmo encantador.",
+      "year": 2013,
+      "html": "<b><i>Truth keeps poor time but lovely rhythm.</i></b>\n<i>A verdade tem péssimo senso de tempo, mas ritmo encantador.</i>\n— Bet Masterson, 2013"
+    },
+    {
+      "id": 114,
+      "category": "Human Nature And Time",
+      "tone": "reflective",
+      "en": "Faith is variance with better PR.",
+      "pt": "A fé é a variância com melhor assessoria de imprensa.",
+      "year": 2018,
+      "html": "<b><i>Faith is variance with better PR.</i></b>\n<i>A fé é a variância com melhor assessoria de imprensa.</i>\n— Bet Masterson, 2018"
+    },
+    {
+      "id": 115,
+      "category": "Human Nature And Time",
+      "tone": "reflective",
+      "en": "We chase patterns the way moths chase fire.",
+      "pt": "Perseguimos padrões como mariposas perseguem o fogo.",
+      "year": 1984,
+      "html": "<b><i>We chase patterns the way moths chase fire.</i></b>\n<i>Perseguimos padrões como mariposas perseguem o fogo.</i>\n— Bet Masterson, 1984"
+    },
+    {
+      "id": 116,
+      "category": "Human Nature And Time",
+      "tone": "reflective",
+      "en": "Certainty is the oldest superstition.",
+      "pt": "A certeza é a mais antiga das superstições.",
+      "year": 1995,
+      "html": "<b><i>Certainty is the oldest superstition.</i></b>\n<i>A certeza é a mais antiga das superstições.</i>\n— Bet Masterson, 1995"
+    },
+    {
+      "id": 117,
+      "category": "Human Nature And Time",
+      "tone": "reflective",
+      "en": "Confidence decays faster than doubt.",
+      "pt": "A confiança se degrada mais rápido que a dúvida.",
+      "year": 2001,
+      "html": "<b><i>Confidence decays faster than doubt.</i></b>\n<i>A confiança se degrada mais rápido que a dúvida.</i>\n— Bet Masterson, 2001"
+    },
+    {
+      "id": 118,
+      "category": "Human Nature And Time",
+      "tone": "dark",
+      "en": "Time is just probability growing tired.",
+      "pt": "O tempo é apenas a probabilidade cansada.",
+      "year": 1978,
+      "html": "<b><i>Time is just probability growing tired.</i></b>\n<i>O tempo é apenas a probabilidade cansada.</i>\n— Bet Masterson, 1978"
+    },
+    {
+      "id": 119,
+      "category": "Human Nature And Time",
+      "tone": "reflective",
+      "en": "Every bet is autobiography.",
+      "pt": "Cada aposta é uma autobiografia.",
+      "year": 2006,
+      "html": "<b><i>Every bet is autobiography.</i></b>\n<i>Cada aposta é uma autobiografia.</i>\n— Bet Masterson, 2006"
+    },
+    {
+      "id": 120,
+      "category": "Human Nature And Time",
+      "tone": "bright",
+      "en": "Luck forgives the impatient.",
+      "pt": "A sorte perdoa os impacientes.",
+      "year": 2010,
+      "html": "<b><i>Luck forgives the impatient.</i></b>\n<i>A sorte perdoa os impacientes.</i>\n— Bet Masterson, 2010"
+    },
+    {
+      "id": 121,
+      "category": "Human Nature And Time",
+      "tone": "dark",
+      "en": "Even silence has variance.",
+      "pt": "Até o silêncio tem variância.",
+      "year": 1989,
+      "html": "<b><i>Even silence has variance.</i></b>\n<i>Até o silêncio tem variância.</i>\n— Bet Masterson, 1989"
+    },
+    {
+      "id": 122,
+      "category": "Human Nature And Time",
+      "tone": "reflective",
+      "en": "Hope and guilt share the same heartbeat.",
+      "pt": "A esperança e a culpa compartilham o mesmo batimento.",
+      "year": 1982,
+      "html": "<b><i>Hope and guilt share the same heartbeat.</i></b>\n<i>A esperança e a culpa compartilham o mesmo batimento.</i>\n— Bet Masterson, 1982"
+    },
+    {
+      "id": 123,
+      "category": "Human Nature And Time",
+      "tone": "reflective",
+      "en": "I don’t predict. I listen for hesitation in the odds.",
+      "pt": "Não faço previsões. Escuto a hesitação nas odds.",
+      "year": 2016,
+      "html": "<b><i>I don’t predict. I listen for hesitation in the odds.</i></b>\n<i>Não faço previsões. Escuto a hesitação nas odds.</i>\n— Bet Masterson, 2016"
+    },
+    {
+      "id": 124,
+      "category": "Human Nature And Time",
+      "tone": "reflective",
+      "en": "We build models to forget the rain.",
+      "pt": "Construímos modelos para esquecer a chuva.",
+      "year": 2011,
+      "html": "<b><i>We build models to forget the rain.</i></b>\n<i>Construímos modelos para esquecer a chuva.</i>\n— Bet Masterson, 2011"
+    },
+    {
+      "id": 125,
+      "category": "Human Nature And Time",
+      "tone": "bright",
+      "en": "Losing teaches grammar to hope.",
+      "pt": "Perder ensina gramática à esperança.",
+      "year": 2003,
+      "html": "<b><i>Losing teaches grammar to hope.</i></b>\n<i>Perder ensina gramática à esperança.</i>\n— Bet Masterson, 2003"
+    },
+    {
+      "id": 126,
+      "category": "Human Nature And Time",
+      "tone": "bright",
+      "en": "Truth loves paradox the way gamblers love memory.",
+      "pt": "A verdade ama o paradoxo como apostadores amam a memória.",
+      "year": 1985,
+      "html": "<b><i>Truth loves paradox the way gamblers love memory.</i></b>\n<i>A verdade ama o paradoxo como apostadores amam a memória.</i>\n— Bet Masterson, 1985"
+    },
+    {
+      "id": 127,
+      "category": "Human Nature And Time",
+      "tone": "reflective",
+      "en": "The universe never folds. It hedges.",
+      "pt": "O universo nunca desiste. Apenas se protege.",
+      "year": 1974,
+      "html": "<b><i>The universe never folds. It hedges.</i></b>\n<i>O universo nunca desiste. Apenas se protege.</i>\n— Bet Masterson, 1974"
+    },
+    {
+      "id": 128,
+      "category": "Human Nature And Time",
+      "tone": "dark",
+      "en": "Even chaos checks the score.",
+      "pt": "Até o caos confere o placar.",
+      "year": 2008,
+      "html": "<b><i>Even chaos checks the score.</i></b>\n<i>Até o caos confere o placar.</i>\n— Bet Masterson, 2008"
+    },
+    {
+      "id": 129,
+      "category": "Human Nature And Time",
+      "tone": "reflective",
+      "en": "We model patterns to remember our limits.",
+      "pt": "Modelamos padrões para lembrar nossos limites.",
+      "year": 2019,
+      "html": "<b><i>We model patterns to remember our limits.</i></b>\n<i>Modelamos padrões para lembrar nossos limites.</i>\n— Bet Masterson, 2019"
+    },
+    {
+      "id": 130,
+      "category": "Human Nature And Time",
+      "tone": "dark",
+      "en": "Every defeat is a rehearsal for wisdom.",
+      "pt": "Cada derrota é um ensaio para a sabedoria.",
+      "year": 1997,
+      "html": "<b><i>Every defeat is a rehearsal for wisdom.</i></b>\n<i>Cada derrota é um ensaio para a sabedoria.</i>\n— Bet Masterson, 1997"
+    },
+    {
+      "id": 131,
+      "category": "Human Nature And Time",
+      "tone": "reflective",
+      "en": "Destiny is probability pretending to be art.",
+      "pt": "O destino é a probabilidade fingindo ser arte.",
+      "year": 1991,
+      "html": "<b><i>Destiny is probability pretending to be art.</i></b>\n<i>O destino é a probabilidade fingindo ser arte.</i>\n— Bet Masterson, 1991"
+    },
+    {
+      "id": 132,
+      "category": "Human Nature And Time",
+      "tone": "bright",
+      "en": "Luck explains what courage prefers to ignore.",
+      "pt": "A sorte explica o que a coragem prefere ignorar.",
+      "year": 2005,
+      "html": "<b><i>Luck explains what courage prefers to ignore.</i></b>\n<i>A sorte explica o que a coragem prefere ignorar.</i>\n— Bet Masterson, 2005"
+    },
+    {
+      "id": 133,
+      "category": "Human Nature And Time",
+      "tone": "reflective",
+      "en": "We trust what hurts us most consistently.",
+      "pt": "Confiamos no que mais nos fere com constância.",
+      "year": 1987,
+      "html": "<b><i>We trust what hurts us most consistently.</i></b>\n<i>Confiamos no que mais nos fere com constância.</i>\n— Bet Masterson, 1987"
+    },
+    {
+      "id": 134,
+      "category": "Human Nature And Time",
+      "tone": "dark",
+      "en": "Regret ages slower than success.",
+      "pt": "O arrependimento envelhece mais devagar que o sucesso.",
+      "year": 2014,
+      "html": "<b><i>Regret ages slower than success.</i></b>\n<i>O arrependimento envelhece mais devagar que o sucesso.</i>\n— Bet Masterson, 2014"
+    },
+    {
+      "id": 135,
+      "category": "Human Nature And Time",
+      "tone": "reflective",
+      "en": "The crowd worships certainty and calls it passion.",
+      "pt": "A multidão adora a certeza e chama isso de paixão.",
+      "year": 2009,
+      "html": "<b><i>The crowd worships certainty and calls it passion.</i></b>\n<i>A multidão adora a certeza e chama isso de paixão.</i>\n— Bet Masterson, 2009"
+    },
+    {
+      "id": 136,
+      "category": "Human Nature And Time",
+      "tone": "reflective",
+      "en": "Reality is probability after a few drinks.",
+      "pt": "A realidade é a probabilidade depois de alguns copos.",
+      "year": 1976,
+      "html": "<b><i>Reality is probability after a few drinks.</i></b>\n<i>A realidade é a probabilidade depois de alguns copos.</i>\n— Bet Masterson, 1976"
+    },
+    {
+      "id": 137,
+      "category": "Human Nature And Time",
+      "tone": "dark",
+      "en": "The margin between courage and madness is usually optimism.",
+      "pt": "A margem entre a coragem e a loucura costuma ser o otimismo.",
+      "year": 2000,
+      "html": "<b><i>The margin between courage and madness is usually optimism.</i></b>\n<i>A margem entre a coragem e a loucura costuma ser o otimismo.</i>\n— Bet Masterson, 2000"
+    },
+    {
+      "id": 138,
+      "category": "Human Nature And Time",
+      "tone": "bright",
+      "en": "Truth whispers. Ego shouts. Chance laughs.",
+      "pt": "A verdade sussurra. O ego grita. O acaso ri.",
+      "year": 2017,
+      "html": "<b><i>Truth whispers. Ego shouts. Chance laughs.</i></b>\n<i>A verdade sussurra. O ego grita. O acaso ri.</i>\n— Bet Masterson, 2017"
+    },
+    {
+      "id": 139,
+      "category": "Human Nature And Time",
+      "tone": "reflective",
+      "en": "Every model breaks. Only arrogance pretends surprise.",
+      "pt": "Todo modelo quebra. Só a arrogância finge surpresa.",
+      "year": 2012,
+      "html": "<b><i>Every model breaks. Only arrogance pretends surprise.</i></b>\n<i>Todo modelo quebra. Só a arrogância finge surpresa.</i>\n— Bet Masterson, 2012"
+    },
+    {
+      "id": 140,
+      "category": "Human Nature And Time",
+      "tone": "bright",
+      "en": "Experience is luck that refused to die quietly.",
+      "pt": "A experiência é sorte que se recusou a morrer em silêncio.",
+      "year": 1981,
+      "html": "<b><i>Experience is luck that refused to die quietly.</i></b>\n<i>A experiência é sorte que se recusou a morrer em silêncio.</i>\n— Bet Masterson, 1981"
+    },
+    {
+      "id": 141,
+      "category": "Human Nature And Time",
+      "tone": "reflective",
+      "en": "I never met reason that didn’t need translation.",
+      "pt": "Nunca encontrei uma razão que não precisasse de tradução.",
+      "year": 1993,
+      "html": "<b><i>I never met reason that didn’t need translation.</i></b>\n<i>Nunca encontrei uma razão que não precisasse de tradução.</i>\n— Bet Masterson, 1993"
+    },
+    {
+      "id": 142,
+      "category": "Human Nature And Time",
+      "tone": "dark",
+      "en": "The mirror never lies. It just edits.",
+      "pt": "O espelho nunca mente. Apenas edita.",
+      "year": 2015,
+      "html": "<b><i>The mirror never lies. It just edits.</i></b>\n<i>O espelho nunca mente. Apenas edita.</i>\n— Bet Masterson, 2015"
+    },
+    {
+      "id": 143,
+      "category": "Human Nature And Time",
+      "tone": "reflective",
+      "en": "We live between arithmetic and apology.",
+      "pt": "Vivemos entre a aritmética e o pedido de desculpas.",
+      "year": 1988,
+      "html": "<b><i>We live between arithmetic and apology.</i></b>\n<i>Vivemos entre a aritmética e o pedido de desculpas.</i>\n— Bet Masterson, 1988"
+    },
+    {
+      "id": 144,
+      "category": "Human Nature And Time",
+      "tone": "reflective",
+      "en": "Memory is the most patient bookmaker.",
+      "pt": "A memória é o corretor de apostas mais paciente.",
+      "year": 2002,
+      "html": "<b><i>Memory is the most patient bookmaker.</i></b>\n<i>A memória é o corretor de apostas mais paciente.</i>\n— Bet Masterson, 2002"
+    },
+    {
+      "id": 145,
+      "category": "Human Nature And Time",
+      "tone": "reflective",
+      "en": "Even probability envies faith.",
+      "pt": "Até a probabilidade inveja a fé.",
+      "year": 2018,
+      "html": "<b><i>Even probability envies faith.</i></b>\n<i>Até a probabilidade inveja a fé.</i>\n— Bet Masterson, 2018"
+    },
+    {
+      "id": 146,
+      "category": "Human Nature And Time",
+      "tone": "bright",
+      "en": "Hope is an elegant form of denial.",
+      "pt": "A esperança é uma forma elegante de negação.",
+      "year": 1986,
+      "html": "<b><i>Hope is an elegant form of denial.</i></b>\n<i>A esperança é uma forma elegante de negação.</i>\n— Bet Masterson, 1986"
+    },
+    {
+      "id": 147,
+      "category": "Human Nature And Time",
+      "tone": "reflective",
+      "en": "We mistake repetition for control.",
+      "pt": "Confundimos repetição com controle.",
+      "year": 2010,
+      "html": "<b><i>We mistake repetition for control.</i></b>\n<i>Confundimos repetição com controle.</i>\n— Bet Masterson, 2010"
+    },
+    {
+      "id": 148,
+      "category": "Human Nature And Time",
+      "tone": "dark",
+      "en": "Silence is the only statistic worth keeping.",
+      "pt": "O silêncio é a única estatística que vale a pena guardar.",
+      "year": 1998,
+      "html": "<b><i>Silence is the only statistic worth keeping.</i></b>\n<i>O silêncio é a única estatística que vale a pena guardar.</i>\n— Bet Masterson, 1998"
+    },
+    {
+      "id": 149,
+      "category": "Human Nature And Time",
+      "tone": "bright",
+      "en": "Time forgives what logic can’t explain.",
+      "pt": "O tempo perdoa o que a lógica não consegue explicar.",
+      "year": 2007,
+      "html": "<b><i>Time forgives what logic can’t explain.</i></b>\n<i>O tempo perdoa o que a lógica não consegue explicar.</i>\n— Bet Masterson, 2007"
+    },
+    {
+      "id": 150,
+      "category": "Human Nature And Time",
+      "tone": "reflective",
+      "en": "In the end, we all bet on memory.",
+      "pt": "No fim, todos apostamos na memória.",
+      "year": 2025,
+      "html": "<b><i>In the end, we all bet on memory.</i></b>\n<i>No fim, todos apostamos na memória.</i>\n— Bet Masterson, 2025"
+    },
+    {
+      "id": 151,
+      "category": "Night & Corujão",
+      "tone": "nocturnal",
+      "en": "Night counts truths the daylight edits.",
+      "pt": "A noite conta verdades que o dia edita.",
+      "year": 1995,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>Night counts truths the daylight edits.</i></b>\n<i>A noite conta verdades que o dia edita.</i>\n— Bet Masterson, 1995"
+    },
+    {
+      "id": 152,
+      "category": "Night & Corujão",
+      "tone": "nocturnal",
+      "en": "The pub forgives what the church remembers.",
+      "pt": "O pub perdoa o que a igreja guarda na memória.",
+      "year": 1993,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>The pub forgives what the church remembers.</i></b>\n<i>O pub perdoa o que a igreja guarda na memória.</i>\n— Bet Masterson, 1993"
+    },
+    {
+      "id": 153,
+      "category": "Night & Corujão",
+      "tone": "nocturnal",
+      "en": "Loneliness is just conversation without witnesses.",
+      "pt": "A solidão é apenas conversa sem testemunhas.",
+      "year": 1987,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>Loneliness is just conversation without witnesses.</i></b>\n<i>A solidão é apenas conversa sem testemunhas.</i>\n— Bet Masterson, 1987"
+    },
+    {
+      "id": 154,
+      "category": "Night & Corujão",
+      "tone": "bright",
+      "en": "Dawn is a receipt for debts the dark postponed.",
+      "pt": "A aurora é um recibo das dívidas que a escuridão adiou.",
+      "year": 1969,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>Dawn is a receipt for debts the dark postponed.</i></b>\n<i>A aurora é um recibo das dívidas que a escuridão adiou.</i>\n— Bet Masterson, 1969"
+    },
+    {
+      "id": 155,
+      "category": "Night & Corujão",
+      "tone": "wry",
+      "en": "We love most clearly when the bar is almost closing.",
+      "pt": "Amamos com mais clareza quando o bar está para fechar.",
+      "year": 1970,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>We love most clearly when the bar is almost closing.</i></b>\n<i>Amamos com mais clareza quando o bar está para fechar.</i>\n— Bet Masterson, 1970"
+    },
+    {
+      "id": 156,
+      "category": "Night & Corujão",
+      "tone": "nocturnal",
+      "en": "God whispers in lowercase after midnight.",
+      "pt": "Deus sussurra em letras minúsculas depois da meia-noite.",
+      "year": 1970,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>God whispers in lowercase after midnight.</i></b>\n<i>Deus sussurra em letras minúsculas depois da meia-noite.</i>\n— Bet Masterson, 1970"
+    },
+    {
+      "id": 157,
+      "category": "Night & Corujão",
+      "tone": "bright",
+      "en": "The city dreams in neon and unpaid promises.",
+      "pt": "A cidade sonha em néon e promessas não pagas.",
+      "year": 2025,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>The city dreams in neon and unpaid promises.</i></b>\n<i>A cidade sonha em néon e promessas não pagas.</i>\n— Bet Masterson, 2025"
+    },
+    {
+      "id": 158,
+      "category": "Night & Corujão",
+      "tone": "contemplative",
+      "en": "Some hearts only learn grammar after last call.",
+      "pt": "Alguns corações só aprendem gramática no último chamado.",
+      "year": 1974,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>Some hearts only learn grammar after last call.</i></b>\n<i>Alguns corações só aprendem gramática no último chamado.</i>\n— Bet Masterson, 1974"
+    },
+    {
+      "id": 159,
+      "category": "Night & Corujão",
+      "tone": "melancholic",
+      "en": "Every empty street is a verse waiting for footsteps.",
+      "pt": "Toda rua vazia é um verso à espera de passos.",
+      "year": 1991,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>Every empty street is a verse waiting for footsteps.</i></b>\n<i>Toda rua vazia é um verso à espera de passos.</i>\n— Bet Masterson, 1991"
+    },
+    {
+      "id": 160,
+      "category": "Night & Corujão",
+      "tone": "bright",
+      "en": "The moon is a coin the poor still try to spend.",
+      "pt": "A lua é uma moeda que os pobres ainda tentam gastar.",
+      "year": 1982,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>The moon is a coin the poor still try to spend.</i></b>\n<i>A lua é uma moeda que os pobres ainda tentam gastar.</i>\n— Bet Masterson, 1982"
+    },
+    {
+      "id": 161,
+      "category": "Night & Corujão",
+      "tone": "melancholic",
+      "en": "We drink to draw borders around our ghosts.",
+      "pt": "Bebemos para desenhar fronteiras ao redor dos nossos fantasmas.",
+      "year": 1977,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>We drink to draw borders around our ghosts.</i></b>\n<i>Bebemos para desenhar fronteiras ao redor dos nossos fantasmas.</i>\n— Bet Masterson, 1977"
+    },
+    {
+      "id": 162,
+      "category": "Night & Corujão",
+      "tone": "bright",
+      "en": "Midnight is a locksmith with patient hands.",
+      "pt": "A meia-noite é um chaveiro de mãos pacientes.",
+      "year": 1991,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>Midnight is a locksmith with patient hands.</i></b>\n<i>A meia-noite é um chaveiro de mãos pacientes.</i>\n— Bet Masterson, 1991"
+    },
+    {
+      "id": 163,
+      "category": "Night & Corujão",
+      "tone": "melancholic",
+      "en": "Faith is a hush that survives the jukebox.",
+      "pt": "A fé é um silêncio que sobrevive ao jukebox.",
+      "year": 2010,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>Faith is a hush that survives the jukebox.</i></b>\n<i>A fé é um silêncio que sobrevive ao jukebox.</i>\n— Bet Masterson, 2010"
+    },
+    {
+      "id": 164,
+      "category": "Night & Corujão",
+      "tone": "contemplative",
+      "en": "Two shadows holding hands make one courage.",
+      "pt": "Duas sombras de mãos dadas fazem uma coragem.",
+      "year": 2021,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>Two shadows holding hands make one courage.</i></b>\n<i>Duas sombras de mãos dadas fazem uma coragem.</i>\n— Bet Masterson, 2021"
+    },
+    {
+      "id": 165,
+      "category": "Night & Corujão",
+      "tone": "wry",
+      "en": "The barman knows the algebra of farewell.",
+      "pt": "O barman conhece a álgebra do adeus.",
+      "year": 2012,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>The barman knows the algebra of farewell.</i></b>\n<i>O barman conhece a álgebra do adeus.</i>\n— Bet Masterson, 2012"
+    },
+    {
+      "id": 166,
+      "category": "Night & Corujão",
+      "tone": "contemplative",
+      "en": "Love leaves a coat on the chair and never returns for it.",
+      "pt": "O amor deixa um casaco na cadeira e não volta para buscá-lo.",
+      "year": 1963,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>Love leaves a coat on the chair and never returns for it.</i></b>\n<i>O amor deixa um casaco na cadeira e não volta para buscá-lo.</i>\n— Bet Masterson, 1963"
+    },
+    {
+      "id": 167,
+      "category": "Night & Corujão",
+      "tone": "bright",
+      "en": "The night irons the creases of the day.",
+      "pt": "A noite passa a ferro os vincos do dia.",
+      "year": 1999,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>The night irons the creases of the day.</i></b>\n<i>A noite passa a ferro os vincos do dia.</i>\n— Bet Masterson, 1999"
+    },
+    {
+      "id": 168,
+      "category": "Night & Corujão",
+      "tone": "wry",
+      "en": "Silence is a referee with a broken whistle.",
+      "pt": "O silêncio é um árbitro com apito quebrado.",
+      "year": 2001,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>Silence is a referee with a broken whistle.</i></b>\n<i>O silêncio é um árbitro com apito quebrado.</i>\n— Bet Masterson, 2001"
+    },
+    {
+      "id": 169,
+      "category": "Night & Corujão",
+      "tone": "contemplative",
+      "en": "Some prayers wear leather jackets.",
+      "pt": "Algumas orações vestem jaquetas de couro.",
+      "year": 1998,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>Some prayers wear leather jackets.</i></b>\n<i>Algumas orações vestem jaquetas de couro.</i>\n— Bet Masterson, 1998"
+    },
+    {
+      "id": 170,
+      "category": "Night & Corujão",
+      "tone": "wry",
+      "en": "At 3 a.m., even numbers confess.",
+      "pt": "Às três da manhã, até os números confessam.",
+      "year": 1983,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>At 3 a.m., even numbers confess.</i></b>\n<i>Às três da manhã, até os números confessam.</i>\n— Bet Masterson, 1983"
+    },
+    {
+      "id": 171,
+      "category": "Night & Corujão",
+      "tone": "nocturnal",
+      "en": "The streetlight teaches mercy to every moth.",
+      "pt": "O poste ensina misericórdia a cada mariposa.",
+      "year": 1975,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>The streetlight teaches mercy to every moth.</i></b>\n<i>O poste ensina misericórdia a cada mariposa.</i>\n— Bet Masterson, 1975"
+    },
+    {
+      "id": 172,
+      "category": "Night & Corujão",
+      "tone": "melancholic",
+      "en": "We bet because statistics cannot kiss us goodnight.",
+      "pt": "Apostamos porque a estatística não sabe nos dar boa-noite.",
+      "year": 2001,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>We bet because statistics cannot kiss us goodnight.</i></b>\n<i>Apostamos porque a estatística não sabe nos dar boa-noite.</i>\n— Bet Masterson, 2001"
+    },
+    {
+      "id": 173,
+      "category": "Night & Corujão",
+      "tone": "wry",
+      "en": "Solitude is a mirror that lies kindly.",
+      "pt": "A solidão é um espelho que mente com gentileza.",
+      "year": 1976,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>Solitude is a mirror that lies kindly.</i></b>\n<i>A solidão é um espelho que mente com gentileza.</i>\n— Bet Masterson, 1976"
+    },
+    {
+      "id": 174,
+      "category": "Night & Corujão",
+      "tone": "wry",
+      "en": "Every goodbye rehearses tomorrow’s politeness.",
+      "pt": "Todo adeus ensaia a cortesia de amanhã.",
+      "year": 1997,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>Every goodbye rehearses tomorrow’s politeness.</i></b>\n<i>Todo adeus ensaia a cortesia de amanhã.</i>\n— Bet Masterson, 1997"
+    },
+    {
+      "id": 175,
+      "category": "Night & Corujão",
+      "tone": "contemplative",
+      "en": "Rain makes philosophers of smokers.",
+      "pt": "A chuva faz filósofos dos fumantes.",
+      "year": 1969,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>Rain makes philosophers of smokers.</i></b>\n<i>A chuva faz filósofos dos fumantes.</i>\n— Bet Masterson, 1969"
+    },
+    {
+      "id": 176,
+      "category": "Night & Corujão",
+      "tone": "bright",
+      "en": "Hope pours one for the road and pays in change.",
+      "pt": "A esperança pede a saideira e paga em trocados.",
+      "year": 1980,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>Hope pours one for the road and pays in change.</i></b>\n<i>A esperança pede a saideira e paga em trocados.</i>\n— Bet Masterson, 1980"
+    },
+    {
+      "id": 177,
+      "category": "Night & Corujão",
+      "tone": "bright",
+      "en": "Midnight invents a map for people without addresses.",
+      "pt": "A meia-noite inventa um mapa para quem não tem endereço.",
+      "year": 2001,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>Midnight invents a map for people without addresses.</i></b>\n<i>A meia-noite inventa um mapa para quem não tem endereço.</i>\n— Bet Masterson, 2001"
+    },
+    {
+      "id": 178,
+      "category": "Night & Corujão",
+      "tone": "melancholic",
+      "en": "The jukebox spins mercy at 33⅓ revolutions.",
+      "pt": "O jukebox gira misericórdia a 33⅓ rotações.",
+      "year": 1974,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>The jukebox spins mercy at 33⅓ revolutions.</i></b>\n<i>O jukebox gira misericórdia a 33⅓ rotações.</i>\n— Bet Masterson, 1974"
+    },
+    {
+      "id": 179,
+      "category": "Night & Corujão",
+      "tone": "nocturnal",
+      "en": "We promise sobriety to the morning and poetry to the night.",
+      "pt": "Prometemos sobriedade ao dia e poesia à noite.",
+      "year": 1977,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>We promise sobriety to the morning and poetry to the night.</i></b>\n<i>Prometemos sobriedade ao dia e poesia à noite.</i>\n— Bet Masterson, 1977"
+    },
+    {
+      "id": 180,
+      "category": "Night & Corujão",
+      "tone": "melancholic",
+      "en": "The last stool is the throne of honest men.",
+      "pt": "O último banquinho é o trono dos homens honestos.",
+      "year": 1972,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>The last stool is the throne of honest men.</i></b>\n<i>O último banquinho é o trono dos homens honestos.</i>\n— Bet Masterson, 1972"
+    },
+    {
+      "id": 181,
+      "category": "Night & Corujão",
+      "tone": "wry",
+      "en": "Some miracles smell faintly of malt.",
+      "pt": "Alguns milagres cheiram levemente a malte.",
+      "year": 1991,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>Some miracles smell faintly of malt.</i></b>\n<i>Alguns milagres cheiram levemente a malte.</i>\n— Bet Masterson, 1991"
+    },
+    {
+      "id": 182,
+      "category": "Night & Corujão",
+      "tone": "wry",
+      "en": "The moon audits our excuses.",
+      "pt": "A lua audita as nossas desculpas.",
+      "year": 2007,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>The moon audits our excuses.</i></b>\n<i>A lua audita as nossas desculpas.</i>\n— Bet Masterson, 2007"
+    },
+    {
+      "id": 183,
+      "category": "Night & Corujão",
+      "tone": "melancholic",
+      "en": "After midnight, even the cynics tip the pianist.",
+      "pt": "Depois da meia-noite, até os cínicos dão gorjeta ao pianista.",
+      "year": 1978,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>After midnight, even the cynics tip the pianist.</i></b>\n<i>Depois da meia-noite, até os cínicos dão gorjeta ao pianista.</i>\n— Bet Masterson, 1978"
+    },
+    {
+      "id": 184,
+      "category": "Night & Corujão",
+      "tone": "wry",
+      "en": "A locked door is just a question with hinges.",
+      "pt": "Uma porta trancada é apenas uma pergunta com dobradiças.",
+      "year": 2002,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>A locked door is just a question with hinges.</i></b>\n<i>Uma porta trancada é apenas uma pergunta com dobradiças.</i>\n— Bet Masterson, 2002"
+    },
+    {
+      "id": 185,
+      "category": "Night & Corujão",
+      "tone": "nocturnal",
+      "en": "Love keeps the receipts we pretend to lose.",
+      "pt": "O amor guarda recibos que fingimos perder.",
+      "year": 1976,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>Love keeps the receipts we pretend to lose.</i></b>\n<i>O amor guarda recibos que fingimos perder.</i>\n— Bet Masterson, 1976"
+    },
+    {
+      "id": 186,
+      "category": "Night & Corujão",
+      "tone": "contemplative",
+      "en": "Rain on cobblestones is the grammar of returns.",
+      "pt": "Chuva nos paralelepípedos é a gramática dos retornos.",
+      "year": 2002,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>Rain on cobblestones is the grammar of returns.</i></b>\n<i>Chuva nos paralelepípedos é a gramática dos retornos.</i>\n— Bet Masterson, 2002"
+    },
+    {
+      "id": 187,
+      "category": "Night & Corujão",
+      "tone": "nocturnal",
+      "en": "The night files our bravery under aliases.",
+      "pt": "A noite arquiva nossa coragem sob pseudônimos.",
+      "year": 1969,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>The night files our bravery under aliases.</i></b>\n<i>A noite arquiva nossa coragem sob pseudônimos.</i>\n— Bet Masterson, 1969"
+    },
+    {
+      "id": 188,
+      "category": "Night & Corujão",
+      "tone": "bright",
+      "en": "Every neon sign is a sermon misspelled.",
+      "pt": "Todo letreiro de néon é um sermão com erros de ortografia.",
+      "year": 2001,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>Every neon sign is a sermon misspelled.</i></b>\n<i>Todo letreiro de néon é um sermão com erros de ortografia.</i>\n— Bet Masterson, 2001"
+    },
+    {
+      "id": 189,
+      "category": "Night & Corujão",
+      "tone": "wry",
+      "en": "We practice faith like darts—near enough to count.",
+      "pt": "Praticamos a fé como dardos — perto o bastante para contar.",
+      "year": 2024,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>We practice faith like darts—near enough to count.</i></b>\n<i>Praticamos a fé como dardos — perto o bastante para contar.</i>\n— Bet Masterson, 2024"
+    },
+    {
+      "id": 190,
+      "category": "Night & Corujão",
+      "tone": "wry",
+      "en": "The ashtray is a museum for unfinished decisions.",
+      "pt": "O cinzeiro é um museu de decisões inacabadas.",
+      "year": 1981,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>The ashtray is a museum for unfinished decisions.</i></b>\n<i>O cinzeiro é um museu de decisões inacabadas.</i>\n— Bet Masterson, 1981"
+    },
+    {
+      "id": 191,
+      "category": "Night & Corujão",
+      "tone": "melancholic",
+      "en": "Loneliness orders water and pays for two.",
+      "pt": "A solidão pede água e paga por dois.",
+      "year": 2009,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>Loneliness orders water and pays for two.</i></b>\n<i>A solidão pede água e paga por dois.</i>\n— Bet Masterson, 2009"
+    },
+    {
+      "id": 192,
+      "category": "Night & Corujão",
+      "tone": "nocturnal",
+      "en": "Some promises only exist in the coatroom.",
+      "pt": "Algumas promessas só existem no guarda-volumes.",
+      "year": 1992,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>Some promises only exist in the coatroom.</i></b>\n<i>Algumas promessas só existem no guarda-volumes.</i>\n— Bet Masterson, 1992"
+    },
+    {
+      "id": 193,
+      "category": "Night & Corujão",
+      "tone": "wry",
+      "en": "The barman measures time in solved silences.",
+      "pt": "O barman mede o tempo em silêncios resolvidos.",
+      "year": 2025,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>The barman measures time in solved silences.</i></b>\n<i>O barman mede o tempo em silêncios resolvidos.</i>\n— Bet Masterson, 2025"
+    },
+    {
+      "id": 194,
+      "category": "Night & Corujão",
+      "tone": "wry",
+      "en": "God takes attendance in the alley behind the pub.",
+      "pt": "Deus faz a chamada no beco atrás do pub.",
+      "year": 1991,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>God takes attendance in the alley behind the pub.</i></b>\n<i>Deus faz a chamada no beco atrás do pub.</i>\n— Bet Masterson, 1991"
+    },
+    {
+      "id": 195,
+      "category": "Night & Corujão",
+      "tone": "wry",
+      "en": "At dawn, debts and doves look the same from far away.",
+      "pt": "Ao amanhecer, dívidas e pombas parecem iguais de longe.",
+      "year": 1967,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>At dawn, debts and doves look the same from far away.</i></b>\n<i>Ao amanhecer, dívidas e pombas parecem iguais de longe.</i>\n— Bet Masterson, 1967"
+    },
+    {
+      "id": 196,
+      "category": "Night & Corujão",
+      "tone": "nocturnal",
+      "en": "We toast to the probability of tenderness.",
+      "pt": "Brindamos à probabilidade da delicadeza.",
+      "year": 1965,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>We toast to the probability of tenderness.</i></b>\n<i>Brindamos à probabilidade da delicadeza.</i>\n— Bet Masterson, 1965"
+    },
+    {
+      "id": 197,
+      "category": "Night & Corujão",
+      "tone": "melancholic",
+      "en": "The city keeps a spare heart for insomniacs.",
+      "pt": "A cidade guarda um coração reserva para os insones.",
+      "year": 1977,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>The city keeps a spare heart for insomniacs.</i></b>\n<i>A cidade guarda um coração reserva para os insones.</i>\n— Bet Masterson, 1977"
+    },
+    {
+      "id": 198,
+      "category": "Night & Corujão",
+      "tone": "bright",
+      "en": "Midnight is the curator of unclaimed hopes.",
+      "pt": "A meia-noite é a curadora das esperanças não retiradas.",
+      "year": 1991,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>Midnight is the curator of unclaimed hopes.</i></b>\n<i>A meia-noite é a curadora das esperanças não retiradas.</i>\n— Bet Masterson, 1991"
+    },
+    {
+      "id": 199,
+      "category": "Night & Corujão",
+      "tone": "contemplative",
+      "en": "We bet on tomorrow because tonight is already spent.",
+      "pt": "Apostamos no amanhã porque a noite já está gasta.",
+      "year": 2003,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>We bet on tomorrow because tonight is already spent.</i></b>\n<i>Apostamos no amanhã porque a noite já está gasta.</i>\n— Bet Masterson, 2003"
+    },
+    {
+      "id": 200,
+      "category": "Night & Corujão",
+      "tone": "wry",
+      "en": "The street sweeper writes elegies with a humble broom.",
+      "pt": "O gari escreve elegias com uma vassoura humilde.",
+      "year": 2007,
+      "tags": [
+        "madrugada",
+        "night",
+        "corujao"
+      ],
+      "html": "<b><i>The street sweeper writes elegies with a humble broom.</i></b>\n<i>O gari escreve elegias com uma vassoura humilde.</i>\n— Bet Masterson, 2007"
+    }
+  ]
+}

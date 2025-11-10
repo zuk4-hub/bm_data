@@ -1,36 +1,36 @@
 {
   "schedule_plan": [
-    { "time_local": "00:00", "selection_rule": { "sections": ["singles"], "max_cards": 1 } },
+    { "time_local": "00:00", "refs": ["coruja_card"] },
 
-    { "time_local": "07:00", "selection_rule": { "sections": ["singles"], "max_cards": 2 } },
-    { "time_local": "07:30", "selection_rule": { "sections": ["doubles","trebles","multiples"], "max_cards": 1 } },
+    { "time_local": "07:00", "selection_rule": { "sections": ["singles"], "max_cards": 2, "rank": "sls" } },
+    { "time_local": "07:30", "selection_rule": { "sections": ["combos"],  "max_cards": 1, "rank": "sls" } },
 
-    { "time_local": "08:00", "selection_rule": { "sections": ["singles"], "max_cards": 2 } },
-    { "time_local": "09:00", "selection_rule": { "sections": ["singles"], "max_cards": 2 } },
-    { "time_local": "09:30", "selection_rule": { "sections": ["doubles","trebles","multiples"], "max_cards": 1 } },
+    { "time_local": "08:00", "selection_rule": { "sections": ["singles"], "max_cards": 2, "rank": "sls" } },
+    { "time_local": "09:00", "selection_rule": { "sections": ["singles"], "max_cards": 2, "rank": "sls" } },
+    { "time_local": "09:30", "selection_rule": { "sections": ["combos"],  "max_cards": 1, "rank": "sls" } },
 
-    { "time_local": "10:00", "selection_rule": { "sections": ["singles"], "max_cards": 2 } },
-    { "time_local": "11:00", "selection_rule": { "sections": ["singles"], "max_cards": 2 } },
-    { "time_local": "11:30", "selection_rule": { "sections": ["doubles","trebles","multiples"], "max_cards": 1 } },
+    { "time_local": "10:00", "selection_rule": { "sections": ["singles"], "max_cards": 2, "rank": "sls" } },
+    { "time_local": "11:00", "selection_rule": { "sections": ["singles"], "max_cards": 2, "rank": "sls" } },
+    { "time_local": "11:30", "selection_rule": { "sections": ["combos"],  "max_cards": 1, "rank": "sls" } },
 
-    { "time_local": "12:00", "selection_rule": { "sections": ["singles"], "max_cards": 2 } },
-    { "time_local": "13:00", "selection_rule": { "sections": ["singles"], "max_cards": 2 } },
-    { "time_local": "13:30", "selection_rule": { "sections": ["doubles","trebles","multiples"], "max_cards": 1 } },
+    { "time_local": "12:00", "selection_rule": { "sections": ["singles"], "max_cards": 2, "rank": "sls" } },
+    { "time_local": "13:00", "selection_rule": { "sections": ["singles"], "max_cards": 2, "rank": "sls" } },
+    { "time_local": "13:30", "selection_rule": { "sections": ["combos"],  "max_cards": 1, "rank": "sls" } },
 
-    { "time_local": "14:00", "selection_rule": { "sections": ["singles"], "max_cards": 2 } },
-    { "time_local": "15:00", "selection_rule": { "sections": ["singles"], "max_cards": 3 } },
-    { "time_local": "15:30", "selection_rule": { "sections": ["doubles","trebles","multiples"], "max_cards": 1 } },
+    { "time_local": "14:00", "selection_rule": { "sections": ["singles"], "max_cards": 3, "rank": "sls" } },
+    { "time_local": "15:00", "selection_rule": { "sections": ["singles"], "max_cards": 3, "rank": "sls" } },
+    { "time_local": "15:30", "selection_rule": { "sections": ["combos"],  "max_cards": 1, "rank": "sls" } },
 
-    { "time_local": "16:00", "selection_rule": { "sections": ["singles"], "max_cards": 3 } },
-    { "time_local": "17:00", "selection_rule": { "sections": ["singles"], "max_cards": 3 } },
-    { "time_local": "17:30", "selection_rule": { "sections": ["doubles","trebles","multiples"], "max_cards": 1 } },
+    { "time_local": "16:00", "selection_rule": { "sections": ["singles"], "max_cards": 3, "rank": "sls" } },
+    { "time_local": "17:00", "selection_rule": { "sections": ["singles"], "max_cards": 3, "rank": "sls" } },
+    { "time_local": "17:30", "selection_rule": { "sections": ["combos"],  "max_cards": 1, "rank": "sls" } },
 
-    { "time_local": "18:00", "selection_rule": { "sections": ["singles"], "max_cards": 3 } },
-    { "time_local": "19:00", "selection_rule": { "sections": ["singles"], "max_cards": 3 } },
-    { "time_local": "19:30", "selection_rule": { "sections": ["doubles","trebles","multiples"], "max_cards": 1 } },
+    { "time_local": "18:00", "selection_rule": { "sections": ["singles"], "max_cards": 3, "rank": "sls" } },
+    { "time_local": "19:00", "selection_rule": { "sections": ["singles"], "max_cards": 3, "rank": "sls" } },
+    { "time_local": "19:30", "selection_rule": { "sections": ["combos"],  "max_cards": 1, "rank": "sls" } },
 
-    { "time_local": "20:00", "selection_rule": { "sections": ["singles"], "max_cards": 2 } },
-    { "time_local": "21:00", "selection_rule": { "sections": ["singles"], "max_cards": 2 } },
-    { "time_local": "22:00", "selection_rule": { "sections": ["singles"], "max_cards": 1 } }
+    { "time_local": "20:00", "selection_rule": { "sections": ["singles"], "max_cards": 2, "rank": "sls" } },
+    { "time_local": "21:00", "selection_rule": { "sections": ["singles"], "max_cards": 2, "rank": "sls" } },
+    { "time_local": "22:00", "selection_rule": { "sections": ["singles"], "max_cards": 1, "rank": "sls" } }
   ]
 }

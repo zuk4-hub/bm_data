@@ -261,6 +261,75 @@ async def _send_long(m, text: str, parse_mode: str = "HTML", chunk_size: int = 3
         await m.answer("\n".join(buf), parse_mode=parse_mode)
 # === END PATCH ===
 
+def _fmt_hhmm_to_hour(hhmm: str) -> int:
+    # "03h15" -> 3
+    try:
+        return int(hhmm.split('h', 1)[0])
+    except Exception:
+        return -1
+
+def _is_corujao_hhmm(hhmm: str) -> bool:
+    # Corujão: 00:00–06:59 (UTC-3)
+    h = _fmt_hhmm_to_hour(hhmm)
+    return 0 <= h < 7
+
+def extract_sections_from_odds(obj: dict, *, detach_corujao_from_main: bool = True):
+    """
+    Se o arquivo tem 'corujao': {'picks': [...], 'combos': [...]}, usa isso.
+    Caso não tenha, deriva Corujão pela janela 00:00–06:59 local.
+
+    detach_corujao_from_main = True:
+       remove os picks/combos de Corujão do feed geral (evita duplicar na timeline).
+    """
+    picks_all = list(obj.get("picks", []))
+    combos_all = list(obj.get("combos", []))
+
+    coru = obj.get("corujao") or {}
+    coru_p = list(coru.get("picks", []) or [])
+    coru_c = list(coru.get("combos", []) or [])
+
+    if not coru_p and not coru_c:
+        # Deriva a partir do horário (retrocompatibilidade)
+        coru_p = [p for p in picks_all if _is_corujao_hhmm(str(p.get("hora", "")))]
+        # Combos: Corujão se TODAS as pernas estiverem no intervalo
+        def _combo_is_corujao(c):
+            legs = c.get("pernas", [])
+            if not legs:
+                # alguns intra-game trazem contexto no 'contexto' (uma vez só)
+                # nesses casos, olhe a hora do combo se existir
+                hh = str(c.get("hora", ""))
+                return _is_corujao_hhmm(hh) if hh else False
+            return all(_is_corujao_hhmm(str(l.get("hora", ""))) for l in legs)
+        coru_c = [c for c in combos_all if _combo_is_corujao(c)]
+
+    if detach_corujao_from_main:
+        # Remove do feed geral o que está no corujão
+        def _mk_key_pick(p):
+            return (p.get("pais"), p.get("campeonato"), p.get("data"),
+                    p.get("hora"), p.get("mandante"), p.get("visitante"),
+                    p.get("mercado"), p.get("selecao"))
+        coru_keys = {_mk_key_pick(p) for p in coru_p}
+        picks_all = [p for p in picks_all if _mk_key_pick(p) not in coru_keys]
+
+        def _mk_key_combo(c):
+            legs = c.get("pernas") or []
+            return tuple(
+                (l.get("pais"), l.get("campeonato"), l.get("data"), l.get("hora"),
+                 l.get("mandante"), l.get("visitante"), l.get("mercado"), l.get("selecao"))
+                for l in legs
+            )
+        coru_ckeys = {_mk_key_combo(c) for c in coru_c}
+        combos_all = [c for c in combos_all if _mk_key_combo(c) not in coru_ckeys]
+
+    return {
+        "picks_all": picks_all,
+        "combos_all": combos_all,
+        "corujao": {
+            "picks": coru_p,
+            "combos": coru_c
+        }
+    }
+
 
 # ==== Assinaturas ====
 def upsert_sub(user_id: str, status: str, expires_at: int = 0, plan: str = "") -> None:
@@ -419,6 +488,7 @@ def _local_date_of_dt(dt_obj: datetime):
 
 BRAND_LINE = (
     "|<i>Mathematics, ethics and the beautiful game</i>|"
+    "@betmasteron"
 )
 
 # ---------- PUBLICADOS (persistência) ----------
@@ -687,7 +757,7 @@ def primary_badges(prob: float, ev: float) -> str:
     return " ".join(b) + (" " if b else "")
 
 def right_badge_sls(sls: float) -> str:
-    return "  💎" if sls >= 75.0 else ""
+    return "  💎" if sls >= 90.0 else ""
 
 # -------------------- Aforismos --------------------
 def _hash_id(s: str) -> str:

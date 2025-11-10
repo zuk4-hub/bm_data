@@ -1,6 +1,6 @@
 {
   "schedule_plan": [
-    { "time_local": "00:30", "selection_rule": { "sections": ["singles"], "max_cards": 1 } },
+    { "time_local": "00:00", "selection_rule": { "sections": ["singles"], "max_cards": 1 } },
 
     { "time_local": "07:00", "selection_rule": { "sections": ["singles"], "max_cards": 2 } },
     { "time_local": "07:30", "selection_rule": { "sections": ["doubles","trebles","multiples"], "max_cards": 1 } },

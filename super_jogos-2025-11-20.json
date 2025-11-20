@@ -1,12 +1,12 @@
 {
   "supercard_header": {
     "version": "1.1-super-games",
-    "generated_at": "2025-11-20T18:03:04.441108",
+    "generated_at": "2025-11-20T19:07:36.600487",
     "source_csv": "odds(20-11-2025).csv",
     "phi_file": "param_loteca_GLOBAL_vFinal_rebalanced.json",
     "target_date_local": "2025-11-20",
-    "games_count": 3,
-    "jogao_count": 2,
+    "games_count": 2,
+    "jogao_count": 1,
     "jogaco_count": 1,
     "max_jogao_per_day": 10,
     "max_jogaco_per_day": 8,
@@ -14,32 +14,32 @@
   },
   "games": [
     {
-      "country": "Brazil",
-      "league": "Serie A",
-      "home": "Corinthians",
-      "away": "São Paulo",
-      "kickoff_local": "19h30",
-      "kickoff_iso": "2025-11-20T19:30:00-03:00",
-      "phi_league": 0.8,
-      "lam_h": 1.0992983648870542,
-      "lam_a": 0.8594971834027618,
-      "lam_total": 1.958795548289816,
-      "lam_corners": 9.006881813369153,
-      "lam_cards": 5.657251983074468,
+      "country": "Mexico",
+      "league": "Liga MX",
+      "home": "Pachuca",
+      "away": "Pumas UNAM",
+      "kickoff_local": "22h00",
+      "kickoff_iso": "2025-11-20T22:00:00-03:00",
+      "phi_league": 1.0,
+      "lam_h": 1.4309319941716117,
+      "lam_a": 1.2490680058283887,
+      "lam_total": 2.6800000000000006,
+      "lam_corners": 9.35,
+      "lam_cards": 6.24,
       "super_type": "JOGAO",
       "markets": [
         {
           "market_code": "1X2_HOME",
           "market_family": "1x2",
           "market_label_pt": "Resultado Final — 1",
-          "selection_pt": "Corinthians",
+          "selection_pt": "Pachuca",
           "threshold": null,
-          "odds_market": 2.09,
-          "p_model": 0.41519154308627143,
-          "p_market": 0.47846889952153115,
-          "odd_fair": 2.408526899576596,
-          "ev_fraction": -0.13224967494969275,
-          "ev_percent": -13.224967494969276
+          "odds_market": 1.8,
+          "p_model": 0.41909209341832515,
+          "p_market": 0.5555555555555556,
+          "odd_fair": 2.386110393645222,
+          "ev_fraction": -0.24563423184701472,
+          "ev_percent": -24.56342318470147
         },
         {
           "market_code": "1X2_DRAW",
@@ -47,25 +47,25 @@
           "market_label_pt": "Resultado Final — Empate",
           "selection_pt": "Empate",
           "threshold": null,
-          "odds_market": 2.72,
-          "p_model": 0.2959348789211958,
-          "p_market": 0.3676470588235294,
-          "odd_fair": 3.379121797489403,
-          "ev_fraction": -0.19505712933434738,
-          "ev_percent": -19.505712933434737
+          "odds_market": 3.51,
+          "p_model": 0.2457913183450989,
+          "p_market": 0.2849002849002849,
+          "odd_fair": 4.068491949727727,
+          "ev_fraction": -0.1372724726087029,
+          "ev_percent": -13.72724726087029
         },
         {
           "market_code": "1X2_AWAY",
           "market_family": "1x2",
           "market_label_pt": "Resultado Final — 2",
-          "selection_pt": "São Paulo",
+          "selection_pt": "Pumas UNAM",
           "threshold": null,
-          "odds_market": 3.66,
-          "p_model": 0.2888735779925329,
-          "p_market": 0.27322404371584696,
-          "odd_fair": 3.461721930227378,
-          "ev_fraction": 0.05727729545267035,
-          "ev_percent": 5.727729545267035
+          "odds_market": 3.6,
+          "p_model": 0.3351165882365758,
+          "p_market": 0.2777777777777778,
+          "odd_fair": 2.984036108931884,
+          "ev_fraction": 0.20641971765167288,
+          "ev_percent": 20.641971765167288
         },
         {
           "market_code": "DC_1X",
@@ -73,12 +73,12 @@
           "market_label_pt": "Dupla Chance — 1X",
           "selection_pt": "1X",
           "threshold": null,
-          "odds_market": 1.36,
-          "p_model": 0.7111264220074672,
-          "p_market": 0.7352941176470588,
-          "odd_fair": 1.4062197227562716,
-          "ev_fraction": -0.03286806606984449,
-          "ev_percent": -3.2868066069844493
+          "odds_market": 1.3,
+          "p_model": 0.5329766823526848,
+          "p_market": 0.7692307692307692,
+          "odd_fair": 1.8762546901409722,
+          "ev_fraction": -0.3071303129415097,
+          "ev_percent": -30.713031294150973
         },
         {
           "market_code": "DC_X2",
@@ -86,12 +86,12 @@
           "market_label_pt": "Dupla Chance — X2",
           "selection_pt": "X2",
           "threshold": null,
-          "odds_market": 1.57,
-          "p_model": 0.5848084569137286,
-          "p_market": 0.6369426751592356,
-          "odd_fair": 1.7099615920012605,
-          "ev_fraction": -0.08185072264544602,
-          "ev_percent": -8.185072264544601
+          "odds_market": 1.75,
+          "p_model": 0.516181581316335,
+          "p_market": 0.5714285714285714,
+          "odd_fair": 1.9373027558439042,
+          "ev_fraction": -0.09668223269641385,
+          "ev_percent": -9.668223269641384
         },
         {
           "market_code": "OU_FT_UNDER",
@@ -99,12 +99,12 @@
           "market_label_pt": "Gols — Abaixo de 0.5",
           "selection_pt": "Abaixo de 0.5",
           "threshold": 0.5,
-          "odds_market": 5.8,
-          "p_model": 0.14102818029998176,
-          "p_market": 0.1724137931034483,
-          "odd_fair": 7.090781415975835,
-          "ev_fraction": -0.1820365542601058,
-          "ev_percent": -18.203655426010577
+          "odds_market": 11.0,
+          "p_model": 0.06856315415427794,
+          "p_market": 0.09090909090909091,
+          "odd_fair": 14.585093295880785,
+          "ev_fraction": -0.24580530430294267,
+          "ev_percent": -24.580530430294267
         },
         {
           "market_code": "OU_FT_OVER",
@@ -112,12 +112,12 @@
           "market_label_pt": "Gols — Acima de 1.5",
           "selection_pt": "Acima de 1.5",
           "threshold": 1.5,
-          "odds_market": 1.47,
-          "p_model": 0.5827264479450005,
-          "p_market": 0.6802721088435374,
-          "odd_fair": 1.716071071643522,
-          "ev_fraction": -0.14339212152084924,
-          "ev_percent": -14.339212152084924
+          "odds_market": 1.18,
+          "p_model": 0.5495375185424515,
+          "p_market": 0.8474576271186441,
+          "odd_fair": 1.8197119691705828,
+          "ev_fraction": -0.35154572811990725,
+          "ev_percent": -35.154572811990725
         },
         {
           "market_code": "OU_FT_UNDER",
@@ -125,12 +125,12 @@
           "market_label_pt": "Gols — Abaixo de 1.5",
           "selection_pt": "Abaixo de 1.5",
           "threshold": 1.5,
-          "odds_market": 2.63,
-          "p_model": 0.4172735520549995,
-          "p_market": 0.3802281368821293,
-          "odd_fair": 2.3965094242737752,
-          "ev_fraction": 0.09742944190464864,
-          "ev_percent": 9.742944190464865
+          "odds_market": 3.8,
+          "p_model": 0.2523124072877426,
+          "p_market": 0.2631578947368421,
+          "odd_fair": 3.963340569532825,
+          "ev_fraction": -0.04121285230657812,
+          "ev_percent": -4.121285230657811
         },
         {
           "market_code": "OU_FT_OVER",
@@ -138,12 +138,12 @@
           "market_label_pt": "Gols — Acima de 2.5",
           "selection_pt": "Acima de 2.5",
           "threshold": 2.5,
-          "odds_market": 2.5,
-          "p_model": 0.3121723457303034,
-          "p_market": 0.4,
-          "odd_fair": 3.203358701298721,
-          "ev_fraction": -0.21956913567424152,
-          "ev_percent": -21.956913567424152
+          "odds_market": 1.76,
+          "p_model": 0.5002927187026829,
+          "p_market": 0.5681818181818182,
+          "odd_fair": 1.9988298102621125,
+          "ev_fraction": -0.11948481508327813,
+          "ev_percent": -11.948481508327813
         },
         {
           "market_code": "OU_FT_UNDER",
@@ -151,12 +151,12 @@
           "market_label_pt": "Gols — Abaixo de 2.5",
           "selection_pt": "Abaixo de 2.5",
           "threshold": 2.5,
-          "odds_market": 1.53,
-          "p_model": 0.6878276542696966,
-          "p_market": 0.6535947712418301,
-          "odd_fair": 1.4538525658171646,
-          "ev_fraction": 0.05237631103263585,
-          "ev_percent": 5.237631103263585
+          "odds_market": 1.94,
+          "p_model": 0.4985364064865855,
+          "p_market": 0.5154639175257733,
+          "odd_fair": 2.0058715612114635,
+          "ev_fraction": -0.03283937141602422,
+          "ev_percent": -3.283937141602422
         },
         {
           "market_code": "OU_FT_OVER",
@@ -164,12 +164,12 @@
           "market_label_pt": "Gols — Acima de 3.5",
           "selection_pt": "Acima de 3.5",
           "threshold": 3.5,
-          "odds_market": 5.3,
-          "p_model": 0.1355189554004046,
-          "p_market": 0.18867924528301888,
-          "odd_fair": 7.379041529986694,
-          "ev_fraction": -0.2817495363778557,
-          "ev_percent": -28.17495363778557
+          "odds_market": 2.8,
+          "p_model": 0.28150348756244836,
+          "p_market": 0.35714285714285715,
+          "odd_fair": 3.552353857705444,
+          "ev_fraction": -0.21179023482514459,
+          "ev_percent": -21.17902348251446
         },
         {
           "market_code": "OU_FT_UNDER",
@@ -177,12 +177,12 @@
           "market_label_pt": "Gols — Abaixo de 3.5",
           "selection_pt": "Abaixo de 3.5",
           "threshold": 3.5,
-          "odds_market": 1.18,
-          "p_model": 0.8644810445995954,
-          "p_market": 0.8474576271186441,
-          "odd_fair": 1.1567633625363913,
-          "ev_fraction": 0.020087632627522556,
-          "ev_percent": 2.0087632627522556
+          "odds_market": 1.36,
+          "p_model": 0.5436993024875103,
+          "p_market": 0.7352941176470588,
+          "odd_fair": 1.8392519457443515,
+          "ev_fraction": -0.260568948616986,
+          "ev_percent": -26.0568948616986
         },
         {
           "market_code": "OU_FT_OVER",
@@ -190,12 +190,12 @@
           "market_label_pt": "Gols — Acima de 4.5",
           "selection_pt": "Acima de 4.5",
           "threshold": 4.5,
-          "odds_market": 13.0,
-          "p_model": 0.049011986758277226,
-          "p_market": 0.07692307692307693,
-          "odd_fair": 20.40317208383964,
-          "ev_fraction": -0.36284417214239606,
-          "ev_percent": -36.2844172142396
+          "odds_market": 5.07,
+          "p_model": 0.13413021657530078,
+          "p_market": 0.1972386587771203,
+          "odd_fair": 7.455441626299018,
+          "ev_fraction": -0.31995980196322504,
+          "ev_percent": -31.995980196322506
         },
         {
           "market_code": "OU_FT_UNDER",
@@ -203,12 +203,12 @@
           "market_label_pt": "Gols — Abaixo de 4.5",
           "selection_pt": "Abaixo de 4.5",
           "threshold": 4.5,
-          "odds_market": 1.05,
-          "p_model": 0.9509880132417228,
-          "p_market": 0.9523809523809523,
-          "odd_fair": 1.0515379648069436,
-          "ev_fraction": -0.0014625860961910986,
-          "ev_percent": -0.14625860961910986
+          "odds_market": 1.13,
+          "p_model": 0.5731739566849399,
+          "p_market": 0.8849557522123894,
+          "odd_fair": 1.7446710345733247,
+          "ev_fraction": -0.352313428946018,
+          "ev_percent": -35.2313428946018
         },
         {
           "market_code": "OU_1H_OVER",
@@ -216,12 +216,12 @@
           "market_label_pt": "Gols 1ºT — Acima de 0.5",
           "selection_pt": "Acima de 0.5",
           "threshold": 0.5,
-          "odds_market": 1.58,
-          "p_model": 0.5938553703755289,
-          "p_market": 0.6329113924050632,
-          "odd_fair": 1.6839116894196686,
-          "ev_fraction": -0.06170851480666428,
-          "ev_percent": -6.170851480666428
+          "odds_market": 1.31,
+          "p_model": 0.5417049393636791,
+          "p_market": 0.7633587786259541,
+          "odd_fair": 1.8460234111482594,
+          "ev_fraction": -0.2903665294335803,
+          "ev_percent": -29.036652943358032
         },
         {
           "market_code": "OU_1H_UNDER",
@@ -229,12 +229,12 @@
           "market_label_pt": "Gols 1ºT — Abaixo de 0.5",
           "selection_pt": "Abaixo de 0.5",
           "threshold": 0.5,
-          "odds_market": 2.29,
-          "p_model": 0.40614462962447107,
-          "p_market": 0.4366812227074236,
-          "odd_fair": 2.4621770843667656,
-          "ev_fraction": -0.06992879815996123,
-          "ev_percent": -6.9928798159961225
+          "odds_market": 3.1,
+          "p_model": 0.2914753031816044,
+          "p_market": 0.3225806451612903,
+          "odd_fair": 3.430822402736974,
+          "ev_fraction": -0.09642656013702633,
+          "ev_percent": -9.642656013702632
         },
         {
           "market_code": "OU_1H_OVER",
@@ -242,12 +242,12 @@
           "market_label_pt": "Gols 1ºT — Acima de 1.5",
           "selection_pt": "Acima de 1.5",
           "threshold": 1.5,
-          "odds_market": 3.34,
-          "p_model": 0.22790039583922317,
-          "p_market": 0.29940119760479045,
-          "odd_fair": 4.387881803880103,
-          "ev_fraction": -0.23881267789699467,
-          "ev_percent": -23.881267789699468
+          "odds_market": 2.53,
+          "p_model": 0.3491939430561135,
+          "p_market": 0.3952569169960475,
+          "odd_fair": 2.863738102809262,
+          "ev_fraction": -0.11653932406803291,
+          "ev_percent": -11.65393240680329
         },
         {
           "market_code": "OU_1H_UNDER",
@@ -255,12 +255,12 @@
           "market_label_pt": "Gols 1ºT — Abaixo de 1.5",
           "selection_pt": "Abaixo de 1.5",
           "threshold": 1.5,
-          "odds_market": 1.26,
-          "p_model": 0.7720996041607768,
-          "p_market": 0.7936507936507936,
-          "odd_fair": 1.29516968356296,
-          "ev_fraction": -0.027154498757421153,
-          "ev_percent": -2.7154498757421153
+          "odds_market": 1.45,
+          "p_model": 0.5301612113887773,
+          "p_market": 0.6896551724137931,
+          "odd_fair": 1.886218717096376,
+          "ev_fraction": -0.231266243486273,
+          "ev_percent": -23.1266243486273
         },
         {
           "market_code": "OU_1H_OVER",
@@ -268,12 +268,12 @@
           "market_label_pt": "Gols 1ºT — Acima de 2.5",
           "selection_pt": "Acima de 2.5",
           "threshold": 2.5,
-          "odds_market": 9.0,
-          "p_model": 0.06302927159009053,
-          "p_market": 0.1111111111111111,
-          "odd_fair": 15.865644243891598,
-          "ev_fraction": -0.43273655568918523,
-          "ev_percent": -43.27365556891852
+          "odds_market": 6.1,
+          "p_model": 0.12770246643704275,
+          "p_market": 0.1639344262295082,
+          "odd_fair": 7.8307023184473845,
+          "ev_fraction": -0.22101495473403932,
+          "ev_percent": -22.101495473403933
         },
         {
           "market_code": "OU_1H_UNDER",
@@ -281,12 +281,12 @@
           "market_label_pt": "Gols 1ºT — Abaixo de 2.5",
           "selection_pt": "Abaixo de 2.5",
           "threshold": 2.5,
-          "odds_market": 1.01,
-          "p_model": 0.9369707284099095,
-          "p_market": 0.9900990099009901,
-          "odd_fair": 1.0672692002844686,
-          "ev_fraction": -0.05365956430599139,
-          "ev_percent": -5.365956430599139
+          "odds_market": 1.06,
+          "p_model": 0.5744595067125915,
+          "p_market": 0.9433962264150942,
+          "odd_fair": 1.7407667351918525,
+          "ev_fraction": -0.391072922884653,
+          "ev_percent": -39.1072922884653
         },
         {
           "market_code": "OU_2H_OVER",
@@ -294,12 +294,12 @@
           "market_label_pt": "Gols 2ºT — Acima de 0.5",
           "selection_pt": "Acima de 0.5",
           "threshold": 0.5,
-          "odds_market": 1.34,
-          "p_model": 0.6527636462154405,
-          "p_market": 0.7462686567164178,
-          "odd_fair": 1.5319480577660056,
-          "ev_fraction": -0.1252967140713097,
-          "ev_percent": -12.529671407130971
+          "odds_market": 1.2,
+          "p_model": 0.552954398945039,
+          "p_market": 0.8333333333333334,
+          "odd_fair": 1.8084673924429622,
+          "ev_fraction": -0.3364547212659533,
+          "ev_percent": -33.64547212659533
         },
         {
           "market_code": "OU_2H_UNDER",
@@ -307,12 +307,12 @@
           "market_label_pt": "Gols 2ºT — Abaixo de 0.5",
           "selection_pt": "Abaixo de 0.5",
           "threshold": 0.5,
-          "odds_market": 2.99,
-          "p_model": 0.3472363537845595,
-          "p_market": 0.33444816053511706,
-          "odd_fair": 2.8798827919395884,
-          "ev_fraction": 0.038236697815833054,
-          "ev_percent": 3.8236697815833054
+          "odds_market": 4.0,
+          "p_model": 0.23522800527480503,
+          "p_market": 0.25,
+          "odd_fair": 4.251194490348844,
+          "ev_fraction": -0.05908797890077988,
+          "ev_percent": -5.908797890077988
         },
         {
           "market_code": "OU_2H_OVER",
@@ -320,12 +320,12 @@
           "market_label_pt": "Gols 2ºT — Acima de 1.5",
           "selection_pt": "Acima de 1.5",
           "threshold": 1.5,
-          "odds_market": 2.63,
-          "p_model": 0.28547453325674566,
-          "p_market": 0.3802281368821293,
-          "odd_fair": 3.5029394341828577,
-          "ev_fraction": -0.24920197753475892,
-          "ev_percent": -24.920197753475893
+          "odds_market": 1.97,
+          "p_model": 0.4243500254914969,
+          "p_market": 0.5076142131979695,
+          "odd_fair": 2.356545163021412,
+          "ev_fraction": -0.16403044978175108,
+          "ev_percent": -16.403044978175107
         },
         {
           "market_code": "OU_2H_UNDER",
@@ -333,12 +333,12 @@
           "market_label_pt": "Gols 2ºT — Abaixo de 1.5",
           "selection_pt": "Abaixo de 1.5",
           "threshold": 1.5,
-          "odds_market": 1.44,
-          "p_model": 0.7145254667432543,
-          "p_market": 0.6944444444444444,
-          "odd_fair": 1.399530242858822,
-          "ev_fraction": 0.028916672110286257,
-          "ev_percent": 2.8916672110286257
+          "odds_market": 1.75,
+          "p_model": 0.5151299949017006,
+          "p_market": 0.5714285714285714,
+          "odd_fair": 1.9412575658515563,
+          "ev_fraction": -0.09852250892202385,
+          "ev_percent": -9.852250892202385
         },
         {
           "market_code": "OU_2H_OVER",
@@ -346,12 +346,12 @@
           "market_label_pt": "Gols 2ºT — Acima de 2.5",
           "selection_pt": "Acima de 2.5",
           "threshold": 2.5,
-          "odds_market": 5.75,
-          "p_model": 0.09122457781906768,
-          "p_market": 0.17391304347826086,
-          "odd_fair": 10.961958102819315,
-          "ev_fraction": -0.47545867754036086,
-          "ev_percent": -47.54586775403609
+          "odds_market": 4.0,
+          "p_model": 0.1780206885539929,
+          "p_market": 0.25,
+          "odd_fair": 5.617324638628753,
+          "ev_fraction": -0.28791724578402844,
+          "ev_percent": -28.791724578402842
         },
         {
           "market_code": "OU_2H_UNDER",
@@ -359,12 +359,12 @@
           "market_label_pt": "Gols 2ºT — Abaixo de 2.5",
           "selection_pt": "Abaixo de 2.5",
           "threshold": 2.5,
-          "odds_market": 1.1,
-          "p_model": 0.9087754221809323,
-          "p_market": 0.9090909090909091,
-          "odd_fair": 1.1003818716841414,
-          "ev_fraction": -0.0003470356009743769,
-          "ev_percent": -0.03470356009743769
+          "odds_market": 1.2,
+          "p_model": 0.5643958622892015,
+          "p_market": 0.8333333333333334,
+          "odd_fair": 1.7718060439776773,
+          "ev_fraction": -0.32272496525295824,
+          "ev_percent": -32.27249652529582
         },
         {
           "market_code": "BTTS_Y",
@@ -372,12 +372,12 @@
           "market_label_pt": "Ambas Marcam — Sim",
           "selection_pt": "Sim",
           "threshold": null,
-          "odds_market": 2.07,
-          "p_model": 0.38454855186956716,
-          "p_market": 0.48309178743961356,
-          "odd_fair": 2.600451867880611,
-          "ev_fraction": -0.20398449762999604,
-          "ev_percent": -20.398449762999604
+          "odds_market": 1.63,
+          "p_model": 0.5085410440799061,
+          "p_market": 0.6134969325153374,
+          "odd_fair": 1.9664096175546293,
+          "ev_fraction": -0.17107809814975317,
+          "ev_percent": -17.107809814975315
         },
         {
           "market_code": "BTTS_N",
@@ -385,12 +385,12 @@
           "market_label_pt": "Ambas Marcam — Não",
           "selection_pt": "Não",
           "threshold": null,
-          "odds_market": 1.73,
-          "p_model": 0.6154514481304328,
-          "p_market": 0.5780346820809249,
-          "odd_fair": 1.6248235389448131,
-          "ev_fraction": 0.0647310052656489,
-          "ev_percent": 6.47310052656489
+          "odds_market": 2.11,
+          "p_model": 0.4572947796004694,
+          "p_market": 0.47393364928909953,
+          "odd_fair": 2.1867732688172885,
+          "ev_fraction": -0.035108015043009644,
+          "ev_percent": -3.5108015043009644
         },
         {
           "market_code": "BTTS_1H_Y",
@@ -399,9 +399,9 @@
           "selection_pt": "Sim",
           "threshold": null,
           "odds_market": null,
-          "p_model": 0.19,
+          "p_model": 0.046000000000000006,
           "p_market": null,
-          "odd_fair": 5.2631578947368425,
+          "odd_fair": 21.739130434782606,
           "ev_fraction": null,
           "ev_percent": null
         },
@@ -412,9 +412,9 @@
           "selection_pt": "Não",
           "threshold": null,
           "odds_market": null,
-          "p_model": 0.81,
+          "p_model": 0.5908,
           "p_market": null,
-          "odd_fair": 1.2345679012345678,
+          "odd_fair": 1.6926201760324984,
           "ev_fraction": null,
           "ev_percent": null
         },
@@ -424,12 +424,12 @@
           "market_label_pt": "Escanteios — Acima de 7.5",
           "selection_pt": "Acima de 7.5",
           "threshold": 7.5,
-          "odds_market": 1.24,
-          "p_model": 0.6769083904805265,
-          "p_market": 0.8064516129032259,
-          "odd_fair": 1.4773047787014664,
-          "ev_fraction": -0.16063359580414716,
-          "ev_percent": -16.063359580414716
+          "odds_market": 1.29,
+          "p_model": 0.5430946592912254,
+          "p_market": 0.7751937984496123,
+          "odd_fair": 1.8412996388236749,
+          "ev_fraction": -0.2994078895143193,
+          "ev_percent": -29.94078895143193
         },
         {
           "market_code": "CORNERS_UNDER",
@@ -437,12 +437,12 @@
           "market_label_pt": "Escanteios — Abaixo de 7.5",
           "selection_pt": "Abaixo de 7.5",
           "threshold": 7.5,
-          "odds_market": 3.34,
-          "p_model": 0.32309160951947347,
-          "p_market": 0.29940119760479045,
-          "odd_fair": 3.095097398187704,
-          "ev_fraction": 0.07912597579504133,
-          "ev_percent": 7.912597579504133
+          "odds_market": 3.2,
+          "p_model": 0.284526703543873,
+          "p_market": 0.3125,
+          "odd_fair": 3.514608602794302,
+          "ev_fraction": -0.0895145486596064,
+          "ev_percent": -8.95145486596064
         },
         {
           "market_code": "CORNERS_OVER",
@@ -450,12 +450,12 @@
           "market_label_pt": "Escanteios — Acima de 8.5",
           "selection_pt": "Acima de 8.5",
           "threshold": 8.5,
-          "odds_market": 1.5,
-          "p_model": 0.5452537661256105,
-          "p_market": 0.6666666666666666,
-          "odd_fair": 1.8340084234642944,
-          "ev_fraction": -0.18211935081158426,
-          "ev_percent": -18.211935081158426
+          "odds_market": 1.53,
+          "p_model": 0.5178976524780576,
+          "p_market": 0.6535947712418301,
+          "odd_fair": 1.9308834384847267,
+          "ev_fraction": -0.20761659170857183,
+          "ev_percent": -20.761659170857182
         },
         {
           "market_code": "CORNERS_UNDER",
@@ -463,12 +463,12 @@
           "market_label_pt": "Escanteios — Abaixo de 8.5",
           "selection_pt": "Abaixo de 8.5",
           "threshold": 8.5,
-          "odds_market": 2.45,
-          "p_model": 0.4547462338743895,
-          "p_market": 0.4081632653061224,
-          "odd_fair": 2.1990286571042192,
-          "ev_fraction": 0.11412827299225436,
-          "ev_percent": 11.412827299225437
+          "odds_market": 2.75,
+          "p_model": 0.4105117376097117,
+          "p_market": 0.36363636363636365,
+          "odd_fair": 2.435983940003041,
+          "ev_fraction": 0.12890727842670713,
+          "ev_percent": 12.890727842670714
         },
         {
           "market_code": "CORNERS_OVER",
@@ -476,12 +476,12 @@
           "market_label_pt": "Escanteios — Acima de 9.5",
           "selection_pt": "Acima de 9.5",
           "threshold": 9.5,
-          "odds_market": 1.85,
-          "p_model": 0.4134984725980281,
-          "p_market": 0.5405405405405405,
-          "odd_fair": 2.4183886187461794,
-          "ev_fraction": -0.235027825693648,
-          "ev_percent": -23.5027825693648
+          "odds_market": 1.87,
+          "p_model": 0.45860381033300046,
+          "p_market": 0.53475935828877,
+          "odd_fair": 2.180531381267596,
+          "ev_fraction": -0.14241087467728908,
+          "ev_percent": -14.241087467728908
         },
         {
           "market_code": "CORNERS_UNDER",
@@ -489,12 +489,12 @@
           "market_label_pt": "Escanteios — Abaixo de 9.5",
           "selection_pt": "Abaixo de 9.5",
           "threshold": 9.5,
-          "odds_market": 1.84,
-          "p_model": 0.5865015274019719,
-          "p_market": 0.5434782608695652,
-          "odd_fair": 1.7050253976826009,
-          "ev_fraction": 0.07916281041962847,
-          "ev_percent": 7.916281041962847
+          "odds_market": 1.87,
+          "p_model": 0.5082792379333999,
+          "p_market": 0.53475935828877,
+          "odd_fair": 1.9674224823069215,
+          "ev_fraction": -0.049517825064542165,
+          "ev_percent": -4.951782506454217
         },
         {
           "market_code": "CORNERS_OVER",
@@ -502,12 +502,12 @@
           "market_label_pt": "Escanteios — Acima de 10.5",
           "selection_pt": "Acima de 10.5",
           "threshold": 10.5,
-          "odds_market": 2.32,
-          "p_model": 0.2948280368891584,
-          "p_market": 0.4310344827586207,
-          "odd_fair": 3.391807680678461,
-          "ev_fraction": -0.31599895441715264,
-          "ev_percent": -31.599895441715265
+          "odds_market": 2.37,
+          "p_model": 0.3362268476594362,
+          "p_market": 0.42194092827004215,
+          "odd_fair": 2.97418248114707,
+          "ev_fraction": -0.20314237104713606,
+          "ev_percent": -20.314237104713605
         },
         {
           "market_code": "CORNERS_UNDER",
@@ -515,12 +515,12 @@
           "market_label_pt": "Escanteios — Abaixo de 10.5",
           "selection_pt": "Abaixo de 10.5",
           "threshold": 10.5,
-          "odds_market": 1.55,
-          "p_model": 0.7051719631108416,
-          "p_market": 0.6451612903225806,
-          "odd_fair": 1.4180938158524266,
-          "ev_fraction": 0.0930165428218046,
-          "ev_percent": 9.301654282180461
+          "odds_market": 1.54,
+          "p_model": 0.5327546304681128,
+          "p_market": 0.6493506493506493,
+          "odd_fair": 1.8770367122315486,
+          "ev_fraction": -0.1795578690791063,
+          "ev_percent": -17.955786907910632
         },
         {
           "market_code": "CORNERS_OVER",
@@ -528,12 +528,12 @@
           "market_label_pt": "Escanteios — Acima de 11.5",
           "selection_pt": "Acima de 11.5",
           "threshold": 11.5,
-          "odds_market": 3.14,
-          "p_model": 0.19765980150999396,
-          "p_market": 0.3184713375796178,
-          "odd_fair": 5.0591976333105775,
-          "ev_fraction": -0.37934822325861894,
-          "ev_percent": -37.934822325861894
+          "odds_market": 3.1,
+          "p_model": 0.2322064293869066,
+          "p_market": 0.3225806451612903,
+          "odd_fair": 4.306512970550792,
+          "ev_fraction": -0.28016006890058953,
+          "ev_percent": -28.016006890058954
         },
         {
           "market_code": "CORNERS_UNDER",
@@ -541,12 +541,12 @@
           "market_label_pt": "Escanteios — Abaixo de 11.5",
           "selection_pt": "Abaixo de 11.5",
           "threshold": 11.5,
-          "odds_market": 1.27,
-          "p_model": 0.802340198490006,
-          "p_market": 0.7874015748031495,
-          "odd_fair": 1.2463541050068128,
-          "ev_fraction": 0.01897205208230779,
-          "ev_percent": 1.8972052082307789
+          "odds_market": 1.32,
+          "p_model": 0.5535587141226187,
+          "p_market": 0.7575757575757576,
+          "odd_fair": 1.806493104502895,
+          "ev_fraction": -0.26930249735814327,
+          "ev_percent": -26.93024973581433
         },
         {
           "market_code": "CARDS_OVER",
@@ -555,9 +555,9 @@
           "selection_pt": "Acima de 3.5",
           "threshold": 3.5,
           "odds_market": null,
-          "p_model": 0.8154922542650271,
+          "p_model": 0.8689620966288467,
           "p_market": null,
-          "odd_fair": 1.2262532167166478,
+          "odd_fair": 1.150798180817687,
           "ev_fraction": null,
           "ev_percent": null
         },
@@ -568,9 +568,9 @@
           "selection_pt": "Abaixo de 3.5",
           "threshold": 3.5,
           "odds_market": null,
-          "p_model": 0.18450774573497286,
+          "p_model": 0.13103790337115329,
           "p_market": null,
-          "odd_fair": 5.419826663734764,
+          "odd_fair": 7.63137973268382,
           "ev_fraction": null,
           "ev_percent": null
         },
@@ -581,9 +581,9 @@
           "selection_pt": "Acima de 4.5",
           "threshold": 4.5,
           "odds_market": null,
-          "p_model": 0.6664540762541328,
+          "p_model": 0.7457851172240101,
           "p_market": null,
-          "odd_fair": 1.5004784810089138,
+          "odd_fair": 1.340868806449555,
           "ev_fraction": null,
           "ev_percent": null
         },
@@ -594,9 +594,9 @@
           "selection_pt": "Abaixo de 4.5",
           "threshold": 4.5,
           "odds_market": null,
-          "p_model": 0.3335459237458672,
+          "p_model": 0.2542148827759899,
           "p_market": null,
-          "odd_fair": 2.998087905765901,
+          "odd_fair": 3.933679999692166,
           "ev_fraction": null,
           "ev_percent": null
         },
@@ -607,9 +607,9 @@
           "selection_pt": "Acima de 5.5",
           "threshold": 5.5,
           "odds_market": null,
-          "p_model": 0.4978247706329455,
+          "p_model": 0.5920602469267742,
           "p_market": null,
-          "odd_fair": 2.0087389358480046,
+          "odd_fair": 1.6890173005040139,
           "ev_fraction": null,
           "ev_percent": null
         },
@@ -620,130 +620,9 @@
           "selection_pt": "Abaixo de 5.5",
           "threshold": 5.5,
           "odds_market": null,
-          "p_model": 0.5021752293670545,
+          "p_model": 0.40793975307322583,
           "p_market": null,
-          "odd_fair": 1.9913367715496593,
-          "ev_fraction": null,
-          "ev_percent": null
-        }
-      ]
-    },
-    {
-      "country": "Honduras",
-      "league": "Liga Nacional de Fútbol Profesional de Honduras",
-      "home": "Motagua",
-      "away": "Olancho",
-      "kickoff_local": "22h00",
-      "kickoff_iso": "2025-11-20T22:00:00-03:00",
-      "phi_league": 1.0,
-      "lam_h": 1.5528451522013904,
-      "lam_a": 1.4271548477986098,
-      "lam_total": 2.9800000000000004,
-      "lam_corners": 11.63,
-      "lam_cards": 4.73,
-      "super_type": "JOGAO",
-      "markets": [
-        {
-          "market_code": "BTTS_1H_Y",
-          "market_family": "Outro",
-          "market_label_pt": "Ambas Marcam 1º Tempo — Sim",
-          "selection_pt": "Sim",
-          "threshold": null,
-          "odds_market": null,
-          "p_model": 0.19,
-          "p_market": null,
-          "odd_fair": 5.2631578947368425,
-          "ev_fraction": null,
-          "ev_percent": null
-        },
-        {
-          "market_code": "BTTS_1H_N",
-          "market_family": "Outro",
-          "market_label_pt": "Ambas Marcam 1º Tempo — Não",
-          "selection_pt": "Não",
-          "threshold": null,
-          "odds_market": null,
-          "p_model": 0.81,
-          "p_market": null,
-          "odd_fair": 1.2345679012345678,
-          "ev_fraction": null,
-          "ev_percent": null
-        },
-        {
-          "market_code": "CARDS_OVER",
-          "market_family": "Cartões",
-          "market_label_pt": "Cartões — Acima de 3.5",
-          "selection_pt": "Acima de 3.5",
-          "threshold": 3.5,
-          "odds_market": null,
-          "p_model": 0.6950123013027081,
-          "p_market": null,
-          "odd_fair": 1.4388234540966154,
-          "ev_fraction": null,
-          "ev_percent": null
-        },
-        {
-          "market_code": "CARDS_UNDER",
-          "market_family": "Cartões",
-          "market_label_pt": "Cartões — Abaixo de 3.5",
-          "selection_pt": "Abaixo de 3.5",
-          "threshold": 3.5,
-          "odds_market": null,
-          "p_model": 0.3049876986972919,
-          "p_market": null,
-          "odd_fair": 3.278820766448438,
-          "ev_fraction": null,
-          "ev_percent": null
-        },
-        {
-          "market_code": "CARDS_OVER",
-          "market_family": "Cartões",
-          "market_label_pt": "Cartões — Acima de 4.5",
-          "selection_pt": "Acima de 4.5",
-          "threshold": 4.5,
-          "odds_market": null,
-          "p_model": 0.5109264450867926,
-          "p_market": null,
-          "odd_fair": 1.9572288919790146,
-          "ev_fraction": null,
-          "ev_percent": null
-        },
-        {
-          "market_code": "CARDS_UNDER",
-          "market_family": "Cartões",
-          "market_label_pt": "Cartões — Abaixo de 4.5",
-          "selection_pt": "Abaixo de 4.5",
-          "threshold": 4.5,
-          "odds_market": null,
-          "p_model": 0.48907355491320736,
-          "p_market": null,
-          "odd_fair": 2.0446822159040337,
-          "ev_fraction": null,
-          "ev_percent": null
-        },
-        {
-          "market_code": "CARDS_OVER",
-          "market_family": "Cartões",
-          "market_label_pt": "Cartões — Acima de 5.5",
-          "selection_pt": "Acima de 5.5",
-          "threshold": 5.5,
-          "odds_market": null,
-          "p_model": 0.33678122510653685,
-          "p_market": null,
-          "odd_fair": 2.9692866628288486,
-          "ev_fraction": null,
-          "ev_percent": null
-        },
-        {
-          "market_code": "CARDS_UNDER",
-          "market_family": "Cartões",
-          "market_label_pt": "Cartões — Abaixo de 5.5",
-          "selection_pt": "Abaixo de 5.5",
-          "threshold": 5.5,
-          "odds_market": null,
-          "p_model": 0.6632187748934631,
-          "p_market": null,
-          "odd_fair": 1.5077980869293637,
+          "odd_fair": 2.4513423672649486,
           "ev_fraction": null,
           "ev_percent": null
         }
@@ -19092,7 +18971,7 @@
       "lam_total": 1.958795548289816,
       "lam_corners": 9.006881813369153,
       "lam_cards": 5.657251983074468,
-      "super_type": "JOGAO",
+      "super_type": "NONE",
       "markets": [
         {
           "market_code": "1X2_HOME",
@@ -21690,7 +21569,7 @@
       "lam_total": 2.9800000000000004,
       "lam_corners": 11.63,
       "lam_cards": 4.73,
-      "super_type": "JOGAO",
+      "super_type": "NONE",
       "markets": [
         {
           "market_code": "BTTS_1H_Y",
@@ -21811,7 +21690,7 @@
       "lam_total": 2.6800000000000006,
       "lam_corners": 9.35,
       "lam_cards": 6.24,
-      "super_type": "NONE",
+      "super_type": "JOGAO",
       "markets": [
         {
           "market_code": "1X2_HOME",

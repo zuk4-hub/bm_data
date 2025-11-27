@@ -5504,11 +5504,15 @@ async def _send_coruja_card_in_chunks(
             🏆 Liga · País
             🕠 Hoje | HHhMM (UTC: -3)
             ⚽️ Mandante vs Visitante
-          seguido de TODOS os picks +EV desse jogo.
+          seguido de ATÉ CORUJAO_MAX_PICKS_PER_GAME picks +EV desse jogo.
     • Picks de um mesmo jogo separados por barra horizontal.
     • Jogos diferentes também separados por barra horizontal.
     • O aforismo vai ACOPLADO ao ÚLTIMO card, nunca sozinho.
     """
+
+    if not picks:
+        print("[CORUJAO][NO_PICKS_SEND] Lista vazia de picks para envio.")
+        return False
 
     if GROUP_ID == 0:
         print("[CORUJAO][WARN] GROUP_ID=0, não vou enviar.")
@@ -5522,11 +5526,15 @@ async def _send_coruja_card_in_chunks(
 
     HR = "──────────"
 
-    # Agrupa picks por jogo
+    # Agrupa picks por jogo, já respeitando o limite CORUJAO_MAX_PICKS_PER_GAME
     jogos: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
     for p in picks:
         gid = _game_id_from_pick(p)
-        jogos[gid].append(p)
+        arr = jogos[gid]
+        if len(arr) >= CORUJAO_MAX_PICKS_PER_GAME:
+            # já bateu o limite por jogo, ignora picks extras
+            continue
+        arr.append(p)
 
     # Ordena por horário local dentro de cada jogo
     def _dt_loc(px: Dict[str, Any]) -> datetime:
@@ -5567,7 +5575,7 @@ async def _send_coruja_card_in_chunks(
 
         flag = get_country_flag(pais, liga)
 
-        # Bloco de cabeçalho do JOGO
+        # Bloco de cabeçalho do JOGO (UMA VEZ por jogo em cada card)
         jogo_header = [
             HR,
             f"🏆 {liga} · {pais} {flag}".rstrip(),
@@ -5586,8 +5594,7 @@ async def _send_coruja_card_in_chunks(
         else:
             current_lines = candidate
 
-        # Agora adiciona TODOS os picks DESTE JOGO,
-        # SEMPRE com cabeçalho do jogo repetido
+        # Agora adiciona APENAS os picks deste jogo, SEM repetir cabeçalho
         for p in arr:
             pick_block = _render_pick_block_for_corujao(p).strip()
             if not pick_block:
@@ -5595,23 +5602,18 @@ async def _send_coruja_card_in_chunks(
 
             bloco_pick = [
                 HR,
-                f"🏆 {liga} · {pais} {flag}".rstrip(),
-                f"🕠 Hoje | {hora} (UTC: -3)",
-                f"⚽️ {home} vs {away}",
-                HR,
-                pick_block
+                pick_block,
             ]
 
             candidate = current_lines + bloco_pick
             joined = "\n".join(candidate)
 
             if len(joined) > TELEGRAM_SAFE_LIMIT:
-                # fecha o card atual
+                # fecha o card atual e começa outro com header global + cabeçalho + pick
                 messages.append("\n".join(current_lines))
-                current_lines = list(header_global) + bloco_pick
+                current_lines = list(header_global) + jogo_header + bloco_pick
             else:
                 current_lines.extend(bloco_pick)
-
 
     # Fecha o último card lógico
     if current_lines:
@@ -5620,27 +5622,24 @@ async def _send_coruja_card_in_chunks(
     if not messages:
         return False
 
-    # --------- AFORISMO NO ÚLTIMO CARD ---------
+    # --------- AFORISMO NO ÚLTIMO CARD (SEM CRIAR CARD EXTRA) ---------
     if footer_aphorism:
         footer_clean = footer_aphorism.strip()
-        if footer_clean:
-            extra = f"\n{HR}\n{footer_clean}"
+        if footer_clean and messages:
             last = messages[-1]
+            extra = f"\n{HR}\n{footer_clean}"
+
             if len(last) + len(extra) <= TELEGRAM_SAFE_LIMIT:
+                # Cabe inteiro no último card
                 messages[-1] = last + extra
             else:
-                # Tenta truncar apenas o aforismo
+                # Trunca o aforismo pra caber no último card, sem criar card separado
                 avail = TELEGRAM_SAFE_LIMIT - len(last) - len(f"\n{HR}\n")
-                if avail > 3:
-                    af_trunc = footer_clean[:avail - 1] + "…"
+                if avail > 0:
+                    af_trunc = footer_clean[:avail]
                     messages[-1] = last + f"\n{HR}\n{af_trunc}"
-                else:
-                    # Caso extremo: novo card só pro aforismo
-                    af_msg = f"{HR}\n{footer_clean}"
-                    if len(af_msg) > TELEGRAM_SAFE_LIMIT:
-                        af_msg = af_msg[:TELEGRAM_SAFE_LIMIT - 10] + "…"
-                    messages.append(af_msg)
-    # -------------------------------------------
+                # se avail <= 0, simplesmente não coloca aforismo (melhor do que quebrar)
+    # ------------------------------------------------------------------
 
     # Envia os chunks na ordem, com delay
     sent_any = False
@@ -5652,7 +5651,6 @@ async def _send_coruja_card_in_chunks(
         await asyncio.sleep(SEND_DELAY)
 
     return sent_any
-
 
 
 

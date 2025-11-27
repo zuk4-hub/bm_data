@@ -5490,6 +5490,7 @@ def _render_pick_block_for_corujao(p: Dict[str, Any]) -> str:
 
 
 
+
 async def _send_coruja_card_in_chunks(
     picks: List[Dict[str, Any]],
     footer_aphorism: Optional[str]
@@ -5504,7 +5505,7 @@ async def _send_coruja_card_in_chunks(
             🏆 Liga · País
             🕠 Hoje | HHhMM (UTC: -3)
             ⚽️ Mandante vs Visitante
-          seguido de ATÉ N picks +EV desse jogo (limitado por CORUJAO_MAX_PICKS_PER_GAME).
+          seguido de ATÉ N picks +EV desse jogo (N = CORUJAO_MAX_PICKS_PER_GAME).
     • Picks de um mesmo jogo separados por barra horizontal.
     • Jogos diferentes também separados por barra horizontal.
     • O aforismo vai ACOPLADO ao ÚLTIMO card, nunca sozinho.
@@ -5522,21 +5523,13 @@ async def _send_coruja_card_in_chunks(
 
     HR = "──────────"
 
-    # Limite de picks por jogo (configurável por env, default = 2)
-    try:
-        max_picks_per_game = int(os.getenv("CORUJAO_MAX_PICKS_PER_GAME", "2"))
-    except Exception:
-        max_picks_per_game = 2
-    if max_picks_per_game < 1:
-        max_picks_per_game = 1
-
-    # Agrupa picks por jogo
+    # ---------- Agrupa picks por jogo ----------
     jogos: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
     for p in picks:
         gid = _game_id_from_pick(p)
         jogos[gid].append(p)
 
-    # Ordena por horário local dentro de cada jogo (mantém ordem/SLS resultante do sorted_picks)
+    # Ordena por horário local dentro de cada jogo
     def _dt_loc(px: Dict[str, Any]) -> datetime:
         return _dt_key_or_now(_pick_time_str(px))
 
@@ -5548,6 +5541,15 @@ async def _send_coruja_card_in_chunks(
         jogos.items(),
         key=lambda kv: _dt_loc(kv[1][0]) if kv[1] else datetime.now(timezone.utc)
     )
+    # -------------------------------------------
+
+    # Limite máximo de picks por jogo (configurável via ENV)
+    try:
+        max_picks_per_game = int(os.getenv("CORUJAO_MAX_PICKS_PER_GAME", "2"))
+        if max_picks_per_game <= 0:
+            max_picks_per_game = 2
+    except Exception:
+        max_picks_per_game = 2
 
     messages: List[str] = []
 
@@ -5642,7 +5644,7 @@ async def _send_coruja_card_in_chunks(
                 if avail > 0:
                     af_trunc = footer_clean[:avail]
                     messages[-1] = last + f"\n{HR}\n{af_trunc}"
-                # se avail <= 0, simplesmente não coloca aforismo (melhor do que quebrar)
+                # se avail <= 0, simplesmente não coloca aforismo
     # ------------------------------------------------------------------
 
     # Envia os chunks na ordem, com delay
@@ -5655,6 +5657,7 @@ async def _send_coruja_card_in_chunks(
         await asyncio.sleep(SEND_DELAY)
 
     return sent_any
+
 
 
 

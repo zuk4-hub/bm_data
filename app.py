@@ -5504,15 +5504,11 @@ async def _send_coruja_card_in_chunks(
             🏆 Liga · País
             🕠 Hoje | HHhMM (UTC: -3)
             ⚽️ Mandante vs Visitante
-          seguido de ATÉ CORUJAO_MAX_PICKS_PER_GAME picks +EV desse jogo.
+          seguido de ATÉ N picks +EV desse jogo (limitado por CORUJAO_MAX_PICKS_PER_GAME).
     • Picks de um mesmo jogo separados por barra horizontal.
     • Jogos diferentes também separados por barra horizontal.
     • O aforismo vai ACOPLADO ao ÚLTIMO card, nunca sozinho.
     """
-
-    if not picks:
-        print("[CORUJAO][NO_PICKS_SEND] Lista vazia de picks para envio.")
-        return False
 
     if GROUP_ID == 0:
         print("[CORUJAO][WARN] GROUP_ID=0, não vou enviar.")
@@ -5526,17 +5522,21 @@ async def _send_coruja_card_in_chunks(
 
     HR = "──────────"
 
-    # Agrupa picks por jogo, já respeitando o limite CORUJAO_MAX_PICKS_PER_GAME
+    # Limite de picks por jogo (configurável por env, default = 2)
+    try:
+        max_picks_per_game = int(os.getenv("CORUJAO_MAX_PICKS_PER_GAME", "2"))
+    except Exception:
+        max_picks_per_game = 2
+    if max_picks_per_game < 1:
+        max_picks_per_game = 1
+
+    # Agrupa picks por jogo
     jogos: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
     for p in picks:
         gid = _game_id_from_pick(p)
-        arr = jogos[gid]
-        if len(arr) >= CORUJAO_MAX_PICKS_PER_GAME:
-            # já bateu o limite por jogo, ignora picks extras
-            continue
-        arr.append(p)
+        jogos[gid].append(p)
 
-    # Ordena por horário local dentro de cada jogo
+    # Ordena por horário local dentro de cada jogo (mantém ordem/SLS resultante do sorted_picks)
     def _dt_loc(px: Dict[str, Any]) -> datetime:
         return _dt_key_or_now(_pick_time_str(px))
 
@@ -5566,7 +5566,10 @@ async def _send_coruja_card_in_chunks(
         if not arr:
             continue
 
-        first = arr[0]
+        # APLICA LIMITE DE PICKS POR JOGO AQUI
+        arr_limited = arr[:max_picks_per_game]
+
+        first = arr_limited[0]
         pais   = (first.get("pais") or first.get("country") or "—").strip()
         liga   = (first.get("campeonato") or first.get("league") or "—").strip()
         home   = (first.get("mandante") or first.get("home") or "—").strip()
@@ -5595,11 +5598,12 @@ async def _send_coruja_card_in_chunks(
             current_lines = candidate
 
         # Agora adiciona APENAS os picks deste jogo, SEM repetir cabeçalho
-        for p in arr:
+        for p in arr_limited:
             pick_block = _render_pick_block_for_corujao(p).strip()
             if not pick_block:
                 continue
 
+            # Só HR + bloco do pick; NÃO REPETE 🏆/🕠/⚽️ aqui
             bloco_pick = [
                 HR,
                 pick_block,
@@ -5651,6 +5655,7 @@ async def _send_coruja_card_in_chunks(
         await asyncio.sleep(SEND_DELAY)
 
     return sent_any
+
 
 
 

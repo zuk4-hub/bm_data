@@ -200,36 +200,38 @@ async def _setup_bot_commands():
 
     # --- MENU ENXUTO PARA QUALQUER USUÁRIO NA DM ---
     public_cmds = [
-        BotCommand("start",      "Acessar o menu principal do Bet Masterson Bot"),
-        BotCommand("status_sub", "Ver se a assinatura está ativa e até quando"),
-        BotCommand("help",       "Ajuda rápida e perguntas frequentes"),
-        BotCommand("whoami",     "Mostrar seu ID (para suporte)"),
+        BotCommand(command="start",      description="Acessar o menu principal do Bet Masterson Bot"),
+        BotCommand(command="status_sub", description="Ver se a assinatura está ativa e até quando"),
+        BotCommand(command="help",       description="Ajuda rápida e perguntas frequentes"),
+        BotCommand(command="whoami",     description="Mostrar seu ID (para suporte)"),
     ]
+
 
     # --- MENU COMPLETO SÓ PARA ADMIN NO CANAL/GRUPO ---
     admin_cmds = [
-        BotCommand("help_admin",     "Ajuda exclusiva para admins"),
-        BotCommand("which_source",   "Mostrar fontes e paths"),
-        BotCommand("ls_data",        "Listar /data"),
-        BotCommand("fetch_update",   "Forçar atualização de dados"),
-        BotCommand("games_today",    "Listar jogos de hoje"),
-        BotCommand("games_tomorrow", "Listar jogos de amanhã"),
-        BotCommand("post_pick",      "Publicar 1 pick"),
-        BotCommand("post_combo",     "Publicar 1 combo"),
-        BotCommand("post_combos",    "Publicar combos"),
-        BotCommand("post_coruja",    "Publicar Corujão"),
-        BotCommand("pub_show_today", "Ver publicados hoje"),
-        BotCommand("pub_reset_today","Zerar publicados de hoje"),
-        BotCommand("diag_time",      "Diagnóstico de horário"),
-        BotCommand("diag_odds",      "Diagnóstico de odds"),
-        BotCommand("diag_slots",     "Diagnóstico da agenda"),
-        BotCommand("grant_trial",    "Conceder trial manual"),
-        BotCommand("grant_lifetime", "Conceder vitalícia"),
-        BotCommand("revoke_sub",     "Revogar assinatura"),
-        BotCommand("sub_set",        "Ajustar assinatura manual"),
-        BotCommand("sub_log",        "Log administrativo do usuário"),
-        BotCommand("enforce_now",    "Rodar enforcer agora"),
+        BotCommand(command="help_admin",     description="Ajuda exclusiva para admins"),
+        BotCommand(command="which_source",   description="Mostrar fontes e paths"),
+        BotCommand(command="ls_data",        description="Listar /data"),
+        BotCommand(command="fetch_update",   description="Forçar atualização de dados"),
+        BotCommand(command="games_today",    description="Listar jogos de hoje"),
+        BotCommand(command="games_tomorrow", description="Listar jogos de amanhã"),
+        BotCommand(command="post_pick",      description="Publicar 1 pick"),
+        BotCommand(command="post_combo",     description="Publicar 1 combo"),
+        BotCommand(command="post_combos",    description="Publicar combos"),
+        BotCommand(command="post_coruja",    description="Publicar Corujão"),
+        BotCommand(command="pub_show_today", description="Ver publicados hoje"),
+        BotCommand(command="pub_reset_today",description="Zerar publicados de hoje"),
+        BotCommand(command="diag_time",      description="Diagnóstico de horário"),
+        BotCommand(command="diag_odds",      description="Diagnóstico de odds"),
+        BotCommand(command="diag_slots",     description="Diagnóstico da agenda"),
+        BotCommand(command="grant_trial",    description="Conceder trial manual"),
+        BotCommand(command="grant_lifetime", description="Conceder vitalícia"),
+        BotCommand(command="revoke_sub",     description="Revogar assinatura"),
+        BotCommand(command="sub_set",        description="Ajustar assinatura manual"),
+        BotCommand(command="sub_log",        description="Log administrativo do usuário"),
+        BotCommand(command="enforce_now",    description="Rodar enforcer agora"),
     ]
+
 
     # 1) Limpa QUALQUER comando antigo em todos os escopos globais
     try:

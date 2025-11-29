@@ -2072,19 +2072,18 @@ def fmt_pick(p: Dict[str, Any], *, add_debug_line: Optional[str] = None) -> str:
         elif s_lower in {"12", "1-2", "1 2", "home or away", "casa ou fora"}:
             selecao_pt = f"{home} - {away}"
 
-    # data/hora LOCAL (DD-MM-YYYY e HHhMM) + relógio sincronizado com o kickoff
-    date_str, hour_str = format_date_hour_from_utc_str(
-        p.get("hora_utc")
-        or p.get("hora")
-        or p.get("kickoff")
-        or p.get("date_GMT")
-        or _pick_time_str(p)
+    # data/hora DD-MM-YYYY e HHhMM
+    data_str, hora_str = format_date_hour_from_utc_str(
+        p.get("hora_utc") or p.get("hora") or p.get("kickoff") or p.get("date_GMT") or _pick_time_str(p)
+    )
+    clock_emoji, date_str, hour_str = format_date_hour_from_utc_str(
+        p.get("hora_utc") or p.get("hora")
     )
 
-    safe_date   = _safe_date_str(date_str)
-    clock_emoji = _clock_emoji_for_hhmm(hour_str or "")
+    safe_date = _safe_date_str(date_str)
 
     when_line = f"{clock_emoji} <b>{safe_date or '—'}</b> | <b>{hour_str or '—'}</b> {TZ_LABEL}"
+
 
 
 
@@ -5402,12 +5401,9 @@ def _fmt_combo_msg(c: Dict[str, Any]) -> str:
             or ""
         )
 
-        safe_dd    = _safe_date_str(date_str)
+        safe_dd     = _safe_date_str(date_str)
         clock_emoji = _clock_emoji_for_hhmm(hour_str or "")
         when_line   = f"{clock_emoji} <b>{safe_dd or '—'}</b> | <b>{hour_str or '—'}</b> {TZ_LABEL}"
-
-
-
 
         home = leg.get("mandante") or leg.get("home") or "?"
         away = leg.get("visitante") or leg.get("away") or "?"
@@ -5430,25 +5426,28 @@ def _fmt_combo_msg(c: Dict[str, Any]) -> str:
         pfair = (1.0/pprob) if pprob > 0 else 0.0
 
         bloc = [
-            "—",
-            f"🏆 {liga} · {pais} {flag}",
+            f"🏆 {liga} · {pais}",
             when_line,
             match_line,
             "",
-            f"{mercado}\nSeleção: {selecao}"
+            f"💳 Mercado: <b>{mercado_pt}</b>",
+            f"Seleção: <b>{sel}</b>",
         ]
-        if (pprob > 0) or (podd > 0) or (pev != 0.0):
+
+        has_any_metric = (pprob > 0) or (podd > 0) or (pev != 0.0)
+        if has_any_metric:
             bloc += [
                 "",
-                f"Prob. real: <b>{pprob*100:.1f}%</b>  |  Odd Justa: <b>{('@'+format(pfair, '.2f')) if pfair>0 else '—'}</b>",
-                f"Odd Mercado: <b>{('@'+format(podd, '.2f')) if podd>0 else '—'}</b>  |  EV: <b>{pev:.1f}%</b>",
+                f"Prob. real: <b>{pprob*100:.1f}%</b>  |  Odd justa: <b>{('@'+format(pfair,'.2f')) if pfair>0 else '—'}</b>",
+                f"Odd mercado: <b>{('@'+format(podd,'.2f')) if podd>0 else '—'}</b>  |  EV: <b>{pev:.1f}%</b>",
             ]
 
-        note = (leg.get("notes_pt") or leg.get("notes_pt") or "").strip()
-        if note:
-            bloc += ["", f"🎩 <b>BM:</b> {note}"]
+        leg_note = (leg.get("notes_pt") or leg.get("notes_pt") or "").strip()
+        if leg_note:
+            bloc += ["", f"🎩 <b>BM:</b> {leg_note}"]
 
         return bloc
+
 
     lines = [
         BRAND_LINE,

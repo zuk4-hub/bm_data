@@ -2072,17 +2072,19 @@ def fmt_pick(p: Dict[str, Any], *, add_debug_line: Optional[str] = None) -> str:
         elif s_lower in {"12", "1-2", "1 2", "home or away", "casa ou fora"}:
             selecao_pt = f"{home} - {away}"
 
-    # data/hora DD-MM-YYYY e HHhMM
-    data_str, hora_str = format_date_hour_from_utc_str(
-        p.get("hora_utc") or p.get("hora") or p.get("kickoff") or p.get("date_GMT") or _pick_time_str(p)
-    )
-    clock_emoji, date_str, hour_str = format_date_hour_from_utc_str(
+    # Usa a função de data/hora (que retorna só data_str, hora_str)
+    date_str, hour_str = format_date_hour_from_utc_str(
         p.get("hora_utc") or p.get("hora")
     )
 
+    # Evita que o Telegram linke a data
     safe_date = _safe_date_str(date_str)
 
+    # Escolhe o emoji de relógio com base na hora local do jogo
+    clock_emoji = _clock_emoji_for_hhmm(hour_str or "")
+
     when_line = f"{clock_emoji} <b>{safe_date or '—'}</b> | <b>{hour_str or '—'}</b> {TZ_LABEL}"
+
 
 
 
@@ -5391,19 +5393,17 @@ def _fmt_combo_msg(c: Dict[str, Any]) -> str:
         liga = leg.get("campeonato", leg.get("league", "—"))
         pais = leg.get("pais", leg.get("country", "—"))
 
-        # data/hora LOCAL da perna + relógio
-        date_str, hour_str = format_date_hour_from_utc_str(
-            leg.get("hora_utc")
-            or leg.get("hora")
-            or leg.get("kickoff")
-            or leg.get("date_GMT")
-            or leg.get("date_local")
-            or ""
+        # Data/hora local da perna do combo
+        dd, hh = format_date_hour_from_utc_str(
+            leg.get("hora_utc") or leg.get("hora")
         )
 
-        safe_dd     = _safe_date_str(date_str)
-        clock_emoji = _clock_emoji_for_hhmm(hour_str or "")
-        when_line   = f"{clock_emoji} <b>{safe_dd or '—'}</b> | <b>{hour_str or '—'}</b> {TZ_LABEL}"
+        safe_dd = _safe_date_str(dd)
+        clock_emoji = _clock_emoji_for_hhmm(hh or "")
+
+        when_line = f"{clock_emoji} <b>{safe_dd or '—'}</b> | <b>{hh or '—'}</b> {TZ_LABEL}"
+
+        lines.append(when_line)
 
         home = leg.get("mandante") or leg.get("home") or "?"
         away = leg.get("visitante") or leg.get("away") or "?"

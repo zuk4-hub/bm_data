@@ -36,7 +36,6 @@ import html
 from dateutil import parser, tz
 from datetime import datetime, date, timezone, timedelta
 
-
 import math
 import asyncio
 
@@ -81,6 +80,8 @@ AUTHORIZED = {int(x) for x in os.getenv("AUTHORIZED_USERS", "").replace(" ", "")
 
 # Fuso
 TZ_NAME = os.getenv("TZ", "America/Sao_Paulo")
+tz_sp = tz.gettz(TZ_NAME) or timezone.utc
+
 
 # Caminhos locais padrão
 ODDS_FILE         = os.getenv("ODDS_FILE", "/data/odds1.json").strip()           # hoje: usamos odds1.json
@@ -170,6 +171,9 @@ MINUTES_BETWEEN_REPOST   = int(os.getenv("MINUTES_BETWEEN_REPOST", "240"))
 
 # Quantidade máxima de picks por jogo no Corujão (customizável via Render)
 CORUJAO_MAX_PICKS_PER_GAME = int(os.getenv("CORUJAO_MAX_PICKS_PER_GAME", "2"))
+# Quantidade máxima TOTAL de picks no Corujão (top N por SLS)
+CORUJAO_MAX_PICKS_TOTAL = int(os.getenv("CORUJAO_MAX_PICKS_TOTAL", "5"))
+
 #--------------------------------------------------------------------------
 TELEGRAM_HTML_LIMIT = 4096 # -------------------------------------------------------------CORUJÃO e SUPERCARD (TAMANHO CARD)
 TELEGRAM_SAFE_BUDGET = 3600  # margem para evitar erro (tags HTML contam no parse) # -----CORUJÃO e SUPERCARD (TAMANHO CARD)
@@ -199,39 +203,121 @@ async def _setup_bot_commands():
     """
 
     # --- MENU ENXUTO PARA QUALQUER USUÁRIO NA DM ---
+    # Aqui NÃO usamos mais BotCommand diretamente, só dicts.
     public_cmds = [
-        BotCommand(command="start",      description="Acessar o menu principal do Bet Masterson Bot"),
-        BotCommand(command="status_sub", description="Ver se a assinatura está ativa e até quando"),
-        BotCommand(command="help",       description="Ajuda rápida e perguntas frequentes"),
-        BotCommand(command="whoami",     description="Mostrar seu ID (para suporte)"),
+        {
+            "command": "start",
+            "description": "Acessar o menu principal do Bet Masterson Bot",
+        },
+        {
+            "command": "status_sub",
+            "description": "Ver se a assinatura está ativa e até quando",
+        },
+        {
+            "command": "help",
+            "description": "Ajuda rápida e perguntas frequentes",
+        },
+        {
+            "command": "whoami",
+            "description": "Mostrar seu ID (para suporte)",
+        },
     ]
-
 
     # --- MENU COMPLETO SÓ PARA ADMIN NO CANAL/GRUPO ---
     admin_cmds = [
-        BotCommand(command="help_admin",     description="Ajuda exclusiva para admins"),
-        BotCommand(command="which_source",   description="Mostrar fontes e paths"),
-        BotCommand(command="ls_data",        description="Listar /data"),
-        BotCommand(command="fetch_update",   description="Forçar atualização de dados"),
-        BotCommand(command="games_today",    description="Listar jogos de hoje"),
-        BotCommand(command="games_tomorrow", description="Listar jogos de amanhã"),
-        BotCommand(command="post_pick",      description="Publicar 1 pick"),
-        BotCommand(command="post_combo",     description="Publicar 1 combo"),
-        BotCommand(command="post_combos",    description="Publicar combos"),
-        BotCommand(command="post_coruja",    description="Publicar Corujão"),
-        BotCommand(command="pub_show_today", description="Ver publicados hoje"),
-        BotCommand(command="pub_reset_today",description="Zerar publicados de hoje"),
-        BotCommand(command="diag_time",      description="Diagnóstico de horário"),
-        BotCommand(command="diag_odds",      description="Diagnóstico de odds"),
-        BotCommand(command="diag_slots",     description="Diagnóstico da agenda"),
-        BotCommand(command="grant_trial",    description="Conceder trial manual"),
-        BotCommand(command="grant_lifetime", description="Conceder vitalícia"),
-        BotCommand(command="revoke_sub",     description="Revogar assinatura"),
-        BotCommand(command="sub_set",        description="Ajustar assinatura manual"),
-        BotCommand(command="sub_log",        description="Log administrativo do usuário"),
-        BotCommand(command="enforce_now",    description="Rodar enforcer agora"),
+        {
+            "command": "help_admin",
+            "description": "Ajuda exclusiva para admins",
+        },
+        {
+            "command": "which_source",
+            "description": "Mostrar fontes e paths",
+        },
+        {
+            "command": "ls_data",
+            "description": "Listar /data",
+        },
+        {
+            "command": "fetch_update",
+            "description": "Forçar atualização de dados",
+        },
+        {
+            "command": "games_today",
+            "description": "Listar jogos de hoje",
+        },
+        {
+            "command": "games_tomorrow",
+            "description": "Listar jogos de amanhã",
+        },
+        {
+            "command": "post_pick",
+            "description": "Publicar 1 pick",
+        },
+        {
+            "command": "post_combo",
+            "description": "Publicar 1 combo",
+        },
+        {
+            "command": "post_combos",
+            "description": "Publicar combos",
+        },
+        {
+            "command": "post_coruja",
+            "description": "Publicar Corujão",
+        },
+        {
+            "command": "pub_show_today",
+            "description": "Ver publicados hoje",
+        },
+        {
+            "command": "pub_stats",
+            "description": "Resumo de publicados por dia",
+        },
+        {
+            "command": "pub_reset_today",
+            "description": "Zerar publicados de hoje",
+        },
+        {
+            "command": "diag_time",
+            "description": "Diagnóstico de horário",
+        },
+        {
+            "command": "diag_odds",
+            "description": "Diagnóstico de odds",
+        },
+        {
+            "command": "diag_slots",
+            "description": "Diagnóstico da agenda",
+        },
+        {
+            "command": "grant_trial",
+            "description": "Conceder trial manual",
+        },
+        {
+            "command": "grant_lifetime",
+            "description": "Conceder vitalícia",
+        },
+        {
+            "command": "revoke_sub",
+            "description": "Revogar assinatura",
+        },
+        {
+            "command": "sub_set",
+            "description": "Ajustar assinatura manual",
+        },
+        {
+            "command": "sub_get",
+            "description": "Ver dados crus da assinatura",
+        },
+        {
+            "command": "sub_log",
+            "description": "Log administrativo do usuário",
+        },
+        {
+            "command": "enforce_now",
+            "description": "Rodar enforcer agora",
+        },
     ]
-
 
     # 1) Limpa QUALQUER comando antigo em todos os escopos globais
     try:
@@ -252,18 +338,25 @@ async def _setup_bot_commands():
         pass
 
     # 2) Define o menu ENXUTO como padrão e para todos os privados (DM)
-    await bot.set_my_commands(public_cmds, scope=BotCommandScopeDefault())
-    await bot.set_my_commands(public_cmds, scope=BotCommandScopeAllPrivateChats())
+    await bot.set_my_commands(
+        commands=public_cmds,
+        scope=BotCommandScopeDefault(),
+    )
+    await bot.set_my_commands(
+        commands=public_cmds,
+        scope=BotCommandScopeAllPrivateChats(),
+    )
 
     # 3) Define o menu COMPLETO só para admins do CANAL/GRUPO
     if GROUP_ID:
         try:
             await bot.set_my_commands(
-                admin_cmds,
+                commands=admin_cmds,
                 scope=BotCommandScopeChatAdministrators(chat_id=GROUP_ID),
             )
         except Exception as e:
             print("[SETUP_CMDS][ADMIN_ERR]", repr(e))
+
 
 
 
@@ -1890,10 +1983,21 @@ def _hr(): return HR
 
 # rótulo de fuso no card
 TZ_LABEL = "(UTC: -3)"
-# -------------------------------------
 
-# rótulo de fuso no card
-TZ_LABEL = "(UTC: -3)"
+
+def _safe_date_str(date_str: str) -> str:
+    """
+    Evita que o Telegram transforme a data em link automático (telefone/data).
+
+    Estratégia: insere um zero-width space após o primeiro '-' da string.
+    Visualmente nada muda, mas quebra o padrão que o Telegram detecta.
+    """
+    s = str(date_str or "").strip()
+    if not s:
+        return ""
+    # Ex.: "28-11-2025" -> "28-​11-2025" (o caractere invisível está ali)
+    return s.replace("-", "-\u200b", 1)
+
 # -------------------------------------
 
 def fmt_pick(p: Dict[str, Any], *, add_debug_line: Optional[str] = None) -> str:
@@ -1968,12 +2072,21 @@ def fmt_pick(p: Dict[str, Any], *, add_debug_line: Optional[str] = None) -> str:
         elif s_lower in {"12", "1-2", "1 2", "home or away", "casa ou fora"}:
             selecao_pt = f"{home} - {away}"
 
-    # data/hora DD-MM-YYYY e HHhMM
-    data_str, hora_str = format_date_hour_from_utc_str(
-        p.get("hora_utc") or p.get("hora") or p.get("kickoff") or p.get("date_GMT") or _pick_time_str(p)
+    # data/hora LOCAL (DD-MM-YYYY e HHhMM) + relógio sincronizado com o kickoff
+    date_str, hour_str = format_date_hour_from_utc_str(
+        p.get("hora_utc")
+        or p.get("hora")
+        or p.get("kickoff")
+        or p.get("date_GMT")
+        or _pick_time_str(p)
     )
-    clock_emoji = _clock_emoji_for_hhmm(hora_str or "")
-    when_line = f"{clock_emoji} <b>{data_str or '—'}</b> | <b>{hora_str or '—'}</b> {TZ_LABEL}"
+
+    safe_date   = _safe_date_str(date_str)
+    clock_emoji = _clock_emoji_for_hhmm(hour_str or "")
+
+    when_line = f"{clock_emoji} <b>{safe_date or '—'}</b> | <b>{hour_str or '—'}</b> {TZ_LABEL}"
+
+
 
     # Liga / país + bandeira
     league  = p.get("campeonato") or p.get("league") or "—"
@@ -2558,13 +2671,13 @@ async def start_cmd(m: types.Message):
             ],
             [
                 InlineKeyboardButton(
-                    text="🎁 7 dias grátis (promo de lançamento)",
+                    text="🎁 30 dias grátis (promo de lançamento)",
                     callback_data="start_trial_info",
                 ),
             ],
             [
                 InlineKeyboardButton(
-                    text="🤝 Presentear um amigo com 7 dias grátis no Canal Bet Masterson",
+                    text="🤝 Presentear um amigo com 30 dias grátis no Canal Bet Masterson",
                     callback_data="start_refer_info",
                 ),
             ],
@@ -2638,7 +2751,7 @@ async def cb_start_activate(c: types.CallbackQuery):
 @dp.callback_query(lambda c: c.data == "start_trial_info")
 async def cb_start_trial_info(c: types.CallbackQuery):
     """
-    Explica ao usuário como funciona o período grátis de 7 dias
+    Explica ao usuário como funciona o período grátis de 30 dias # Altera dias no trials.py
     (promoção de lançamento) e solicita o e-mail.
     """
     if c.message.chat.type != "private":
@@ -2646,16 +2759,16 @@ async def cb_start_trial_info(c: types.CallbackQuery):
         return
 
     texto = (
-        "🎁 <b>Promoção de Lançamento — 7 dias grátis</b>\n\n"
-        "Você pode experimentar o Canal Bet Masterson gratuitamente por 7 dias,"
-        "com acesso integral às dezenas de cards publicados com as informações completas dos melhores picks do dia de jogos do mundo todo.\n\n"
+        "🎁 <b>Promoção de Lançamento — 30 dias grátis</b>\n\n"
+        "Você pode experimentar o Canal Bet Masterson gratuitamente por 30 dias,"
+        " com acesso integral às dezenas de cards publicados com as informações completas dos melhores picks do dia de jogos do mundo todo.\n\n"
         "<b>Como funciona:</b>\n"
-        "• O acesso é liberado por 7 dias corridos.\n"
+        "• O acesso é liberado por 30 dias corridos.\n"
         "• No último dia do período, você receberá uma mensagem com o link para se tornar assinante mensal do Canal.\n"
         "• Você pode utilizar o trial <b>apenas uma vez</b>.\n"
         "<b>Para começar:</b>\n"
-        "Envie aqui no chat o <b>seu e-mail pessoal</b>:\n\n"
-        "<code>/ativar seu-email@exemplo.com</code>\n\n"
+        "Envie aqui no chat o comando /trial seguido do <b>seu e-mail pessoal</b>:\n\n"
+        "<code>/trial seuemail@exemplo.com</code>\n\n"
         
     )
 
@@ -2665,7 +2778,7 @@ async def cb_start_trial_info(c: types.CallbackQuery):
 @dp.callback_query(lambda c: c.data == "start_refer_info")
 async def cb_start_refer_info(c: types.CallbackQuery):
     """
-    Explica como presentear um amigo com 7 dias grátis:
+    Explica como presentear um amigo com 30 dias grátis:
     gera um deep-link para o menu do bot, já marcado com 'start=trial',
     que o assinante pode copiar e enviar para quem quiser.
     """
@@ -2682,9 +2795,9 @@ async def cb_start_refer_info(c: types.CallbackQuery):
     if not username:
         # fallback de segurança: só mensagem explicativa
         texto = (
-            "🤝 <b>Presentear um amigo com 7 dias grátis</b>\n\n"
+            "🤝 <b>Presentear um amigo com 30 dias grátis</b>\n\n"
             "Você pode convidar um amigo para experimentar o Canal Bet Masterson "
-            "por 7 dias gratuitamente.\n\n"
+            "por 30 dias gratuitamente.\n\n"
             "No entanto, não consegui identificar o nome de usuário do bot "
             "para montar o link automático.\n\n"
             "Peça suporte em:\n"
@@ -2698,18 +2811,18 @@ async def cb_start_refer_info(c: types.CallbackQuery):
     deep_link = f"https://t.me/{username}?start=trial"
 
     texto = (
-    "🤝 <b> Assinante pode presentear um(a) amigo(a) com 7 dias grátis</b>\n\n"
+    "🤝 <b> Assinante pode presentear um(a) amigo(a) com 30 dias grátis</b>\n\n"
     "Você pode convidar um(a) amigo(a) para experimentar o Canal Bet Masterson "
-    "por <b>7 dias gratuitamente</b>, com acesso aos mesmos cards e informações que você vê.\n\n"
+    "por <b>30 dias gratuitamente</b>, com acesso aos mesmos cards e informações que você vê.\n\n"
     "<b>Como usar:</b>\n"
     "1. Copie o link abaixo:\n\n"
     f"<code>{deep_link}</code>\n\n"
     "2. Envie esse link para o seu amigo (WhatsApp, Telegram, onde quiser).\n"
     "3. Quando ele(a) abrir o link no Telegram, basta tocar em <b>Iniciar</b> "
     "e depois escolher a opção:\n"
-    "   <b>🎁 7 dias grátis (promo de lançamento)</b>\n\n"
+    "   <b>🎁 30 dias grátis (promo de lançamento)</b>\n\n"
     "A partir daí, ele(a) só precisa enviar o e-mail dele(a) com:\n"
-    "<code>/ativar email-do-amigo@exemplo.com</code>"
+    "<code>/trial emaildoamigo@exemplo.com</code>"
 )
 
     await c.message.answer(texto, parse_mode="HTML")
@@ -2727,11 +2840,11 @@ async def help_cmd(m: types.Message):
     print(f"[HELP] hit: chat={m.chat.id} type={m.chat.type} user={m.from_user.id}")
 
     public_help = "\n".join([
-        "📗 <b>Como usar o Bet Masterson Bot</b>",
+        "🎩 <b>Como usar o Bet Masterson Bot</b>",
         "",
         "• <b>/start</b> — Acessar o bot. Abre o <b>menu principal com botões</b>,",
-        "  onde você consegue assinar, renovar, ativar com e-mail, pedir trial,",
-        "  presentear amigo e falar com o suporte.",
+        "  onde você consegue ver opções de assinatura, renovar, ativar com e-mail,",
+        "  e até presentear um amigo com dias de acesso.",
         "",
         "• <b>/status_sub</b> — Ver se sua assinatura está ativa e <b>até quando</b> ela vale.",
         "  Útil quando você quer saber se ainda tem acesso ao canal ou se está perto de vencer.",
@@ -2749,39 +2862,59 @@ async def help_cmd(m: types.Message):
         "  que eu reenvio o convite para o Canal Bet Masterson.",
     ])
 
-    # Bloco avançado só para admin (mantido enxuto)
+    # Bloco avançado só para admin (mais organizado em grupos)
     admin_help = "\n".join([
         "",
         "🛠️ <b>Comandos avançados (admin)</b>",
-        "/which_source — Mostrar fontes e paths",
-        "/ls_data — Listar arquivos em /data",
-        "/fetch_update — Forçar fetch odds + agenda + aforismos",
-        "/games_today — Listar jogos (IDs) de hoje",
-        "/games_tomorrow — Listar jogos (IDs) de amanhã",
-        "/supercard_preview — Prévia dos Super Cards de hoje",
-        "/post_pick — Publicar 1 pick (ou melhor SLS)",
-        "/post_combo — Publicar 1 combo específico",
-        "/post_combos — Publicar N combos elegíveis",
-        "/post_coruja — Publicar o card do Corujão",
-        "/pub_show_today — Mostrar publicados hoje",
-        "/pub_reset_today — Zerar publicados de hoje",
-        "/diag_time — Diagnóstico de relógios local/UTC",
-        "/diag_odds — Diagnóstico dos JSON de odds",
-        "/diag_slots — Diagnóstico da agenda editorial",
-        "/grant_trial — Conceder trial manual (1 mês + convite individual)",
-        "/grant_lifetime — Conceder assinatura vitalícia (sem expiração)",
-        "/revoke_sub — Revogar trial/vitalícia e aplicar enforcer",
-        "/sub_set — Ajustar assinatura manualmente (status/expiração/plano)",
-        "/sub_log — Ver o histórico administrativo da assinatura",
-        "/enforce_now — Rodar verificação/enforcer imediatamente",
+        "Apenas usuários na lista AUTHORIZED conseguem usar estes comandos.\n",
+        "/help_admin — Painel resumido de ajuda só para admins",
+        "",
+        "📦 <b>Conteúdo / Publicação</b>\n"
+        "• /games_today — Jogos de hoje com picks elegíveis.\n"
+        "• /games_tomorrow — Jogos de amanhã com picks.\n"
+        "• /supercard_preview — Prévia dos Super Cards de hoje.\n"
+        "• /post_pick — Publicar 1 pick (ou melhor SLS).\n"
+        "• /post_combo — Publicar 1 combo específico.\n"
+        "• /post_combos — Publicar N combos elegíveis.\n"
+        "• /post_coruja — Forçar a publicação do Corujão.\n"
+        "• /post_from_file — Publicar picks direto do arquivo de odds.\n"
+        "• /post_today — Teste de publicação no grupo padrão.\n"
+        "• /post_here — Teste de pick no chat atual.\n"
+        "• /pub_stats — Resumo de quantos picks/combos foram publicados por dia.\n"
+        "• /pub_show_today — Lista detalhada de todos os picks/combos publicados hoje.\n"
+        "• /pub_reset_today — Limpa os registros de publicação de hoje (para repostar se necessário).\n\n"
+        "",
+        "🗂️ <b>Arquivos / Fonte de dados</b>",
+        "• /which_source — Mostrar quais arquivos odds/super_jogos estão em uso.",
+        "• /ls_data — Listar arquivos principais em /data.",
+        "• /fetch_update — Forçar fetch de odds + agenda + aforismos.",
+        "• /diag_time — Diagnóstico de relógios (local/UTC, TZ, virada de dia).",
+        "• /diag_odds — Diagnóstico dos JSON de odds.",
+        "• /diag_slots — Diagnóstico da agenda editorial e slots de publicação.",
+        "",
+        "👤 <b>Assinaturas / Usuários</b>",
+        "• /status_user — Status detalhado de um usuário (assinatura, expiração, canal).",
+        "• /grant_trial — Conceder trial manual (30 dias + convite individual).",
+        "• /grant_lifetime — Conceder assinatura vitalícia (sem expiração).",
+        "• /revoke_sub — Revogar trial/vitalícia e aplicar enforcer.",
+        "• /sub_set — Ajustar assinatura manualmente (status/expiração/plano).",
+        "• /sub_log — Ver histórico administrativo da assinatura.",
+        "• /enforce_now — Rodar verificação/enforcer imediatamente.",
+        "",
+        "🔗 <b>Convites / Testes</b>",
+        "• /test_invite — Gera um convite como se um pagamento tivesse sido aprovado.",
+        "",
+        "🧪 <b>Debug rápido</b>",
+        "• /ping — Teste simples para ver se o bot está respondendo.",
+        "• /gid — Mostra o ID e o tipo do chat atual (útil para configurar GROUP_ID).",
     ])
-
 
     texto = public_help
     if is_admin(m.from_user.id):
         texto = texto + "\n\n" + admin_help
 
     await m.answer(texto, parse_mode="HTML")
+
 
 @dp.message(Command("help_admin"))
 async def help_admin_cmd(m: Message):
@@ -2790,23 +2923,48 @@ async def help_admin_cmd(m: Message):
 
     txt = (
         "<b>PAINEL DO ADMIN — Bet Masterson</b>\n\n"
-        "Comandos disponíveis:\n"
-        "/grant_trial — Concede trial (30 dias)\n"
-        "/grant_lifetime — Dá assinatura vitalícia\n"
-        "/revoke_sub — Remove trial/vitalícia de alguém\n"
-        "/sub_set — Ajusta manualmente assinatura\n"
-        "/sub_log — Log administrativo do usuário\n\n"
-        "/post_pick — Publica 1 pick\n"
-        "/post_combo — Publica 1 combo\n"
-        "/post_combos — Publica combos\n"
-        "/post_coruja — Força o Corujão\n\n"
-        "/fetch_update — Força atualização de odds\n"
-        "/diag_time — Diagnóstico relógio\n"
-        "/diag_odds — Diagnóstico odds\n"
-        "/diag_slots — Diagnóstico agenda\n\n"
+        "Resumo dos principais comandos de administração.\n\n"
+        "📦 <b>Conteúdo / Publicação</b>\n"
+        "• /games_today — Jogos de hoje com picks elegíveis.\n"
+        "• /games_tomorrow — Jogos de amanhã com picks.\n"
+        "• /supercard_preview — Prévia dos Super Cards de hoje.\n"
+        "• /post_pick — Publicar 1 pick (ou melhor SLS).\n"
+        "• /post_combo — Publicar 1 combo específico.\n"
+        "• /post_combos — Publicar N combos elegíveis.\n"
+        "• /post_coruja — Forçar a publicação do Corujão.\n"
+        "• /post_from_file — Publicar picks direto do arquivo de odds.\n"
+        "• /post_today — Teste de publicação no grupo padrão.\n"
+        "• /post_here — Teste de pick no chat atual.\n\n"
+        "🗂️ <b>Arquivos / Fonte de dados</b>\n"
+        "• /which_source — Mostrar arquivos em uso (odds/super_jogos).\n"
+        "• /ls_data — Listar arquivos em /data.\n"
+        "• /fetch_update — Forçar atualização de odds/agenda/aforismos.\n"
+        "• /diag_time — Diagnóstico de horário e timezone.\n"
+        "• /diag_odds — Diagnóstico dos odds JSON.\n"
+        "• /diag_slots — Diagnóstico da agenda editorial.\n\n"
+        "👤 <b>Assinaturas / Usuários</b>\n"
+        "• /status_user — Ver status completo de um usuário.\n"
+        "• /grant_trial — Conceder trial de 30 dias.\n"
+        "• /grant_lifetime — Conceder assinatura vitalícia.\n"
+        "• /revoke_sub — Revogar assinatura (trial/vitalícia).\n"
+        "• /sub_set — Ajustar manualmente status/expiração/plano.\n"
+        "• /sub_log — Ver histórico administrativo da assinatura.\n"
+        "• /enforce_now — Rodar o enforcer imediatamente.\n\n"
+         "📨 <b>Perguntas de assinantes / Suporte</b>\n"
+        "• O assinante envia a dúvida em DM usando <code>/suporte ...</code>.\n"
+        "• O bot encaminha a mensagem para os admins com ID e e-mail associado.\n"
+        "• /resp &lt;telegram_id&gt; texto — envia a resposta em DM para o assinante e registra o atendimento.\n"
+        "• Também é possível responder em <i>reply</i> (dar reply na msg do assinante) à mensagem de suporte encaminhada pelo bot, usando apenas:\n"
+        "  <code>/resp sua resposta aqui</code> (o ID é detectado automaticamente).\n\n"
+        "🔗 <b>Convites / Testes</b>\n"
+        "• /test_invite — Gerar link de convite de teste.\n\n"
+        "🧪 <b>Debug rápido</b>\n"
+        "• /ping — Ver se o bot está respondendo.\n"
+        "• /gid — Ver ID e tipo do chat atual.\n\n"
         "<i>Apenas admins enxergam este comando.</i>"
     )
-    await m.answer(txt)
+    await m.answer(txt, parse_mode="HTML")
+
 
 @dp.message(Command("post_coruja"))
 async def post_coruja_cmd(m: types.Message):
@@ -3394,19 +3552,75 @@ async def supercard_preview(m: types.Message):
         await asyncio.sleep(0.4)
 
 
+# ---- Helper de STATUS (mensagem única para admin e público) ----
+async def _build_status_message(uid: int) -> str:
+    subs = subs_get().get(str(uid)) or {}
+
+    # --- STATUS (tradução + ícone) ---
+    raw_status = (subs.get("status") or "—").lower()
+
+    if raw_status == "active":
+        status_emoji = "🟢"
+        status_label = "Ativa"
+    elif raw_status == "expired":
+        status_emoji = "🔴"
+        status_label = "Expirada"
+    else:
+        status_emoji = "⚪"
+        status_label = raw_status.capitalize()
+
+    # --- DATA DE EXPIRAÇÃO ---
+    exp = int(subs.get("expires_at") or 0)
+    if exp > 0:
+        try:
+            dt_local = datetime.utcfromtimestamp(exp).astimezone(tz.gettz(TZ_NAME))
+            exp_txt = dt_local.strftime("%d/%m/%Y %H:%M") + " UTC:-3"
+        except Exception:
+            exp_txt = "—"
+    else:
+        exp_txt = "—"
+
+    # --- STATUS NO CANAL ---
+    channel_status = await _get_member_status(uid)
+
+    # --- MENSAGEM FINAL ---
+    msg = (
+        f"👤 <b>ID do usuário</b>: <code>{uid}</code>\n"
+        f"{status_emoji} <b>Assinatura</b>: <b>{status_label}</b>\n"
+        f"🗓️ <b>Expira em</b>: <b>{exp_txt}</b>\n"
+        f"📡 <b>Status no canal</b>: <b>{channel_status}</b>"
+    )
+
+    return msg
+
+
+# ---- Convites / Pagamento ----
+@dp.message(Command("status_user"))
+async def cmd_status_user(m: types.Message):
+    if not is_admin(m.from_user.id):
+        return await m.answer("🚫 Acesso restrito.")
+    parts = (m.text or "").split()
+    uid = None
+    if len(parts) >= 2:
+        try:
+            uid = int(parts[1])
+        except Exception:
+            return await m.answer("Uso: /status_user &lt;telegram_id&gt;")
+    else:
+        uid = m.from_user.id
+
+    msg = await _build_status_message(uid)
+    await m.answer(msg)
+
+
 # ---- Status de assinatura (público) ----
 @dp.message(Command("status_sub"))
 async def status_sub(m: types.Message):
     h = subs_get().get(str(m.from_user.id))
     if not h:
         return await m.answer("❌ Nenhuma assinatura encontrada.")
-    exp = int(h.get("expires_at") or 0)
-    if exp:
-        exp_txt = datetime.utcfromtimestamp(exp).astimezone(tz.gettz(TZ_NAME)).strftime("%d/%m/%Y %H:%M")
-        exp_txt += f" {TZ_NAME}"
-    else:
-        exp_txt = "—"
-    await m.answer(f"👤 Assinatura: <b>{h.get('status','—')}</b>\nExpira: <b>{exp_txt}</b>")
+    msg = await _build_status_message(m.from_user.id)
+    await m.answer(msg)
 
 # -------- Suporte -------------------------
 @dp.message(Command("suporte"))
@@ -3534,78 +3748,85 @@ async def responder_cmd(m: types.Message):
 
 
 # ---- Convites / Pagamento ----
-@dp.message(Command("status_user"))
-async def cmd_status_user(m: types.Message):
-    if not is_admin(m.from_user.id):
-        return await m.answer("🚫 Acesso restrito.")
-    parts = (m.text or "").split()
-    uid = None
-    if len(parts) >= 2:
-        try:
-            uid = int(parts[1])
-        except Exception:
-            return await m.answer("Uso: /status_user &lt;telegram_id&gt;")
-    else:
-        uid = m.from_user.id
-
-    subs = subs_get().get(str(uid)) or {}
-    sub_status = (subs.get("status") or "—").lower()
-    exp = int(subs.get("expires_at") or 0)
-    exp_txt = "—"
-    if exp:
-        try:
-            exp_txt = datetime.utcfromtimestamp(exp).astimezone(tz.gettz(TZ_NAME)).strftime("%d/%m/%Y %H:%M") + f" {TZ_NAME}"
-        except Exception:
-            pass
-
-    channel_status = await _get_member_status(uid)
-
-    msg = (
-        f"👤 <b>User</b>: <code>{uid}</code>\n"
-        f"🔐 <b>Assinatura</b>: <b>{sub_status}</b>\n"
-        f"🗓️ <b>Expira</b>: <b>{exp_txt}</b>\n"
-        f"📡 <b>Canal</b>: <b>{channel_status}</b>"
-    )
-    await m.answer(msg)
-
-
-# ---- Convites / Pagamento ----
 @dp.message(Command("join"))
 async def join_cmd(m: types.Message):
-    uid = m.from_user.id
+    """
+    Comando oficial de entrada no canal (alias: /entrar).
+    Verifica assinatura ativa ou trial, gera convite e envia.
+    """
+    uid = str(m.from_user.id)
 
-    # 1) Já tem assinatura ativa?
-    if sub_is_active(uid):
-        # Já está dentro do canal?
-        if await is_in_channel(uid):
-            return await m.answer(
-                "Você já possui assinatura ativa e válida.\n"
-                "E também já está dentro do canal! ✅\n"
-                "Se precisar de ajuda, use /help"
-            )
-
-        # Não está no canal → gerar (ou reaproveitar) invite exclusivo
-        invite = await on_payment_confirmed(uid, send_dm=False)
-        if not invite:
-            return await m.answer(
-                "Sua assinatura está ativa, mas tive um problema ao gerar o link de acesso.\n"
-                "Fale comigo aqui no chat que eu resolvo manualmente. ❗"
-            )
-
+    # Recupera registro completo da assinatura
+    subs = subs_get()
+    rec = subs.get(uid)
+    if not isinstance(rec, dict):
         return await m.answer(
-            "Você já possui assinatura ativa e válida.\n"
-            "Aqui está o seu link exclusivo de acesso ao canal (24h, 1 uso):\n"
-            f"👉 {invite}\n\n"
-            "Ao clicar, o pedido é aprovado automaticamente."
+            "❌ Você ainda não possui assinatura ativa ou período de teste.\n"
+            "Para começar, use:\n\n"
+            "<b>/trial seu-email@exemplo.com</b>",
+            parse_mode="HTML",
         )
 
-    # 2) Não é assinante → fluxo normal de pagamento
-    url = build_checkout_url(ref=uid)
-    await m.answer(
-        "Para entrar no grupo como assinante, conclua o pagamento aqui:\n"
-        f"{url}\n\n"
-        "Após a confirmação, o acesso é liberado automaticamente."
-    )
+    status = (rec.get("status") or "").lower()
+    plan = rec.get("plan") or ""
+    exp_ts = int(rec.get("expires_at") or 0)
+    now = int(time.time())
+
+    # Verificação de validade
+    if status not in ("active", "trial"):
+        return await m.answer(
+            "❌ Sua assinatura não está ativa no momento.\n"
+            "Se você acredita que isto seja um erro, fale com o suporte.",
+            parse_mode="HTML",
+        )
+
+    if exp_ts and now >= exp_ts:
+        return await m.answer(
+            "⚠️ Seu período de acesso chegou ao fim.\n\n"
+            "Para continuar utilizando o canal, finalize sua assinatura.\n"
+            "Se você acredita que isto seja um erro, fale com o suporte.",
+            parse_mode="HTML",
+        )
+
+    # Geração do convite
+    try:
+        invite = await on_payment_confirmed(uid, send_dm=False)
+    except Exception as e:
+        print("[JOIN_CMD][INVITE_ERR]", repr(e))
+        return await m.answer(
+            "❌ Ocorreu um erro ao gerar o link de acesso.\n"
+            "Por favor, tente novamente em instantes.",
+            parse_mode="HTML",
+        )
+
+    # Mensagens personalizadas
+    if status == "trial":
+        # Texto exclusivo para quem está no período grátis
+        if exp_ts:
+            exp_dt = datetime.fromtimestamp(exp_ts).strftime("%d/%m %H:%M")
+            validade_txt = f"Seu período de teste está ativo até <b>{exp_dt}</b>."
+        else:
+            validade_txt = "Seu período de teste está ativo."
+
+        return await m.answer(
+            "🎉 <b>Você está no seu período de teste de 30 dias.</b>\n"
+            f"{validade_txt}\n\n"
+            "Aqui está o seu link exclusivo de acesso ao canal (24h, 1 uso):\n"
+            f"👉 {invite}\n\n"
+            "Aproveite seu acesso completo ao Canal Bet Masterson.",
+            parse_mode="HTML",
+        )
+
+    else:
+        # Texto para assinaturas pagas normais
+        return await m.answer(
+            "🔐 <b>Assinatura ativa e válida!</b>\n\n"
+            "Aqui está o seu link exclusivo de acesso ao canal (24h, 1 uso):\n"
+            f"👉 {invite}\n\n"
+            "Ao clicar, o pedido é aprovado automaticamente.",
+            parse_mode="HTML",
+        )
+
 
 @dp.message(Command("renovar"))
 async def renovar_cmd(m: types.Message):
@@ -3663,7 +3884,9 @@ async def ativar_cmd(m: types.Message):
     plan = info.get("plan") or "Cakto"
     expires_at = int(info.get("expires_at") or 0)
 
-    if status != "active":
+    # nova versão — alinha com sub_is_active
+    if status not in ("active", "trial") or (exp and exp <= now):
+
         return await m.answer(
             "Encontrei uma assinatura para este e-mail, mas ela não está ativa no momento.\n"
             f"Status atual: <b>{status}</b>.\n\n"
@@ -4094,41 +4317,132 @@ async def cmd_enforce_now(m: types.Message):
 @dp.message(Command("sub_set"))
 async def cmd_sub_set(m: types.Message):
     """
-    Uso: /sub_set <telegram_id> <status> [expires]
-      - status: active | expired | cancelled
-      - expires: timestamp (UTC) OU "+<dias>" (ex.: +30)
+    Uso: /sub_set <telegram_id> <status> [expires_ts|+dias] [plan]
+      - status: active | expired | cancelled | trial | transferred | remove
+      - expires_ts: timestamp (UTC) OU "+<dias>" (ex.: +30)
+      - plan: rótulo livre ("Mensal", "Bet Masterson", "trial_launch", "lifetime"...)
     """
     if not is_admin(m.from_user.id):
         return await m.answer("🚫 Acesso restrito.")
+
     parts = (m.text or "").split()
     if len(parts) < 3:
-        return await m.answer("Uso: /sub_set &lt;telegram_id&gt; <status> [expires_ts|+dias] [plan]")
+        # precisa escapar "<" e ">" por causa do parse_mode=HTML
+        return await m.answer(
+            "Uso: /sub_set &lt;telegram_id&gt; &lt;status&gt; [expires_ts|+dias] [plan]"
+        )
 
+    # --- TELEGRAM ID ---
     try:
         uid = int(parts[1])
     except Exception:
         return await m.answer("telegram_id inválido.")
+
     status = parts[2].lower().strip()
+
+    # -----------------------------
+    # MODO DELETE: /sub_set 220361810 remove
+    # -----------------------------
+    if status in {"remove", "del", "delete"}:
+        subs = subs_get()
+        rec = subs.pop(str(uid), None)
+        subs_set(subs)
+
+        if rec:
+            return await m.answer(
+                f"🧹 Registro REMOVIDO de subs.json para id={uid}."
+            )
+        else:
+            return await m.answer(
+                f"⚠️ Não havia registro de assinatura para id={uid}."
+            )
+
+    # -----------------------------
+    # MODO NORMAL: criar/atualizar assinatura
+    # -----------------------------
     exp = 0
     plan = parts[4] if len(parts) >= 5 else "manual"
+
     if len(parts) >= 4:
         arg = parts[3].strip()
         if arg.startswith("+"):
+            # "+30" = 30 dias a partir de agora
             try:
                 days = max(1, int(arg[1:]))
-                exp = _now() + days*86400
+                exp = _now() + days * 86400
             except Exception:
                 exp = 0
         else:
+            # timestamp bruto
             try:
                 exp = int(arg)
             except Exception:
                 exp = 0
+
     upsert_sub(str(uid), status, exp, plan)
-    await m.answer(f"Assinatura atualizada: id={uid} status={status} expires_at={exp}")
-    # ação imediata se marcamos como expirado/cancelado
+
+    await m.answer(
+        f"✅ Assinatura ajustada manualmente:\n"
+        f"id={uid} | status={status} | expires_at={exp} | plan={plan}"
+    )
+
+    # se não estiver active, já roda o enforcer para tirar do canal se necessário
     if status != "active":
         await enforce_once()
+
+@dp.message(Command("sub_get"))
+async def cmd_sub_get(m: types.Message):
+    """
+    Mostra o registro cru de assinatura em subs.json (debug rápido).
+
+    Uso: /sub_get <telegram_id>
+    """
+    if not is_admin(m.from_user.id):
+        return await m.answer("🚫 Acesso restrito.")
+
+    parts = (m.text or "").strip().split()
+    if len(parts) < 2:
+        return await m.answer("Uso: /sub_get &lt;telegram_id&gt;")
+
+    try:
+        target = int(parts[1])
+    except Exception:
+        return await m.answer("ID inválido.")
+
+    uid = str(target)
+    subs = subs_get()
+    rec = subs.get(uid)
+
+    if not rec:
+        return await m.answer("❌ Nenhuma assinatura encontrada para esse ID.")
+
+    # formata os dados crus de forma legível
+    status = rec.get("status", "—")
+    plan = rec.get("plan", "—")
+    exp = int(rec.get("expires_at") or 0)
+    email = rec.get("email") or "—"
+
+    if exp:
+        try:
+            dt_local = datetime.utcfromtimestamp(exp).astimezone(tz.gettz(TZ_NAME))
+            exp_txt = dt_local.strftime("%d/%m/%Y %H:%M") + f" {TZ_NAME}"
+        except Exception:
+            exp_txt = str(exp)
+    else:
+        exp_txt = "0 (sem expiração)"
+
+    lines: list[str] = []
+    lines.append("📄 <b>Registro de assinatura (subs.json)</b>")
+    lines.append(f"id = <code>{uid}</code>")
+    lines.append(f"status: <b>{status}</b>")
+    lines.append(f"plano: <b>{plan}</b>")
+    lines.append(f"expira em: <b>{exp_txt}</b>")
+    lines.append(f"e-mail: <code>{email}</code>")
+    lines.append("")
+    lines.append("<i>Para detalhes de histórico admin, use /sub_log &lt;telegram_id&gt;.</i>")
+
+    return await m.answer("\n".join(lines))
+
 
 @dp.message(Command("sub_log"))
 async def sub_log_cmd(m: types.Message):
@@ -4378,22 +4692,87 @@ async def reminder_loop():
         try:
             subs = subs_get()
             changed = False
+
+            # URL genérica de checkout/assinatura (configurada no Render)
+            checkout_url = os.getenv("CHECKOUT_URL", "").strip()
+
             for uid, h in list(subs.items()):
                 try:
                     uid_int = int(uid)
-                except:
+                except Exception:
                     continue
+
                 status = (h.get("status", "").lower())
                 exp    = int(h.get("expires_at") or 0)
-                if status != "active" or not exp:
+                if not exp:
+                    continue
+
+                # ---------------- STATUS / FLUXO TRIAL → PAGO ----------------
+                prev_status = str(h.get("last_notified_status", "")).lower()
+
+                # Guarda que este usuário esteve em trial (sem DM)
+                if status == "trial" and prev_status != "trial":
+                    h["last_notified_status"] = "trial"
+                    changed = True
+
+                # Mudou de trial para active → bem-vindo ao plano pago
+                if status == "active" and prev_status == "trial":
+                    msg = (
+                        "🎉 <b>Bem-vindo ao plano pago do Bet Masterson</b>\n\n"
+                        "Seu período de teste foi concluído e agora você está no plano completo.\n"
+                        f"Sua assinatura está válida até <b>{_as_dt_local(exp)} {TZ_NAME}</b>.\n\n"
+                        "Sempre que quiser, use /status_sub aqui na DM para conferir a situação "
+                        "da sua assinatura."
+                    )
+                    await _dm(uid_int, msg)
+                    h["last_notified_status"] = "active"
+                    # já marca o novo vencimento como notificado, para não duplicar mensagem de renovação
+                    h["last_notified_exp"] = exp
+                    changed = True
+
+                # Atualiza status inicial para quem já estava ativo antes dessa lógica existir
+                if status == "active" and prev_status not in ("trial", "active"):
+                    h["last_notified_status"] = "active"
+                    changed = True
+
+                # ---------------- RENOVAÇÃO / PRORROGAÇÃO ----------------
+                last_exp = int(h.get("last_notified_exp") or 0)
+
+                # Se a assinatura está ativa e o expires_at aumentou em relação ao que já foi notificado,
+                # interpretamos como renovação/prorrogação e mandamos a mensagem adequada.
+                if status == "active" and exp > 0 and last_exp > 0 and exp > last_exp:
+                    msg = (
+                        "✅ <b>Renovação confirmada</b>\n\n"
+                        f"Sua assinatura foi prorrogada até <b>{_as_dt_local(exp)} {TZ_NAME}</b>.\n\n"
+                        "Você não precisa fazer mais nada; seu acesso ao canal segue garantido "
+                        "enquanto a assinatura estiver ativa."
+                    )
+                    await _dm(uid_int, msg)
+                    h["last_notified_exp"] = exp
+                    changed = True
+                elif status == "active" and exp > 0 and last_exp == 0:
+                    # Primeira vez que registramos esse vencimento. Não enviamos mensagem
+                    # de renovação aqui, apenas marcamos como baseline.
+                    h["last_notified_exp"] = exp
+                    changed = True
+
+                # ---------------- LEMBRETES DE VENCIMENTO ----------------
+                if status not in ("active", "trial"):
+                    subs[uid] = h
                     continue
 
                 dleft = _days_left(exp)
+
                 if dleft == 3 and not h.get("notified_3d"):
                     msg = (
                         "⏰ <b>Lembrete de renovação</b>\n"
                         f"Sua assinatura vence em 3 dias (até <b>{_as_dt_local(exp)} {TZ_NAME}</b>)."
                     )
+                    if checkout_url:
+                        msg += (
+                            "\n\n👉 Para renovar e manter o acesso ao canal, use o link:\n"
+                            f"{checkout_url}"
+                        )
                     await _dm(uid_int, msg)
                     h["notified_3d"] = True
                     changed = True
@@ -4403,6 +4782,11 @@ async def reminder_loop():
                         "⏰ <b>Último dia de assinatura</b>\n"
                         f"Sua assinatura expira hoje (<b>{_as_dt_local(exp)} {TZ_NAME}</b>)."
                     )
+                    if checkout_url:
+                        msg += (
+                            "\n\n👉 Se quiser continuar no canal, renove sua assinatura pelo link:\n"
+                            f"{checkout_url}"
+                        )
                     await _dm(uid_int, msg)
                     h["notified_0d"] = True
                     changed = True
@@ -4411,10 +4795,14 @@ async def reminder_loop():
 
             if changed:
                 subs_set(subs)
+
             await asyncio.sleep(REMINDER_INTERVAL_SEC)
+
         except Exception as e:
             print("REMINDER_LOOP_ERROR:", repr(e))
             await asyncio.sleep(60)
+
+
 
 # -------- GitHub fetch para manter /data sincronizado --------
 import urllib.request, time, urllib.error
@@ -4681,7 +5069,7 @@ def _hour_count(dt_utc: datetime) -> int:
     return int(db.get("_hour_count", {}).get(hk, 0))
 
 
-# ========== PATCH COMPLETO — SELEÇÃO POR REGRA (CORRIGIDO) ==========
+# ========== PATCH COMPLETO — SELEÇÃO POR REGRA (CORRIGIDO, SLOTS 0–2h) ==========
 async def _select_by_rule(
     data: Dict[str, Any],
     rule: Dict[str, Any],
@@ -4689,13 +5077,14 @@ async def _select_by_rule(
     slot_local: Optional[datetime] = None,
 ):
 
-
     tz_sp = tz.gettz(TZ_NAME)
     now_local = now_local or datetime.now(tz_sp)
+    # AGORA É O MAIS IMPORTANTE: todas as janelas são calculadas em relação ao SLOT
     slot_local = slot_local or now_local
 
     secs = rule.get("sections", [])
-    max_cards = int(rule.get("max_cards", 3))
+    # DEFINIÇÃO DURA: no máximo 3 cards por slot, independente da agenda
+    max_cards = 3
 
     PICK_PER_MATCH_PER_SLOT  = int(os.environ.get("PICK_PER_MATCH_PER_SLOT", 1))
     INTER_PER_MATCH_PER_SLOT = int(os.environ.get("INTER_PER_MATCH_PER_SLOT", 1))
@@ -4709,23 +5098,22 @@ async def _select_by_rule(
 
     # ===================== IMPORTANTÍSSIMO =====================
     # Inicializa OUT no topo (antes do primeiro uso)
-    # Este era o bug que derrubava todo o scheduler
     # ===========================================================
     out: List[tuple] = []
     pick_by_game  = defaultdict(int)
     inter_by_game = defaultdict(int)
     intra_by_game = defaultdict(int)
 
-    # Coleta de singles (picks) do novo JSON
+    # Coleta de singles (picks)
     all_picks = list(data.get("picks", []) or [])
 
     raw_singles: List[tuple] = []
     for p in all_picks:
 
-        prob = _f(p.get("p_model", 0.0))         # NOVO CERTO
-        ev   = _f(p.get("ev", 0.0))              # EV em %
+        prob = _f(p.get("p_model", 0.0))   # prob do modelo
+        ev   = _f(p.get("ev", 0.0))        # EV em %
 
-        # filtro mínimo global (mantém tua filosofia de prob. mínima + EV)
+        # filtro mínimo global
         if prob < MIN_PROB or ev <= MIN_EV:
             continue
 
@@ -4734,37 +5122,39 @@ async def _select_by_rule(
 
         raw_singles.append(("pick", p, sls, gid))
 
-    # ainda ordenamos por SLS para priorizar valor
+    # ordena por SLS desc
     raw_singles.sort(key=lambda x: x[2], reverse=True)
 
     # ---------- SINGLES ----------
     if "singles" in secs:
 
-        # 1) Decora cada pick com o delta (minutos) entre AGORA (slot) e o horário local do jogo
+        # 1) Decora cada pick com delta em minutos ENTRE SLOT e horário local do jogo
         decorated: List[Tuple[float, str, Dict[str, Any], float, str]] = []
         for kind, payload, sls, gid in raw_singles:
-            # horário local do jogo (usa _pick_time_str + _parse_any_dt_local, já existentes)
             dt_loc = _parse_any_dt_local(_pick_time_str(payload))
             if not dt_loc:
                 continue
 
-            delta_min = (dt_loc - now_local).total_seconds() / 60.0
+            # *** AQUI TROCAMOS now_local POR slot_local ***
+            delta_min = (dt_loc - slot_local).total_seconds() / 60.0
 
-            # descartamos jogos já começados ou muito em cima (abaixo do lead mínimo)
+            # descarta jogos já começados / muito em cima
             if delta_min < MIN_LEAD_MIN:
+                continue
+
+            # *** REGRA DURA: só olha até 2h depois do SLOT ***
+            if delta_min > 120.0:
                 continue
 
             decorated.append((delta_min, kind, payload, sls, gid))
 
-        # 2) Janela primária = até +60 min | fallback = +60 até +120 min | resto do dia = >120 min
+        # 2) Janela primária = até +60 min | fallback = +60 até +120 min
         primary  = [tpl for tpl in decorated if tpl[0] <= 60.0]
         fallback = [tpl for tpl in decorated if 60.0 < tpl[0] <= 120.0]
-        others   = [tpl for tpl in decorated if tpl[0] > 120.0]
 
-        # dentro de cada janela, seguimos priorizando SLS
-        primary.sort(key=lambda x: x[3], reverse=True)   # x[3] = sls
+        # prioriza SLS dentro de cada janela
+        primary.sort(key=lambda x: x[3], reverse=True)
         fallback.sort(key=lambda x: x[3], reverse=True)
-        others.sort(key=lambda x: x[3], reverse=True)
 
         def _consume(group):
             nonlocal out
@@ -4776,11 +5166,11 @@ async def _select_by_rule(
                 d_local = _kick_date_local_from_pick(payload)
                 already_n = _count_published_picks_for_gid(d_local, gid)
 
-                # máx. 3 picks por jogo no DIA
+                # máx. 3 picks por jogo no dia
                 if already_n + pick_by_game[gid] >= 3:
                     continue
 
-                # máx. X picks por jogo neste SLOT (PICK_PER_MATCH_PER_SLOT)
+                # máx. X picks por jogo neste slot
                 if pick_by_game[gid] >= PICK_PER_MATCH_PER_SLOT:
                     continue
 
@@ -4791,14 +5181,10 @@ async def _select_by_rule(
                 out.append(("pick", payload, sls))
                 pick_by_game[gid] += 1
 
-        # 3) Consome primeiro até 1h, depois 1–2h, depois o resto do dia (se ainda faltou slot)
+        # 3) Consome 1ª hora, depois 2ª hora. NUNCA além de 2h.
         _consume(primary)
         if len(out) < max_cards:
             _consume(fallback)
-        if len(out) < max_cards:
-            _consume(others)
-
-
 
     # ---------- COMBOS ----------
     raw_intra = []
@@ -4817,7 +5203,7 @@ async def _select_by_rule(
         kind = "intra" if len(games) == 1 else "inter"
         return kind, games
 
-    # Coleta combos corretamente do JSON
+    # Coleta combos
     for c in (data.get("combos", []) or []):
 
         pr  = _f(c.get("prob_real_combo", 0.0))
@@ -4878,18 +5264,20 @@ async def _select_by_rule(
                 if len(out) >= max_cards:
                     break
 
-                if any(inter_by_game[g] >= INTER_PER_MATCH_PER_SLOT for g in games):
+                # protege para não encher um jogo só de inters
+                # (usa um id sintético com frozenset dos jogos envolvidos)
+                gid_synth = "|".join(sorted(list(games)))
+                if inter_by_game[gid_synth] >= INTER_PER_MATCH_PER_SLOT:
                     continue
 
                 if already_published_combo(payload):
                     continue
 
                 out.append(("combo", payload, sls))
+                inter_by_game[gid_synth] += 1
 
-                for g in games:
-                    inter_by_game[g] += 1
+    return out
 
-    return out[:max_cards]
 # ===================== END SCHEDULER (CORRIGIDO) =====================
 
 
@@ -5003,9 +5391,22 @@ def _fmt_combo_msg(c: Dict[str, Any]) -> str:
     def _render_leg(leg: Dict[str, Any]) -> List[str]:
         liga = leg.get("campeonato", leg.get("league", "—"))
         pais = leg.get("pais", leg.get("country", "—"))
-        dd, hh = format_date_hour_from_utc_str(leg.get("hora_utc") or leg.get("hora"))
-        clock_emoji = _clock_emoji_for_hhmm(hh or "")
-        when_line = f"{clock_emoji} <b>{dd or '—'}</b> | <b>{hh or '—'}</b> (UTC: -3)"
+
+        # data/hora LOCAL da perna + relógio
+        date_str, hour_str = format_date_hour_from_utc_str(
+            leg.get("hora_utc")
+            or leg.get("hora")
+            or leg.get("kickoff")
+            or leg.get("date_GMT")
+            or leg.get("date_local")
+            or ""
+        )
+
+        safe_dd    = _safe_date_str(date_str)
+        clock_emoji = _clock_emoji_for_hhmm(hour_str or "")
+        when_line   = f"{clock_emoji} <b>{safe_dd or '—'}</b> | <b>{hour_str or '—'}</b> {TZ_LABEL}"
+
+
 
 
         home = leg.get("mandante") or leg.get("home") or "?"
@@ -5147,10 +5548,6 @@ def _read_json_silent(p: Path):
         return json.loads(p.read_text(encoding="utf-8"))
     except Exception:
         return None
-
-
-TZ_NAME = "UTC:-3"
-tz_sp = tz.gettz(TZ_NAME)
 
 # mapeamento breve para mercados em português (com fallback)
 MARKET_MAP = {
@@ -5501,61 +5898,30 @@ async def _send_coruja_card_in_chunks(
     Envia o bloco do Corujão em UMA sequência de mensagens, respeitando TELEGRAM_SAFE_LIMIT
     e evitando flood de 'Too Many Requests'.
 
-    • Card ÚNICO lógico, com:
-        - Cabeçalho geral do Corujão
-        - Um bloco por jogo:
-            🏆 Liga · País
-            🕠 Hoje | HHhMM (UTC: -3)
-            ⚽️ Mandante vs Visitante
-          seguido de ATÉ N picks +EV desse jogo (N = CORUJAO_MAX_PICKS_PER_GAME).
-    • Picks de um mesmo jogo separados por barra horizontal.
-    • Jogos diferentes também separados por barra horizontal.
-    • O aforismo vai ACOPLADO ao ÚLTIMO card, nunca sozinho.
-    """
+    A PARTIR DE AGORA:
 
-    if GROUP_ID == 0:
-        print("[CORUJAO][WARN] GROUP_ID=0, não vou enviar.")
+      • NÃO há mais limite por jogo aqui dentro.
+      • Recebe diretamente os TOP N GLOBAL por SLS (já filtrados em post_coruja_card).
+      • PARA CADA PICK repete o cabeçalho completo do jogo (🏆 / 🕠 / ⚽️),
+        mesmo que vários picks sejam do mesmo jogo.
+    """
+    if not picks:
         return False
 
-    # Delay entre mensagens pra ajudar no flood-control
+    if GROUP_ID == 0:
+        print("[CORUJAO][WARN] GROUP_ID = 0, não há para onde enviar.")
+        return False
+
+    # Delay pequeno entre mensagens para evitar flood
     try:
-        SEND_DELAY = float(os.getenv("CORUJA_SEND_DELAY", "0.6"))
+        SEND_DELAY = float(os.getenv("CORUJAO_SEND_DELAY", "0.8"))
     except Exception:
-        SEND_DELAY = 0.6
+        SEND_DELAY = 0.8
 
     HR = "──────────"
-
-    # ---------- Agrupa picks por jogo ----------
-    jogos: Dict[str, List[Dict[str, Any]]] = defaultdict(list)
-    for p in picks:
-        gid = _game_id_from_pick(p)
-        jogos[gid].append(p)
-
-    # Ordena por horário local dentro de cada jogo
-    def _dt_loc(px: Dict[str, Any]) -> datetime:
-        return _dt_key_or_now(_pick_time_str(px))
-
-    for gid, arr in jogos.items():
-        arr.sort(key=_dt_loc)
-
-    # Ordena os jogos pelo horário do primeiro pick
-    jogos_ordenados = sorted(
-        jogos.items(),
-        key=lambda kv: _dt_loc(kv[1][0]) if kv[1] else datetime.now(timezone.utc)
-    )
-    # -------------------------------------------
-
-    # Limite máximo de picks por jogo (configurável via ENV)
-    try:
-        max_picks_per_game = int(os.getenv("CORUJAO_MAX_PICKS_PER_GAME", "2"))
-        if max_picks_per_game <= 0:
-            max_picks_per_game = 2
-    except Exception:
-        max_picks_per_game = 2
-
     messages: List[str] = []
 
-    # Vamos montar UM "card lógico" que pode virar 1..N mensagens se estourar TELEGRAM_SAFE_LIMIT
+    # Cabeçalho global do Corujão (sempre no topo de cada mensagem)
     header_global = [
         BRAND_LINE,
         HR,
@@ -5566,62 +5932,48 @@ async def _send_coruja_card_in_chunks(
     # Começa com o cabeçalho global
     current_lines: List[str] = list(header_global)
 
-    for gid, arr in jogos_ordenados:
-        if not arr:
-            continue
-
-        # APLICA LIMITE DE PICKS POR JOGO AQUI
-        arr_limited = arr[:max_picks_per_game]
-
-        first = arr_limited[0]
-        pais   = (first.get("pais") or first.get("country") or "—").strip()
-        liga   = (first.get("campeonato") or first.get("league") or "—").strip()
-        home   = (first.get("mandante") or first.get("home") or "—").strip()
-        away   = (first.get("visitante") or first.get("away") or "—").strip()
-        hora   = (first.get("hora") or first.get("kickoff_local") or "").strip()
+    for p in picks:
+        # Dados básicos do jogo
+        pais = (p.get("pais") or p.get("country") or "—").strip()
+        liga = (p.get("campeonato") or p.get("league") or "—").strip()
+        home = (p.get("mandante") or p.get("home") or "—").strip()
+        away = (p.get("visitante") or p.get("away") or "—").strip()
+        hora = (p.get("hora") or p.get("kickoff_local") or "").strip()
 
         flag = get_country_flag(pais, liga)
 
-        # Bloco de cabeçalho do JOGO (UMA VEZ por jogo em cada card)
+        # Cabeçalho COMPLETO do jogo PARA ESTE PICK
         jogo_header = [
             HR,
             f"🏆 {liga} · {pais} {flag}".rstrip(),
         ]
         if hora:
-            jogo_header.append(f"🕠 Hoje | {hora} (UTC: -3)")
+            clock_emoji = _clock_emoji_for_hhmm(hora)
+            jogo_header.append(f"{clock_emoji} Hoje | {hora} (UTC: -3)")
+
         jogo_header.append(f"⚽️ {home} vs {away}")
 
-        # Tenta encaixar o cabeçalho deste jogo no card atual
-        candidate = current_lines + jogo_header
+        # Bloco do pick (Mercado / Seleção / Prob / Odds / EV / Nota BM)
+        pick_block = _render_pick_block_for_corujao(p).strip()
+        if not pick_block:
+            continue
+
+        bloco_pick = [
+            HR,
+            pick_block,
+        ]
+
+        bloco_completo = jogo_header + bloco_pick
+
+        candidate = current_lines + bloco_completo
         joined = "\n".join(candidate)
+
         if len(joined) > TELEGRAM_SAFE_LIMIT:
-            # Fecha card atual e começa outro com header global + cabeçalho do jogo
+            # Fecha o card atual e começa outro com header_global + bloco deste pick
             messages.append("\n".join(current_lines))
-            current_lines = list(header_global) + jogo_header
+            current_lines = list(header_global) + bloco_completo
         else:
-            current_lines = candidate
-
-        # Agora adiciona APENAS os picks deste jogo, SEM repetir cabeçalho
-        for p in arr_limited:
-            pick_block = _render_pick_block_for_corujao(p).strip()
-            if not pick_block:
-                continue
-
-            # Só HR + bloco do pick; NÃO REPETE 🏆/🕠/⚽️ aqui
-            bloco_pick = [
-                HR,
-                pick_block,
-            ]
-
-            candidate = current_lines + bloco_pick
-            joined = "\n".join(candidate)
-
-            if len(joined) > TELEGRAM_SAFE_LIMIT:
-                # fecha o card atual e começa outro com header global + cabeçalho + pick
-                messages.append("\n".join(current_lines))
-                current_lines = list(header_global) + jogo_header + bloco_pick
-            else:
-                current_lines.extend(bloco_pick)
+            current_lines.extend(bloco_completo)
 
     # Fecha o último card lógico
     if current_lines:
@@ -5659,6 +6011,7 @@ async def _send_coruja_card_in_chunks(
         await asyncio.sleep(SEND_DELAY)
 
     return sent_any
+
 
 
 
@@ -5918,7 +6271,7 @@ async def post_coruja_card() -> bool:
       • Usa o bloco 'corujao.picks' do odds-AAAA-MM-DD.json (se existir),
         senão filtra os picks normais por horário de madrugada.
       • Mantém APENAS picks com EV > 0.
-      • NÃO limita a quantidade de picks por jogo aqui.
+      • Respeita limite TOTAL de picks e limite por jogo.
       • Usa _send_coruja_card_in_chunks para montar o card único.
       • Marca os picks como publicados (para agenda não reutilizar).
     """
@@ -5935,7 +6288,6 @@ async def post_coruja_card() -> bool:
         print(f"[CORUJAO][SKIP_ALREADY_SENT] já enviado em {date_str}")
         return False
     # -------------------------------------------------------------------
-
 
     # Coleta picks candidatos ao Corujão
     try:
@@ -5969,9 +6321,8 @@ async def post_coruja_card() -> bool:
         if isinstance(p.get("fair_odd"), str):
             p["fair_odd"] = _to_float_odd(p["fair_odd"])
 
-    # Ordena os picks:
-    #   1) pelo horário local do jogo
-    #   2) por SLS decrescente (melhores primeiro)
+    # Ordena os picks EXCLUSIVAMENTE por SLS (melhores primeiro),
+    # ignorando ordem de horário aqui. O horário só entra na renderização.
     def _sls_from_pick(px: Dict[str, Any]) -> float:
         # se já tiver SLS pronto
         try:
@@ -5991,32 +6342,44 @@ async def post_coruja_card() -> bool:
         # ev_loc já está em %, sls_score assume EV em %
         return sls_score(pr_loc, ev_loc)
 
+    # Ordena por SLS global (melhores primeiro)
     sorted_picks = sorted(
         filtered_picks,
-        key=lambda p: (_dt_key_or_now(_pick_time_str(p)), -_sls_from_pick(p))
+        key=lambda p: _sls_from_pick(p),
+        reverse=True,
     )
 
-    # --- LIMITA A QUANTIDADE DE PICKS POR JOGO (configurável via ENV) ---
-    from collections import defaultdict
+    # Limites: TOTAL e POR JOGO
+    max_total = CORUJAO_MAX_PICKS_TOTAL or 5
+    max_per_game = CORUJAO_MAX_PICKS_PER_GAME or max_total
 
-    grouped = defaultdict(list)
+    selected: List[Dict[str, Any]] = []
+    per_game_counts: Dict[str, int] = {}
 
     for p in sorted_picks:
-        key = (
-            (p.get("home") or p.get("mandante") or "").strip(),
-            (p.get("away") or p.get("visitante") or "").strip(),
-            (p.get("kickoff_local") or p.get("hora") or "").strip(),
-        )
-        grouped[key].append(p)
+        if len(selected) >= max_total:
+            break
+        try:
+            gid = _game_id_from_pick(p)
+        except Exception:
+            gid = None
 
-    limited_picks = []
-    for _, arr in grouped.items():
-        limited_picks.extend(arr[:CORUJAO_MAX_PICKS_PER_GAME])
+        if gid:
+            cnt = per_game_counts.get(gid, 0)
+            if cnt >= max_per_game:
+                # já atingiu o limite para este jogo, pula
+                continue
+            per_game_counts[gid] = cnt + 1
 
-    sorted_picks = limited_picks
+        selected.append(p)
+
+    if not selected:
+        print("[CORUJAO][NO_SELECTED] Nenhum pick passou no filtro de limites.")
+        return False
+
+    sorted_picks = selected
+
     # ----------------------------------------------------------------------
-
-
     # Aforismo da madrugada
     aph = _get_night_aphorism()
 
@@ -6033,10 +6396,8 @@ async def post_coruja_card() -> bool:
             print("[CORUJAO][MARK_ERR]", repr(e))
 
     # Atualiza controle de data para não repetir o Corujão neste dia
-    global _CORUJAO_LAST_SENT_DATE
     _CORUJAO_LAST_SENT_DATE = date_str
     print(f"[CORUJAO][SEND_OK] registrado envio de {date_str}")
-
 
     return True
 
@@ -6310,11 +6671,14 @@ async def scheduler_loop():
                     dt_utc_iso = _to_utc_iso(today_sp, t_local)
                     dt_utc     = datetime.fromisoformat(dt_utc_iso.replace("Z", "+00:00"))
 
+                    
                     slot_local = dt_utc.astimezone(tz_sp)
 
-                    # janela de disparo do slot: até +5 min
-                    if not (timedelta(0) <= now_utc - dt_utc <= timedelta(minutes=5)):
+                    # NOVA REGRA: slot ativo do horário dele até 2h depois
+                    delta = now_utc - dt_utc
+                    if delta < timedelta(0) or delta > timedelta(hours=2):
                         continue
+
 
                     # ----- Seleção por refs especiais -----
                     refs = slot.get("refs") or []
@@ -6634,21 +6998,169 @@ async def pub_stats(m: types.Message):
 
 @dp.message(Command("pub_show_today"))
 async def pub_show_today(m: types.Message):
+    """
+    Mostra, de forma legível:
+      • horário de publicação (local)
+      • jogo (mandante x visitante + horário do jogo)
+      • mercado e seleção
+      • prob, EV e SLS
+      • gid
+
+    Para combos, mostra título (se houver), nº de legs, prob, EV e SLS.
+    """
     if not is_admin(m.from_user.id):
         return await m.answer("🚫 Acesso restrito.")
+
     db = _load_published()
     today = _pub_today().isoformat()
-    lines = [f"🗂️ Publicados hoje ({today}):"]
-    for typ in ("picks", "combos"):
-        lines.append(f"\n[{typ}]")
-        by_date = db.get(typ, {})
-        for sig, meta in by_date.get(today, {}).items():
-            if typ == "picks":
-                lines.append(f"- {sig} (gid={meta.get('gid')})")
+
+    # --- Carrega odds do dia e indexa picks/combos por assinatura ---
+    data = await load_odds_generic()
+    try:
+        data = normalize_odds(data)
+    except Exception:
+        pass
+
+    picks = list(data.get("picks", []) or [])
+    combos = list(data.get("combos", []) or [])
+
+    # Index por assinatura
+    idx_pick_by_sig: Dict[str, Dict[str, Any]] = {}
+    for p in picks:
+        try:
+            sig = _pick_signature(p)
+        except Exception:
+            continue
+        if sig:
+            idx_pick_by_sig[sig] = p
+
+    idx_combo_by_sig: Dict[str, Dict[str, Any]] = {}
+    for c in combos:
+        try:
+            sig = _combo_signature(c)
+        except Exception:
+            continue
+        if sig:
+            idx_combo_by_sig[sig] = c
+
+    tz_sp = tz.gettz(TZ_NAME)
+
+    def _fmt_pub_time(ts_str: str) -> str:
+        if not ts_str:
+            return "??:??"
+        try:
+            # ts salvo em UTC ("2025-11-27T17:32:10.123456Z")
+            dt_utc = datetime.fromisoformat(ts_str.replace("Z", "")).replace(tzinfo=timezone.utc)
+            dt_loc = dt_utc.astimezone(tz_sp)
+            return dt_loc.strftime("%H:%M")
+        except Exception:
+            return ts_str
+
+    lines: List[str] = [f"🗂️ Publicados hoje ({today}):"]
+
+    # ------------------ PICKS ------------------
+    lines.append("\n[picks]")
+    day_picks = (db.get("picks", {}) or {}).get(today, {}) or {}
+
+    if not day_picks:
+        lines.append("- nenhum pick")
+    else:
+        # ordenar por horário de publicação
+        items = sorted(day_picks.items(), key=lambda kv: (kv[1] or {}).get("ts", ""))
+
+        for sig, meta in items:
+            meta = meta or {}
+            gid = meta.get("gid") or "?"
+            ts_str = meta.get("ts") or ""
+            hhmm = _fmt_pub_time(ts_str)
+
+            p = idx_pick_by_sig.get(sig)
+            if p:
+                mand = p.get("mandante") or p.get("home") or "?"
+                vist = p.get("visitante") or p.get("away") or "?"
+                mercado = p.get("mercado") or p.get("market") or "?"
+                selecao = p.get("selecao") or p.get("selection") or "?"
+
+                # prob do modelo / prob_real em 0..1
+                prob_model = float(p.get("p_model") or p.get("prob_real") or 0.0)
+                # prob para exibir em %
+                prob_disp = float(p.get("prob_real") or p.get("p_model") or 0.0) * 100.0
+
+                # EV em %
+                ev = float(p.get("ev") or p.get("EV") or p.get("ev_percent") or 0.0)
+
+                # SLS consistente com o scheduler (prob em 0..1, EV em %)
+                try:
+                    sls = sls_score(prob_model, ev)
+                except Exception:
+                    # fallback: tenta usar campo SLS do arquivo, se existir
+                    sls = float(p.get("SLS") or p.get("sls") or 0.0)
+
+                # horário do jogo, se existir no pick
+                kickoff = (
+                    p.get("kickoff_local")
+                    or p.get("hora")
+                    or p.get("kickoff")
+                    or (p.get("match") or {}).get("kickoff_local")
+                    or ""
+                )
+
+                lines.append(
+                    f"- {hhmm} | {mand} x {vist} ({kickoff}) — {mercado} — {selecao} "
+                    f"[gid={gid}, prob={prob_disp:.1f}%, EV={ev:.1f}%, SLS={sls:.1f}]"
+                )
             else:
-                legs = meta.get("legs", [])
-                lines.append(f"- {sig} ({len(legs)} legs)")
-    await m.answer("<code>" + ("\n".join(lines)) + "</code>")
+                # Fallback caso o odds ativo do dia não contenha mais o pick
+                lines.append(
+                    f"- {hhmm} | sig={sig} [gid={gid}] (pick não encontrado no odds ativo)"
+                )
+
+    # ------------------ COMBOS ------------------
+    lines.append("\n[combos]")
+    day_combos = (db.get("combos", {}) or {}).get(today, {}) or {}
+
+    if not day_combos:
+        lines.append("- nenhum combo")
+    else:
+        items = sorted(day_combos.items(), key=lambda kv: (kv[1] or {}).get("ts", ""))
+
+        for sig, meta in items:
+            meta = meta or {}
+            ts_str = meta.get("ts") or ""
+            hhmm = _fmt_pub_time(ts_str)
+            legs_meta = meta.get("legs") or []
+
+            c = idx_combo_by_sig.get(sig)
+            if c:
+                title = c.get("title") or c.get("nome") or "Combo"
+
+                prob_combo = float(
+                    c.get("prob_real_combo")
+                    or c.get("prob_combo")
+                    or c.get("prob_real")
+                    or 0.0
+                )
+                ev_combo = float(
+                    c.get("ev_combo")
+                    or c.get("ev")
+                    or 0.0
+                )
+                try:
+                    sls_combo = sls_score(prob_combo, ev_combo)
+                except Exception:
+                    sls_combo = float(c.get("SLS") or c.get("sls") or 0.0)
+
+                lines.append(
+                    f"- {hhmm} | {title} ({len(legs_meta)} legs) "
+                    f"[prob={prob_combo*100:.1f}%, EV={ev_combo:.1f}%, SLS={sls_combo:.1f}]"
+                )
+            else:
+                lines.append(
+                    f"- {hhmm} | sig={sig} ({len(legs_meta)} legs)"
+                )
+
+    await m.answer("<code>" + "\n".join(lines) + "</code>")
+
 
 @dp.message(Command("pub_reset_today"))
 async def pub_reset_today(m: types.Message):
@@ -7119,8 +7631,10 @@ async def on_payment_confirmed(user_id: str | int, send_dm: bool = True) -> Opti
                 await bot.send_message(
                     uid,
                     "🎩 Bem-vindo ao Bet Masterson.\n\n"
-                    "Clique no link acima para entrar no canal. "
-                    "Se tiver qualquer problema, responda esta mensagem."
+                    "Clique no link acima para entrar no canal.\n\n"
+                    "Assim que entrar, leia com atenção a mensagem fixada no topo do canal (📌). "
+                    "Ali eu explico como o canal funciona, o significado de Prob. Real, Odd Justa, EV "
+                    "e as orientações de uso.\n\n"                    
                 )
             except Exception as e:
                 print("[INVITE][DM_ERROR][STATIC]", {"uid": uid, "err": repr(e)})
@@ -7167,8 +7681,10 @@ async def on_payment_confirmed(user_id: str | int, send_dm: bool = True) -> Opti
                 await bot.send_message(
                     uid,
                     "🎩 Bem-vindo ao Bet Masterson.\n\n"
-                    "Clique no link acima para entrar no canal. "
-                    "Se tiver qualquer problema, responda esta mensagem."
+                    "Clique no link acima para entrar no canal.\n\n"
+                    "Assim que entrar, leia com atenção a mensagem fixada no topo do canal (📌). "
+                    "Ali eu explico como o canal funciona, o significado de Prob. Real, Odd Justa, EV "
+                    "e as orientações de uso.\n\n"                    
                 )
             except Exception as e:
                 print("[INVITE][DM_ERROR][REUSE]", {"uid": uid, "err": repr(e)})
@@ -7215,8 +7731,10 @@ async def on_payment_confirmed(user_id: str | int, send_dm: bool = True) -> Opti
             await bot.send_message(
                 uid,
                 "🎩 Bem-vindo ao Bet Masterson.\n\n"
-                "Clique no link acima para entrar no canal. "
-                "Se tiver qualquer problema, responda esta mensagem."
+                "Clique no link acima para entrar no canal.\n\n"
+                "Assim que entrar, leia com atenção a mensagem fixada no topo do canal (📌). "
+                "Ali eu explico como o canal funciona, o significado de Prob. Real, Odd Justa, EV "
+                "e as orientações de uso.\n\n"                    
             )
         except Exception as e:
             print("[INVITE][DM_ERROR][NEW]", {"uid": uid, "err": repr(e)})
@@ -7343,6 +7861,7 @@ dp.message.register(revoke_sub_cmd, Command("revoke_sub"))
 dp.message.register(sub_log_cmd, Command("sub_log"))
 dp.message.register(cmd_enforce_now, Command("enforce_now"))
 dp.message.register(cmd_sub_set, Command("sub_set"))
+dp.message.register(cmd_sub_get, Command("sub_get"))
 
 
 

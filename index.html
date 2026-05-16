@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bet Masterson — Redirecionando…</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600;700&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --green-deep:  #03342f;
+    --green-mid:   #05534b;
+    --green-light: #0a7a6e;
+    --gold:        #c9a84c;
+    --gold-light:  #e8c97a;
+    --cream:       #f5f0e8;
+    --cream-dark:  #ede6d6;
+    --ink:         #0d0d0d;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    background-color: var(--green-deep);
+    color: var(--cream);
+    font-family: 'Cormorant Garamond', Georgia, serif;
+    min-height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  /* ── NOISE TEXTURE ── */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='1'/%3E%3C/svg%3E");
+    opacity: 0.04;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* ── RADIAL GLOW ── */
+  body::after {
+    content: '';
+    position: fixed;
+    top: -20%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80vw;
+    height: 80vw;
+    background: radial-gradient(ellipse at center, rgba(10,122,110,0.18) 0%, transparent 70%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .page {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 3rem 1.5rem;
+  }
+
+  /* ── CARD ── */
+  .card {
+    background: linear-gradient(160deg, rgba(255,255,255,0.055) 0%, rgba(255,255,255,0.02) 100%);
+    border: 1px solid rgba(201,168,76,0.2);
+    border-radius: 4px;
+    max-width: 520px;
+    width: 100%;
+    padding: 3.5rem 3rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0;
+    backdrop-filter: blur(12px);
+    box-shadow:
+      0 0 0 1px rgba(255,255,255,0.04) inset,
+      0 40px 80px rgba(0,0,0,0.4),
+      0 0 60px rgba(10,122,110,0.08);
+    animation: fadeUp 0.9s cubic-bezier(0.16,1,0.3,1) both;
+  }
+
+  @keyframes fadeUp {
+    from { opacity: 0; transform: translateY(28px); }
+    to   { opacity: 1; transform: translateY(0); }
+  }
+
+  /* ── LOGO ── */
+  .logo-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    margin-bottom: 2.8rem;
+    animation: fadeUp 0.9s 0.1s cubic-bezier(0.16,1,0.3,1) both;
+  }
+
+  .logo-icon {
+    width: 68px;
+    height: auto;
+    filter: brightness(0) invert(1) sepia(1) saturate(3) hue-rotate(5deg) brightness(0.85);
+    /* torna o SVG na cor gold */
+    filter: invert(74%) sepia(30%) saturate(800%) hue-rotate(10deg) brightness(1.05);
+  }
+
+  .logo-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.15rem;
+  }
+
+  .logo-name {
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--cream);
+    line-height: 1;
+  }
+
+  .logo-sub {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.62rem;
+    font-weight: 300;
+    letter-spacing: 0.38em;
+    text-transform: uppercase;
+    color: var(--gold);
+    opacity: 0.85;
+  }
+
+  /* ── DIVIDER ── */
+  .divider {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2.4rem;
+    animation: fadeUp 0.9s 0.2s cubic-bezier(0.16,1,0.3,1) both;
+  }
+  .divider::before, .divider::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: linear-gradient(to right, transparent, rgba(201,168,76,0.35), transparent);
+  }
+  .divider-diamond {
+    width: 6px;
+    height: 6px;
+    background: var(--gold);
+    transform: rotate(45deg);
+    opacity: 0.7;
+  }
+
+  /* ── HEADLINE ── */
+  .headline {
+    text-align: center;
+    margin-bottom: 1rem;
+    animation: fadeUp 0.9s 0.25s cubic-bezier(0.16,1,0.3,1) both;
+  }
+  .headline h1 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    line-height: 1.25;
+    color: var(--cream);
+    margin-bottom: 0.7rem;
+  }
+  .headline p {
+    font-size: 1.05rem;
+    font-weight: 300;
+    color: rgba(245,240,232,0.65);
+    line-height: 1.6;
+  }
+
+  /* ── STEPS ── */
+  .steps {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin: 2rem 0 2.6rem;
+    animation: fadeUp 0.9s 0.35s cubic-bezier(0.16,1,0.3,1) both;
+  }
+
+  .step {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(201,168,76,0.1);
+    position: relative;
+  }
+  .step:last-child { border-bottom: none; }
+
+  .step-num {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.65rem;
+    font-weight: 400;
+    color: var(--gold);
+    letter-spacing: 0.1em;
+    min-width: 24px;
+    padding-top: 0.15rem;
+    opacity: 0.8;
+  }
+
+  .step-body strong {
+    display: block;
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--cream);
+    margin-bottom: 0.2rem;
+  }
+  .step-body span {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: rgba(245,240,232,0.55);
+    line-height: 1.5;
+  }
+
+  .step-body code {
+    font-family: 'DM Mono', monospace;
+    font-size: 0.82rem;
+    background: rgba(201,168,76,0.1);
+    border: 1px solid rgba(201,168,76,0.2);
+    color: var(--gold-light);
+    padding: 0.1em 0.45em;
+    border-radius: 2px;
+    letter-spacing: 0.02em;
+  }
+
+  /* ── CTA BUTTON ── */
+  .cta-wrap {
+    width: 100%;
+    animation: fadeUp 0.9s 0.45s cubic-bezier(0.16,1,0.3,1) both;
+  }
+
+  .btn-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+    width: 100%;
+    padding: 1.1rem 2rem;
+    background: linear-gradient(135deg, var(--gold) 0%, #b8923f 100%);
+    color: var(--green-deep);
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.25s ease;
+    box-shadow: 0 4px 24px rgba(201,168,76,0.25), 0 1px 0 rgba(255,255,255,0.1) inset;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .btn-cta::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, rgba(255,255,255,0.15) 0%, transparent 60%);
+    opacity: 0;
+    transition: opacity 0.25s;
+  }
+
+  .btn-cta:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 32px rgba(201,168,76,0.4), 0 1px 0 rgba(255,255,255,0.1) inset;
+  }
+  .btn-cta:hover::before { opacity: 1; }
+  .btn-cta:active { transform: translateY(0); }
+
+  .btn-cta svg {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+  }
+
+  /* ── FOOTER NOTE ── */
+  .note {
+    margin-top: 1.8rem;
+    text-align: center;
+    font-family: 'DM Mono', monospace;
+    font-size: 0.62rem;
+    letter-spacing: 0.08em;
+    color: rgba(245,240,232,0.3);
+    line-height: 1.8;
+    animation: fadeUp 0.9s 0.5s cubic-bezier(0.16,1,0.3,1) both;
+  }
+  .note a {
+    color: rgba(201,168,76,0.5);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  .note a:hover { color: var(--gold); }
+
+  /* ── CORNER ORNAMENTS ── */
+  .ornament {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    opacity: 0.25;
+  }
+  .ornament-tl { top: 14px; left: 14px; border-top: 1px solid var(--gold); border-left: 1px solid var(--gold); }
+  .ornament-br { bottom: 14px; right: 14px; border-bottom: 1px solid var(--gold); border-right: 1px solid var(--gold); }
+
+  /* ── SPINNER ── */
+  .spinner-wrap {
+    margin: 2rem 0 1rem;
+    animation: fadeUp 0.9s 0.3s cubic-bezier(0.16,1,0.3,1) both;
+  }
+  .spinner-ring {
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgba(201,168,76,0.15);
+    border-top-color: var(--gold);
+    border-radius: 50%;
+    animation: spin 0.9s linear infinite;
+  }
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+
+  /* ── RESPONSIVE ── */
+  @media (max-width: 480px) {
+    .card { padding: 2.8rem 1.8rem 2.4rem; }
+    .logo-name { font-size: 1.7rem; }
+    .headline h1 { font-size: 1.35rem; }
+  }
+</style>
+</head>
+<body>
+
+<div class="page">
+  <div class="card">
+    <div class="ornament ornament-tl"></div>
+    <div class="ornament ornament-br"></div>
+
+    <!-- LOGO -->
+    <div class="logo-wrap">
+      <img
+        class="logo-icon"
+        src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAxMDcuNzggMTA0LjI5Ij4KICA8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMjkuOC4yLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogMi4xLjEgQnVpbGQgMykgIC0tPgogIDxkZWZzPgogICAgPHN0eWxlPgogICAgICAuc3QwIHsKICAgICAgICBmaWxsOiAjMDMzNDJmOwogICAgICB9CiAgICA8L3N0eWxlPgogIDwvZGVmcz4KICA8cGF0aCBjbGFzcz0ic3QwIiBkPSJNNDQuMywyNS43N2wtNS40OS0xMC4xYy0uMjItLjQtLjY0LS42NS0xLjA5LS42NWgtOS4wMWMtLjk0LDAtMS41MywxLTEuMDksMS44Mmw1LjQyLDEwLjE2Yy4yMi40MS42NC42NiwxLjEuNjZsOS4wOC0uMDZjLjk0LDAsMS41My0xLjAxLDEuMDgtMS44M1oiLz4KICA8cGF0aCBjbGFzcz0ic3QwIiBkPSJNNDkuOTgsMzcuMTdjLS4yMS0uNDEtLjY0LS42Ny0xLjEtLjY3aC04LjcxYy0uOTMsMC0xLjUzLjk4LTEuMSwxLjgxbDEzLjksMjYuOWMuNDYuODksMS43NC44OSwyLjIsMGw0LjM2LTguNDNjLjE4LS4zNi4xOC0uNzgsMC0xLjE0bC05LjU0LTE4LjQ3WiIvPgogIDxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik01Ny43NSwwbC0zLjg0LDcuNDMtMy44NC03LjQzaC0xMS41MSwwcy0yLjY4LDAtMi42OCwwSC4zNnMtLjM2LDAtLjM2LDBsLjM2LjY5SC4zNnM1My41NCwxMDMuNiw1My41NCwxMDMuNkwxMDcuNzgsMGgtNTAuMDNaTTY2LjUzLDU3Ljc5bC0xMS40OCwyMi4yMWMtLjQ2Ljg5LTEuNzQuODktMi4yLDBMMTcuMDcsMTAuNzdjLS40My0uODMuMTctMS44MSwxLjEtMS44MWgyMy43MmMuOCwwLDEuNTMuNDUsMS45LDEuMTVsNy44NywxNS4yMmMuMTEuMjEuMTEuNDYsMCwuNjdsLTEuOTEsMy43Yy0uNDMuODMuMTcsMS44MSwxLjEsMS44MWgzLjY2Yy4yMiwwLC40Mi4xMi41Mi4zMWwxMS41MiwyMi4yOWMuNTksMS4xNS41OSwyLjUxLDAsMy42NlpNNzQuMzMsNDIuNjljLS40Ni44OS0xLjc0Ljg5LTIuMiwwbC0zLjM3LTYuNTIsNi45MS0xMy4xOGMuMTktLjM1LS4xNS0uNzYtLjUzLS42NGwtMi43OS44NmMtLjE3LjA1LS4zNi4wMi0uNS0uMDhsLTMuMjUtMi4zOGMtLjMzLS4yNC0uNzktLjEzLS45Ny4yM2wtMy4zNSw2LjQ5LTQuMzEtOC4zNGMtLjE4LS4zNi0uMTgtLjc4LDAtMS4xNGwzLjQ0LTYuNjZjLjQxLS44LDEuNDQtMS4wNCwyLjE2LS41MWw4LjAyLDUuODdjLjMyLjIzLjcyLjMsMS4xLjE4bDEzLjM2LTQuMTNjLjc4LS4yNCwxLjQ2LjU4LDEuMDksMS4zbC0xNC44LDI4LjY0WiIvPgo8L3N2Zz4="
+        alt="Bet Masterson"
+      >
+      <div class="logo-text">
+        <span class="logo-name">Bet Masterson</span>
+        <span class="logo-sub">Análise · Valor · Precisão</span>
+      </div>
+    </div>
+
+    <!-- DIVIDER -->
+    <div class="divider"><div class="divider-diamond"></div></div>
+
+    <!-- ESTADO: redirecionando -->
+    <div class="headline" id="state-redirecting">
+      <h1>Redirecionando…</h1>
+      <p>Abrindo o Telegram. Um instante.</p>
+    </div>
+
+    <!-- ESTADO: fallback (se bloqueado) -->
+    <div class="headline" id="state-fallback" style="display:none;">
+      <h1>Quase lá.</h1>
+      <p>O redirecionamento automático não funcionou.<br>Toque no botão abaixo para abrir o Telegram.</p>
+    </div>
+
+    <!-- SPINNER -->
+    <div class="spinner-wrap" id="spinner">
+      <div class="spinner-ring"></div>
+    </div>
+
+    <!-- CTA fallback -->
+    <div class="cta-wrap" id="cta-fallback" style="display:none; margin-top: 1.8rem;">
+      <a class="btn-cta" href="https://t.me/BetMasterson_Bot?start=ativar" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24" fill="currentColor">
+          <path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/>
+        </svg>
+        Abrir no Telegram
+      </a>
+    </div>
+
+    <!-- NOTE -->
+    <p class="note" style="margin-top: 2rem;">
+      Dúvidas? <a href="mailto:betmasterson71@gmail.com">betmasterson71@gmail.com</a>
+    </p>
+  </div>
+</div>
+
+<script>
+  const TG_URL = "https://t.me/BetMasterson_Bot?start=ativar";
+  const FALLBACK_MS = 2800; // se após este tempo a aba ainda estiver visível, mostra botão
+
+  // Tenta abrir o Telegram imediatamente
+  window.location.href = TG_URL;
+
+  // Fallback: se o browser bloqueou o redirect (ex: desktop sem Telegram instalado),
+  // mostra o botão após FALLBACK_MS ms
+  setTimeout(() => {
+    // Se a página ainda está visível (não saiu), exibe o fallback
+    if (!document.hidden) {
+      document.getElementById('state-redirecting').style.display = 'none';
+      document.getElementById('spinner').style.display = 'none';
+      document.getElementById('state-fallback').style.display = '';
+      document.getElementById('cta-fallback').style.display = '';
+    }
+  }, FALLBACK_MS);
+</script>
+</body>
+</html>

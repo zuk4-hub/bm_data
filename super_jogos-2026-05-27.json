@@ -1,0 +1,93 @@
+{
+  "supercard_header": {
+    "version": "2.0-fs-ia",
+    "generated_at": "2026-05-26T23:39:29.367779-03:00",
+    "source_json": "fs_weekly_picks_2026.05.16-2026.05.29.json",
+    "target_date_local": "2026-05-27",
+    "games_count": 5,
+    "jogao_count": 4,
+    "jogaco_count": 1
+  },
+  "games": [
+    {
+      "super_type": "JOGACO",
+      "game_key": "1779908400|Crystal Palace|Rayo Vallecano",
+      "home": "Crystal Palace",
+      "away": "Rayo Vallecano",
+      "league": "UEFA Europa Conference League",
+      "country": "Europe",
+      "hora": "16h00",
+      "hora_iso": "2026-05-27 16:00",
+      "kickoff_iso": "2026-05-27T16:00:00-03:00",
+      "kickoff_local": "16h00",
+      "estadio": "Red Bull Arena",
+      "análise": "Crystal Palace x Rayo Vallecano — Análise de apostas para 2025/26\nContexto da partida: perfis de xG equilibrados (Palace 1,75, Rayo 1,84) com uma média combinada de aproximadamente 3,59 por jogo. O poder de fogo do Palace em casa é constante, mas seu histórico de vitórias em casa gira em torno de 25%, enquanto o Rayo viaja com uma forte taxa de vitórias fora de casa de 60%. Espere uma partida equilibrada, mas com muitos gols. Gols e ambas as equipes marcam: Mais de 2,5 gols com odds de 2,14 está dentro da média histórica (60% de probabilidade de mais de 2,5 gols). Mais de 0,5 gols na partida é praticamente certo (1,03), e ambas as equipes marcam sim com odds de 1,89 indica uma provável troca de gols. Escanteios: o número total de escanteios tende a ser alto. Mais de 7,5 escanteios com odds de 1,24 é uma meta razoável; as médias mostram cerca de 11 escanteios por partida neste contexto de confronto direto, sem que nenhuma das equipes domine o número de escanteios. Jogos sem sofrer gols: O Palace com odds de 2.40 para um jogo sem sofrer gols e o Rayo com odds de 3.95 não são apostas muito seguras aqui, considerando o potencial de gols e a velocidade dos dois ataques. Dupla chance: A aposta em Vitória/Empate do Palace com odds de 1.30 oferece um pequeno potencial de retorno, considerando os números do Rayo jogando fora de casa; a aposta em Vitória/Empate do Rayo com odds de 1.85 oferece uma opção mais segura para uma visão favorável do jogo do intervalo ao final da partida. Estatísticas a observar: espere um segundo tempo movimentado, dada a maior probabilidade de gols na segunda etapa (mais de 0,5 gols no segundo tempo em torno de 84% historicamente) e um aumento usual no número de escanteios à medida que as chances de gol aumentam.\nCenário provável e apostas de valor\nPalpite principal: Vitória ou empate do Rayo Vallecano (dupla chance) – valor 1,85; reflete a força do time visitante e o histórico modesto de vitórias do Palace em casa. Ambas as equipes marcam + Mais de 2,5 gols: Ambas as equipes marcam (1,89) e Mais de 2,5 gols (2,14) combinam bem com os números de xG e a taxa de acerto de ambas as equipes marcarem acima de 47%. Escanteios: Mais de 7,5 escanteios (1,24) parece uma boa aposta; espere um primeiro tempo com mais escanteios e várias oportunidades de bola parada.\nPalpite: 1-2 ou 2-1 para os visitantes. Espera-se um início equilibrado, seguido de uma arrancada no segundo tempo com ambas as equipes contribuindo com gols e escanteios.",
+      "sem_análise": false,
+      "scheduled_at": "2026-05-27T14:45:00-03:00"
+    },
+    {
+      "super_type": "JOGAO",
+      "game_key": "1779919200|Vasco da Gama|Barracas Central",
+      "home": "Vasco da Gama",
+      "away": "Barracas Central",
+      "league": "Copa Sudamericana",
+      "country": "South America",
+      "hora": "19h00",
+      "hora_iso": "2026-05-27 19:00",
+      "kickoff_iso": "2026-05-27T19:00:00-03:00",
+      "kickoff_local": "19h00",
+      "estadio": "Estádio Club de Regatas Vasco da Gama",
+      "análise": "Vasco da Gama x Barracas Central – Prévia das Apostas\nO Estádio Club de Regatas Vasco da Gama recebe o Barracas Central, com o time da casa sendo o grande favorito (odds de vitória de 1.38). Os dados apontam para um jogo equilibrado e com poucos gols: o xG no confronto direto gira em torno de 2.67, e o xG do time da casa é superior (2.03) contra 1.17 gols sofridos por jogo em casa. O Barracas Central tem um desempenho mais fraco fora de casa (média de vitórias de 25%), então o cenário é propício para uma atuação disciplinada do Vasco.\nDinâmica do placar: Menos de 3,5 gols é a tendência histórica (90%); o xG mais recente nos confrontos diretos indica um resultado apertado e com margem mínima. Jogos sem sofrer gols: A aposta para o Vasco não sofrer gols está cotada a 1,93, sugerindo uma atuação defensiva sólida em casa. Ambas as equipes marcam: Histórico de 50% de ambas as equipes marcam; espera-se uma pequena chance de o Vasco balançar as redes contra uma defesa da casa com um histórico sólido. Escanteios: Este jogo costuma ter muitas bolas paradas. A média de escanteios por partida gira em torno de 9,6; Mais de 7,5 é uma boa aposta (1,36), com limites maiores também ao alcance (Mais de 9,5 a 2,00).\nPrevisões: Vitória do Vasco da Gama, provavelmente por 1 a 0 ou 2 a 0. Menos de 3,5 gols continua sendo a previsão mais provável, considerando o histórico e a solidez defensiva do time da casa.\nMelhores apostas a considerar: Vitória do Vasco da Gama • Menos de 3,5 gols • Vasco da Gama sem sofrer gols • Mais de 7,5 (ou mais de 9,5) escanteios",
+      "sem_análise": false,
+      "scheduled_at": "2026-05-27T17:00:00-03:00"
+    },
+    {
+      "super_type": "JOGAO",
+      "game_key": "1779919200|Caracas|Botafogo",
+      "home": "Caracas",
+      "away": "Botafogo",
+      "league": "Copa Sudamericana",
+      "country": "South America",
+      "hora": "19h00",
+      "hora_iso": "2026-05-27 19:00",
+      "kickoff_iso": "2026-05-27T19:00:00-03:00",
+      "kickoff_local": "19h00",
+      "estadio": "Estadio Olímpico de la UCV",
+      "análise": "Caracas x Botafogo, 6ª rodada de 2026. O Botafogo chega como o pequeno favorito (1,81), com um xG (gols esperados) fora de casa mais forte (2,61) do que o que o Caracas consegue em casa (1,47). O xG combinado gira em torno de 3,61, indicando uma provável partida com muitos gols.\nHistoricamente, a probabilidade de ambas as equipes marcarem é alta (64%), com o primeiro e o segundo tempo contribuindo com cerca de 25% de ambas as equipes marcando. Os dados ainda apontam para chances de gol para ambos os lados e um início produtivo, considerando a probabilidade de 84% de um gol no primeiro tempo.\nA probabilidade histórica de mais de 2,5 gols é de aproximadamente 57%, enquanto a probabilidade de menos de 2,5 gols é mais atrativa para apostas. As odds do mercado (2,20 para mais de 2,5 gols) subestimam ligeiramente o potencial de gols sugerido pelas tendências de xG (gols esperados) e BTTS (ambas as partes marcam).\nA vantagem de jogar em casa é significativa para o Caracas (60% de aproveitamento em casa), mas a vantagem do Botafogo em gols esperados fora de casa os mantém na disputa. Espere um jogo equilibrado, porém proativo, com várias oportunidades de gol.\nMelhores apostas: Mais de 2,5 gols como principal hipótese. Opções secundárias: Ambas as equipes marcam; Vitória do Botafogo (maior risco) para uma relação risco/recompensa alinhada ao perfil de xG.",
+      "sem_análise": false,
+      "scheduled_at": "2026-05-27T17:30:00-03:00"
+    },
+    {
+      "super_type": "JOGAO",
+      "game_key": "1779919200|Atlético Mineiro|Academia Puerto Cabello",
+      "home": "Atlético Mineiro",
+      "away": "Academia Puerto Cabello",
+      "league": "Copa Sudamericana",
+      "country": "South America",
+      "hora": "19h00",
+      "hora_iso": "2026-05-27 19:00",
+      "kickoff_iso": "2026-05-27T19:00:00-03:00",
+      "kickoff_local": "19h00",
+      "estadio": "Arena MRV",
+      "análise": "Atlético Mineiro x Academia Puerto Cabello — Prévia das Apostas (2026)\nInício da temporada: 28 de maio • Temporada 2026 • 6ª rodada\nCotações: Atlético Mineiro 1.28 • Empate 4.80 • Academia Puerto Cabello 9.10 Ambas as equipes marcam: Sim 2.40 • Não 1.50 Mais/Menos (gols): Mais de 2.5 1.92 • Menos de 2.5 1.90 • Menos de 3.5 1.30 • Menos de 4.5 1.06 Sem sofrer gols: Mineiro Sim 1.57 • Puerto Cabello Sim 6.50 Dupla chance: Vitória ou empate do Mineiro 1.17 • Vitória ou empate do Puerto Cabello 3.40\nA força do time da casa e o xG (gols esperados) indicam uma vantagem para o Mineiro: o Mineiro tem uma taxa de vitórias em casa de 60%, com um xG em casa em torno de 1,87 por jogo, enquanto o xG do adversário, Puerto Cabello, fora de casa, fica próximo de 1,35. O xG no confronto direto é modesto (≈2,36 no total), sugerindo um jogo equilibrado e pragmático, em vez de uma disputa acirrada.\nPrincipais indicadores a observar: alta probabilidade de pelo menos um gol até o intervalo (mais de 0,5 gols no primeiro tempo é uma probabilidade muito alta) e uma tendência para jogos com menos de 4,5 gols. O mercado indica que o Mineiro garantirá a vitória, mas o Puerto Cabello também pode contribuir com um gol.\nPrevisões e apostas\nPalpite: Vitória do Atlético Mineiro, provavelmente por 1 a 0 ou 2 a 1.\nApostas principais: - Segura: Vitória do Atlético Mineiro (1.28) ou Dupla Chance: Vitória ou Empate do Mineiro (1.17) - Menos de 2.5 gols (1.90) devido às linhas compactas e à tendência de 2.36 gols esperados - Ambas as equipes não marcam (1.50) se o Mineiro não sofrer gols e o Puerto Cabello tiver dificuldades para marcar.",
+      "sem_análise": false,
+      "scheduled_at": "2026-05-27T18:00:00-03:00"
+    },
+    {
+      "super_type": "JOGAO",
+      "game_key": "1779928200|Corinthians|Platense",
+      "home": "Corinthians",
+      "away": "Platense",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "hora": "21h30",
+      "hora_iso": "2026-05-27 21:30",
+      "kickoff_iso": "2026-05-27T21:30:00-03:00",
+      "kickoff_local": "21h30",
+      "estadio": "Arena Corinthians",
+      "análise": "Corinthians x Platense | 2026, semana 6\nNum confronto que parece mais favorável ao time da casa e baseado em cálculos do que em emoção, as estatísticas pendem para o lado dos mandantes. A cotação para a vitória em casa está em 1,73, com um cenário de 60% de ambas as equipes marcando e um ritmo mais forte no segundo tempo, conforme indicado por padrões recentes.\nVantagem de jogar em casa: O Corinthians em casa apresenta xG a favor de 1,77 e xG contra de 1,12; taxa de vitórias em casa de 100%; a força defensiva (56) supera a ofensiva (23). Platense fora de casa: O Platense fora de casa apresenta xG a favor de 1,25 e xG contra de 1,17; taxa de vitórias fora de casa de 33% (67% de derrotas). Ainda é uma disputa acirrada, mas a balança pende para o lado do mandante. Perfil de gols: Mais de 1,5 gols na partida é praticamente garantido (100%), enquanto mais de 2,5 gols ocorre em cerca de 30% historicamente. Espera-se uma diferença apertada de 1 a 2 gols, provavelmente. Segundo tempo: Gols no segundo tempo são comuns neste conjunto de dados — mais de 0,5 gols no segundo tempo em 80% dos casos e mais de 1,5 gols no segundo tempo em 70% dos casos. Forma e momento: Corinthians com 2,20 pontos por jogo antes da partida; Platense com 1,40. A média de xG (gols esperados) gira em torno de 2,66 para o confronto direto, com o Corinthians levando vantagem por jogar em casa.\nPrevisões e apostas\nPalpite principal: Vitória do Corinthians. Palpite secundário: Menos de 2,5 gols. Palpite adicional: Sim, haverá um gol no segundo tempo.\nPor que isso se encaixa nas estatísticas: A vantagem de jogar em casa é inegavelmente forte, com o Corinthians apresentando resultados consistentes em seus domínios e um potencial ofensivo superior, enquanto o Platene se mostra mais modesto fora de casa. O segundo tempo é onde a ação se torna mais intensa, fazendo com que um ou dois gols nos minutos finais possam ser um fator decisivo nesse cenário de placar baixo.",
+      "sem_análise": false,
+      "scheduled_at": "2026-05-27T20:15:00-03:00"
+    }
+  ]
+}

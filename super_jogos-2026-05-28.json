@@ -1,0 +1,45 @@
+{
+  "supercard_header": {
+    "version": "2.0-fs-ia",
+    "generated_at": "2026-05-28T06:07:21.252383-03:00",
+    "source_json": "fs_weekly_picks_2026.05.16-2026.05.29.json",
+    "target_date_local": "2026-05-28",
+    "games_count": 2,
+    "jogao_count": 2,
+    "jogaco_count": 0
+  },
+  "games": [
+    {
+      "super_type": "JOGAO",
+      "game_key": "1780005600|Palmeiras|Junior",
+      "home": "Palmeiras",
+      "away": "Junior",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "hora": "19h00",
+      "hora_iso": "2026-05-28 19:00",
+      "kickoff_iso": "2026-05-28T19:00:00-03:00",
+      "kickoff_local": "19h00",
+      "estadio": "Allianz Parque",
+      "análise": "O Palmeiras recebe o Junior na 6ª rodada da temporada de 2026. As apostas indicam que o time da casa é o grande favorito, mas os dados sugerem uma partida mais equilibrada e com mais nuances do que um jogo fácil.\nPalpite: Vitória do Palmeiras (1.27); Vitória ou empate do Palmeiras (1.15). Espera-se que os mandantes dominem a partida, com uma provável vitória sem sofrer gols. Fluxo de gols: A média de xG (gols esperados) entre as equipes antes desta partida é de 3.34; o Palmeiras em casa costuma ter 2.01 xG, enquanto o Junior fora tem 1.08. Isso indica um ritmo de jogo com muitos gols, mas com a solidez do Palmeiras, um placar de 1 a 0 ou 2 a 0 é plausível. Ambas as equipes marcam e sem sofrer gols: Ambas as equipes marcam (Sim) (2.35), Ambas as equipes não marcam (Não) (1.62). A possibilidade do Palmeiras não sofrer gols (Sim) (1.62) torna a partida plausível; o Junior não sofrer gols (7.50), então a aposta favorece um jogo sem gols para o Palmeiras. Escanteios: Mais de 7.5 escanteios (1.26) e mais de 9.5 (1.73) sugerem uma partida movimentada pelas laterais. O Palmeiras tem vantagem em escanteios, com uma média de 1,17, o que indica uma alta probabilidade de uma partida com vários escanteios. Mais/Menos gols: Mais de 2,5 com odds de 1,68 contra Menos de 2,5 com odds de 2,14. A tendência histórica de xG (gols esperados) favorece Mais de 2,5, mas o mercado mantém essa previsão mais conservadora, com uma expectativa de placar mais apertada. Metades: Historicamente, a probabilidade de mais de 0,5 gols no primeiro tempo gira em torno de 70%, enquanto no segundo tempo é de cerca de 90% — espere um segundo tempo mais movimentado se o jogo estiver empatado no intervalo.\nResumindo: uma vitória do Palmeiras sem sofrer gols reflete um jogo sólido, apoiado por um xG maior em casa e pelo bom desempenho de Júnior fora de casa. Busque um resultado de 1 a 0 ou 2 a 0, inclua apostas em escanteios e considere a opção \"Ambas as equipes não marcam\" se você acredita em uma atuação defensiva disciplinada dos mandantes.",
+      "sem_análise": false,
+      "scheduled_at": "2026-05-28T17:45:00-03:00"
+    },
+    {
+      "super_type": "JOGAO",
+      "game_key": "1780014600|Cruzeiro|Barcelona",
+      "home": "Cruzeiro",
+      "away": "Barcelona",
+      "league": "Copa Libertadores",
+      "country": "South America",
+      "hora": "21h30",
+      "hora_iso": "2026-05-28 21:30",
+      "kickoff_iso": "2026-05-28T21:30:00-03:00",
+      "kickoff_local": "21h30",
+      "estadio": "Estádio Governador Magalhães Pinto",
+      "análise": "Análise inspirada em Sid Lowe: O Cruzeiro recebe o Barcelona em um jogo que se apresenta como uma ressaca em casa para os visitantes e um teste calculado de resistência à dor para o time visitante. Os dados apontam fortemente para a vitória dos donos da casa, com as probabilidades indicando que eles praticamente confirmarão o resultado.\nCotações da partida: Cruzeiro 1.21, Empate 5.60, Barcelona 9.50. As casas de apostas consideram a vitória do time da casa como o cenário base; o resto é falta de confiança. Mais/Menos de 2.5 gols: 1.90 para ambos. Histórico: Menos de 2.5 gols ocorre em 79% desses confrontos — um forte indicador de 90 minutos equilibrados. Gols esperados: Cruzeiro 1.09, Barcelona 1.07; média combinada de aproximadamente 2.16 por partida antes desta. Espere entre dois e dois gols na partida. Primeiro tempo: Mais de 0.5 gols no primeiro tempo em 42% é um número respeitável, mas não alto; Mais de 1.5 gols no primeiro tempo em apenas 6% — espere um início cauteloso. Segundo tempo: Mais de 0.5 gols no segundo tempo em 85% — o jogo costuma se abrir após o intervalo. Ambas as equipes marcam: 31% no histórico; Não é particularmente provável, e um jogo sem gols para pelo menos um dos lados é plausível, dado o equilíbrio. Contexto casa x fora: o Cruzeiro tem uma taxa de vitórias de 75% em casa, com um sólido xG a favor (1,71) e um modesto xG sofrido (0,77). O xG do Barcelona fora é de 1,07, contra 1,99 — sinais de uma noite mais difícil fora de casa. Leitura geral: espere que o Cruzeiro controle o ritmo e domine o ataque contra um time visitante que raramente consegue grandes gols neste estádio. Uma partida com poucos gols e um segundo tempo mais decidido é a previsão mais sensata.",
+      "sem_análise": false,
+      "scheduled_at": "2026-05-28T20:15:00-03:00"
+    }
+  ]
+}

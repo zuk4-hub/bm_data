@@ -1,12 +1,12 @@
 {
   "supercard_header": {
     "version": "2.0-fs-ia",
-    "generated_at": "2026-05-30T21:27:35.008712-03:00",
+    "generated_at": "2026-05-30T22:19:04.173723-03:00",
     "source_json": "fs_weekly_picks_2026.05.29-2026.06.05.json",
     "target_date_local": "2026-05-31",
-    "games_count": 3,
-    "jogao_count": 3,
-    "jogaco_count": 0
+    "games_count": 5,
+    "jogao_count": 4,
+    "jogaco_count": 1
   },
   "games": [
     {
@@ -42,6 +42,22 @@
       "scheduled_at": "2026-05-31T15:00:00-03:00"
     },
     {
+      "super_type": "JOGACO",
+      "game_key": "1780263000|Brazil|Panama",
+      "home": "Brazil",
+      "away": "Panama",
+      "league": "International Friendlies",
+      "country": "International",
+      "hora": "18h30",
+      "hora_iso": "2026-05-31 18:30",
+      "kickoff_iso": "2026-05-31T18:30:00-03:00",
+      "kickoff_local": "18h30",
+      "estadio": "Estadio Jornalista Mário Filho",
+      "análise": "O Brasil chega como claro favorito em um confronto de junho onde as probabilidades refletem um desequilíbrio total: Brasil 1,12, Empate 10,50, Panamá 19,00.\nDistorção da expectativa de gols: Mais de 2,5 gols está cotado a 1,40, um sinal de que a expectativa é de 2 a 3 gols. A tendência subjacente nesses confrontos é de gols, com a porcentagem de Mais de 2,5 gols historicamente em 63%.\nProbabilidade de ambas as equipes marcarem: a taxa de ambas as equipes marcarem antes da partida é alta (88%), e a taxa de ambas as equipes marcarem no segundo tempo também é alta (67%), sugerindo que ambas as equipes podem marcar, apesar da força do Brasil jogando em casa. Dinâmica do segundo tempo: com 100% de probabilidade de o segundo tempo ter mais de 0,5 gols, espera-se pressão no final da partida e gols após o intervalo. Equilíbrio ataque x defesa: o xG do Brasil em casa, em torno de 1,76, condiz com um ataque potente, enquanto o xG sofrido pelo Panamá fora de casa, em torno de 1,61, indica momentos perigosos para o Brasil explorar, mas também algum risco de contra-ataque do Panamá. Indicadores contextuais: a média de pontos por jogo do Brasil antes da partida (1,50) é superior à do Panamá (1,25). O Brasil também apresenta uma alta taxa de vitórias em casa (67%), enquanto a taxa de vitórias do Panamá fora de casa é de 50% em confrontos semelhantes. Totais base: a média de gols totais entre essas equipes é de cerca de 2,75; Neste conjunto de dados, é praticamente garantido que haverá menos de 4,5 gols, o que mantém aberta a possibilidade de uma vitória tranquila do Brasil, sem excessos.\nPrevisões\nAposta principal: Vitória do Brasil + Mais de 2,5 gols. Aposta secundária: Ambas as equipes marcam – Sim, está de acordo com o histórico de gols de ambas as equipes e com a tendência de gols no segundo tempo. Faixa de placar a observar: 2 a 0 ou 3 a 1 a favor do Brasil. Opção de cobertura: Menos de 2,5 gols é uma aposta contrária de maior risco, mas vale a pena um pequeno investimento se você temer um início mais apertado de 1 a 0 ou 1 a 1.",
+      "sem_análise": false,
+      "scheduled_at": "2026-05-31T17:15:00-03:00"
+    },
+    {
       "super_type": "JOGAO",
       "game_key": "1780270200|Cruzeiro|Fluminense",
       "home": "Cruzeiro",
@@ -55,7 +71,23 @@
       "estadio": "Estádio Governador Magalhães Pinto",
       "análise": "Cruzeiro x Fluminense – Estádio Governador Magalhães Pinto. Semana de jogo 18, 2026. Início em 1º de junho. Status: incompleto.\nResumo das probabilidades: Cruzeiro 2.08 | Empate 3.32 | Fluminense 3.60. Mais/Menos de 2.5: Mais de 2.5 @ 2.07 / Menos de 2.5 @ 1.72.\nA probabilidade geral de ambas as equipes marcarem (BTTS) é de 65%, o que sugere que ambas representam uma ameaça de gol. No primeiro tempo, a probabilidade de ambas as equipes marcarem é de 24%; no segundo tempo, 36% — espera-se mais ação após o intervalo. O xG total neste confronto tem sido historicamente em torno de 3,10 por jogo. Cruzeiro em casa: xG a favor de 1,61, xG contra de 0,93; aproveitamento de 44% em casa (vantagem defensiva, mas não invencível). Fluminense fora de casa: xG a favor de 1,49, xG ​​contra de 1,54; aproveitamento de 25% fora de casa (vulnerabilidade jogando fora). Pontos pré-jogo: Cruzeiro 1,67 por jogo, Fluminense 1,00 por jogo. Confronto direto: xG total alto em torno de 3,10; escanteios frequentes (média de 11,64 por jogo; 8 ou mais escanteios em 72% dos jogos).\nInformações e leituras:\nApesar de uma modesta taxa de vitórias em casa, o poder ofensivo do Cruzeiro em seus domínios é superior ao do Fluminense fora, o que sugere uma vantagem para o time da casa. Com uma tendência a gols neste confronto (mais de 2,5 em aproximadamente metade dos casos) e um ritmo típico de muitos escanteios, a aposta em menos de 2,5 gols parece arriscada, mas não exagerada. Gols no primeiro tempo não são garantidos (mais de 0,5 gols no primeiro tempo em cerca de 83% dos jogos, mas ambas as equipes marcam no primeiro tempo em apenas 24% dos casos), então espere um início mais tranquilo, com o jogo se abrindo mais tarde.\nPrevisões e apostas\nMelhor aposta: Vitória do Cruzeiro, com ambas as equipes marcando. Aposta alternativa: Mais de 2,5 gols, o que está de acordo com a tendência de xG (gols esperados) do confronto (aproximadamente 3,10) e a taxa de 53% de gols acima da média.\nNota contextual: Todos os números refletem tendências pré-jogo com base nos dados do FootyStats; a amostra inclui mais de 17 partidas concluídas neste contexto de confronto direto. Use como guia, não como garantia.",
       "sem_análise": false,
-      "scheduled_at": "2026-05-31T19:15:00-03:00"
+      "scheduled_at": "2026-05-31T19:00:00-03:00"
+    },
+    {
+      "super_type": "JOGAO",
+      "game_key": "1780270200|Remo|São Paulo",
+      "home": "Remo",
+      "away": "São Paulo",
+      "league": "Serie A",
+      "country": "Brazil",
+      "hora": "20h30",
+      "hora_iso": "2026-05-31 20:30",
+      "kickoff_iso": "2026-05-31T20:30:00-03:00",
+      "kickoff_local": "20h30",
+      "estadio": "Estádio Estadual Jornalista Edgar Augusto Proença",
+      "análise": "Remo x São Paulo • Estádio Estadual Jornalista Edgar Augusto Proença • Início em 1º de junho de 2026 • Semana 18\nProbabilidades: São Paulo 2,36 • Remo 3,19 • Empate 3,29\nExpectativa de gols: Remo 1,34 xG, São Paulo 1,24 xG; total em torno de 2,58 xG. Mais de 2,5 gols com odds de 2,05 parece a aposta mais segura, visto que a média da liga aqui é próxima de 2,54. Ambas as equipes marcam: alta probabilidade. A média anterior de ambas as equipes marcarem entre esses times é de cerca de 71%, o que justifica apostar em \"Sim\" (Sim para ambas as equipes 1,80). Tendência do resultado: o São Paulo é ligeiramente favorito fora de casa (2,36). A taxa de vitórias do Remo em casa é modesta (13%), enquanto a taxa de vitórias do São Paulo fora de casa é de 22% — mesmo assim, o mercado ainda pende para os visitantes. Escanteios: espere um jogo movimentado. A média de escanteios por partida neste confronto é de cerca de 10,19. Mais de 7,5 escanteios está cotado em 1,12, sugerindo um alto volume, entre 9 e 11 escanteios, como plausível. O Remo tem uma vantagem modesta em escanteios neste confronto, de 2,44, mas a pressão total aponta para um número maior. Defesas: não sofrer gols não é um ponto forte para nenhum dos lados. Remo CS Sim 3.20 e São Paulo CS Sim 2.95 indicam que nenhum dos dois tem garantia de não sofrer gols.\nPalpite: Vitória do São Paulo por 2 a 1. Ambas as equipes marcam: Sim. Total de gols: Mais de 2,5. Escanteios: Mais de 9,5.",
+      "sem_análise": false,
+      "scheduled_at": "2026-05-31T19:30:00-03:00"
     }
   ]
 }

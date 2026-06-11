@@ -1,6 +1,6 @@
 {
   "meta": {
-    "gerado_em": "2026-06-11T06:36:39.472954-03:00",
+    "gerado_em": "2026-06-11T07:02:43.964623-03:00",
     "janela": "agora→fim de amanhã",
     "data_alvo": null,
     "ate": "2026-06-12T23:59:59-03:00",
@@ -22,9 +22,9 @@
       "visitante_ptbr": "África do Sul",
       "melhor_pick": {
         "mercado": null,
-        "prob_pct": 76,
+        "prob_pct": null,
         "odd": 1.52,
-        "ev_pct": 14.9,
+        "ev_pct": 12.7,
         "regime": "core"
       },
       "agenda": [
@@ -32,7 +32,7 @@
           "tipo": "perfil_mandante",
           "publicar_em": "2026-06-11T12:30:00-03:00",
           "card": {
-            "arquivo": "wc2026/OMNIA - BM (Drive)/2026.06.11/seleção_cards/perfil_seleção/perfil_mexico.txt",
+            "arquivo": "wc2026/seleção_cards/perfil_seleção/México.2026.06.11.txt",
             "chars": 793,
             "excede": false,
             "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n🛡️ PERFIL OMNIA — <b>México</b>\n🇲🇽 Grupo A\n🏅 Ranking FIFA: #14 ▲1 · 1687.48 pts\n━━━━━━━━━━━━━━━\n📊 <b>Índice Omnia do time:</b> 6.29\n\n<b>GOLS &amp; AMBAS MARCAM</b>\n   Gols feitos: 1.6\n   Gols sofridos: 0.4\n   Ambas marcam: 30%\n\n<b>ESCANTEIOS &amp; CARTÕES</b>\n   Escanteios (no jogo): 7.78\n   Escanteios (da equipe): 5.22\n   Cartões amarelos (da equipe): 2.1\n\n<b>FINALIZAÇÕES &amp; XG</b>\n   Finalizações: 11.8\n   No gol: 4.5\n   Para fora: 7.3\n   Finalizações por gol: 7.38\n   xG a favor: 1.38\n   xG contra: 0.82\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 16h · vs 🇿🇦 África do Sul\n━━━━━━━━━━━━━━━\nℹ️ O índice Omnia (1–10) considera todos os dados do time nos últimos 10 jogos.\nℹ️ Médias por jogo · xG = gols esperados\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
@@ -42,7 +42,7 @@
           "tipo": "perfil_visitante",
           "publicar_em": "2026-06-11T13:00:00-03:00",
           "card": {
-            "arquivo": "wc2026/OMNIA - BM (Drive)/2026.06.11/seleção_cards/perfil_seleção/perfil_south_africa.txt",
+            "arquivo": "wc2026/seleção_cards/perfil_seleção/África-do-Sul.2026.06.11.txt",
             "chars": 790,
             "excede": false,
             "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n🛡️ PERFIL OMNIA — <b>África do Sul</b>\n🇿🇦 Grupo A\n🏅 Ranking FIFA: #60 = · 1427.71 pts\n━━━━━━━━━━━━━━━\n📊 <b>Índice Omnia do time:</b> 4.89\n\n<b>GOLS &amp; AMBAS MARCAM</b>\n   Gols feitos: 1.4\n   Gols sofridos: 1\n   Ambas marcam: 60%\n\n<b>ESCANTEIOS &amp; CARTÕES</b>\n   Escanteios (no jogo): 8.8\n   Escanteios (da equipe): 5.1\n   Cartões amarelos (da equipe): 2.1\n\n<b>FINALIZAÇÕES &amp; XG</b>\n   Finalizações: 15.2\n   No gol: 4.9\n   Para fora: 10.3\n   Finalizações por gol: 10.86\n   xG a favor: 1.77\n   xG contra: 0.73\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 16h · vs 🇲🇽 México\n━━━━━━━━━━━━━━━\nℹ️ O índice Omnia (1–10) considera todos os dados do time nos últimos 10 jogos.\nℹ️ Médias por jogo · xG = gols esperados\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
@@ -52,10 +52,10 @@
           "tipo": "confronto",
           "publicar_em": "2026-06-11T15:30:00-03:00",
           "card": {
-            "arquivo": "wc2026/OMNIA - BM (Drive)/2026.06.11/seleção_cards/matches_cards/confronto_Mexico_vs_South_Africa.txt",
-            "chars": 881,
+            "arquivo": "wc2026/seleção_cards/matches_cards/MéxicoXÁfrica-do-Sul.2026.06.11.txt",
+            "chars": 736,
             "excede": false,
-            "texto": "🎯 PICKS OMNIA — <b>🇲🇽 México</b>  🆚  <b>🇿🇦 África do Sul</b>\n🏆 Copa do Mundo 2026 · Grupos\n📅 11/06/2026 · 🕒 16h00 · 📍 🇲🇽 Cidade do México, México · Estadio Banorte\n🏟️ Mando: México\n● Escalação Provável\n🏅 Ranking FIFA: México #14 ▲1 · África do Sul #60 =\n\n🟢 <b>Ambas marcam: Não</b>  ·  prob 76%  ·  odd 1.52  ·  EV +14.9%\n🟢 <b>Menos de 2.5 gols</b>  ·  prob 62%  ·  odd 1.68  ·  EV +3.4%\n🟢 <b>Vitória no 2º tempo — México</b>  ·  prob 58%  ·  odd 1.75  ·  EV +2.0%\n🟢 <b>Vitória no 1º tempo — México</b>  ·  prob 52%  ·  odd 1.95  ·  EV +1.7%\n🔸 <b>Vitória — México</b>  ·  prob 75%  ·  odd 1.42  ·  EV +6.9%\n🔸 <b>Menos de 1.5 gols</b>  ·  prob 34%  ·  odd 3.02  ·  EV +4.1%\n\n🟢 Core: faixa de odd validada como +EV no histórico (mais segura).\n🔸 Espec.: valor fora dessa faixa — maior risco/retorno.\n\nProbabilidade própria calibrada (▷ OMNIA ◁) × odd real. EV não é garantia de lucro."
+            "texto": "🎯 PICKS OMNIA — <b>🇲🇽 México</b>  🆚  <b>🇿🇦 África do Sul</b>\n🏆 Copa do Mundo 2026 · Grupos\n📅 11/06/2026 · 🕒 16h00 · 📍 🇲🇽 Cidade do México, México · Estadio Banorte\n🏟️ Mando: México\n🏅 Ranking FIFA: México #14 ▲1 · África do Sul #60 =\n\n🟢 <b>Ambas marcam: Não</b>  ·  prob 74.1%  ·  odd 1.52  ·  EV +12.7%\n🟢 <b>Vitória no 2º tempo — México</b>  ·  prob 59.9%  ·  odd 1.75  ·  EV +4.7%\n🟢 <b>Vitória no 1º tempo — México</b>  ·  prob 53.7%  ·  odd 1.95  ·  EV +4.7%\n🔸 <b>Vitória — México</b>  ·  prob 76.6%  ·  odd 1.42  ·  EV +8.8%\n\n🟢 Core: faixa de odd validada como +EV no histórico (mais segura).\n🔸 Espec.: valor fora dessa faixa — maior risco/retorno.\n\nProbabilidade própria calibrada (▷ OMNIA ◁) × odd real. EV não é garantia de lucro."
           }
         },
         {
@@ -113,7 +113,7 @@
         "mercado": null,
         "prob_pct": null,
         "odd": 2.18,
-        "ev_pct": 29.0,
+        "ev_pct": 21.9,
         "regime": "core"
       },
       "agenda": [
@@ -121,7 +121,7 @@
           "tipo": "perfil_mandante",
           "publicar_em": "2026-06-11T19:30:00-03:00",
           "card": {
-            "arquivo": "wc2026/OMNIA - BM (Drive)/2026.06.11/seleção_cards/perfil_seleção/perfil_south_korea.txt",
+            "arquivo": "wc2026/seleção_cards/perfil_seleção/Coreia-do-Sul.2026.06.11.txt",
             "chars": 800,
             "excede": false,
             "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n🛡️ PERFIL OMNIA — <b>Coreia do Sul</b>\n🇰🇷 Grupo A\n🏅 Ranking FIFA: #25 = · 1591.63 pts\n━━━━━━━━━━━━━━━\n📊 <b>Índice Omnia do time:</b> 4.70\n\n<b>GOLS &amp; AMBAS MARCAM</b>\n   Gols feitos: 1.5\n   Gols sofridos: 1.2\n   Ambas marcam: 10%\n\n<b>ESCANTEIOS &amp; CARTÕES</b>\n   Escanteios (no jogo): 8.4\n   Escanteios (da equipe): 5.1\n   Cartões amarelos (da equipe): 1.3\n\n<b>FINALIZAÇÕES &amp; XG</b>\n   Finalizações: 10.1\n   No gol: 4.2\n   Para fora: 5.9\n   Finalizações por gol: 6.73\n   xG a favor: 1.21\n   xG contra: 1.11\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 23h · vs 🇨🇿 República Tcheca\n━━━━━━━━━━━━━━━\nℹ️ O índice Omnia (1–10) considera todos os dados do time nos últimos 10 jogos.\nℹ️ Médias por jogo · xG = gols esperados\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
@@ -131,7 +131,7 @@
           "tipo": "perfil_visitante",
           "publicar_em": "2026-06-11T20:00:00-03:00",
           "card": {
-            "arquivo": "wc2026/OMNIA - BM (Drive)/2026.06.11/seleção_cards/perfil_seleção/perfil_czech_republic.txt",
+            "arquivo": "wc2026/seleção_cards/perfil_seleção/República-Tcheca.2026.06.11.txt",
             "chars": 798,
             "excede": false,
             "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n🛡️ PERFIL OMNIA — <b>República Tcheca</b>\n🇨🇿 Grupo A\n🏅 Ranking FIFA: #40 ▲1 · 1505.74 pts\n━━━━━━━━━━━━━━━\n📊 <b>Índice Omnia do time:</b> 5.05\n\n<b>GOLS &amp; AMBAS MARCAM</b>\n   Gols feitos: 2\n   Gols sofridos: 0.9\n   Ambas marcam: 60%\n\n<b>ESCANTEIOS &amp; CARTÕES</b>\n   Escanteios (no jogo): 9.22\n   Escanteios (da equipe): 6.11\n   Cartões amarelos (da equipe): 0.9\n\n<b>FINALIZAÇÕES &amp; XG</b>\n   Finalizações: 13.22\n   No gol: 4.22\n   Para fora: 9\n   Finalizações por gol: 7\n   xG a favor: 1.57\n   xG contra: 1.16\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 23h · vs 🇰🇷 Coreia do Sul\n━━━━━━━━━━━━━━━\nℹ️ O índice Omnia (1–10) considera todos os dados do time nos últimos 10 jogos.\nℹ️ Médias por jogo · xG = gols esperados\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
@@ -141,10 +141,10 @@
           "tipo": "confronto",
           "publicar_em": "2026-06-11T22:30:00-03:00",
           "card": {
-            "arquivo": "wc2026/OMNIA - BM (Drive)/2026.06.11/seleção_cards/matches_cards/confronto_South_Korea_vs_Czech_Republic.txt",
-            "chars": 1465,
+            "arquivo": "wc2026/seleção_cards/matches_cards/Coreia-do-SulXRepública-Tcheca.2026.06.11.txt",
+            "chars": 1281,
             "excede": false,
-            "texto": "🎯 PICKS OMNIA — <b>🇰🇷 Coreia do Sul</b>  🆚  <b>🇨🇿 República Tcheca</b>\n🏆 Copa do Mundo 2026 · Grupos\n📅 11/06/2026 · 🕒 23h00 · 📍 🇲🇽 Guadalajara, México · Estadio Akron\n⚖️ Campo neutro\n● Escalação Provável\n🏅 Ranking FIFA: Coreia do Sul #25 = · República Tcheca #40 ▲1\n\n🟢 <b>Mais de 2.5 gols</b>  ·  prob 59.2%  ·  odd 2.18  ·  EV +29.0%\n🟢 <b>Ambas marcam: Sim</b>  ·  prob 61.6%  ·  odd 1.89  ·  EV +16.3%\n🔸 <b>Mais de 4.5 gols</b>  ·  prob 19.6%  ·  odd 8.44  ·  EV +65.7%\n🔸 <b>Mais de 3.5 gols</b>  ·  prob 36.8%  ·  odd 4.02  ·  EV +48.0%\n🔸 <b>Mais de 1.5 gols no 1º tempo</b>  ·  prob 40.2%  ·  odd 3.18  ·  EV +27.7%\n🔸 <b>Vitória — Coreia do Sul</b>  ·  prob 44.3%  ·  odd 2.67  ·  EV +18.2%\n🔸 <b>Mais de 1.5 gols no 2º tempo</b>  ·  prob 50.3%  ·  odd 2.34  ·  EV +17.7%\n🔸 <b>Ambas marcam no 2º tempo — Sim</b>  ·  prob 32.2%  ·  odd 3.64  ·  EV +17.1%\n🔸 <b>Vitória no 1º tempo — Coreia do Sul</b>  ·  prob 34.9%  ·  odd 3.29  ·  EV +14.9%\n🔸 <b>Mais de 1.5 gols</b>  ·  prob 81.6%  ·  odd 1.37  ·  EV +11.8%\n🔸 <b>Vitória no 2º tempo — Coreia do Sul</b>  ·  prob 37.7%  ·  odd 2.94  ·  EV +10.9%\n🔸 <b>Mais de 0.5 gols no 1º tempo</b>  ·  prob 74.9%  ·  odd 1.46  ·  EV +9.3%\n🔸 <b>Mais de 0.5 gols no 2º tempo</b>  ·  prob 81.5%  ·  odd 1.29  ·  EV +5.1%\n\n🟢 Core: faixa de odd validada como +EV no histórico (mais segura).\n🔸 Espec.: valor fora dessa faixa — maior risco/retorno.\n\nProbabilidade própria calibrada (▷ OMNIA ◁) × odd real. EV não é garantia de lucro."
+            "texto": "🎯 PICKS OMNIA — <b>🇰🇷 Coreia do Sul</b>  🆚  <b>🇨🇿 República Tcheca</b>\n🏆 Copa do Mundo 2026 · Grupos\n📅 11/06/2026 · 🕒 23h00 · 📍 🇲🇽 Guadalajara, México · Estadio Akron\n⚖️ Campo neutro\n🏅 Ranking FIFA: Coreia do Sul #25 = · República Tcheca #40 ▲1\n\n🟢 <b>Mais de 2.5 gols</b>  ·  prob 55.9%  ·  odd 2.18  ·  EV +21.9%\n🟢 <b>Ambas marcam: Sim</b>  ·  prob 59.1%  ·  odd 1.89  ·  EV +11.6%\n🔸 <b>Mais de 4.5 gols</b>  ·  prob 17.2%  ·  odd 8.44  ·  EV +45.0%\n🔸 <b>Mais de 3.5 gols</b>  ·  prob 33.5%  ·  odd 4.02  ·  EV +34.8%\n🔸 <b>Mais de 1.5 gols no 1º tempo</b>  ·  prob 37.9%  ·  odd 3.18  ·  EV +20.4%\n🔸 <b>Vitória — Coreia do Sul</b>  ·  prob 43.7%  ·  odd 2.67  ·  EV +16.8%\n🔸 <b>Vitória no 1º tempo — Coreia do Sul</b>  ·  prob 34.2%  ·  odd 3.29  ·  EV +12.6%\n🔸 <b>Mais de 1.5 gols no 2º tempo</b>  ·  prob 47.7%  ·  odd 2.34  ·  EV +11.7%\n🔸 <b>Vitória no 2º tempo — Coreia do Sul</b>  ·  prob 37.1%  ·  odd 2.94  ·  EV +9.0%\n🔸 <b>Mais de 1.5 gols</b>  ·  prob 79.5%  ·  odd 1.37  ·  EV +8.9%\n🔸 <b>Mais de 0.5 gols no 1º tempo</b>  ·  prob 73.2%  ·  odd 1.46  ·  EV +6.8%\n\n🟢 Core: faixa de odd validada como +EV no histórico (mais segura).\n🔸 Espec.: valor fora dessa faixa — maior risco/retorno.\n\nProbabilidade própria calibrada (▷ OMNIA ◁) × odd real. EV não é garantia de lucro."
           }
         }
       ],

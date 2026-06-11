@@ -1,6 +1,6 @@
 {
   "meta": {
-    "gerado_em": "2026-06-11T07:18:00.655701-03:00",
+    "gerado_em": "2026-06-11T07:29:57.089810-03:00",
     "janela": "agora→fim de amanhã",
     "data_alvo": null,
     "ate": "2026-06-12T23:59:59-03:00",
@@ -39,6 +39,16 @@
           }
         },
         {
+          "tipo": "perfil_visitante",
+          "publicar_em": "2026-06-11T13:00:00-03:00",
+          "card": {
+            "arquivo": "wc2026/seleção_cards/perfil_seleção/África-do-Sul.2026.06.11.txt",
+            "chars": 790,
+            "excede": false,
+            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n🛡️ PERFIL OMNIA — <b>África do Sul</b>\n🇿🇦 Grupo A\n🏅 Ranking FIFA: #60 = · 1427.71 pts\n━━━━━━━━━━━━━━━\n📊 <b>Índice Omnia do time:</b> 4.89\n\n<b>GOLS &amp; AMBAS MARCAM</b>\n   Gols feitos: 1.4\n   Gols sofridos: 1\n   Ambas marcam: 60%\n\n<b>ESCANTEIOS &amp; CARTÕES</b>\n   Escanteios (no jogo): 8.8\n   Escanteios (da equipe): 5.1\n   Cartões amarelos (da equipe): 2.1\n\n<b>FINALIZAÇÕES &amp; XG</b>\n   Finalizações: 15.2\n   No gol: 4.9\n   Para fora: 10.3\n   Finalizações por gol: 10.86\n   xG a favor: 1.77\n   xG contra: 0.73\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 16h · vs 🇲🇽 México\n━━━━━━━━━━━━━━━\nℹ️ O índice Omnia (1–10) considera todos os dados do time nos últimos 10 jogos.\nℹ️ Médias por jogo · xG = gols esperados\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+          }
+        },
+        {
           "tipo": "pulso_mandante",
           "publicar_em": "2026-06-11T13:30:00-03:00",
           "card": {
@@ -46,6 +56,16 @@
             "chars": 710,
             "excede": false,
             "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n❤️📈 PULSO OMNIA\n<b>México</b> 🇲🇽 Grupo A\n🏅 Ranking FIFA: #14 ▲1 · 1687.48 pts\n━━━━━━━━━━━━━━━\n    5.03   ▬  0-0 vs Portugal\n    4.96   ▼ -1%  1-1 vs Bélgica\n    7.08   ▲ +43%  2-0 vs Gana\n    6.30   ▼ -11%  1-0 vs Austrália\n    8.08   ▲ +28%  5-1 vs Sérvia\n\n<b>JOGOS</b>\n   28/03 · Amistoso · Casa · 0-0 vs Portugal\n   31/03 · Amistoso · Neutro · 1-1 vs Bélgica\n   22/05 · Amistoso · Casa · 2-0 vs Gana\n   30/05 · Amistoso · Neutro · 1-0 vs Austrália\n   04/06 · Amistoso · Casa · 5-1 vs Sérvia\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 16h · vs 🇿🇦 África do Sul\n━━━━━━━━━━━━━━━\nℹ️ A captura do momento do time, segundo o índice Omnia.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+          }
+        },
+        {
+          "tipo": "pulso_visitante",
+          "publicar_em": "2026-06-11T14:00:00-03:00",
+          "card": {
+            "arquivo": "wc2026/seleção_cards/pulso_seleção/África-do-Sul.2026.06.11.txt",
+            "chars": 966,
+            "excede": false,
+            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n❤️📈 PULSO OMNIA\n<b>África do Sul</b> 🇿🇦 Grupo A\n🏅 Ranking FIFA: #60 = · 1427.71 pts\n━━━━━━━━━━━━━━━\n    6.17   ▬  2-0 vs Benin\n    6.95   ▲ +13%  3-0 vs Lesoto\n    4.05   ▼ -42%  1-1 vs Nigéria\n    4.12   ▲ +2%  0-0 vs Zimbábue\n    6.95   ▲ +69%  3-0 vs Ruanda\n    4.05   ▼ -42%  1-1 vs Panamá\n    2.69   ▼ -34%  1-2 vs Panamá\n    4.12   ▲ +53%  0-0 vs Nicarágua\n\n<b>JOGOS</b>\n   25/03 · Eliminatórias · Neutro · 2-0 vs Benin\n   05/09 · Eliminatórias · Neutro · 3-0 vs Lesoto\n   09/09 · Eliminatórias · Casa · 1-1 vs Nigéria\n   10/10 · Eliminatórias · Neutro · 0-0 vs Zimbábue\n   14/10 · Eliminatórias · Casa · 3-0 vs Ruanda\n   27/03 · Amistoso · Casa · 1-1 vs Panamá\n   31/03 · Amistoso · Casa · 1-2 vs Panamá\n   29/05 · Amistoso · Casa · 0-0 vs Nicarágua\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 16h · vs 🇲🇽 México\n━━━━━━━━━━━━━━━\nℹ️ A captura do momento do time, segundo o índice Omnia.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
           }
         },
         {
@@ -104,6 +124,46 @@
         "regime": "core"
       },
       "agenda": [
+        {
+          "tipo": "perfil_mandante",
+          "publicar_em": "2026-06-11T19:30:00-03:00",
+          "card": {
+            "arquivo": "wc2026/seleção_cards/perfil_seleção/Coreia-do-Sul.2026.06.11.txt",
+            "chars": 800,
+            "excede": false,
+            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n🛡️ PERFIL OMNIA — <b>Coreia do Sul</b>\n🇰🇷 Grupo A\n🏅 Ranking FIFA: #25 = · 1591.63 pts\n━━━━━━━━━━━━━━━\n📊 <b>Índice Omnia do time:</b> 4.70\n\n<b>GOLS &amp; AMBAS MARCAM</b>\n   Gols feitos: 1.5\n   Gols sofridos: 1.2\n   Ambas marcam: 10%\n\n<b>ESCANTEIOS &amp; CARTÕES</b>\n   Escanteios (no jogo): 8.4\n   Escanteios (da equipe): 5.1\n   Cartões amarelos (da equipe): 1.3\n\n<b>FINALIZAÇÕES &amp; XG</b>\n   Finalizações: 10.1\n   No gol: 4.2\n   Para fora: 5.9\n   Finalizações por gol: 6.73\n   xG a favor: 1.21\n   xG contra: 1.11\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 23h · vs 🇨🇿 República Tcheca\n━━━━━━━━━━━━━━━\nℹ️ O índice Omnia (1–10) considera todos os dados do time nos últimos 10 jogos.\nℹ️ Médias por jogo · xG = gols esperados\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+          }
+        },
+        {
+          "tipo": "perfil_visitante",
+          "publicar_em": "2026-06-11T20:00:00-03:00",
+          "card": {
+            "arquivo": "wc2026/seleção_cards/perfil_seleção/República-Tcheca.2026.06.11.txt",
+            "chars": 798,
+            "excede": false,
+            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n🛡️ PERFIL OMNIA — <b>República Tcheca</b>\n🇨🇿 Grupo A\n🏅 Ranking FIFA: #40 ▲1 · 1505.74 pts\n━━━━━━━━━━━━━━━\n📊 <b>Índice Omnia do time:</b> 5.05\n\n<b>GOLS &amp; AMBAS MARCAM</b>\n   Gols feitos: 2\n   Gols sofridos: 0.9\n   Ambas marcam: 60%\n\n<b>ESCANTEIOS &amp; CARTÕES</b>\n   Escanteios (no jogo): 9.22\n   Escanteios (da equipe): 6.11\n   Cartões amarelos (da equipe): 0.9\n\n<b>FINALIZAÇÕES &amp; XG</b>\n   Finalizações: 13.22\n   No gol: 4.22\n   Para fora: 9\n   Finalizações por gol: 7\n   xG a favor: 1.57\n   xG contra: 1.16\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 23h · vs 🇰🇷 Coreia do Sul\n━━━━━━━━━━━━━━━\nℹ️ O índice Omnia (1–10) considera todos os dados do time nos últimos 10 jogos.\nℹ️ Médias por jogo · xG = gols esperados\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+          }
+        },
+        {
+          "tipo": "pulso_mandante",
+          "publicar_em": "2026-06-11T20:30:00-03:00",
+          "card": {
+            "arquivo": "wc2026/seleção_cards/pulso_seleção/Coreia-do-Sul.2026.06.11.txt",
+            "chars": 1013,
+            "excede": false,
+            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n❤️📈 PULSO OMNIA\n<b>Coreia do Sul</b> 🇰🇷 Grupo A\n🏅 Ranking FIFA: #25 = · 1591.63 pts\n━━━━━━━━━━━━━━━\n    3.95   ▬  1-1 vs Omã\n    3.95   ▬ 0%  1-1 vs Jordânia\n    6.07   ▲ +54%  2-0 vs Iraque\n    7.62   ▲ +26%  4-0 vs Kuwait\n    0.12   ▼ -98%  0-4 vs Costa do Marfim\n    2.67   ▲ +2125%  0-1 vs Áustria\n    7.92   ▲ +197%  5-0 vs Trin &amp; Tobago\n    5.29   ▼ -33%  1-0 vs El Salvador\n\n<b>JOGOS</b>\n   20/03 · Eliminatórias · Casa · 1-1 vs Omã\n   25/03 · Eliminatórias · Casa · 1-1 vs Jordânia\n   05/06 · Eliminatórias · Fora · 2-0 vs Iraque\n   10/06 · Eliminatórias · Casa · 4-0 vs Kuwait\n   28/03 · Amistoso · Neutro · 0-4 vs Costa do Marfim\n   31/03 · Amistoso · Fora · 0-1 vs Áustria\n   30/05 · Amistoso · Neutro · 5-0 vs Trin &amp; Tobago\n   03/06 · Amistoso · Neutro · 1-0 vs El Salvador\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 23h · vs 🇨🇿 República Tcheca\n━━━━━━━━━━━━━━━\nℹ️ A captura do momento do time, segundo o índice Omnia.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+          }
+        },
+        {
+          "tipo": "pulso_visitante",
+          "publicar_em": "2026-06-11T21:00:00-03:00",
+          "card": {
+            "arquivo": "wc2026/seleção_cards/pulso_seleção/República-Tcheca.2026.06.11.txt",
+            "chars": 1014,
+            "excede": false,
+            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n❤️📈 PULSO OMNIA\n<b>República Tcheca</b> 🇨🇿 Grupo A\n🏅 Ranking FIFA: #40 ▲1 · 1505.74 pts\n━━━━━━━━━━━━━━━\n    6.38   ▬  2-0 vs Montenegro\n    0.35   ▼ -95%  1-5 vs Croácia\n    6.38   ▲ +1723%  2-0 vs Montenegro\n    4.33   ▼ -32%  0-0 vs Croácia\n    2.90   ▼ -33%  1-2 vs Ilhas Faroé\n    8.23   ▲ +184%  6-0 vs Gibraltar\n    5.53   ▼ -33%  2-1 vs Kosovo\n    6.30   ▲ +14%  3-1 vs Guatemala\n\n<b>JOGOS</b>\n   06/06 · Eliminatórias · Casa · 2-0 vs Montenegro\n   09/06 · Eliminatórias · Fora · 1-5 vs Croácia\n   05/09 · Eliminatórias · Fora · 2-0 vs Montenegro\n   09/10 · Eliminatórias · Casa · 0-0 vs Croácia\n   12/10 · Eliminatórias · Fora · 1-2 vs Ilhas Faroé\n   17/11 · Eliminatórias · Casa · 6-0 vs Gibraltar\n   31/05 · Amistoso · Casa · 2-1 vs Kosovo\n   04/06 · Amistoso · Neutro · 3-1 vs Guatemala\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 23h · vs 🇰🇷 Coreia do Sul\n━━━━━━━━━━━━━━━\nℹ️ A captura do momento do time, segundo o índice Omnia.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+          }
+        },
         {
           "tipo": "confronto",
           "publicar_em": "2026-06-11T22:30:00-03:00",

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "gerado_em": "2026-06-11T07:02:43.964623-03:00",
+    "gerado_em": "2026-06-11T07:18:00.655701-03:00",
     "janela": "agora→fim de amanhã",
     "data_alvo": null,
     "ate": "2026-06-12T23:59:59-03:00",
@@ -21,8 +21,8 @@
       "mandante_ptbr": "México",
       "visitante_ptbr": "África do Sul",
       "melhor_pick": {
-        "mercado": null,
-        "prob_pct": null,
+        "mercado": "Ambas marcam: Não",
+        "prob_pct": 74.1,
         "odd": 1.52,
         "ev_pct": 12.7,
         "regime": "core"
@@ -39,13 +39,13 @@
           }
         },
         {
-          "tipo": "perfil_visitante",
-          "publicar_em": "2026-06-11T13:00:00-03:00",
+          "tipo": "pulso_mandante",
+          "publicar_em": "2026-06-11T13:30:00-03:00",
           "card": {
-            "arquivo": "wc2026/seleção_cards/perfil_seleção/África-do-Sul.2026.06.11.txt",
-            "chars": 790,
+            "arquivo": "wc2026/seleção_cards/pulso_seleção/México.2026.06.11.txt",
+            "chars": 710,
             "excede": false,
-            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n🛡️ PERFIL OMNIA — <b>África do Sul</b>\n🇿🇦 Grupo A\n🏅 Ranking FIFA: #60 = · 1427.71 pts\n━━━━━━━━━━━━━━━\n📊 <b>Índice Omnia do time:</b> 4.89\n\n<b>GOLS &amp; AMBAS MARCAM</b>\n   Gols feitos: 1.4\n   Gols sofridos: 1\n   Ambas marcam: 60%\n\n<b>ESCANTEIOS &amp; CARTÕES</b>\n   Escanteios (no jogo): 8.8\n   Escanteios (da equipe): 5.1\n   Cartões amarelos (da equipe): 2.1\n\n<b>FINALIZAÇÕES &amp; XG</b>\n   Finalizações: 15.2\n   No gol: 4.9\n   Para fora: 10.3\n   Finalizações por gol: 10.86\n   xG a favor: 1.77\n   xG contra: 0.73\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 16h · vs 🇲🇽 México\n━━━━━━━━━━━━━━━\nℹ️ O índice Omnia (1–10) considera todos os dados do time nos últimos 10 jogos.\nℹ️ Médias por jogo · xG = gols esperados\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n❤️📈 PULSO OMNIA\n<b>México</b> 🇲🇽 Grupo A\n🏅 Ranking FIFA: #14 ▲1 · 1687.48 pts\n━━━━━━━━━━━━━━━\n    5.03   ▬  0-0 vs Portugal\n    4.96   ▼ -1%  1-1 vs Bélgica\n    7.08   ▲ +43%  2-0 vs Gana\n    6.30   ▼ -11%  1-0 vs Austrália\n    8.08   ▲ +28%  5-1 vs Sérvia\n\n<b>JOGOS</b>\n   28/03 · Amistoso · Casa · 0-0 vs Portugal\n   31/03 · Amistoso · Neutro · 1-1 vs Bélgica\n   22/05 · Amistoso · Casa · 2-0 vs Gana\n   30/05 · Amistoso · Neutro · 1-0 vs Austrália\n   04/06 · Amistoso · Casa · 5-1 vs Sérvia\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 16h · vs 🇿🇦 África do Sul\n━━━━━━━━━━━━━━━\nℹ️ A captura do momento do time, segundo o índice Omnia.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
           }
         },
         {
@@ -57,46 +57,33 @@
             "excede": false,
             "texto": "🎯 PICKS OMNIA — <b>🇲🇽 México</b>  🆚  <b>🇿🇦 África do Sul</b>\n🏆 Copa do Mundo 2026 · Grupos\n📅 11/06/2026 · 🕒 16h00 · 📍 🇲🇽 Cidade do México, México · Estadio Banorte\n🏟️ Mando: México\n🏅 Ranking FIFA: México #14 ▲1 · África do Sul #60 =\n\n🟢 <b>Ambas marcam: Não</b>  ·  prob 74.1%  ·  odd 1.52  ·  EV +12.7%\n🟢 <b>Vitória no 2º tempo — México</b>  ·  prob 59.9%  ·  odd 1.75  ·  EV +4.7%\n🟢 <b>Vitória no 1º tempo — México</b>  ·  prob 53.7%  ·  odd 1.95  ·  EV +4.7%\n🔸 <b>Vitória — México</b>  ·  prob 76.6%  ·  odd 1.42  ·  EV +8.8%\n\n🟢 Core: faixa de odd validada como +EV no histórico (mais segura).\n🔸 Espec.: valor fora dessa faixa — maior risco/retorno.\n\nProbabilidade própria calibrada (▷ OMNIA ◁) × odd real. EV não é garantia de lucro."
           }
-        },
-        {
-          "tipo": "perfil_jog:rauljimenez",
-          "publicar_em": "2026-06-11T08:12:00-03:00",
-          "card": {
-            "arquivo": "wc2026/OMNIA - BM (Drive)/2026.06.11/player_cards/_perfis/mexico/raul-jimenez.2026.06.11.txt",
-            "chars": 1184,
-            "excede": false,
-            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n👤 PERFIL\n<b>Raúl Jiménez</b> 🇲🇽 FW\n━━━━━━━━━━━━━━━\n   Nome: Raúl Alonso Jiménez Rodríguez\n   Nascimento: 5 de maio de 1991\n   Clube: Fulham\n   Pé: Destro\n   Altura: 188 cm\n   Peso: 79 kg\n   Salário: £ 100,000/semana\n\n<b>📈 ÍNDICE OMNIA</b>\n   Eliminatórias: 6.52  (9 jogos)\n   Temporada do clube: 7.33  (2025/2026)\n   Carreira: 7.42  (15 temporadas · 2011–2026)\n   Copa: — (aguardando a Copa)\n\n<b>🏅 TÍTULOS</b>\n   • 3x Domestic League Champion\n\n<b>🌎 ELIMINATÓRIAS · México</b>\n  ▸ Jogos 9 · Min/jogo 76′ · Gols 3\n\n<b>📊 TEMPORADA 2025/2026 · CLUBES</b>\n  ▸ Fulham · Premier League\n     Jogos 36 · Min/jogo 61′ · Gols 9 · Chutes ao gol 18 · Finalizações 73\n  ▸ Fulham · EFL Cup\n     Jogos 4 · Min/jogo 78′ · Gols 1 · Chutes ao gol 4 · Finalizações 10\n  ▸ Fulham · FA Cup\n     Jogos 3 · Min/jogo 17′ · Chutes ao gol 1 · Finalizações 1\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 16h · vs 🇿🇦 África do Sul\n━━━━━━━━━━━━━━━\n📈 Índice Omnia — a leitura do nosso modelo para o desempenho do jogador em campo, de 0 a 10, ponderada pela posição e calculada a partir dos eventos da partida.\nℹ️ Demais médias por 90 minutos.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
-          }
-        },
-        {
-          "tipo": "pulso_jog:rauljimenez",
-          "publicar_em": "2026-06-11T08:13:00-03:00",
-          "card": {
-            "arquivo": "wc2026/OMNIA - BM (Drive)/2026.06.11/player_cards/_evolucao/mexico/raul-jimenez.2026.06.11.txt",
-            "chars": 291,
-            "excede": false,
-            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n❤️📈 PULSO OMNIA\n<b>Raúl Jiménez</b> 🇲🇽 FW\n━━━━━━━━━━━━━━━\n\n<b>JOGOS</b>\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 16h · vs 🇿🇦 África do Sul\n━━━━━━━━━━━━━━━\nℹ️ A captura do momento do jogador, segundo o Índice Omnia.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
-          }
         }
       ],
       "jogadores": [
         {
           "slug": "rauljimenez",
           "perfil": {
-            "arquivo": "wc2026/OMNIA - BM (Drive)/2026.06.11/player_cards/_perfis/mexico/raul-jimenez.2026.06.11.txt",
+            "arquivo": "wc2026/player_cards/outputs/_perfis/mexico/raul-jimenez.2026.06.11.txt",
             "chars": 1184,
             "excede": false,
             "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n👤 PERFIL\n<b>Raúl Jiménez</b> 🇲🇽 FW\n━━━━━━━━━━━━━━━\n   Nome: Raúl Alonso Jiménez Rodríguez\n   Nascimento: 5 de maio de 1991\n   Clube: Fulham\n   Pé: Destro\n   Altura: 188 cm\n   Peso: 79 kg\n   Salário: £ 100,000/semana\n\n<b>📈 ÍNDICE OMNIA</b>\n   Eliminatórias: 6.52  (9 jogos)\n   Temporada do clube: 7.33  (2025/2026)\n   Carreira: 7.42  (15 temporadas · 2011–2026)\n   Copa: — (aguardando a Copa)\n\n<b>🏅 TÍTULOS</b>\n   • 3x Domestic League Champion\n\n<b>🌎 ELIMINATÓRIAS · México</b>\n  ▸ Jogos 9 · Min/jogo 76′ · Gols 3\n\n<b>📊 TEMPORADA 2025/2026 · CLUBES</b>\n  ▸ Fulham · Premier League\n     Jogos 36 · Min/jogo 61′ · Gols 9 · Chutes ao gol 18 · Finalizações 73\n  ▸ Fulham · EFL Cup\n     Jogos 4 · Min/jogo 78′ · Gols 1 · Chutes ao gol 4 · Finalizações 10\n  ▸ Fulham · FA Cup\n     Jogos 3 · Min/jogo 17′ · Chutes ao gol 1 · Finalizações 1\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 16h · vs 🇿🇦 África do Sul\n━━━━━━━━━━━━━━━\n📈 Índice Omnia — a leitura do nosso modelo para o desempenho do jogador em campo, de 0 a 10, ponderada pela posição e calculada a partir dos eventos da partida.\nℹ️ Demais médias por 90 minutos.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
           },
           "pulso": {
-            "arquivo": "wc2026/OMNIA - BM (Drive)/2026.06.11/player_cards/_evolucao/mexico/raul-jimenez.2026.06.11.txt",
+            "arquivo": "wc2026/player_cards/outputs/_evolucao/mexico/raul-jimenez.2026.06.11.txt",
             "chars": 291,
             "excede": false,
             "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n❤️📈 PULSO OMNIA\n<b>Raúl Jiménez</b> 🇲🇽 FW\n━━━━━━━━━━━━━━━\n\n<b>JOGOS</b>\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 16h · vs 🇿🇦 África do Sul\n━━━━━━━━━━━━━━━\nℹ️ A captura do momento do jogador, segundo o Índice Omnia.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
           }
         }
       ],
-      "duelos": []
+      "duelos": [
+        {
+          "arquivo": "wc2026/player_cards/outputs/_duelos/son-heung-minXraul-jimenez.2026.06.11.txt",
+          "chars": 1825,
+          "excede": false,
+          "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n⚔️ DUELO\n<b>Son Heung-min</b>  🆚  <b>Raúl Jiménez</b>\n🇰🇷 FW-MF  ×  🇲🇽 FW\n━━━━━━━━━━━━━━━\n<b>🌎 ELIMINATÓRIAS</b>\n   Son Heung-min: Coreia do Sul · Eliminatórias\n   Raúl Jiménez: México · Eliminatórias\n   📈 Índice Omnia   7.80 ◀  6.52\n   Jogos ................       13 ·· 9\n   Como titular .........       12 ·· 8\n   Gols .................       10 ◀  3\n\n<b>📊 CLUBE · ÚLTIMA TEMPORADA</b>\n   Son Heung-min: LAFC · MLS\n   Raúl Jiménez: Fulham · Premier League\n   📈 Índice Omnia   7.34 ·· 7.34\n   Jogos ................       13 ·· 36\n   Como titular .........       12 ·· 27\n   Min/jogo .............      80′ ·· 61′\n   % dos minutos ........    77.2% ·· 64.0%\n   Assistências .........        8 ◀  3\n   Finalizações .........       39  ▶ 73\n   Chutes ao gol ........       10  ▶ 18\n   % no alvo ............    25.6% ◀  24.7%\n   Assist./90 ...........     0.69 ◀  0.12\n   Finalizações/90 ......     3.37 ◀  3.00\n   Chutes ao gol/90 .....     0.86 ◀  0.74\n   Desarmes .............     0.17  ▶ 0.82\n   Interceptações .......     0.17  ▶ 0.29\n   Cruzamentos ..........     2.50 ◀  0.29\n   Cartões amarelos .....     0.09 ◀  0.21\n   Faltas cometidas .....     0.52 ◀  1.89\n   Faltas sofridas ......     1.55 ·· 1.40\n   Pontos/jogo ..........     1.62 ◀  1.44\n   Saldo de gols em campo        +4  ▶ +5\n   Saldo/90 .............     0.35 ◀  0.21\n━━━━━━━━━━━━━━━\n📅 <b>Próximos Jogos:</b>\nSon Heung-min vs 11/06 23h 🇨🇿 República Tcheca\nRaúl Jiménez vs 11/06 16h 🇿🇦 África do Sul\n━━━━━━━━━━━━━━━\n📈 Índice Omnia — a leitura do nosso modelo para o desempenho do jogador em campo, de 0 a 10, ponderada pela posição e calculada a partir dos eventos da partida.\nℹ️ Demais médias por 90 min. ◀ ▶ apontam quem leva (em gols sofridos, cartões e faltas, menos é melhor).\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+        }
+      ]
     },
     {
       "game_key": "2026-06-11_south-korea_vs_czech-republic",
@@ -110,33 +97,13 @@
       "mandante_ptbr": "Coreia do Sul",
       "visitante_ptbr": "República Tcheca",
       "melhor_pick": {
-        "mercado": null,
-        "prob_pct": null,
+        "mercado": "Mais de 2.5 gols",
+        "prob_pct": 55.9,
         "odd": 2.18,
         "ev_pct": 21.9,
         "regime": "core"
       },
       "agenda": [
-        {
-          "tipo": "perfil_mandante",
-          "publicar_em": "2026-06-11T19:30:00-03:00",
-          "card": {
-            "arquivo": "wc2026/seleção_cards/perfil_seleção/Coreia-do-Sul.2026.06.11.txt",
-            "chars": 800,
-            "excede": false,
-            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n🛡️ PERFIL OMNIA — <b>Coreia do Sul</b>\n🇰🇷 Grupo A\n🏅 Ranking FIFA: #25 = · 1591.63 pts\n━━━━━━━━━━━━━━━\n📊 <b>Índice Omnia do time:</b> 4.70\n\n<b>GOLS &amp; AMBAS MARCAM</b>\n   Gols feitos: 1.5\n   Gols sofridos: 1.2\n   Ambas marcam: 10%\n\n<b>ESCANTEIOS &amp; CARTÕES</b>\n   Escanteios (no jogo): 8.4\n   Escanteios (da equipe): 5.1\n   Cartões amarelos (da equipe): 1.3\n\n<b>FINALIZAÇÕES &amp; XG</b>\n   Finalizações: 10.1\n   No gol: 4.2\n   Para fora: 5.9\n   Finalizações por gol: 6.73\n   xG a favor: 1.21\n   xG contra: 1.11\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 23h · vs 🇨🇿 República Tcheca\n━━━━━━━━━━━━━━━\nℹ️ O índice Omnia (1–10) considera todos os dados do time nos últimos 10 jogos.\nℹ️ Médias por jogo · xG = gols esperados\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
-          }
-        },
-        {
-          "tipo": "perfil_visitante",
-          "publicar_em": "2026-06-11T20:00:00-03:00",
-          "card": {
-            "arquivo": "wc2026/seleção_cards/perfil_seleção/República-Tcheca.2026.06.11.txt",
-            "chars": 798,
-            "excede": false,
-            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n🛡️ PERFIL OMNIA — <b>República Tcheca</b>\n🇨🇿 Grupo A\n🏅 Ranking FIFA: #40 ▲1 · 1505.74 pts\n━━━━━━━━━━━━━━━\n📊 <b>Índice Omnia do time:</b> 5.05\n\n<b>GOLS &amp; AMBAS MARCAM</b>\n   Gols feitos: 2\n   Gols sofridos: 0.9\n   Ambas marcam: 60%\n\n<b>ESCANTEIOS &amp; CARTÕES</b>\n   Escanteios (no jogo): 9.22\n   Escanteios (da equipe): 6.11\n   Cartões amarelos (da equipe): 0.9\n\n<b>FINALIZAÇÕES &amp; XG</b>\n   Finalizações: 13.22\n   No gol: 4.22\n   Para fora: 9\n   Finalizações por gol: 7\n   xG a favor: 1.57\n   xG contra: 1.16\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 23h · vs 🇰🇷 Coreia do Sul\n━━━━━━━━━━━━━━━\nℹ️ O índice Omnia (1–10) considera todos os dados do time nos últimos 10 jogos.\nℹ️ Médias por jogo · xG = gols esperados\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
-          }
-        },
         {
           "tipo": "confronto",
           "publicar_em": "2026-06-11T22:30:00-03:00",
@@ -148,7 +115,23 @@
           }
         }
       ],
-      "jogadores": [],
+      "jogadores": [
+        {
+          "slug": "sonheungmin",
+          "perfil": {
+            "arquivo": "wc2026/player_cards/outputs/_perfis/korea-republic/son-heung-min.2026.06.11.txt",
+            "chars": 1634,
+            "excede": false,
+            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n👤 PERFIL\n<b>Son Heung-min</b> 🇰🇷 FW-MF\n━━━━━━━━━━━━━━━\n   Nascimento: 8 de julho de 1992\n   Clube: Los Angeles FC\n   Pé: Destro\n   Altura: 183 cm\n   Peso: 76 kg\n   Salário: US$10,368,750/ano\n   Instagram: @hm_son7\n\n<b>📈 ÍNDICE OMNIA</b>\n   Eliminatórias: 7.80  (13 jogos)\n   Temporada do clube: 7.40  (2026)\n   Carreira: 7.50  (17 temporadas · 2010–2026)\n   Copa: — (aguardando a Copa)\n\n<b>🏅 TÍTULOS</b>\n   • 4x AFC Asian International Player of the Year\n\n<b>🌎 ELIMINATÓRIAS · Coreia do Sul</b>\n  ▸ Jogos 13 · Min/jogo 82′ · Gols 10 · Chutes ao gol 7 · Finalizações 17 · Assistências 4 · Desarmes 2\n\n<b>📊 TEMPORADA 2026 · CLUBES</b>\n  ▸ LAFC · MLS\n     Jogos 13 · Min/jogo 80′ · Chutes ao gol 10 · Finalizações 39 · Assistências 8 · Desarmes 2\n  ▸ LAFC · CCC\n     Jogos 8 · Min/jogo 81′ · Gols 2 · Chutes ao gol 4 · Finalizações 13 · Assistências 6 · Desarmes 1\n\n<b>🗓️ ÚLTIMOS JOGOS</b>\n  ▸ 03/06 Friendlies (M) · Neutro W 1–0 vs El Salvador\n     28′\n  ▸ 30/05 Friendlies (M) · Neutro W 5–0 vs Trin &amp; Tobago\n     60′ · 2 gol\n  ▸ 24/05 MLS · Casa W 1–0 vs Seattle Sounders\n     90′ · 7 finaliz. · 2 no alvo\n  ▸ 17/05 MLS · Fora L 2–3 vs Nashville SC\n     90′ · 1 assist. · 4 finaliz. · 2 no alvo\n  ▸ 13/05 MLS · Fora L 1–2 vs St. Louis City\n     90′ · 2 finaliz. · 1 no alvo\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 23h · vs 🇨🇿 República Tcheca\n━━━━━━━━━━━━━━━\n📈 Índice Omnia — a leitura do nosso modelo para o desempenho do jogador em campo, de 0 a 10, ponderada pela posição e calculada a partir dos eventos da partida.\nℹ️ Demais médias por 90 minutos.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+          },
+          "pulso": {
+            "arquivo": "wc2026/player_cards/outputs/_evolucao/korea-republic/son-heung-min.2026.06.11.txt",
+            "chars": 784,
+            "excede": false,
+            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n❤️📈 PULSO OMNIA\n<b>Son Heung-min</b> 🇰🇷 FW-MF\n━━━━━━━━━━━━━━━\n   13/05    6.84  ▬\n   17/05    8.34  ▲ +22%\n   24/05    8.31  ▬ 0%\n   30/05    9.35  ▲ +13%\n   03/06    6.75  ▼ -28%\n\n<b>JOGOS</b>\n   13/05 MLS · Fora L 1–2 vs St. Louis City\n        90′ · 1 chutes ao gol\n   17/05 MLS · Fora L 2–3 vs Nashville SC\n        90′ · 2 chutes ao gol · 1 assist.\n   24/05 MLS · Casa W 1–0 vs Seattle Sounders\n        90′ · 2 chutes ao gol\n   30/05 Amistoso · Neutro W 5–0 vs Trin &amp; Tobago\n        60′ · 2 gol\n   03/06 Amistoso · Neutro W 1–0 vs El Salvador\n        28′\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 23h · vs 🇨🇿 República Tcheca\n━━━━━━━━━━━━━━━\nℹ️ A captura do momento do jogador, segundo o Índice Omnia.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+          }
+        }
+      ],
       "duelos": []
     },
     {

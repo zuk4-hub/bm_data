@@ -1,199 +1,14 @@
 {
   "meta": {
-    "gerado_em": "2026-06-11T07:29:57.089810-03:00",
+    "gerado_em": "2026-06-12T05:59:09.643638-03:00",
     "janela": "agora→fim de amanhã",
     "data_alvo": null,
-    "ate": "2026-06-12T23:59:59-03:00",
-    "n_jogos": 4,
+    "ate": "2026-06-13T23:59:59-03:00",
+    "n_jogos": 6,
     "fonte": "cache wc2026",
     "tg_limit": 4000
   },
   "jogos": [
-    {
-      "game_key": "2026-06-11_mexico_vs_south-africa",
-      "data": "2026-06-11",
-      "hora_brasil": "16:00",
-      "kickoff_iso": "2026-06-11T16:00:00-03:00",
-      "fase": "Grupos",
-      "grupo": "A",
-      "mandante": "Mexico",
-      "visitante": "South Africa",
-      "mandante_ptbr": "México",
-      "visitante_ptbr": "África do Sul",
-      "melhor_pick": {
-        "mercado": "Ambas marcam: Não",
-        "prob_pct": 74.1,
-        "odd": 1.52,
-        "ev_pct": 12.7,
-        "regime": "core"
-      },
-      "agenda": [
-        {
-          "tipo": "perfil_mandante",
-          "publicar_em": "2026-06-11T12:30:00-03:00",
-          "card": {
-            "arquivo": "wc2026/seleção_cards/perfil_seleção/México.2026.06.11.txt",
-            "chars": 793,
-            "excede": false,
-            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n🛡️ PERFIL OMNIA — <b>México</b>\n🇲🇽 Grupo A\n🏅 Ranking FIFA: #14 ▲1 · 1687.48 pts\n━━━━━━━━━━━━━━━\n📊 <b>Índice Omnia do time:</b> 6.29\n\n<b>GOLS &amp; AMBAS MARCAM</b>\n   Gols feitos: 1.6\n   Gols sofridos: 0.4\n   Ambas marcam: 30%\n\n<b>ESCANTEIOS &amp; CARTÕES</b>\n   Escanteios (no jogo): 7.78\n   Escanteios (da equipe): 5.22\n   Cartões amarelos (da equipe): 2.1\n\n<b>FINALIZAÇÕES &amp; XG</b>\n   Finalizações: 11.8\n   No gol: 4.5\n   Para fora: 7.3\n   Finalizações por gol: 7.38\n   xG a favor: 1.38\n   xG contra: 0.82\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 16h · vs 🇿🇦 África do Sul\n━━━━━━━━━━━━━━━\nℹ️ O índice Omnia (1–10) considera todos os dados do time nos últimos 10 jogos.\nℹ️ Médias por jogo · xG = gols esperados\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
-          }
-        },
-        {
-          "tipo": "perfil_visitante",
-          "publicar_em": "2026-06-11T13:00:00-03:00",
-          "card": {
-            "arquivo": "wc2026/seleção_cards/perfil_seleção/África-do-Sul.2026.06.11.txt",
-            "chars": 790,
-            "excede": false,
-            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n🛡️ PERFIL OMNIA — <b>África do Sul</b>\n🇿🇦 Grupo A\n🏅 Ranking FIFA: #60 = · 1427.71 pts\n━━━━━━━━━━━━━━━\n📊 <b>Índice Omnia do time:</b> 4.89\n\n<b>GOLS &amp; AMBAS MARCAM</b>\n   Gols feitos: 1.4\n   Gols sofridos: 1\n   Ambas marcam: 60%\n\n<b>ESCANTEIOS &amp; CARTÕES</b>\n   Escanteios (no jogo): 8.8\n   Escanteios (da equipe): 5.1\n   Cartões amarelos (da equipe): 2.1\n\n<b>FINALIZAÇÕES &amp; XG</b>\n   Finalizações: 15.2\n   No gol: 4.9\n   Para fora: 10.3\n   Finalizações por gol: 10.86\n   xG a favor: 1.77\n   xG contra: 0.73\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 16h · vs 🇲🇽 México\n━━━━━━━━━━━━━━━\nℹ️ O índice Omnia (1–10) considera todos os dados do time nos últimos 10 jogos.\nℹ️ Médias por jogo · xG = gols esperados\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
-          }
-        },
-        {
-          "tipo": "pulso_mandante",
-          "publicar_em": "2026-06-11T13:30:00-03:00",
-          "card": {
-            "arquivo": "wc2026/seleção_cards/pulso_seleção/México.2026.06.11.txt",
-            "chars": 710,
-            "excede": false,
-            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n❤️📈 PULSO OMNIA\n<b>México</b> 🇲🇽 Grupo A\n🏅 Ranking FIFA: #14 ▲1 · 1687.48 pts\n━━━━━━━━━━━━━━━\n    5.03   ▬  0-0 vs Portugal\n    4.96   ▼ -1%  1-1 vs Bélgica\n    7.08   ▲ +43%  2-0 vs Gana\n    6.30   ▼ -11%  1-0 vs Austrália\n    8.08   ▲ +28%  5-1 vs Sérvia\n\n<b>JOGOS</b>\n   28/03 · Amistoso · Casa · 0-0 vs Portugal\n   31/03 · Amistoso · Neutro · 1-1 vs Bélgica\n   22/05 · Amistoso · Casa · 2-0 vs Gana\n   30/05 · Amistoso · Neutro · 1-0 vs Austrália\n   04/06 · Amistoso · Casa · 5-1 vs Sérvia\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 16h · vs 🇿🇦 África do Sul\n━━━━━━━━━━━━━━━\nℹ️ A captura do momento do time, segundo o índice Omnia.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
-          }
-        },
-        {
-          "tipo": "pulso_visitante",
-          "publicar_em": "2026-06-11T14:00:00-03:00",
-          "card": {
-            "arquivo": "wc2026/seleção_cards/pulso_seleção/África-do-Sul.2026.06.11.txt",
-            "chars": 966,
-            "excede": false,
-            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n❤️📈 PULSO OMNIA\n<b>África do Sul</b> 🇿🇦 Grupo A\n🏅 Ranking FIFA: #60 = · 1427.71 pts\n━━━━━━━━━━━━━━━\n    6.17   ▬  2-0 vs Benin\n    6.95   ▲ +13%  3-0 vs Lesoto\n    4.05   ▼ -42%  1-1 vs Nigéria\n    4.12   ▲ +2%  0-0 vs Zimbábue\n    6.95   ▲ +69%  3-0 vs Ruanda\n    4.05   ▼ -42%  1-1 vs Panamá\n    2.69   ▼ -34%  1-2 vs Panamá\n    4.12   ▲ +53%  0-0 vs Nicarágua\n\n<b>JOGOS</b>\n   25/03 · Eliminatórias · Neutro · 2-0 vs Benin\n   05/09 · Eliminatórias · Neutro · 3-0 vs Lesoto\n   09/09 · Eliminatórias · Casa · 1-1 vs Nigéria\n   10/10 · Eliminatórias · Neutro · 0-0 vs Zimbábue\n   14/10 · Eliminatórias · Casa · 3-0 vs Ruanda\n   27/03 · Amistoso · Casa · 1-1 vs Panamá\n   31/03 · Amistoso · Casa · 1-2 vs Panamá\n   29/05 · Amistoso · Casa · 0-0 vs Nicarágua\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 16h · vs 🇲🇽 México\n━━━━━━━━━━━━━━━\nℹ️ A captura do momento do time, segundo o índice Omnia.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
-          }
-        },
-        {
-          "tipo": "confronto",
-          "publicar_em": "2026-06-11T15:30:00-03:00",
-          "card": {
-            "arquivo": "wc2026/seleção_cards/matches_cards/MéxicoXÁfrica-do-Sul.2026.06.11.txt",
-            "chars": 736,
-            "excede": false,
-            "texto": "🎯 PICKS OMNIA — <b>🇲🇽 México</b>  🆚  <b>🇿🇦 África do Sul</b>\n🏆 Copa do Mundo 2026 · Grupos\n📅 11/06/2026 · 🕒 16h00 · 📍 🇲🇽 Cidade do México, México · Estadio Banorte\n🏟️ Mando: México\n🏅 Ranking FIFA: México #14 ▲1 · África do Sul #60 =\n\n🟢 <b>Ambas marcam: Não</b>  ·  prob 74.1%  ·  odd 1.52  ·  EV +12.7%\n🟢 <b>Vitória no 2º tempo — México</b>  ·  prob 59.9%  ·  odd 1.75  ·  EV +4.7%\n🟢 <b>Vitória no 1º tempo — México</b>  ·  prob 53.7%  ·  odd 1.95  ·  EV +4.7%\n🔸 <b>Vitória — México</b>  ·  prob 76.6%  ·  odd 1.42  ·  EV +8.8%\n\n🟢 Core: faixa de odd validada como +EV no histórico (mais segura).\n🔸 Espec.: valor fora dessa faixa — maior risco/retorno.\n\nProbabilidade própria calibrada (▷ OMNIA ◁) × odd real. EV não é garantia de lucro."
-          }
-        }
-      ],
-      "jogadores": [
-        {
-          "slug": "rauljimenez",
-          "perfil": {
-            "arquivo": "wc2026/player_cards/outputs/_perfis/mexico/raul-jimenez.2026.06.11.txt",
-            "chars": 1184,
-            "excede": false,
-            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n👤 PERFIL\n<b>Raúl Jiménez</b> 🇲🇽 FW\n━━━━━━━━━━━━━━━\n   Nome: Raúl Alonso Jiménez Rodríguez\n   Nascimento: 5 de maio de 1991\n   Clube: Fulham\n   Pé: Destro\n   Altura: 188 cm\n   Peso: 79 kg\n   Salário: £ 100,000/semana\n\n<b>📈 ÍNDICE OMNIA</b>\n   Eliminatórias: 6.52  (9 jogos)\n   Temporada do clube: 7.33  (2025/2026)\n   Carreira: 7.42  (15 temporadas · 2011–2026)\n   Copa: — (aguardando a Copa)\n\n<b>🏅 TÍTULOS</b>\n   • 3x Domestic League Champion\n\n<b>🌎 ELIMINATÓRIAS · México</b>\n  ▸ Jogos 9 · Min/jogo 76′ · Gols 3\n\n<b>📊 TEMPORADA 2025/2026 · CLUBES</b>\n  ▸ Fulham · Premier League\n     Jogos 36 · Min/jogo 61′ · Gols 9 · Chutes ao gol 18 · Finalizações 73\n  ▸ Fulham · EFL Cup\n     Jogos 4 · Min/jogo 78′ · Gols 1 · Chutes ao gol 4 · Finalizações 10\n  ▸ Fulham · FA Cup\n     Jogos 3 · Min/jogo 17′ · Chutes ao gol 1 · Finalizações 1\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 16h · vs 🇿🇦 África do Sul\n━━━━━━━━━━━━━━━\n📈 Índice Omnia — a leitura do nosso modelo para o desempenho do jogador em campo, de 0 a 10, ponderada pela posição e calculada a partir dos eventos da partida.\nℹ️ Demais médias por 90 minutos.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
-          },
-          "pulso": {
-            "arquivo": "wc2026/player_cards/outputs/_evolucao/mexico/raul-jimenez.2026.06.11.txt",
-            "chars": 291,
-            "excede": false,
-            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n❤️📈 PULSO OMNIA\n<b>Raúl Jiménez</b> 🇲🇽 FW\n━━━━━━━━━━━━━━━\n\n<b>JOGOS</b>\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 16h · vs 🇿🇦 África do Sul\n━━━━━━━━━━━━━━━\nℹ️ A captura do momento do jogador, segundo o Índice Omnia.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
-          }
-        }
-      ],
-      "duelos": [
-        {
-          "arquivo": "wc2026/player_cards/outputs/_duelos/son-heung-minXraul-jimenez.2026.06.11.txt",
-          "chars": 1825,
-          "excede": false,
-          "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n⚔️ DUELO\n<b>Son Heung-min</b>  🆚  <b>Raúl Jiménez</b>\n🇰🇷 FW-MF  ×  🇲🇽 FW\n━━━━━━━━━━━━━━━\n<b>🌎 ELIMINATÓRIAS</b>\n   Son Heung-min: Coreia do Sul · Eliminatórias\n   Raúl Jiménez: México · Eliminatórias\n   📈 Índice Omnia   7.80 ◀  6.52\n   Jogos ................       13 ·· 9\n   Como titular .........       12 ·· 8\n   Gols .................       10 ◀  3\n\n<b>📊 CLUBE · ÚLTIMA TEMPORADA</b>\n   Son Heung-min: LAFC · MLS\n   Raúl Jiménez: Fulham · Premier League\n   📈 Índice Omnia   7.34 ·· 7.34\n   Jogos ................       13 ·· 36\n   Como titular .........       12 ·· 27\n   Min/jogo .............      80′ ·· 61′\n   % dos minutos ........    77.2% ·· 64.0%\n   Assistências .........        8 ◀  3\n   Finalizações .........       39  ▶ 73\n   Chutes ao gol ........       10  ▶ 18\n   % no alvo ............    25.6% ◀  24.7%\n   Assist./90 ...........     0.69 ◀  0.12\n   Finalizações/90 ......     3.37 ◀  3.00\n   Chutes ao gol/90 .....     0.86 ◀  0.74\n   Desarmes .............     0.17  ▶ 0.82\n   Interceptações .......     0.17  ▶ 0.29\n   Cruzamentos ..........     2.50 ◀  0.29\n   Cartões amarelos .....     0.09 ◀  0.21\n   Faltas cometidas .....     0.52 ◀  1.89\n   Faltas sofridas ......     1.55 ·· 1.40\n   Pontos/jogo ..........     1.62 ◀  1.44\n   Saldo de gols em campo        +4  ▶ +5\n   Saldo/90 .............     0.35 ◀  0.21\n━━━━━━━━━━━━━━━\n📅 <b>Próximos Jogos:</b>\nSon Heung-min vs 11/06 23h 🇨🇿 República Tcheca\nRaúl Jiménez vs 11/06 16h 🇿🇦 África do Sul\n━━━━━━━━━━━━━━━\n📈 Índice Omnia — a leitura do nosso modelo para o desempenho do jogador em campo, de 0 a 10, ponderada pela posição e calculada a partir dos eventos da partida.\nℹ️ Demais médias por 90 min. ◀ ▶ apontam quem leva (em gols sofridos, cartões e faltas, menos é melhor).\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
-        }
-      ]
-    },
-    {
-      "game_key": "2026-06-11_south-korea_vs_czech-republic",
-      "data": "2026-06-11",
-      "hora_brasil": "23:00",
-      "kickoff_iso": "2026-06-11T23:00:00-03:00",
-      "fase": "Grupos",
-      "grupo": "A",
-      "mandante": "South Korea",
-      "visitante": "Czech Republic",
-      "mandante_ptbr": "Coreia do Sul",
-      "visitante_ptbr": "República Tcheca",
-      "melhor_pick": {
-        "mercado": "Mais de 2.5 gols",
-        "prob_pct": 55.9,
-        "odd": 2.18,
-        "ev_pct": 21.9,
-        "regime": "core"
-      },
-      "agenda": [
-        {
-          "tipo": "perfil_mandante",
-          "publicar_em": "2026-06-11T19:30:00-03:00",
-          "card": {
-            "arquivo": "wc2026/seleção_cards/perfil_seleção/Coreia-do-Sul.2026.06.11.txt",
-            "chars": 800,
-            "excede": false,
-            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n🛡️ PERFIL OMNIA — <b>Coreia do Sul</b>\n🇰🇷 Grupo A\n🏅 Ranking FIFA: #25 = · 1591.63 pts\n━━━━━━━━━━━━━━━\n📊 <b>Índice Omnia do time:</b> 4.70\n\n<b>GOLS &amp; AMBAS MARCAM</b>\n   Gols feitos: 1.5\n   Gols sofridos: 1.2\n   Ambas marcam: 10%\n\n<b>ESCANTEIOS &amp; CARTÕES</b>\n   Escanteios (no jogo): 8.4\n   Escanteios (da equipe): 5.1\n   Cartões amarelos (da equipe): 1.3\n\n<b>FINALIZAÇÕES &amp; XG</b>\n   Finalizações: 10.1\n   No gol: 4.2\n   Para fora: 5.9\n   Finalizações por gol: 6.73\n   xG a favor: 1.21\n   xG contra: 1.11\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 23h · vs 🇨🇿 República Tcheca\n━━━━━━━━━━━━━━━\nℹ️ O índice Omnia (1–10) considera todos os dados do time nos últimos 10 jogos.\nℹ️ Médias por jogo · xG = gols esperados\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
-          }
-        },
-        {
-          "tipo": "perfil_visitante",
-          "publicar_em": "2026-06-11T20:00:00-03:00",
-          "card": {
-            "arquivo": "wc2026/seleção_cards/perfil_seleção/República-Tcheca.2026.06.11.txt",
-            "chars": 798,
-            "excede": false,
-            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n🛡️ PERFIL OMNIA — <b>República Tcheca</b>\n🇨🇿 Grupo A\n🏅 Ranking FIFA: #40 ▲1 · 1505.74 pts\n━━━━━━━━━━━━━━━\n📊 <b>Índice Omnia do time:</b> 5.05\n\n<b>GOLS &amp; AMBAS MARCAM</b>\n   Gols feitos: 2\n   Gols sofridos: 0.9\n   Ambas marcam: 60%\n\n<b>ESCANTEIOS &amp; CARTÕES</b>\n   Escanteios (no jogo): 9.22\n   Escanteios (da equipe): 6.11\n   Cartões amarelos (da equipe): 0.9\n\n<b>FINALIZAÇÕES &amp; XG</b>\n   Finalizações: 13.22\n   No gol: 4.22\n   Para fora: 9\n   Finalizações por gol: 7\n   xG a favor: 1.57\n   xG contra: 1.16\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 23h · vs 🇰🇷 Coreia do Sul\n━━━━━━━━━━━━━━━\nℹ️ O índice Omnia (1–10) considera todos os dados do time nos últimos 10 jogos.\nℹ️ Médias por jogo · xG = gols esperados\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
-          }
-        },
-        {
-          "tipo": "pulso_mandante",
-          "publicar_em": "2026-06-11T20:30:00-03:00",
-          "card": {
-            "arquivo": "wc2026/seleção_cards/pulso_seleção/Coreia-do-Sul.2026.06.11.txt",
-            "chars": 1013,
-            "excede": false,
-            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n❤️📈 PULSO OMNIA\n<b>Coreia do Sul</b> 🇰🇷 Grupo A\n🏅 Ranking FIFA: #25 = · 1591.63 pts\n━━━━━━━━━━━━━━━\n    3.95   ▬  1-1 vs Omã\n    3.95   ▬ 0%  1-1 vs Jordânia\n    6.07   ▲ +54%  2-0 vs Iraque\n    7.62   ▲ +26%  4-0 vs Kuwait\n    0.12   ▼ -98%  0-4 vs Costa do Marfim\n    2.67   ▲ +2125%  0-1 vs Áustria\n    7.92   ▲ +197%  5-0 vs Trin &amp; Tobago\n    5.29   ▼ -33%  1-0 vs El Salvador\n\n<b>JOGOS</b>\n   20/03 · Eliminatórias · Casa · 1-1 vs Omã\n   25/03 · Eliminatórias · Casa · 1-1 vs Jordânia\n   05/06 · Eliminatórias · Fora · 2-0 vs Iraque\n   10/06 · Eliminatórias · Casa · 4-0 vs Kuwait\n   28/03 · Amistoso · Neutro · 0-4 vs Costa do Marfim\n   31/03 · Amistoso · Fora · 0-1 vs Áustria\n   30/05 · Amistoso · Neutro · 5-0 vs Trin &amp; Tobago\n   03/06 · Amistoso · Neutro · 1-0 vs El Salvador\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 23h · vs 🇨🇿 República Tcheca\n━━━━━━━━━━━━━━━\nℹ️ A captura do momento do time, segundo o índice Omnia.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
-          }
-        },
-        {
-          "tipo": "pulso_visitante",
-          "publicar_em": "2026-06-11T21:00:00-03:00",
-          "card": {
-            "arquivo": "wc2026/seleção_cards/pulso_seleção/República-Tcheca.2026.06.11.txt",
-            "chars": 1014,
-            "excede": false,
-            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n❤️📈 PULSO OMNIA\n<b>República Tcheca</b> 🇨🇿 Grupo A\n🏅 Ranking FIFA: #40 ▲1 · 1505.74 pts\n━━━━━━━━━━━━━━━\n    6.38   ▬  2-0 vs Montenegro\n    0.35   ▼ -95%  1-5 vs Croácia\n    6.38   ▲ +1723%  2-0 vs Montenegro\n    4.33   ▼ -32%  0-0 vs Croácia\n    2.90   ▼ -33%  1-2 vs Ilhas Faroé\n    8.23   ▲ +184%  6-0 vs Gibraltar\n    5.53   ▼ -33%  2-1 vs Kosovo\n    6.30   ▲ +14%  3-1 vs Guatemala\n\n<b>JOGOS</b>\n   06/06 · Eliminatórias · Casa · 2-0 vs Montenegro\n   09/06 · Eliminatórias · Fora · 1-5 vs Croácia\n   05/09 · Eliminatórias · Fora · 2-0 vs Montenegro\n   09/10 · Eliminatórias · Casa · 0-0 vs Croácia\n   12/10 · Eliminatórias · Fora · 1-2 vs Ilhas Faroé\n   17/11 · Eliminatórias · Casa · 6-0 vs Gibraltar\n   31/05 · Amistoso · Casa · 2-1 vs Kosovo\n   04/06 · Amistoso · Neutro · 3-1 vs Guatemala\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 23h · vs 🇰🇷 Coreia do Sul\n━━━━━━━━━━━━━━━\nℹ️ A captura do momento do time, segundo o índice Omnia.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
-          }
-        },
-        {
-          "tipo": "confronto",
-          "publicar_em": "2026-06-11T22:30:00-03:00",
-          "card": {
-            "arquivo": "wc2026/seleção_cards/matches_cards/Coreia-do-SulXRepública-Tcheca.2026.06.11.txt",
-            "chars": 1281,
-            "excede": false,
-            "texto": "🎯 PICKS OMNIA — <b>🇰🇷 Coreia do Sul</b>  🆚  <b>🇨🇿 República Tcheca</b>\n🏆 Copa do Mundo 2026 · Grupos\n📅 11/06/2026 · 🕒 23h00 · 📍 🇲🇽 Guadalajara, México · Estadio Akron\n⚖️ Campo neutro\n🏅 Ranking FIFA: Coreia do Sul #25 = · República Tcheca #40 ▲1\n\n🟢 <b>Mais de 2.5 gols</b>  ·  prob 55.9%  ·  odd 2.18  ·  EV +21.9%\n🟢 <b>Ambas marcam: Sim</b>  ·  prob 59.1%  ·  odd 1.89  ·  EV +11.6%\n🔸 <b>Mais de 4.5 gols</b>  ·  prob 17.2%  ·  odd 8.44  ·  EV +45.0%\n🔸 <b>Mais de 3.5 gols</b>  ·  prob 33.5%  ·  odd 4.02  ·  EV +34.8%\n🔸 <b>Mais de 1.5 gols no 1º tempo</b>  ·  prob 37.9%  ·  odd 3.18  ·  EV +20.4%\n🔸 <b>Vitória — Coreia do Sul</b>  ·  prob 43.7%  ·  odd 2.67  ·  EV +16.8%\n🔸 <b>Vitória no 1º tempo — Coreia do Sul</b>  ·  prob 34.2%  ·  odd 3.29  ·  EV +12.6%\n🔸 <b>Mais de 1.5 gols no 2º tempo</b>  ·  prob 47.7%  ·  odd 2.34  ·  EV +11.7%\n🔸 <b>Vitória no 2º tempo — Coreia do Sul</b>  ·  prob 37.1%  ·  odd 2.94  ·  EV +9.0%\n🔸 <b>Mais de 1.5 gols</b>  ·  prob 79.5%  ·  odd 1.37  ·  EV +8.9%\n🔸 <b>Mais de 0.5 gols no 1º tempo</b>  ·  prob 73.2%  ·  odd 1.46  ·  EV +6.8%\n\n🟢 Core: faixa de odd validada como +EV no histórico (mais segura).\n🔸 Espec.: valor fora dessa faixa — maior risco/retorno.\n\nProbabilidade própria calibrada (▷ OMNIA ◁) × odd real. EV não é garantia de lucro."
-          }
-        }
-      ],
-      "jogadores": [
-        {
-          "slug": "sonheungmin",
-          "perfil": {
-            "arquivo": "wc2026/player_cards/outputs/_perfis/korea-republic/son-heung-min.2026.06.11.txt",
-            "chars": 1634,
-            "excede": false,
-            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n👤 PERFIL\n<b>Son Heung-min</b> 🇰🇷 FW-MF\n━━━━━━━━━━━━━━━\n   Nascimento: 8 de julho de 1992\n   Clube: Los Angeles FC\n   Pé: Destro\n   Altura: 183 cm\n   Peso: 76 kg\n   Salário: US$10,368,750/ano\n   Instagram: @hm_son7\n\n<b>📈 ÍNDICE OMNIA</b>\n   Eliminatórias: 7.80  (13 jogos)\n   Temporada do clube: 7.40  (2026)\n   Carreira: 7.50  (17 temporadas · 2010–2026)\n   Copa: — (aguardando a Copa)\n\n<b>🏅 TÍTULOS</b>\n   • 4x AFC Asian International Player of the Year\n\n<b>🌎 ELIMINATÓRIAS · Coreia do Sul</b>\n  ▸ Jogos 13 · Min/jogo 82′ · Gols 10 · Chutes ao gol 7 · Finalizações 17 · Assistências 4 · Desarmes 2\n\n<b>📊 TEMPORADA 2026 · CLUBES</b>\n  ▸ LAFC · MLS\n     Jogos 13 · Min/jogo 80′ · Chutes ao gol 10 · Finalizações 39 · Assistências 8 · Desarmes 2\n  ▸ LAFC · CCC\n     Jogos 8 · Min/jogo 81′ · Gols 2 · Chutes ao gol 4 · Finalizações 13 · Assistências 6 · Desarmes 1\n\n<b>🗓️ ÚLTIMOS JOGOS</b>\n  ▸ 03/06 Friendlies (M) · Neutro W 1–0 vs El Salvador\n     28′\n  ▸ 30/05 Friendlies (M) · Neutro W 5–0 vs Trin &amp; Tobago\n     60′ · 2 gol\n  ▸ 24/05 MLS · Casa W 1–0 vs Seattle Sounders\n     90′ · 7 finaliz. · 2 no alvo\n  ▸ 17/05 MLS · Fora L 2–3 vs Nashville SC\n     90′ · 1 assist. · 4 finaliz. · 2 no alvo\n  ▸ 13/05 MLS · Fora L 1–2 vs St. Louis City\n     90′ · 2 finaliz. · 1 no alvo\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 23h · vs 🇨🇿 República Tcheca\n━━━━━━━━━━━━━━━\n📈 Índice Omnia — a leitura do nosso modelo para o desempenho do jogador em campo, de 0 a 10, ponderada pela posição e calculada a partir dos eventos da partida.\nℹ️ Demais médias por 90 minutos.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
-          },
-          "pulso": {
-            "arquivo": "wc2026/player_cards/outputs/_evolucao/korea-republic/son-heung-min.2026.06.11.txt",
-            "chars": 784,
-            "excede": false,
-            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n❤️📈 PULSO OMNIA\n<b>Son Heung-min</b> 🇰🇷 FW-MF\n━━━━━━━━━━━━━━━\n   13/05    6.84  ▬\n   17/05    8.34  ▲ +22%\n   24/05    8.31  ▬ 0%\n   30/05    9.35  ▲ +13%\n   03/06    6.75  ▼ -28%\n\n<b>JOGOS</b>\n   13/05 MLS · Fora L 1–2 vs St. Louis City\n        90′ · 1 chutes ao gol\n   17/05 MLS · Fora L 2–3 vs Nashville SC\n        90′ · 2 chutes ao gol · 1 assist.\n   24/05 MLS · Casa W 1–0 vs Seattle Sounders\n        90′ · 2 chutes ao gol\n   30/05 Amistoso · Neutro W 5–0 vs Trin &amp; Tobago\n        60′ · 2 gol\n   03/06 Amistoso · Neutro W 1–0 vs El Salvador\n        28′\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 11/06 23h · vs 🇨🇿 República Tcheca\n━━━━━━━━━━━━━━━\nℹ️ A captura do momento do jogador, segundo o Índice Omnia.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
-          }
-        }
-      ],
-      "duelos": []
-    },
     {
       "game_key": "2026-06-12_canada_vs_bosnia-herzegovina",
       "data": "2026-06-12",
@@ -206,8 +21,75 @@
       "mandante_ptbr": "Canadá",
       "visitante_ptbr": "Bósnia e Herzegovina",
       "melhor_pick": null,
-      "agenda": [],
-      "jogadores": [],
+      "agenda": [
+        {
+          "tipo": "perfil_mandante",
+          "publicar_em": "2026-06-12T12:30:00-03:00",
+          "card": {
+            "arquivo": "wc2026/seleção_cards/perfil_seleção/Canadá.2026.06.12.txt",
+            "chars": 796,
+            "excede": false,
+            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n🛡️ PERFIL OMNIA — <b>Canadá</b>\n🇨🇦 Grupo B\n🏅 Ranking FIFA: #30 = · 1559.48 pts\n━━━━━━━━━━━━━━━\n📊 <b>Índice Omnia do time:</b> 5.53\n\n<b>GOLS &amp; AMBAS MARCAM</b>\n   Gols feitos: 0.9\n   Gols sofridos: 0.4\n   Ambas marcam: 20%\n\n<b>ESCANTEIOS &amp; CARTÕES</b>\n   Escanteios (no jogo): 9.3\n   Escanteios (da equipe): 6.9\n   Cartões amarelos (da equipe): 3.1\n\n<b>FINALIZAÇÕES &amp; XG</b>\n   Finalizações: 11.9\n   No gol: 4\n   Para fora: 7.9\n   Finalizações por gol: 13.22\n   xG a favor: 1.33\n   xG contra: 0.68\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 12/06 16h · vs 🇧🇦 Bósnia e Herzegovina\n━━━━━━━━━━━━━━━\nℹ️ O índice Omnia (1–10) considera todos os dados do time nos últimos 10 jogos.\nℹ️ Médias por jogo · xG = gols esperados\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+          }
+        },
+        {
+          "tipo": "perfil_visitante",
+          "publicar_em": "2026-06-12T13:00:00-03:00",
+          "card": {
+            "arquivo": "wc2026/seleção_cards/perfil_seleção/Bósnia-e-Herzegovina.2026.06.12.txt",
+            "chars": 793,
+            "excede": false,
+            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n🛡️ PERFIL OMNIA — <b>Bósnia e Herzegovina</b>\n🇧🇦 Grupo B\n🏅 Ranking FIFA: #64 ▲1 · 1387.22 pts\n━━━━━━━━━━━━━━━\n📊 <b>Índice Omnia do time:</b> 4.44\n\n<b>GOLS &amp; AMBAS MARCAM</b>\n   Gols feitos: 2\n   Gols sofridos: 1\n   Ambas marcam: 80%\n\n<b>ESCANTEIOS &amp; CARTÕES</b>\n   Escanteios (no jogo): 8.6\n   Escanteios (da equipe): 4.9\n   Cartões amarelos (da equipe): 2.5\n\n<b>FINALIZAÇÕES &amp; XG</b>\n   Finalizações: 14.6\n   No gol: 5.1\n   Para fora: 9.5\n   Finalizações por gol: 7.3\n   xG a favor: 1.79\n   xG contra: 1.09\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 12/06 16h · vs 🇨🇦 Canadá\n━━━━━━━━━━━━━━━\nℹ️ O índice Omnia (1–10) considera todos os dados do time nos últimos 10 jogos.\nℹ️ Médias por jogo · xG = gols esperados\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+          }
+        },
+        {
+          "tipo": "pulso_mandante",
+          "publicar_em": "2026-06-12T13:30:00-03:00",
+          "card": {
+            "arquivo": "wc2026/seleção_cards/pulso_seleção/Canadá.2026.06.12.txt",
+            "chars": 662,
+            "excede": false,
+            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n❤️📈 PULSO OMNIA\n<b>Canadá</b> 🇨🇦 Grupo B\n🏅 Ranking FIFA: #30 = · 1559.48 pts\n━━━━━━━━━━━━━━━\n    4.92   ▬  2-2 vs Islândia\n    5.07   ▲ +3%  0-0 vs Tunísia\n    7.12   ▲ +40%  2-0 vs Uzbequistão\n    5.00   ▼ -30%  1-1 vs Rep. of Ireland\n\n<b>JOGOS</b>\n   28/03 · Amistoso · Casa · 2-2 vs Islândia\n   31/03 · Amistoso · Casa · 0-0 vs Tunísia\n   01/06 · Amistoso · Casa · 2-0 vs Uzbequistão\n   05/06 · Amistoso · Casa · 1-1 vs Rep. of Ireland\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 12/06 16h · vs 🇧🇦 Bósnia e Herzegovina\n━━━━━━━━━━━━━━━\nℹ️ A captura do momento do time, segundo o índice Omnia.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+          }
+        },
+        {
+          "tipo": "pulso_visitante",
+          "publicar_em": "2026-06-12T14:00:00-03:00",
+          "card": {
+            "arquivo": "wc2026/seleção_cards/pulso_seleção/Bósnia-e-Herzegovina.2026.06.12.txt",
+            "chars": 998,
+            "excede": false,
+            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n❤️📈 PULSO OMNIA\n<b>Bósnia e Herzegovina</b> 🇧🇦 Grupo B\n🏅 Ranking FIFA: #64 ▲1 · 1387.22 pts\n━━━━━━━━━━━━━━━\n    5.03   ▬  1-0 vs San Marino\n    7.66   ▲ +52%  6-0 vs San Marino\n    2.33   ▼ -70%  1-2 vs Áustria\n    3.61   ▲ +55%  2-2 vs Chipre\n    5.73   ▲ +59%  3-1 vs Romênia\n    3.69   ▼ -36%  1-1 vs Áustria\n    3.76   ▲ +2%  0-0 vs N. Macedonia\n    3.69   ▼ -2%  1-1 vs Panamá\n\n<b>JOGOS</b>\n   07/06 · Eliminatórias · Casa · 1-0 vs San Marino\n   06/09 · Eliminatórias · Fora · 6-0 vs San Marino\n   09/09 · Eliminatórias · Casa · 1-2 vs Áustria\n   09/10 · Eliminatórias · Fora · 2-2 vs Chipre\n   15/11 · Eliminatórias · Casa · 3-1 vs Romênia\n   18/11 · Eliminatórias · Fora · 1-1 vs Áustria\n   29/05 · Amistoso · Casa · 0-0 vs N. Macedonia\n   06/06 · Amistoso · Neutro · 1-1 vs Panamá\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 12/06 16h · vs 🇨🇦 Canadá\n━━━━━━━━━━━━━━━\nℹ️ A captura do momento do time, segundo o índice Omnia.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+          }
+        }
+      ],
+      "jogadores": [
+        {
+          "slug": "edindzeko",
+          "perfil": {
+            "arquivo": "wc2026/player_cards/outputs/_perfis/bosnia-herzegovina/edin-dzeko.2026.06.12.txt",
+            "chars": 1332,
+            "excede": false,
+            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n👤 PERFIL\n<b>Edin Džeko</b> 🇧🇦 FW\n━━━━━━━━━━━━━━━\n   Nascimento: 17 de março de 1986\n   Clube: Schalke 04\n   Pé: Destro\n   Altura: 193 cm\n   Peso: 79 kg\n   Salário: € 64,038/semana\n   Instagram: @ed_dzeko\n\n<b>📈 ÍNDICE OMNIA</b>\n   Eliminatórias: 8.04  (9 jogos)\n   Temporada do clube: 8.03  (2025/2026)\n   Carreira: 7.83  (20 temporadas · 2003–2026)\n   Copa: — (aguardando a Copa)\n\n<b>🏅 TÍTULOS</b>\n   • 3x Domestic League Champion\n   • 3x Bosnian Footballer of the Year\n\n<b>🌎 ELIMINATÓRIAS · Bósnia e Herzegovina</b>\n  ▸ Jogos 9 · Min/jogo 79′ · Gols 6 · Chutes ao gol 10 · Finalizações 29\n\n<b>📊 TEMPORADA 2025/2026 · CLUBES</b>\n  ▸ Schalke 04 · 2. Bundesliga\n     Jogos 11 · Min/jogo 54′ · Gols 6 · Chutes ao gol 16 · Finalizações 34\n  ▸ Fiorentina · Conf Lg\n     Jogos 5 · Min/jogo 74′ · Gols 1 · Chutes ao gol 6 · Finalizações 14\n  ▸ Fiorentina · Serie A\n     Jogos 11 · Min/jogo 22′ · Chutes ao gol 1 · Finalizações 4\n\n<b>⭐ DESTAQUE NAS ELIMINATÓRIAS</b>\n   • 5º em gols (UEFA) — 6\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 12/06 16h · vs 🇨🇦 Canadá\n━━━━━━━━━━━━━━━\n📈 Índice Omnia — a leitura do nosso modelo para o desempenho do jogador em campo, de 0 a 10, ponderada pela posição e calculada a partir dos eventos da partida.\nℹ️ Demais médias por 90 minutos.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+          },
+          "pulso": null
+        },
+        {
+          "slug": "promisedavid",
+          "perfil": {
+            "arquivo": "wc2026/player_cards/outputs/_perfis/canada/promise-david.2026.06.12.txt",
+            "chars": 1006,
+            "excede": false,
+            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n👤 PERFIL\n<b>Promise David</b> 🇨🇦 FW\n━━━━━━━━━━━━━━━\n   Nome: Promise Oluwatobi Emmanuel David Akinpelu\n   Nascimento: 3 de julho de 2001\n   Clube: Union SG\n   Pé: Destro\n   Altura: 196 cm\n   Peso: 91 kg\n\n<b>📈 ÍNDICE OMNIA</b>\n   Temporada do clube: 7.88  (2025/2026)\n   Carreira: 8.12  (2 temporadas · 2024–2026)\n   Copa: — (aguardando a Copa)\n\n<b>🏅 TÍTULOS</b>\n   • 2024-25 Belgian Pro League Champion\n\n<b>📊 TEMPORADA 2025/2026 · CLUBES</b>\n  ▸ Union SG · Pro League A\n     Jogos 24 · Min/jogo 62′ · Gols 9 · Chutes ao gol 26 · Finalizações 70\n  ▸ Union SG · Champions Lg\n     Jogos 7 · Min/jogo 53′ · Gols 2 · Chutes ao gol 8 · Finalizações 16\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 12/06 16h · vs 🇧🇦 Bósnia e Herzegovina\n━━━━━━━━━━━━━━━\n📈 Índice Omnia — a leitura do nosso modelo para o desempenho do jogador em campo, de 0 a 10, ponderada pela posição e calculada a partir dos eventos da partida.\nℹ️ Demais médias por 90 minutos.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+          },
+          "pulso": {
+            "arquivo": "wc2026/player_cards/outputs/_evolucao/canada/promise-david.2026.06.12.txt",
+            "chars": 299,
+            "excede": false,
+            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n❤️📈 PULSO OMNIA\n<b>Promise David</b> 🇨🇦 FW\n━━━━━━━━━━━━━━━\n\n<b>JOGOS</b>\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 12/06 16h · vs 🇧🇦 Bósnia e Herzegovina\n━━━━━━━━━━━━━━━\nℹ️ A captura do momento do jogador, segundo o Índice Omnia.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+          }
+        }
+      ],
       "duelos": []
     },
     {
@@ -221,6 +103,179 @@
       "visitante": "Paraguay",
       "mandante_ptbr": "Estados Unidos",
       "visitante_ptbr": "Paraguai",
+      "melhor_pick": null,
+      "agenda": [
+        {
+          "tipo": "perfil_mandante",
+          "publicar_em": "2026-06-12T18:30:00-03:00",
+          "card": {
+            "arquivo": "wc2026/seleção_cards/perfil_seleção/Estados-Unidos.2026.06.12.txt",
+            "chars": 793,
+            "excede": false,
+            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n🛡️ PERFIL OMNIA — <b>Estados Unidos</b>\n🇺🇸 Grupo D\n🏅 Ranking FIFA: #17 ▼1 · 1671.23 pts\n━━━━━━━━━━━━━━━\n📊 <b>Índice Omnia do time:</b> 3.78\n\n<b>GOLS &amp; AMBAS MARCAM</b>\n   Gols feitos: 1.8\n   Gols sofridos: 1.7\n   Ambas marcam: 70%\n\n<b>ESCANTEIOS &amp; CARTÕES</b>\n   Escanteios (no jogo): 10.5\n   Escanteios (da equipe): 5.4\n   Cartões amarelos (da equipe): 1.5\n\n<b>FINALIZAÇÕES &amp; XG</b>\n   Finalizações: 13.3\n   No gol: 5.3\n   Para fora: 8\n   Finalizações por gol: 7.39\n   xG a favor: 1.49\n   xG contra: 1.12\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 12/06 22h · vs 🇵🇾 Paraguai\n━━━━━━━━━━━━━━━\nℹ️ O índice Omnia (1–10) considera todos os dados do time nos últimos 10 jogos.\nℹ️ Médias por jogo · xG = gols esperados\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+          }
+        },
+        {
+          "tipo": "perfil_visitante",
+          "publicar_em": "2026-06-12T19:00:00-03:00",
+          "card": {
+            "arquivo": "wc2026/seleção_cards/perfil_seleção/Paraguai.2026.06.12.txt",
+            "chars": 790,
+            "excede": false,
+            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n🛡️ PERFIL OMNIA — <b>Paraguai</b>\n🇵🇾 Grupo D\n🏅 Ranking FIFA: #41 ▼1 · 1505.35 pts\n━━━━━━━━━━━━━━━\n📊 <b>Índice Omnia do time:</b> 3.77\n\n<b>GOLS &amp; AMBAS MARCAM</b>\n   Gols feitos: 1.2\n   Gols sofridos: 1\n   Ambas marcam: 40%\n\n<b>ESCANTEIOS &amp; CARTÕES</b>\n   Escanteios (no jogo): 8.9\n   Escanteios (da equipe): 4.9\n   Cartões amarelos (da equipe): 2\n\n<b>FINALIZAÇÕES &amp; XG</b>\n   Finalizações: 10.3\n   No gol: 4.7\n   Para fora: 5.6\n   Finalizações por gol: 8.58\n   xG a favor: 1.21\n   xG contra: 1.09\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 12/06 22h · vs 🇺🇸 Estados Unidos\n━━━━━━━━━━━━━━━\nℹ️ O índice Omnia (1–10) considera todos os dados do time nos últimos 10 jogos.\nℹ️ Médias por jogo · xG = gols esperados\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+          }
+        },
+        {
+          "tipo": "pulso_mandante",
+          "publicar_em": "2026-06-12T19:30:00-03:00",
+          "card": {
+            "arquivo": "wc2026/seleção_cards/pulso_seleção/Estados-Unidos.2026.06.12.txt",
+            "chars": 639,
+            "excede": false,
+            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n❤️📈 PULSO OMNIA\n<b>Estados Unidos</b> 🇺🇸 Grupo D\n🏅 Ranking FIFA: #17 ▼1 · 1671.23 pts\n━━━━━━━━━━━━━━━\n    2.01   ▬  2-5 vs Bélgica\n    3.01   ▲ +50%  0-2 vs Portugal\n    6.33   ▲ +110%  3-2 vs Senegal\n    3.78   ▼ -40%  1-2 vs Alemanha\n\n<b>JOGOS</b>\n   28/03 · Amistoso · Casa · 2-5 vs Bélgica\n   31/03 · Amistoso · Casa · 0-2 vs Portugal\n   31/05 · Amistoso · Casa · 3-2 vs Senegal\n   06/06 · Amistoso · Casa · 1-2 vs Alemanha\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 12/06 22h · vs 🇵🇾 Paraguai\n━━━━━━━━━━━━━━━\nℹ️ A captura do momento do time, segundo o índice Omnia.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+          }
+        },
+        {
+          "tipo": "pulso_visitante",
+          "publicar_em": "2026-06-12T20:00:00-03:00",
+          "card": {
+            "arquivo": "wc2026/seleção_cards/pulso_seleção/Paraguai.2026.06.12.txt",
+            "chars": 970,
+            "excede": false,
+            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n❤️📈 PULSO OMNIA\n<b>Paraguai</b> 🇵🇾 Grupo D\n🏅 Ranking FIFA: #41 ▼1 · 1505.35 pts\n━━━━━━━━━━━━━━━\n    2.96   ▬  2-2 vs Colômbia\n    5.16   ▲ +74%  2-0 vs Uruguai\n    1.76   ▼ -66%  0-1 vs Brasil\n    3.11   ▲ +77%  0-0 vs Equador\n    4.38   ▲ +41%  1-0 vs Peru\n    4.38   ▬ 0%  1-0 vs Grécia\n    1.68   ▼ -62%  1-2 vs Marrocos\n    6.71   ▲ +299%  4-0 vs Nicarágua\n\n<b>JOGOS</b>\n   25/03 · Eliminatórias · Fora · 2-2 vs Colômbia\n   05/06 · Eliminatórias · Casa · 2-0 vs Uruguai\n   10/06 · Eliminatórias · Fora · 0-1 vs Brasil\n   04/09 · Eliminatórias · Casa · 0-0 vs Equador\n   09/09 · Eliminatórias · Fora · 1-0 vs Peru\n   27/03 · Amistoso · Fora · 1-0 vs Grécia\n   31/03 · Amistoso · Neutro · 1-2 vs Marrocos\n   05/06 · Amistoso · Casa · 4-0 vs Nicarágua\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 12/06 22h · vs 🇺🇸 Estados Unidos\n━━━━━━━━━━━━━━━\nℹ️ A captura do momento do time, segundo o índice Omnia.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+          }
+        }
+      ],
+      "jogadores": [
+        {
+          "slug": "gustavogomez",
+          "perfil": {
+            "arquivo": "wc2026/player_cards/outputs/_perfis/paraguay/gustavo-gomez.2026.06.12.txt",
+            "chars": 1463,
+            "excede": false,
+            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n👤 PERFIL\n<b>Gustavo Gómez</b> 🇵🇾 DF\n━━━━━━━━━━━━━━━\n   Nome: Gustavo Gómez Portillo\n   Nascimento: 6 de maio de 1993\n   Clube: Palmeiras\n   Pé: Canhoto\n   Altura: 186 cm\n   Peso: 84 kg\n\n<b>📈 ÍNDICE OMNIA</b>\n   Eliminatórias: 6.27  (15 jogos)\n   Temporada do clube: 6.47  (2026)\n   Carreira: 6.51  (14 temporadas · 2014–2026)\n   Copa: — (aguardando a Copa)\n\n<b>🏅 TÍTULOS</b>\n   • 3x Série A Champion\n   • 2021 Paraguay Footballer of the Year\n\n<b>🌎 ELIMINATÓRIAS · Paraguai</b>\n  ▸ Jogos 15 · Min/jogo 90′ · Desarmes 5 · Interceptações 14 · Cartões amarelos 2\n\n<b>📊 TEMPORADA 2026 · CLUBES</b>\n  ▸ Palmeiras · Série A\n     Jogos 16 · Min/jogo 89′ · Desarmes 10 · Interceptações 11\n  ▸ Palmeiras · Libertadores\n     Jogos 6 · Min/jogo 90′ · Desarmes 3 · Interceptações 6 · Cartões amarelos 2\n\n<b>🗓️ ÚLTIMOS JOGOS</b>\n  ▸ 28/05 Libertadores · Casa W 4–1 vs Junior\n     90′\n  ▸ 23/05 Série A · Fora W 3–0 vs Flamengo\n     90′\n  ▸ 20/05 Libertadores · Casa L 0–1 vs Cerro Porteño\n     90′\n  ▸ 16/05 Série A · Casa D 1–1 vs Cruzeiro\n     90′ · 2 finaliz. · 1 no alvo\n  ▸ 10/05 Série A · Fora D 1–1 vs Remo\n     90′\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 12/06 22h · vs 🇺🇸 Estados Unidos\n━━━━━━━━━━━━━━━\n📈 Índice Omnia — a leitura do nosso modelo para o desempenho do jogador em campo, de 0 a 10, ponderada pela posição e calculada a partir dos eventos da partida.\nℹ️ Demais médias por 90 minutos.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+          },
+          "pulso": {
+            "arquivo": "wc2026/player_cards/outputs/_evolucao/paraguay/gustavo-gomez.2026.06.12.txt",
+            "chars": 805,
+            "excede": false,
+            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n❤️📈 PULSO OMNIA\n<b>Gustavo Gómez</b> 🇵🇾 DF\n━━━━━━━━━━━━━━━\n   10/05    6.51  ▬\n   16/05    6.31  ▼ -3%\n   20/05    5.87  ▼ -7%\n   23/05    7.84  ▲ +34%\n   28/05    6.71  ▼ -14%\n\n<b>JOGOS</b>\n   10/05 Série A · Fora D 1–1 vs Remo\n        90′ · 1 desarmes · 1 interceptações\n   16/05 Série A · Casa D 1–1 vs Cruzeiro\n        90′\n   20/05 Libertadores · Casa L 0–1 vs Cerro Porteño\n        90′ · 1 interceptações\n   23/05 Série A · Fora W 3–0 vs Flamengo\n        90′ · 3 desarmes · 1 interceptações\n   28/05 Libertadores · Casa W 4–1 vs Junior\n        90′ · 2 desarmes · 1 interceptações\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 12/06 22h · vs 🇺🇸 Estados Unidos\n━━━━━━━━━━━━━━━\nℹ️ A captura do momento do jogador, segundo o Índice Omnia.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+          }
+        },
+        {
+          "slug": "antoniosanabria",
+          "perfil": {
+            "arquivo": "wc2026/player_cards/outputs/_perfis/paraguay/antonio-sanabria.2026.06.12.txt",
+            "chars": 1000,
+            "excede": false,
+            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n👤 PERFIL\n<b>Antonio Sanabria</b> 🇵🇾 FW\n━━━━━━━━━━━━━━━\n   Nome: Arnaldo Antonio Sanabria Ayala\n   Nascimento: 4 de março de 1996\n   Clube: Cremonese\n   Pé: Destro\n   Altura: 180 cm\n   Peso: 76 kg\n   Salário: € 56,923/semana\n\n<b>📈 ÍNDICE OMNIA</b>\n   Eliminatórias: 7.43  (13 jogos)\n   Temporada do clube: 6.52  (2025/2026)\n   Carreira: 7.14  (13 temporadas · 2013–2026)\n   Copa: — (aguardando a Copa)\n\n<b>🌎 ELIMINATÓRIAS · Paraguai</b>\n  ▸ Jogos 13 · Min/jogo 52′ · Gols 4 · Chutes ao gol 7 · Finalizações 10\n\n<b>📊 TEMPORADA 2025/2026 · CLUBES</b>\n  ▸ Cremonese · Serie A\n     Jogos 25 · Min/jogo 38′ · Gols 1 · Chutes ao gol 4 · Finalizações 12\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 12/06 22h · vs 🇺🇸 Estados Unidos\n━━━━━━━━━━━━━━━\n📈 Índice Omnia — a leitura do nosso modelo para o desempenho do jogador em campo, de 0 a 10, ponderada pela posição e calculada a partir dos eventos da partida.\nℹ️ Demais médias por 90 minutos.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+          },
+          "pulso": {
+            "arquivo": "wc2026/player_cards/outputs/_evolucao/paraguay/antonio-sanabria.2026.06.12.txt",
+            "chars": 296,
+            "excede": false,
+            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n❤️📈 PULSO OMNIA\n<b>Antonio Sanabria</b> 🇵🇾 FW\n━━━━━━━━━━━━━━━\n\n<b>JOGOS</b>\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 12/06 22h · vs 🇺🇸 Estados Unidos\n━━━━━━━━━━━━━━━\nℹ️ A captura do momento do jogador, segundo o Índice Omnia.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+          }
+        },
+        {
+          "slug": "gatitofernandez",
+          "perfil": {
+            "arquivo": "wc2026/player_cards/outputs/_perfis/paraguay/gatito-fernandez.2026.06.12.txt",
+            "chars": 981,
+            "excede": false,
+            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n👤 PERFIL\n<b>Gatito Fernández</b> 🇵🇾 GK\n━━━━━━━━━━━━━━━\n   Nome: Roberto Junior Fernández\n   Nascimento: 29 de março de 1988\n   Clube: Cerro Porteno PF\n   Pé: Destro\n   Altura: 191 cm\n   Peso: 79 kg\n\n<b>📈 ÍNDICE OMNIA</b>\n   Eliminatórias: 7.84  (11 jogos)\n   Temporada do clube: 7.35  (2026)\n   Carreira: 7.20  (13 temporadas · 2011–2026)\n   Copa: — (aguardando a Copa)\n\n<b>🌎 ELIMINATÓRIAS · Paraguai</b>\n  ▸ Jogos 11 · Min/jogo 90′ · Defesas 24 · Jogos sem sofrer gol 6 · Gols sofridos 7\n\n<b>📊 TEMPORADA 2026 · CLUBES</b>\n  ▸ Cerro Porteño · Copa Primera\n     Jogos 3 · Min/jogo 90′ · Jogos sem sofrer gol 2 · Gols sofridos 2\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 12/06 22h · vs 🇺🇸 Estados Unidos\n━━━━━━━━━━━━━━━\n📈 Índice Omnia — a leitura do nosso modelo para o desempenho do jogador em campo, de 0 a 10, ponderada pela posição e calculada a partir dos eventos da partida.\nℹ️ Demais médias por 90 minutos.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+          },
+          "pulso": {
+            "arquivo": "wc2026/player_cards/outputs/_evolucao/paraguay/gatito-fernandez.2026.06.12.txt",
+            "chars": 296,
+            "excede": false,
+            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n❤️📈 PULSO OMNIA\n<b>Gatito Fernández</b> 🇵🇾 GK\n━━━━━━━━━━━━━━━\n\n<b>JOGOS</b>\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 12/06 22h · vs 🇺🇸 Estados Unidos\n━━━━━━━━━━━━━━━\nℹ️ A captura do momento do jogador, segundo o Índice Omnia.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+          }
+        },
+        {
+          "slug": "christianpulisic",
+          "perfil": {
+            "arquivo": "wc2026/player_cards/outputs/_perfis/united-states/christian-pulisic.2026.06.12.txt",
+            "chars": 1255,
+            "excede": false,
+            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n👤 PERFIL\n<b>Christian Pulisic</b> 🇺🇸 FW-MF\n━━━━━━━━━━━━━━━\n   Nome: Christian Mate Pulisic\n   Nascimento: 18 de setembro de 1998\n   Clube: Milan\n   Pé: Destro\n   Altura: 172 cm\n   Peso: 68 kg\n   Salário: € 98,654/semana\n   Instagram: @cmpulisic\n\n<b>📈 ÍNDICE OMNIA</b>\n   Eliminatórias: 6.83  (10 jogos)\n   Temporada do clube: 7.72  (2025/2026)\n   Carreira: 7.41  (12 temporadas · 2015–2026)\n   Copa: — (aguardando a Copa)\n\n<b>🏅 TÍTULOS</b>\n   • 2020-21 Champions League Champion\n   • 4x USSF Male Athlete of the Year\n\n<b>🌎 ELIMINATÓRIAS · Estados Unidos</b>\n  ▸ Jogos 10 · Min/jogo 61′ · Gols 5\n\n<b>📊 TEMPORADA 2025/2026 · CLUBES</b>\n  ▸ Milan · Serie A\n     Jogos 30 · Min/jogo 54′ · Gols 8 · Chutes ao gol 25 · Finalizações 54 · Assistências 4 · Desarmes 8\n  ▸ Milan · Coppa Italia\n     Jogos 3 · Min/jogo 35′ · Gols 2 · Chutes ao gol 3 · Finalizações 6\n  ▸ Milan · Supercoppa\n     Jogos 1 · Min/jogo 90′\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 12/06 22h · vs 🇵🇾 Paraguai\n━━━━━━━━━━━━━━━\n📈 Índice Omnia — a leitura do nosso modelo para o desempenho do jogador em campo, de 0 a 10, ponderada pela posição e calculada a partir dos eventos da partida.\nℹ️ Demais médias por 90 minutos.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+          },
+          "pulso": {
+            "arquivo": "wc2026/player_cards/outputs/_evolucao/united-states/christian-pulisic.2026.06.12.txt",
+            "chars": 294,
+            "excede": false,
+            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n❤️📈 PULSO OMNIA\n<b>Christian Pulisic</b> 🇺🇸 FW-MF\n━━━━━━━━━━━━━━━\n\n<b>JOGOS</b>\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 12/06 22h · vs 🇵🇾 Paraguai\n━━━━━━━━━━━━━━━\nℹ️ A captura do momento do jogador, segundo o Índice Omnia.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+          }
+        }
+      ],
+      "duelos": [
+        {
+          "arquivo": "wc2026/player_cards/outputs/_duelos/christian-pulisicXantonio-sanabria.2026.06.12.txt",
+          "chars": 1895,
+          "excede": false,
+          "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n⚔️ DUELO\n<b>Christian Pulisic</b>  🆚  <b>Antonio Sanabria</b>\n🇺🇸 FW-MF  ×  🇵🇾 FW\n━━━━━━━━━━━━━━━\n<b>🌎 ELIMINATÓRIAS</b>\n   Christian Pulisic: Estados Unidos · Eliminatórias\n   Antonio Sanabria: Paraguai · Eliminatórias\n   📈 Índice Omnia   6.83  ▶ 7.43\n   Jogos ................       10 ·· 13\n   Como titular .........        7 ·· 8\n   Gols .................        5 ◀  4\n\n<b>📊 CLUBE · ÚLTIMA TEMPORADA</b>\n   Christian Pulisic: Milan · Serie A\n   Antonio Sanabria: Cremonese · Serie A\n   📈 Índice Omnia   7.67 ◀  6.52\n   Jogos ................       30 ·· 25\n   Como titular .........       18 ·· 10\n   Min/jogo .............      54′ ·· 38′\n   % dos minutos ........    47.0% ·· 27.6%\n   Gols .................        8 ◀  1\n   Assistências .........        4 ◀  1\n   Finalizações .........       54 ◀  12\n   Chutes ao gol ........       25 ◀  4\n   % no alvo ............    46.3% ◀  33.3%\n   Gols/90 ..............     0.45 ◀  0.10\n   Assist./90 ...........     0.22 ◀  0.10\n   Finalizações/90 ......     3.02 ◀  1.14\n   Chutes ao gol/90 .....     1.40 ◀  0.38\n   Desarmes .............     0.45 ◀  0.19\n   Interceptações .......     0.17 ◀  0.10\n   Cruzamentos ..........     2.07 ◀  0.19\n   Faltas cometidas .....     0.61 ◀  1.43\n   Faltas sofridas ......     1.28 ·· 1.43\n   Pontos/jogo ..........     1.77 ◀  1.04\n   Saldo de gols em campo       +10 ◀  -3\n   Saldo/90 .............     0.56 ◀  -0.29\n━━━━━━━━━━━━━━━\n📅 <b>Próximos Jogos:</b>\nChristian Pulisic vs 12/06 22h 🇵🇾 Paraguai\nAntonio Sanabria vs 12/06 22h 🇺🇸 Estados Unidos\n━━━━━━━━━━━━━━━\n📈 Índice Omnia — a leitura do nosso modelo para o desempenho do jogador em campo, de 0 a 10, ponderada pela posição e calculada a partir dos eventos da partida.\nℹ️ Demais médias por 90 min. ◀ ▶ apontam quem leva (em gols sofridos, cartões e faltas, menos é melhor).\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+        }
+      ]
+    },
+    {
+      "game_key": "2026-06-13_australia_vs_turkey",
+      "data": "2026-06-13",
+      "hora_brasil": "01:00",
+      "kickoff_iso": "2026-06-13T01:00:00-03:00",
+      "fase": "Grupos",
+      "grupo": "D",
+      "mandante": "Australia",
+      "visitante": "Turkey",
+      "mandante_ptbr": "Austrália",
+      "visitante_ptbr": "Turquia",
+      "melhor_pick": null,
+      "agenda": [],
+      "jogadores": [],
+      "duelos": []
+    },
+    {
+      "game_key": "2026-06-13_qatar_vs_switzerland",
+      "data": "2026-06-13",
+      "hora_brasil": "16:00",
+      "kickoff_iso": "2026-06-13T16:00:00-03:00",
+      "fase": "Grupos",
+      "grupo": "B",
+      "mandante": "Qatar",
+      "visitante": "Switzerland",
+      "mandante_ptbr": "Catar",
+      "visitante_ptbr": "Suíça",
+      "melhor_pick": null,
+      "agenda": [],
+      "jogadores": [],
+      "duelos": []
+    },
+    {
+      "game_key": "2026-06-13_brazil_vs_morocco",
+      "data": "2026-06-13",
+      "hora_brasil": "19:00",
+      "kickoff_iso": "2026-06-13T19:00:00-03:00",
+      "fase": "Grupos",
+      "grupo": "C",
+      "mandante": "Brazil",
+      "visitante": "Morocco",
+      "mandante_ptbr": "Brasil",
+      "visitante_ptbr": "Marrocos",
+      "melhor_pick": null,
+      "agenda": [],
+      "jogadores": [],
+      "duelos": []
+    },
+    {
+      "game_key": "2026-06-13_haiti_vs_scotland",
+      "data": "2026-06-13",
+      "hora_brasil": "22:00",
+      "kickoff_iso": "2026-06-13T22:00:00-03:00",
+      "fase": "Grupos",
+      "grupo": "C",
+      "mandante": "Haiti",
+      "visitante": "Scotland",
+      "mandante_ptbr": "Haiti",
+      "visitante_ptbr": "Escócia",
       "melhor_pick": null,
       "agenda": [],
       "jogadores": [],

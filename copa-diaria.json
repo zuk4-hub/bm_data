@@ -1,116 +1,114 @@
 {
   "meta": {
-    "gerado_em": "2026-06-13T09:28:21.534834-03:00",
+    "gerado_em": "2026-06-15T12:24:56.693461-03:00",
     "janela": "agora→fim de amanhã",
     "data_alvo": null,
-    "ate": "2026-06-14T23:59:59-03:00",
-    "n_jogos": 7,
+    "ate": "2026-06-16T23:59:59-03:00",
+    "n_jogos": 8,
     "fonte": "cache wc2026",
     "tg_limit": 4000
   },
   "jogos": [
     {
-      "game_key": "2026-06-13_qatar_vs_switzerland",
-      "data": "2026-06-13",
-      "hora_brasil": "16:00",
-      "kickoff_iso": "2026-06-13T16:00:00-03:00",
+      "game_key": "2026-06-15_spain_vs_cape-verde-islands",
+      "data": "2026-06-15",
+      "hora_brasil": "13:00",
+      "kickoff_iso": "2026-06-15T13:00:00-03:00",
       "fase": "Grupos",
-      "grupo": "B",
-      "mandante": "Qatar",
-      "visitante": "Switzerland",
-      "mandante_ptbr": "Catar",
-      "visitante_ptbr": "Suíça",
-      "melhor_pick": null,
-      "agenda": [],
+      "grupo": "H",
+      "mandante": "Spain",
+      "visitante": "Cape Verde Islands",
+      "mandante_ptbr": "Espanha",
+      "visitante_ptbr": "Cabo Verde",
+      "melhor_pick": {
+        "mercado": "Menos de 3.5 gols",
+        "prob_pct": 58.0,
+        "odd": 1.88,
+        "ev_pct": 8.4,
+        "regime": "core"
+      },
+      "agenda": [
+        {
+          "tipo": "confronto",
+          "publicar_em": "2026-06-15T12:30:00-03:00",
+          "card": {
+            "arquivo": "wc2026/seleção_cards/_jogos/EspanhaXCabo-Verde.2026.06.15.txt",
+            "chars": 745,
+            "excede": false,
+            "texto": "🎯 PICKS OMNIA — <b>🇪🇸 Espanha</b>  🆚  <b>🇨🇻 Cabo Verde</b>\n🏆 Copa do Mundo 2026 · Grupos\n📅 15/06/2026 · 🕒 13h00 · 📍 🇺🇸 Atlanta, EUA · Mercedes-Benz Stadium\n⚖️ Campo neutro\n● Escalação Provável\nEspanha: 🏆 1× campeão (2010)\n🏅 Ranking FIFA: Espanha #2 = · Cabo Verde #67 =\n\n🟢 <b>Menos de 3.5 gols</b>  ·  prob 58%  ·  odd 1.88  ·  EV +8.4%\n🔸 <b>Menos de 2.5 gols</b>  ·  prob 36%  ·  odd 3.19  ·  EV +13.6%\n🔸 <b>Ambas marcam: Não</b>  ·  prob 76%  ·  odd 1.46  ·  EV +11.6%\n🔸 <b>Menos de 4.5 gols</b>  ·  prob 76%  ·  odd 1.37  ·  EV +4.0%\n\n🟢 Core: faixa de odd validada como +EV no histórico (mais segura).\n🔸 Espec.: valor fora dessa faixa — maior risco/retorno.\n\nProbabilidade própria calibrada (▷ OMNIA ◁) × odd real. EV não é garantia de lucro."
+          }
+        }
+      ],
       "jogadores": [],
       "duelos": []
     },
     {
-      "game_key": "2026-06-13_brazil_vs_morocco",
-      "data": "2026-06-13",
-      "hora_brasil": "19:00",
-      "kickoff_iso": "2026-06-13T19:00:00-03:00",
+      "game_key": "2026-06-15_belgium_vs_egypt",
+      "data": "2026-06-15",
+      "hora_brasil": "16:00",
+      "kickoff_iso": "2026-06-15T16:00:00-03:00",
       "fase": "Grupos",
-      "grupo": "C",
-      "mandante": "Brazil",
-      "visitante": "Morocco",
-      "mandante_ptbr": "Brasil",
-      "visitante_ptbr": "Marrocos",
-      "melhor_pick": null,
+      "grupo": "G",
+      "mandante": "Belgium",
+      "visitante": "Egypt",
+      "mandante_ptbr": "Bélgica",
+      "visitante_ptbr": "Egito",
+      "melhor_pick": {
+        "mercado": "Mais de 2.5 gols",
+        "prob_pct": 67.0,
+        "odd": 1.97,
+        "ev_pct": 32.4,
+        "regime": "core"
+      },
       "agenda": [
         {
-          "tipo": "perfil_mandante",
-          "publicar_em": "2026-06-13T15:30:00-03:00",
+          "tipo": "confronto",
+          "publicar_em": "2026-06-15T15:30:00-03:00",
           "card": {
-            "arquivo": "wc2026/seleção_cards/perfil_seleção/Brasil.2026.06.13.txt",
-            "chars": 825,
+            "arquivo": "wc2026/seleção_cards/_jogos/BélgicaXEgito.2026.06.15.txt",
+            "chars": 1298,
             "excede": false,
-            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n🛡️ PERFIL OMNIA — <b>Brasil</b>\n🇧🇷 Grupo C\n🏅 Ranking FIFA: #6 · 1765.86 pts\n🏆 5× campeão (1958 ★ 1962 ★ 1970 ★ 1994 ★ 2002)\n━━━━━━━━━━━━━━━\n📊 <b>Índice Omnia do time:</b> 5.17\n\n<b>GOLS &amp; AMBAS MARCAM</b>\n   Gols feitos: 2.5\n   Gols sofridos: 1.1\n   Ambas marcam: 60%\n\n<b>ESCANTEIOS &amp; CARTÕES</b>\n   Escanteios (no jogo): 7.3\n   Escanteios (da equipe): 4\n   Cartões amarelos (da equipe): 1.3\n\n<b>FINALIZAÇÕES &amp; XG</b>\n   Finalizações: 15.2\n   No gol: 6\n   Para fora: 9.2\n   Finalizações por gol: 6.08\n   xG a favor: 1.7\n   xG contra: 1.18\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 13/06 19h · vs 🇲🇦 Marrocos\n━━━━━━━━━━━━━━━\nℹ️ O índice Omnia (1–10) considera todos os dados do time nos últimos 10 jogos.\nℹ️ Médias por jogo · xG = gols esperados\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
-          }
-        },
-        {
-          "tipo": "perfil_visitante",
-          "publicar_em": "2026-06-13T16:00:00-03:00",
-          "card": {
-            "arquivo": "wc2026/seleção_cards/perfil_seleção/Marrocos.2026.06.13.txt",
-            "chars": 786,
-            "excede": false,
-            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n🛡️ PERFIL OMNIA — <b>Marrocos</b>\n🇲🇦 Grupo C\n🏅 Ranking FIFA: #7 · 1755.1 pts\n━━━━━━━━━━━━━━━\n📊 <b>Índice Omnia do time:</b> 6.54\n\n<b>GOLS &amp; AMBAS MARCAM</b>\n   Gols feitos: 1.9\n   Gols sofridos: 0.4\n   Ambas marcam: 30%\n\n<b>ESCANTEIOS &amp; CARTÕES</b>\n   Escanteios (no jogo): 8.77\n   Escanteios (da equipe): 5.44\n   Cartões amarelos (da equipe): 1.44\n\n<b>FINALIZAÇÕES &amp; XG</b>\n   Finalizações: 14.22\n   No gol: 5.11\n   Para fora: 9.11\n   Finalizações por gol: 9.14\n   xG a favor: 1.63\n   xG contra: 0.8\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 13/06 19h · vs 🇧🇷 Brasil\n━━━━━━━━━━━━━━━\nℹ️ O índice Omnia (1–10) considera todos os dados do time nos últimos 10 jogos.\nℹ️ Médias por jogo · xG = gols esperados\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+            "texto": "🎯 PICKS OMNIA — <b>🇧🇪 Bélgica</b>  🆚  <b>🇪🇬 Egito</b>\n🏆 Copa do Mundo 2026 · Grupos\n📅 15/06/2026 · 🕒 16h00 · 📍 🇺🇸 Seattle, EUA · Lumen Field\n⚖️ Campo neutro\n● Escalação Provável\n🏅 Ranking FIFA: Bélgica #10 ▼1 · Egito #30 ▼1\n\n🟢 <b>Mais de 2.5 gols</b>  ·  prob 67%  ·  odd 1.97  ·  EV +32.4%\n🟢 <b>Vitória no 2º tempo — Bélgica</b>  ·  prob 63%  ·  odd 1.97  ·  EV +24.6%\n🟢 <b>Vitória no 1º tempo — Bélgica</b>  ·  prob 58%  ·  odd 2.14  ·  EV +24.3%\n🟢 <b>Vitória — Bélgica</b>  ·  prob 77%  ·  odd 1.61  ·  EV +23.9%\n🟢 <b>Mais de 1.5 gols no 2º tempo</b>  ·  prob 57%  ·  odd 2.17  ·  EV +23.2%\n🟢 <b>Ambas marcam: Sim</b>  ·  prob 51%  ·  odd 1.98  ·  EV +1.2%\n🔸 <b>Mais de 4.5 gols</b>  ·  prob 27%  ·  odd 6.94  ·  EV +85.7%\n🔸 <b>Mais de 3.5 gols</b>  ·  prob 46%  ·  odd 3.45  ·  EV +57.1%\n🔸 <b>Mais de 1.5 gols no 1º tempo</b>  ·  prob 46%  ·  odd 2.78  ·  EV +28.3%\n🔸 <b>Mais de 1.5 gols</b>  ·  prob 86%  ·  odd 1.30  ·  EV +12.2%\n🔸 <b>Mais de 0.5 gols no 1º tempo</b>  ·  prob 79%  ·  odd 1.38  ·  EV +8.9%\n🔸 <b>Mais de 0.5 gols no 2º tempo</b>  ·  prob 85%  ·  odd 1.25  ·  EV +6.4%\n\n🟢 Core: faixa de odd validada como +EV no histórico (mais segura).\n🔸 Espec.: valor fora dessa faixa — maior risco/retorno.\n\nProbabilidade própria calibrada (▷ OMNIA ◁) × odd real. EV não é garantia de lucro."
           }
         }
       ],
-      "jogadores": [
-        {
-          "slug": "raphinha",
-          "perfil": {
-            "arquivo": "wc2026/player_cards/outputs/_perfis/brazil/perfil_raphinha.txt",
-            "chars": 1580,
-            "excede": false,
-            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n👤 PERFIL\n<b>Raphinha</b> 🇧🇷 FW-MF\n━━━━━━━━━━━━━━━\n   Nome: Raphael Dias Belloli\n   Nascimento: 14 de dezembro de 1996\n   Clube: Barcelona\n   Pé: Canhoto\n   Altura: 176 cm\n   Peso: 63 kg\n   Salário: € 320,577/semana\n\n<b>📈 ÍNDICE OMNIA</b>\n   Eliminatórias: 7.86  (13 jogos)\n   Temporada do clube: 8.55  (2025/2026)\n   Carreira: 7.72  (12 temporadas · 2015–2026)\n   Copa: — (aguardando a Copa)\n\n<b>🏅 TÍTULOS</b>\n   • 2024-25 La Liga Best Player\n   • 3x La Liga Champion\n\n<b>🌎 ELIMINATÓRIAS · Brasil</b>\n  ▸ Jogos 13 · Min/jogo 81′ · Gols 5 · Chutes ao gol 16 · Finalizações 35 · Assistências 2 · Desarmes 11\n\n<b>📊 TEMPORADA 2025/2026 · CLUBES</b>\n  ▸ Barcelona · La Liga\n     Jogos 22 · Min/jogo 63′ · Gols 13 · Chutes ao gol 24 · Finalizações 65 · Assistências 3 · Desarmes 6\n  ▸ Barcelona · Champions Lg\n     Jogos 7 · Min/jogo 78′ · Gols 3 · Chutes ao gol 10 · Finalizações 20 · Assistências 2 · Desarmes 7\n  ▸ Barcelona · Supercopa de España\n     Jogos 2 · Min/jogo 73′ · Gols 4 · Chutes ao gol 5 · Finalizações 8 · Assistências 1 · Desarmes 2\n  ▸ Barcelona · Copa del Rey\n     Jogos 2 · Min/jogo 57′ · Gols 1 · Chutes ao gol 1 · Finalizações 5 · Assistências 1\n\n<b>⭐ DESTAQUE NAS ELIMINATÓRIAS</b>\n   • 7º em gols (CONMEBOL) — 5\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 13/06 19h · vs 🇲🇦 Marrocos\n━━━━━━━━━━━━━━━\n📈 Índice Omnia — a leitura do nosso modelo para o desempenho do jogador em campo, de 0 a 10, ponderada pela posição e calculada a partir dos eventos da partida.\nℹ️ Demais médias por 90 minutos.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
-          },
-          "pulso": null
-        }
-      ],
+      "jogadores": [],
       "duelos": [
         {
-          "arquivo": "wc2026/player_cards/outputs/_duelos/duelo_vinicius-junior_vs_achraf-hakimi.txt",
-          "chars": 1963,
+          "arquivo": "wc2026/player_cards/_duelos/SalahXBruyne/duelo_mohamed-salah_vs_kevin-de-bruyne.txt",
+          "chars": 1949,
           "excede": false,
-          "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n⚔️ DUELO\n<b>Vinicius Júnior</b>  🆚  <b>Achraf Hakimi</b>\n🇧🇷 FW-MF  ×  🇲🇦 DF-MF\n━━━━━━━━━━━━━━━\n<b>🌎 ELIMINATÓRIAS</b>\n   Vinicius Júnior: Brasil · Eliminatórias\n   Achraf Hakimi: Marrocos · Eliminatórias\n   📈 Índice Omnia   7.02 ◀  6.25\n   Jogos ................       11 ·· 6\n   Como titular .........       11 ·· 6\n   Assistências .........        1  ▶ 3\n   Cartões amarelos .....     0.20 ◀  0.33\n\n<b>📊 CLUBE · ÚLTIMA TEMPORADA</b>\n   Vinicius Júnior: Real Madrid · La Liga\n   Achraf Hakimi: Paris Saint-Germain · Ligue 1\n   📈 Índice Omnia   7.68 ◀  6.85\n   Jogos ................       36 ·· 18\n   Como titular .........       32 ·· 15\n   Min/jogo .............      78′ ·· 76′\n   % dos minutos ........    82.3% ·· 44.9%\n   Gols .................       16 ◀  2\n   Assistências .........        5 ◀  2\n   Finalizações .........      100 ◀  27\n   Chutes ao gol ........       46 ◀  9\n   % no alvo ............    46.0% ◀  33.3%\n   Gols/90 ..............     0.51 ◀  0.13\n   Assist./90 ...........     0.16 ◀  0.13\n   Finalizações/90 ......     3.20 ◀  1.77\n   Chutes ao gol/90 .....     1.47 ◀  0.59\n   Desarmes .............     0.48  ▶ 0.85\n   Interceptações .......     0.06  ▶ 0.72\n   Cruzamentos ..........     2.01  ▶ 2.81\n   Cartões amarelos .....     0.26  ▶ 0.20\n   Faltas cometidas .....     1.21  ▶ 0.59\n   Faltas sofridas ......     2.59 ·· 1.11\n   Pontos/jogo ..........     2.22 ·· 2.22\n   Saldo de gols em campo       +34 ◀  +17\n   Saldo/90 .............     1.09  ▶ 1.11\n━━━━━━━━━━━━━━━\n📅 <b>Próximos Jogos:</b>\nVinicius Júnior vs 13/06 19h 🇲🇦 Marrocos\nAchraf Hakimi vs 13/06 19h 🇧🇷 Brasil\n━━━━━━━━━━━━━━━\n📈 Índice Omnia — a leitura do nosso modelo para o desempenho do jogador em campo, de 0 a 10, ponderada pela posição e calculada a partir dos eventos da partida.\nℹ️ Demais médias por 90 min. ◀ ▶ apontam quem leva (em gols sofridos, cartões e faltas, menos é melhor).\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+          "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n⚔️ DUELO\n<b>Mohamed Salah</b>  🆚  <b>Kevin De Bruyne</b>\n🇪🇬 FW-MF  ×  🇧🇪 FW-MF\n━━━━━━━━━━━━━━━\n<b>🌎 ELIMINATÓRIAS</b>\n   Mohamed Salah: Egito · Eliminatórias\n   Kevin De Bruyne: Bélgica · Eliminatórias\n   📈 Índice Omnia   7.43  ▶ 8.53\n   Jogos ................        9 ·· 6\n   Como titular .........        9 ·· 6\n   Gols .................        9 ◀  6\n   Assistências .........        3 ◀  1\n\n<b>📊 CLUBE · ÚLTIMA TEMPORADA</b>\n   Mohamed Salah: Liverpool · Premier League\n   Kevin De Bruyne: Napoli · Serie A\n   📈 Índice Omnia   7.47 ◀  7.43\n   Jogos ................       27 ·· 18\n   Como titular .........       23 ·· 13\n   Min/jogo .............      79′ ·· 65′\n   % dos minutos ........    62.7% ·· 34.1%\n   Gols .................        7 ◀  5\n   Assistências .........        7 ◀  2\n   Finalizações .........       68 ◀  27\n   Chutes ao gol ........       19 ◀  11\n   % no alvo ............    27.9%  ▶ 40.7%\n   Gols/90 ..............     0.29  ▶ 0.39\n   Assist./90 ...........     0.29 ◀  0.15\n   Finalizações/90 ......     2.85 ◀  2.09\n   Chutes ao gol/90 .....     0.80  ▶ 0.85\n   Desarmes .............     0.50  ▶ 0.62\n   Interceptações .......     0.13  ▶ 0.39\n   Cruzamentos ..........     4.92 ◀  4.50\n   Cartões amarelos .....     0.04 ◀  0.08\n   Faltas cometidas .....     0.42 ◀  0.62\n   Faltas sofridas ......     0.67 ·· 0.47\n   Pontos/jogo ..........     1.67  ▶ 2.28\n   Saldo de gols em campo        +5  ▶ +14\n   Saldo/90 .............     0.21  ▶ 1.08\n━━━━━━━━━━━━━━━\n📅 <b>Próximos Jogos:</b>\nMohamed Salah vs 15/06 16h 🇧🇪 Bélgica\nKevin De Bruyne vs 15/06 16h 🇪🇬 Egito\n━━━━━━━━━━━━━━━\n📈 Índice Omnia — a leitura do nosso modelo para o desempenho do jogador em campo, de 0 a 10, ponderada pela posição e calculada a partir dos eventos da partida.\nℹ️ Demais médias por 90 min. ◀ ▶ apontam quem leva (em gols sofridos, cartões e faltas, menos é melhor).\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
         }
       ]
     },
     {
-      "game_key": "2026-06-13_haiti_vs_scotland",
-      "data": "2026-06-13",
-      "hora_brasil": "22:00",
-      "kickoff_iso": "2026-06-13T22:00:00-03:00",
+      "game_key": "2026-06-15_saudi-arabia_vs_uruguay",
+      "data": "2026-06-15",
+      "hora_brasil": "19:00",
+      "kickoff_iso": "2026-06-15T19:00:00-03:00",
       "fase": "Grupos",
-      "grupo": "C",
-      "mandante": "Haiti",
-      "visitante": "Scotland",
-      "mandante_ptbr": "Haiti",
-      "visitante_ptbr": "Escócia",
-      "melhor_pick": null,
+      "grupo": "H",
+      "mandante": "Saudi Arabia",
+      "visitante": "Uruguay",
+      "mandante_ptbr": "Arábia Saudita",
+      "visitante_ptbr": "Uruguai",
+      "melhor_pick": {
+        "mercado": "Ambas marcam: Não",
+        "prob_pct": 69.0,
+        "odd": 1.63,
+        "ev_pct": 11.9,
+        "regime": "core"
+      },
       "agenda": [
         {
-          "tipo": "perfil_mandante",
-          "publicar_em": "2026-06-13T18:30:00-03:00",
+          "tipo": "confronto",
+          "publicar_em": "2026-06-15T18:30:00-03:00",
           "card": {
-            "arquivo": "wc2026/seleção_cards/perfil_seleção/Haiti.2026.06.13.txt",
-            "chars": 775,
+            "arquivo": "wc2026/seleção_cards/_jogos/Arábia-SauditaXUruguai.2026.06.15.txt",
+            "chars": 900,
             "excede": false,
-            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n🛡️ PERFIL OMNIA — <b>Haiti</b>\n🇭🇹 Grupo C\n🏅 Ranking FIFA: #83 · 1293.1 pts\n━━━━━━━━━━━━━━━\n📊 <b>Índice Omnia do time:</b> 3.48\n\n<b>GOLS &amp; AMBAS MARCAM</b>\n   Gols feitos: 1.5\n   Gols sofridos: 1\n   Ambas marcam: 30%\n\n<b>ESCANTEIOS &amp; CARTÕES</b>\n   Escanteios (no jogo): 9.5\n   Escanteios (da equipe): 4.1\n   Cartões amarelos (da equipe): 1.8\n\n<b>FINALIZAÇÕES &amp; XG</b>\n   Finalizações: 10.5\n   No gol: 4.4\n   Para fora: 6.1\n   Finalizações por gol: 7\n   xG a favor: 1.29\n   xG contra: 1.52\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 13/06 22h · vs 🇬🇧 Escócia\n━━━━━━━━━━━━━━━\nℹ️ O índice Omnia (1–10) considera todos os dados do time nos últimos 10 jogos.\nℹ️ Médias por jogo · xG = gols esperados\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
-          }
-        },
-        {
-          "tipo": "perfil_visitante",
-          "publicar_em": "2026-06-13T19:00:00-03:00",
-          "card": {
-            "arquivo": "wc2026/seleção_cards/perfil_seleção/Escócia.2026.06.13.txt",
-            "chars": 780,
-            "excede": false,
-            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n🛡️ PERFIL OMNIA — <b>Escócia</b>\n🇬🇧 Grupo C\n🏅 Ranking FIFA: #41 · 1503.34 pts\n━━━━━━━━━━━━━━━\n📊 <b>Índice Omnia do time:</b> 4.42\n\n<b>GOLS &amp; AMBAS MARCAM</b>\n   Gols feitos: 2.1\n   Gols sofridos: 1\n   Ambas marcam: 50%\n\n<b>ESCANTEIOS &amp; CARTÕES</b>\n   Escanteios (no jogo): 10.9\n   Escanteios (da equipe): 5.1\n   Cartões amarelos (da equipe): 1.5\n\n<b>FINALIZAÇÕES &amp; XG</b>\n   Finalizações: 12.7\n   No gol: 5.5\n   Para fora: 7.2\n   Finalizações por gol: 6.05\n   xG a favor: 1.48\n   xG contra: 1.52\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 13/06 22h · vs 🇭🇹 Haiti\n━━━━━━━━━━━━━━━\nℹ️ O índice Omnia (1–10) considera todos os dados do time nos últimos 10 jogos.\nℹ️ Médias por jogo · xG = gols esperados\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+            "texto": "🎯 PICKS OMNIA — <b>🇸🇦 Arábia Saudita</b>  🆚  <b>🇺🇾 Uruguai</b>\n🏆 Copa do Mundo 2026 · Grupos\n📅 15/06/2026 · 🕒 19h00 · 📍 🇺🇸 Miami, EUA · Hard Rock Stadium\n⚖️ Campo neutro\n● Escalação Provável\nUruguai: 🏆 2× campeão (1930 ★ 1950)\n🏅 Ranking FIFA: Arábia Saudita #60 ▲1 · Uruguai #17 ▼1\n\n🟢 <b>Ambas marcam: Não</b>  ·  prob 69%  ·  odd 1.63  ·  EV +11.9%\n🟢 <b>Menos de 2.5 gols</b>  ·  prob 59%  ·  odd 1.76  ·  EV +3.7%\n🟢 <b>Vitória no 2º tempo — Uruguai</b>  ·  prob 56%  ·  odd 1.80  ·  EV +0.1%\n🔸 <b>Vitória — Uruguai</b>  ·  prob 71%  ·  odd 1.46  ·  EV +4.2%\n🔸 <b>Menos de 1.5 gols</b>  ·  prob 32%  ·  odd 3.22  ·  EV +3.3%\n🔸 <b>Menos de 3.5 gols</b>  ·  prob 79%  ·  odd 1.26  ·  EV +0.1%\n\n🟢 Core: faixa de odd validada como +EV no histórico (mais segura).\n🔸 Espec.: valor fora dessa faixa — maior risco/retorno.\n\nProbabilidade própria calibrada (▷ OMNIA ◁) × odd real. EV não é garantia de lucro."
           }
         }
       ],
@@ -118,68 +116,108 @@
       "duelos": []
     },
     {
-      "game_key": "2026-06-14_germany_vs_curacao",
-      "data": "2026-06-14",
-      "hora_brasil": "14:00",
-      "kickoff_iso": "2026-06-14T14:00:00-03:00",
+      "game_key": "2026-06-15_iran_vs_new-zealand",
+      "data": "2026-06-15",
+      "hora_brasil": "22:00",
+      "kickoff_iso": "2026-06-15T22:00:00-03:00",
       "fase": "Grupos",
-      "grupo": "E",
-      "mandante": "Germany",
-      "visitante": "Curaçao",
-      "mandante_ptbr": "Alemanha",
-      "visitante_ptbr": "Curaçao",
+      "grupo": "G",
+      "mandante": "Iran",
+      "visitante": "New Zealand",
+      "mandante_ptbr": "Irã",
+      "visitante_ptbr": "Nova Zelândia",
+      "melhor_pick": {
+        "mercado": "Vitória — Irã",
+        "prob_pct": 87.0,
+        "odd": 1.91,
+        "ev_pct": 65.3,
+        "regime": "core"
+      },
+      "agenda": [
+        {
+          "tipo": "confronto",
+          "publicar_em": "2026-06-15T21:30:00-03:00",
+          "card": {
+            "arquivo": "wc2026/seleção_cards/_jogos/IrãXNova-Zelândia.2026.06.15.txt",
+            "chars": 1280,
+            "excede": false,
+            "texto": "🎯 PICKS OMNIA — <b>🇮🇷 Irã</b>  🆚  <b>🇳🇿 Nova Zelândia</b>\n🏆 Copa do Mundo 2026 · Grupos\n📅 15/06/2026 · 🕒 22h00 · 📍 🇺🇸 Los Angeles, EUA · SoFi Stadium\n⚖️ Campo neutro\n🏅 Ranking FIFA: Irã #20 = · Nova Zelândia #85 =\n\n🟢 <b>Vitória — Irã</b>  ·  prob 87%  ·  odd 1.91  ·  EV +65.3%\n🟢 <b>Mais de 0.5 gols no 1º tempo</b>  ·  prob 80%  ·  odd 1.50  ·  EV +19.3%\n🟢 <b>Ambas marcam: Não</b>  ·  prob 62%  ·  odd 1.68  ·  EV +4.0%\n🔸 <b>Mais de 4.5 gols</b>  ·  prob 28%  ·  odd 9.87  ·  EV +175.7%\n🔸 <b>Mais de 3.5 gols</b>  ·  prob 47%  ·  odd 4.50  ·  EV +110.9%\n🔸 <b>Vitória no 1º tempo — Irã</b>  ·  prob 67%  ·  odd 2.57  ·  EV +71.1%\n🔸 <b>Vitória no 2º tempo — Irã</b>  ·  prob 72%  ·  odd 2.31  ·  EV +67.2%\n🔸 <b>Mais de 2.5 gols</b>  ·  prob 68%  ·  odd 2.33  ·  EV +59.3%\n🔸 <b>Mais de 1.5 gols no 1º tempo</b>  ·  prob 47%  ·  odd 3.35  ·  EV +57.7%\n🔸 <b>Mais de 1.5 gols no 2º tempo</b>  ·  prob 58%  ·  odd 2.51  ·  EV +44.9%\n🔸 <b>Mais de 1.5 gols</b>  ·  prob 87%  ·  odd 1.43  ·  EV +24.3%\n🔸 <b>Mais de 0.5 gols no 2º tempo</b>  ·  prob 86%  ·  odd 1.32  ·  EV +13.0%\n\n🟢 Core: faixa de odd validada como +EV no histórico (mais segura).\n🔸 Espec.: valor fora dessa faixa — maior risco/retorno.\n\nProbabilidade própria calibrada (▷ OMNIA ◁) × odd real. EV não é garantia de lucro."
+          }
+        }
+      ],
+      "jogadores": [],
+      "duelos": []
+    },
+    {
+      "game_key": "2026-06-16_austria_vs_jordan",
+      "data": "2026-06-16",
+      "hora_brasil": "01:00",
+      "kickoff_iso": "2026-06-16T01:00:00-03:00",
+      "fase": "Grupos",
+      "grupo": "J",
+      "mandante": "Austria",
+      "visitante": "Jordan",
+      "mandante_ptbr": "Áustria",
+      "visitante_ptbr": "Jordânia",
       "melhor_pick": null,
       "agenda": [],
       "jogadores": [],
       "duelos": []
     },
     {
-      "game_key": "2026-06-14_netherlands_vs_japan",
-      "data": "2026-06-14",
-      "hora_brasil": "17:00",
-      "kickoff_iso": "2026-06-14T17:00:00-03:00",
+      "game_key": "2026-06-16_france_vs_senegal",
+      "data": "2026-06-16",
+      "hora_brasil": "16:00",
+      "kickoff_iso": "2026-06-16T16:00:00-03:00",
       "fase": "Grupos",
-      "grupo": "F",
-      "mandante": "Netherlands",
-      "visitante": "Japan",
-      "mandante_ptbr": "Holanda",
-      "visitante_ptbr": "Japão",
+      "grupo": "I",
+      "mandante": "France",
+      "visitante": "Senegal",
+      "mandante_ptbr": "França",
+      "visitante_ptbr": "Senegal",
       "melhor_pick": null,
       "agenda": [],
       "jogadores": [],
       "duelos": []
     },
     {
-      "game_key": "2026-06-14_ivory-coast_vs_ecuador",
-      "data": "2026-06-14",
-      "hora_brasil": "20:00",
-      "kickoff_iso": "2026-06-14T20:00:00-03:00",
+      "game_key": "2026-06-16_iraq_vs_norway",
+      "data": "2026-06-16",
+      "hora_brasil": "19:00",
+      "kickoff_iso": "2026-06-16T19:00:00-03:00",
       "fase": "Grupos",
-      "grupo": "E",
-      "mandante": "Ivory Coast",
-      "visitante": "Ecuador",
-      "mandante_ptbr": "Costa do Marfim",
-      "visitante_ptbr": "Equador",
+      "grupo": "I",
+      "mandante": "Iraq",
+      "visitante": "Norway",
+      "mandante_ptbr": "Iraque",
+      "visitante_ptbr": "Noruega",
       "melhor_pick": null,
       "agenda": [],
       "jogadores": [],
       "duelos": []
     },
     {
-      "game_key": "2026-06-14_sweden_vs_tunisia",
-      "data": "2026-06-14",
-      "hora_brasil": "23:00",
-      "kickoff_iso": "2026-06-14T23:00:00-03:00",
+      "game_key": "2026-06-16_argentina_vs_algeria",
+      "data": "2026-06-16",
+      "hora_brasil": "22:00",
+      "kickoff_iso": "2026-06-16T22:00:00-03:00",
       "fase": "Grupos",
-      "grupo": "F",
-      "mandante": "Sweden",
-      "visitante": "Tunisia",
-      "mandante_ptbr": "Suécia",
-      "visitante_ptbr": "Tunísia",
+      "grupo": "J",
+      "mandante": "Argentina",
+      "visitante": "Algeria",
+      "mandante_ptbr": "Argentina",
+      "visitante_ptbr": "Argélia",
       "melhor_pick": null,
       "agenda": [],
       "jogadores": [],
-      "duelos": []
+      "duelos": [
+        {
+          "arquivo": "wc2026/player_cards/Projeto Gráfico /EXEMPLO DUELO MESSI-CRISTIANO/duelo_lionel-messi_vs_cristiano-ronaldo.txt",
+          "chars": 2090,
+          "excede": false,
+          "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n⚔️ DUELO\n<b>Lionel Messi</b>  🆚  <b>Cristiano Ronaldo</b>\n🇦🇷 FW-MF  ×  🇵🇹 FW-MF\n━━━━━━━━━━━━━━━\n<b>🌎 ELIMINATÓRIAS</b>\n   Lionel Messi: Argentina · Eliminatórias\n   Cristiano Ronaldo: Portugal · Eliminatórias\n   📈 Índice Omnia   8.46 ◀  8.40\n   Jogos ................       12 ·· 5\n   Como titular .........       10 ·· 5\n   Gols .................        8 ◀  5\n   Finalizações .........       45 ◀  31\n   Chutes ao gol ........       20 ◀  12\n   Cruzamentos ..........     3.24 ◀  0.49\n   Faltas cometidas .....     0.67 ◀  0.73\n\n<b>📊 CLUBE · ÚLTIMA TEMPORADA</b>\n   Lionel Messi: Inter Miami · MLS\n   Cristiano Ronaldo: Al-Nassr · Pro League\n   📈 Índice Omnia   8.60 ◀  8.44\n   Jogos ................       14 ·· 30\n   Como titular .........       14 ·· 30\n   Min/jogo .............      89′ ·· 87′\n   % dos minutos ........    92.0% ·· 85.0%\n   Gols .................       12  ▶ 28\n   Assistências .........        7 ◀  2\n   Finalizações .........       84  ▶ 161\n   Chutes ao gol ........       35  ▶ 60\n   % no alvo ............    41.7% ◀  37.3%\n   Gols/90 ..............     0.87  ▶ 0.97\n   Assist./90 ...........     0.51 ◀  0.07\n   Finalizações/90 ......     6.09 ◀  5.57\n   Chutes ao gol/90 .....     2.54 ◀  2.08\n   Desarmes .............     0.29 ◀  0.07\n   Interceptações .......     0.14 ◀  0.10\n   Cruzamentos ..........     2.54 ◀  0.31\n   Cartões amarelos .....     0.14  ▶ 0.07\n   Faltas cometidas .....     0.87  ▶ 0.42\n   Faltas sofridas ......     1.74 ·· 0.66\n   Pontos/jogo ..........     2.14  ▶ 2.47\n   Saldo de gols em campo        +9  ▶ +51\n   Saldo/90 .............     0.65  ▶ 1.76\n━━━━━━━━━━━━━━━\n📅 <b>Próximos Jogos:</b>\nLionel Messi vs 16/06 22h 🇩🇿 Argélia\nCristiano Ronaldo vs 17/06 14h 🇨🇩 RD do Congo\n━━━━━━━━━━━━━━━\n📈 Índice Omnia — a leitura do nosso modelo para o desempenho do jogador em campo, de 0 a 10, ponderada pela posição e calculada a partir dos eventos da partida.\nℹ️ Demais médias por 90 min. ◀ ▶ apontam quem leva (em gols sofridos, cartões e faltas, menos é melhor).\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+        }
+      ]
     }
   ]
 }

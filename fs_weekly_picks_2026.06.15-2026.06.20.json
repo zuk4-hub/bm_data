@@ -2,7 +2,7 @@
   "odds_file_header": {
     "source": "fs_weekly_builder_v2",
     "versao": "2.0",
-    "gerado_em": "2026-06-15T05:42:30.978633-03:00",
+    "gerado_em": "2026-06-15T05:47:05.532744-03:00",
     "csv_origem": "jogos-2026.06.13-2026.06.20.csv",
     "periodo_inicio": "2026-06-15",
     "periodo_fim": "2026-06-20",
@@ -13,9 +13,9 @@
     },
     "ev_engine": "omnia_calibrado",
     "ev_engine_cutoff": "2026-06-10",
-    "janela_admin_inicio": "2026-06-15T05:42:30.866674-03:00",
+    "janela_admin_inicio": "2026-06-15T05:47:05.416402-03:00",
     "janela_admin_fim": "2026-06-16T23:59:59-03:00",
-    "atualizado_em": "2026-06-15T05:42:31.627349-03:00",
+    "atualizado_em": "2026-06-15T05:47:06.167522-03:00",
     "preguicoso_n": 7,
     "enriquecido_em": "2026-06-15"
   },

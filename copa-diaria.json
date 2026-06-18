@@ -1,187 +1,232 @@
 {
   "meta": {
-    "gerado_em": "2026-06-16T13:26:42.827030-03:00",
+    "gerado_em": "2026-06-18T05:30:53.953387-03:00",
     "janela": "agora→fim de amanhã",
     "data_alvo": null,
-    "ate": "2026-06-17T23:59:59-03:00",
-    "n_jogos": 7,
+    "ate": "2026-06-19T23:59:59-03:00",
+    "n_jogos": 8,
     "fonte": "cache wc2026",
     "tg_limit": 4000
   },
   "jogos": [
     {
-      "game_key": "2026-06-16_france_vs_senegal",
-      "data": "2026-06-16",
-      "hora_brasil": "16:00",
-      "kickoff_iso": "2026-06-16T16:00:00-03:00",
+      "game_key": "2026-06-18_czech-republic_vs_south-africa",
+      "data": "2026-06-18",
+      "hora_brasil": "13:00",
+      "kickoff_iso": "2026-06-18T13:00:00-03:00",
       "fase": "Grupos",
-      "grupo": "I",
-      "mandante": "France",
-      "visitante": "Senegal",
-      "mandante_ptbr": "França",
-      "visitante_ptbr": "Senegal",
+      "grupo": "A",
+      "mandante": "Czech Republic",
+      "visitante": "South Africa",
+      "mandante_ptbr": "República Tcheca",
+      "visitante_ptbr": "África do Sul",
       "melhor_pick": {
         "mercado": "Mais de 2.5 gols",
-        "prob_pct": 60.0,
-        "odd": 1.87,
-        "ev_pct": 11.8,
+        "prob_pct": 53.0,
+        "odd": 2.08,
+        "ev_pct": 10.2,
         "regime": "core"
       },
       "agenda": [
         {
           "tipo": "confronto",
-          "publicar_em": "2026-06-16T15:30:00-03:00",
+          "publicar_em": "2026-06-18T12:30:00-03:00",
           "card": {
-            "arquivo": "wc2026/seleção_cards/_jogos/FrançaXSenegal.2026.06.16.txt",
-            "chars": 880,
+            "arquivo": "wc2026/seleção_cards/_jogos/República-TchecaXÁfrica-do-Sul.2026.06.18.txt",
+            "chars": 942,
             "excede": false,
-            "texto": "🎯 PICKS OMNIA — <b>🇫🇷 França</b>  🆚  <b>🇸🇳 Senegal</b>\n🏆 Copa do Mundo 2026 · Grupos\n📅 16/06/2026 · 🕒 16h00 · 📍 🇺🇸 Nova York, EUA · MetLife Stadium\n⚖️ Campo neutro\n● Escalação Provável\nFrança: 🏆 2× campeão (1998 ★ 2018)\n🏅 Ranking FIFA: França #3 = · Senegal #16 ▼1\n\n🟢 <b>Mais de 2.5 gols</b>  ·  prob 60%  ·  odd 1.87  ·  EV +11.8%\n🟢 <b>Ambas marcam: Sim</b>  ·  prob 53%  ·  odd 2.00  ·  EV +5.2%\n🔸 <b>Mais de 4.5 gols</b>  ·  prob 20%  ·  odd 6.39  ·  EV +28.5%\n🔸 <b>Mais de 3.5 gols</b>  ·  prob 37%  ·  odd 3.18  ·  EV +19.0%\n🔸 <b>Mais de 1.5 gols no 1º tempo</b>  ·  prob 41%  ·  odd 2.67  ·  EV +8.3%\n🔸 <b>Mais de 1.5 gols</b>  ·  prob 82%  ·  odd 1.26  ·  EV +3.2%\n\n🟢 Core: faixa de odd validada como +EV no histórico (mais segura).\n🔸 Espec.: valor fora dessa faixa — maior risco/retorno.\n\nProbabilidade própria calibrada (▷ OMNIA ◁) × odd real. EV não é garantia de lucro."
+            "texto": "🎯 PICKS OMNIA — <b>🇨🇿 República Tcheca</b>  🆚  <b>🇿🇦 África do Sul</b>\n🏆 Copa do Mundo 2026 · Grupos\n📅 18/06/2026 · 🕒 13h00 · 📍 🇺🇸 Atlanta, EUA · Mercedes-Benz Stadium\n⚖️ Campo neutro\n🏅 Ranking FIFA: República Tcheca #44 ▼4 · África do Sul #61 ▼1\n\n🟢 <b>Mais de 2.5 gols</b>  ·  prob 53%  ·  odd 2.08  ·  EV +10.2%\n🟢 <b>Ambas marcam: Sim</b>  ·  prob 56%  ·  odd 1.94  ·  EV +8.2%\n🔸 <b>Mais de 4.5 gols</b>  ·  prob 15%  ·  odd 7.77  ·  EV +18.0%\n🔸 <b>Mais de 3.5 gols</b>  ·  prob 31%  ·  odd 3.80  ·  EV +16.8%\n🔸 <b>Vitória — África do Sul</b>  ·  prob 26%  ·  odd 4.29  ·  EV +12.3%\n🔸 <b>Vitória no 1º tempo — África do Sul</b>  ·  prob 23%  ·  odd 4.78  ·  EV +9.6%\n🔸 <b>Mais de 1.5 gols</b>  ·  prob 77%  ·  odd 1.34  ·  EV +3.8%\n\n🟢 Core: faixa de odd validada como +EV no histórico (mais segura).\n🔸 Espec.: valor fora dessa faixa — maior risco/retorno.\n\nProbabilidade própria calibrada (▷ OMNIA ◁) × odd real. EV não é garantia de lucro."
           }
         }
       ],
+      "jogadores": [],
+      "duelos": []
+    },
+    {
+      "game_key": "2026-06-18_switzerland_vs_bosnia-herzegovina",
+      "data": "2026-06-18",
+      "hora_brasil": "16:00",
+      "kickoff_iso": "2026-06-18T16:00:00-03:00",
+      "fase": "Grupos",
+      "grupo": "B",
+      "mandante": "Switzerland",
+      "visitante": "Bosnia and Herzegovina",
+      "mandante_ptbr": "Suíça",
+      "visitante_ptbr": "Bósnia e Herzegovina",
+      "melhor_pick": {
+        "mercado": "Vitória — Suíça",
+        "prob_pct": 74.0,
+        "odd": 1.56,
+        "ev_pct": 16.2,
+        "regime": "core"
+      },
+      "agenda": [
+        {
+          "tipo": "confronto",
+          "publicar_em": "2026-06-18T15:30:00-03:00",
+          "card": {
+            "arquivo": "wc2026/seleção_cards/_jogos/SuíçaXBósnia-e-Herzegovina.2026.06.18.txt",
+            "chars": 1001,
+            "excede": false,
+            "texto": "🎯 PICKS OMNIA — <b>🇨🇭 Suíça</b>  🆚  <b>🇧🇦 Bósnia e Herzegovina</b>\n🏆 Copa do Mundo 2026 · Grupos\n📅 18/06/2026 · 🕒 16h00 · 📍 🇺🇸 Los Angeles, EUA · SoFi Stadium\n⚖️ Campo neutro\n🏅 Ranking FIFA: Suíça #19 = · Bósnia e Herzegovina #63 ▲1\n\n🟢 <b>Vitória — Suíça</b>  ·  prob 74%  ·  odd 1.56  ·  EV +16.2%\n🟢 <b>Vitória no 1º tempo — Suíça</b>  ·  prob 55%  ·  odd 2.09  ·  EV +14.3%\n🟢 <b>Mais de 2.5 gols</b>  ·  prob 57%  ·  odd 1.99  ·  EV +12.9%\n🟢 <b>Vitória no 2º tempo — Suíça</b>  ·  prob 60%  ·  odd 1.88  ·  EV +12.9%\n🔸 <b>Mais de 4.5 gols</b>  ·  prob 18%  ·  odd 7.19  ·  EV +27.9%\n🔸 <b>Mais de 3.5 gols</b>  ·  prob 34%  ·  odd 3.49  ·  EV +19.9%\n🔸 <b>Mais de 1.5 gols no 1º tempo</b>  ·  prob 38%  ·  odd 2.85  ·  EV +9.5%\n🔸 <b>Mais de 1.5 gols</b>  ·  prob 80%  ·  odd 1.30  ·  EV +3.8%\n\n🟢 Core: faixa de odd validada como +EV no histórico (mais segura).\n🔸 Espec.: valor fora dessa faixa — maior risco/retorno.\n\nProbabilidade própria calibrada (▷ OMNIA ◁) × odd real. EV não é garantia de lucro."
+          }
+        }
+      ],
+      "jogadores": [],
+      "duelos": []
+    },
+    {
+      "game_key": "2026-06-18_canada_vs_qatar",
+      "data": "2026-06-18",
+      "hora_brasil": "19:00",
+      "kickoff_iso": "2026-06-18T19:00:00-03:00",
+      "fase": "Grupos",
+      "grupo": "B",
+      "mandante": "Canada",
+      "visitante": "Qatar",
+      "mandante_ptbr": "Canadá",
+      "visitante_ptbr": "Catar",
+      "melhor_pick": {
+        "mercado": "Vitória — Catar",
+        "prob_pct": 17.0,
+        "odd": 10.85,
+        "ev_pct": 87.2,
+        "regime": "especulativo"
+      },
+      "agenda": [
+        {
+          "tipo": "confronto",
+          "publicar_em": "2026-06-18T18:30:00-03:00",
+          "card": {
+            "arquivo": "wc2026/seleção_cards/_jogos/CanadáXCatar.2026.06.18.txt",
+            "chars": 897,
+            "excede": false,
+            "texto": "🎯 PICKS OMNIA — <b>🇨🇦 Canadá</b>  🆚  <b>🇶🇦 Catar</b>\n🏆 Copa do Mundo 2026 · Grupos\n📅 18/06/2026 · 🕒 19h00 · 📍 🇨🇦 Vancouver, Canadá · BC Place Stadium\n⚖️ Campo neutro\n🏅 Ranking FIFA: Canadá #32 ▼2 · Catar #49 ▲7\n\n🔸 <b>Vitória — Catar</b>  ·  prob 17%  ·  odd 10.85  ·  EV +87.2%\n🔸 <b>Vitória no 1º tempo — Catar</b>  ·  prob 17%  ·  odd 9.21  ·  EV +57.1%\n🔸 <b>Vitória no 2º tempo — Catar</b>  ·  prob 18%  ·  odd 8.46  ·  EV +50.2%\n🔸 <b>Empate</b>  ·  prob 23%  ·  odd 5.53  ·  EV +25.6%\n🔸 <b>Ambas marcam: Sim</b>  ·  prob 53%  ·  odd 2.23  ·  EV +17.1%\n🔸 <b>Empate no 1º tempo</b>  ·  prob 39%  ·  odd 2.60  ·  EV +0.3%\n🔸 <b>Empate no 2º tempo</b>  ·  prob 34%  ·  odd 2.98  ·  EV +0.2%\n\n🟢 Core: faixa de odd validada como +EV no histórico (mais segura).\n🔸 Espec.: valor fora dessa faixa — maior risco/retorno.\n\nProbabilidade própria calibrada (▷ OMNIA ◁) × odd real. EV não é garantia de lucro."
+          }
+        }
+      ],
+      "jogadores": [],
+      "duelos": []
+    },
+    {
+      "game_key": "2026-06-18_mexico_vs_south-korea",
+      "data": "2026-06-18",
+      "hora_brasil": "22:00",
+      "kickoff_iso": "2026-06-18T22:00:00-03:00",
+      "fase": "Grupos",
+      "grupo": "A",
+      "mandante": "Mexico",
+      "visitante": "South Korea",
+      "mandante_ptbr": "México",
+      "visitante_ptbr": "Coreia do Sul",
+      "melhor_pick": {
+        "mercado": "Vitória — México",
+        "prob_pct": 55.0,
+        "odd": 2.0,
+        "ev_pct": 10.6,
+        "regime": "core"
+      },
+      "agenda": [
+        {
+          "tipo": "confronto",
+          "publicar_em": "2026-06-18T21:30:00-03:00",
+          "card": {
+            "arquivo": "wc2026/seleção_cards/_jogos/MéxicoXCoreia-do-Sul.2026.06.18.txt",
+            "chars": 995,
+            "excede": false,
+            "texto": "🎯 PICKS OMNIA — <b>🇲🇽 México</b>  🆚  <b>🇰🇷 Coreia do Sul</b>\n🏆 Copa do Mundo 2026 · Grupos\n📅 18/06/2026 · 🕒 22h00 · 📍 🇲🇽 Guadalajara, México · Estadio Akron\n⚖️ Campo neutro\n🏅 Ranking FIFA: México #13 ▲1 · Coreia do Sul #22 ▲3\n\n🟢 <b>Vitória — México</b>  ·  prob 55%  ·  odd 2.00  ·  EV +10.6%\n🟢 <b>Ambas marcam: Sim</b>  ·  prob 50%  ·  odd 2.00  ·  EV +0.8%\n🔸 <b>Mais de 3.5 gols</b>  ·  prob 28%  ·  odd 4.20  ·  EV +15.7%\n🔸 <b>Mais de 2.5 gols</b>  ·  prob 49%  ·  odd 2.27  ·  EV +12.3%\n🔸 <b>Mais de 1.5 gols no 1º tempo</b>  ·  prob 34%  ·  odd 3.28  ·  EV +9.9%\n🔸 <b>Vitória no 1º tempo — México</b>  ·  prob 41%  ·  odd 2.68  ·  EV +8.9%\n🔸 <b>Vitória no 2º tempo — México</b>  ·  prob 45%  ·  odd 2.39  ·  EV +6.7%\n🔸 <b>Mais de 1.5 gols</b>  ·  prob 75%  ·  odd 1.39  ·  EV +4.0%\n\n🟢 Core: faixa de odd validada como +EV no histórico (mais segura).\n🔸 Espec.: valor fora dessa faixa — maior risco/retorno.\n\nProbabilidade própria calibrada (▷ OMNIA ◁) × odd real. EV não é garantia de lucro."
+          }
+        }
+      ],
+      "jogadores": [],
+      "duelos": []
+    },
+    {
+      "game_key": "2026-06-19_turkey_vs_paraguay",
+      "data": "2026-06-19",
+      "hora_brasil": "00:00",
+      "kickoff_iso": "2026-06-19T00:00:00-03:00",
+      "fase": "Grupos",
+      "grupo": "D",
+      "mandante": "Turkey",
+      "visitante": "Paraguay",
+      "mandante_ptbr": "Turquia",
+      "visitante_ptbr": "Paraguai",
+      "melhor_pick": null,
+      "agenda": [],
+      "jogadores": [],
+      "duelos": []
+    },
+    {
+      "game_key": "2026-06-19_united-states-mens_vs_australia",
+      "data": "2026-06-19",
+      "hora_brasil": "16:00",
+      "kickoff_iso": "2026-06-19T16:00:00-03:00",
+      "fase": "Grupos",
+      "grupo": "D",
+      "mandante": "USMNT",
+      "visitante": "Australia",
+      "mandante_ptbr": "Estados Unidos",
+      "visitante_ptbr": "Austrália",
+      "melhor_pick": null,
+      "agenda": [],
+      "jogadores": [],
+      "duelos": []
+    },
+    {
+      "game_key": "2026-06-19_scotland_vs_morocco",
+      "data": "2026-06-19",
+      "hora_brasil": "19:00",
+      "kickoff_iso": "2026-06-19T19:00:00-03:00",
+      "fase": "Grupos",
+      "grupo": "C",
+      "mandante": "Scotland",
+      "visitante": "Morocco",
+      "mandante_ptbr": "Escócia",
+      "visitante_ptbr": "Marrocos",
+      "melhor_pick": null,
+      "agenda": [],
+      "jogadores": [],
+      "duelos": []
+    },
+    {
+      "game_key": "2026-06-19_brazil_vs_haiti",
+      "data": "2026-06-19",
+      "hora_brasil": "21:30",
+      "kickoff_iso": "2026-06-19T21:30:00-03:00",
+      "fase": "Grupos",
+      "grupo": "C",
+      "mandante": "Brazil",
+      "visitante": "Haiti",
+      "mandante_ptbr": "Brasil",
+      "visitante_ptbr": "Haiti",
+      "melhor_pick": null,
+      "agenda": [],
       "jogadores": [
         {
-          "slug": "michaelolise",
+          "slug": "casemiro",
           "perfil": {
-            "arquivo": "wc2026/player_cards/_perfis/france/perfil_michael-olise.txt",
-            "chars": 1439,
+            "arquivo": "wc2026/player_cards/_perfis/brazil/casemiro.2026.06.18.txt",
+            "chars": 1613,
             "excede": false,
-            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n👤 PERFIL\n<b>Michael Olise</b> 🇫🇷 FW-MF\n━━━━━━━━━━━━━━━\n   Nome: Michael Akpovie Olise\n   Nascimento: 12 de dezembro de 2001\n   Clube: Bayern Munich\n   Pé: Canhoto\n   Altura: 178 cm\n   Peso: 78 kg\n   Salário: € 259,808/semana\n\n<b>📈 ÍNDICE OMNIA</b>\n   Eliminatórias: 7.82  (5 jogos)\n   Temporada do clube: 8.32  (2025/2026)\n   Carreira: 7.75  (9 temporadas · 2018–2026)\n   Copa: — (aguardando a Copa)\n\n<b>🏅 TÍTULOS</b>\n   • 2x Bundesliga Champion\n\n<b>🌎 ELIMINATÓRIAS · França</b>\n  ▸ Jogos 5 · Min/jogo 85′ · Gols 2 · Chutes ao gol 5 · Finalizações 13 · Desarmes 5\n\n<b>📊 TEMPORADA 2025/2026 · CLUBES</b>\n  ▸ Bayern Munich · Bundesliga\n     Jogos 32 · Min/jogo 72′ · Gols 15 · Chutes ao gol 50 · Finalizações 102 · Assistências 19 · Desarmes 11\n  ▸ Bayern Munich · Champions Lg\n     Jogos 13 · Min/jogo 83′ · Gols 5 · Chutes ao gol 19 · Finalizações 45 · Assistências 6 · Desarmes 5\n  ▸ Bayern Munich · DFB-Pokal\n     Jogos 6 · Min/jogo 87′ · Gols 2 · Chutes ao gol 6 · Finalizações 13 · Assistências 1 · Desarmes 2\n  ▸ Bayern Munich · DFL-Supercup\n     Jogos 1 · Min/jogo 89′ · Finalizações 6\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 16/06 16h · vs 🇸🇳 Senegal\n━━━━━━━━━━━━━━━\n📈 Índice Omnia — a leitura do nosso modelo para o desempenho do jogador em campo, de 0 a 10, ponderada pela posição e calculada a partir dos eventos da partida.\nℹ️ Demais médias por 90 minutos.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
+            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n👤 PERFIL\n<b>Casemiro</b> 🇧🇷 MF\n━━━━━━━━━━━━━━━\n   Nome: Carlos Henrique Casimiro\n   Nascimento: 23 de fevereiro de 1992\n   Clube: Manchester United\n   Pé: Destro\n   Altura: 184 cm\n   Peso: 83 kg\n   Salário: £ 350,000/semana\n   Instagram: @casemiro_oficial\n\n<b>📈 ÍNDICE OMNIA</b>\n   Eliminatórias: 6.58  (7 jogos)\n   Temporada do clube: 7.00  (2025/2026)\n   Carreira: 6.93  (14 temporadas · 2012–2026)\n   Copa: — (aguardando a Copa)\n\n<b>🏅 TÍTULOS</b>\n   • 3x La Liga Champion\n   • 5x Champions League Champion\n   • 2022 FIFA FIFPro World XI\n\n<b>🌎 ELIMINATÓRIAS · Brasil</b>\n  ▸ Jogos 7 · Min/jogo 85′ · Chutes ao gol 2 · Desarmes 11\n\n<b>📊 TEMPORADA 2025/2026 · CLUBES</b>\n  ▸ Manchester Utd · Premier League\n     Jogos 34 · Min/jogo 76′ · Assistências 2 · Chutes ao gol 18 · Desarmes 45\n  ▸ Manchester Utd · FA Cup\n     Jogos 1 · Min/jogo 12′\n\n<b>🗓️ ÚLTIMOS JOGOS</b>\n  ▸ 13/04 Premier League · Casa L 1–2 vs Leeds\n     90′ · 1 gol · 2 finaliz. · 2 no alvo\n  ▸ 18/04 Premier League · Fora W 1–0 vs Chelsea\n     90′\n  ▸ 27/04 Premier League · Casa W 2–1 vs Brentford\n     90′ · 1 gol · 3 finaliz. · 1 no alvo\n  ▸ 03/05 Premier League · Casa W 3–2 vs Liverpool\n     90′ · 1 finaliz. · 1 no alvo\n  ▸ 17/05 Premier League · Casa W 3–2 vs Nottingham\n     79′ · 3 finaliz.\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 19/06 21h30 · vs 🇭🇹 Haiti\n━━━━━━━━━━━━━━━\n📈 Índice Omnia — a leitura do nosso modelo para o desempenho do jogador em campo, de 0 a 10, ponderada pela posição e calculada a partir dos eventos da partida.\nℹ️ Demais médias por 90 minutos.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
           },
-          "pulso": null
-        }
-      ],
-      "duelos": []
-    },
-    {
-      "game_key": "2026-06-16_iraq_vs_norway",
-      "data": "2026-06-16",
-      "hora_brasil": "19:00",
-      "kickoff_iso": "2026-06-16T19:00:00-03:00",
-      "fase": "Grupos",
-      "grupo": "I",
-      "mandante": "Iraq",
-      "visitante": "Norway",
-      "mandante_ptbr": "Iraque",
-      "visitante_ptbr": "Noruega",
-      "melhor_pick": {
-        "mercado": "Mais de 2.5 gols",
-        "prob_pct": 67.0,
-        "odd": 1.61,
-        "ev_pct": 8.0,
-        "regime": "core"
-      },
-      "agenda": [
-        {
-          "tipo": "confronto",
-          "publicar_em": "2026-06-16T18:30:00-03:00",
-          "card": {
-            "arquivo": "wc2026/seleção_cards/_jogos/IraqueXNoruega.2026.06.16.txt",
-            "chars": 1127,
+          "pulso": {
+            "arquivo": "wc2026/player_cards/_evolucao/brazil/casemiro.2026.06.18.txt",
+            "chars": 1021,
             "excede": false,
-            "texto": "🎯 PICKS OMNIA — <b>🇮🇶 Iraque</b>  🆚  <b>🇳🇴 Noruega</b>\n🏆 Copa do Mundo 2026 · Grupos\n📅 16/06/2026 · 🕒 19h00 · 📍 🇺🇸 Boston, EUA · Gillette Stadium\n⚖️ Campo neutro\n● Escalação Provável\n🏅 Ranking FIFA: Iraque #57 = · Noruega #31 =\n\n🟢 <b>Mais de 2.5 gols</b>  ·  prob 67%  ·  odd 1.61  ·  EV +8.0%\n🔸 <b>Vitória — Iraque</b>  ·  prob 15%  ·  odd 14.12  ·  EV +114.3%\n🔸 <b>Vitória no 1º tempo — Iraque</b>  ·  prob 17%  ·  odd 11.05  ·  EV +82.9%\n🔸 <b>Vitória no 2º tempo — Iraque</b>  ·  prob 17%  ·  odd 9.97  ·  EV +67.8%\n🔸 <b>Ambas marcam no 2º tempo — Sim</b>  ·  prob 33%  ·  odd 4.28  ·  EV +39.5%\n🔸 <b>Ambas marcam: Sim</b>  ·  prob 60%  ·  odd 2.29  ·  EV +37.8%\n🔸 <b>Empate</b>  ·  prob 19%  ·  odd 6.83  ·  EV +29.5%\n🔸 <b>Mais de 4.5 gols</b>  ·  prob 27%  ·  odd 4.76  ·  EV +26.6%\n🔸 <b>Mais de 3.5 gols</b>  ·  prob 45%  ·  odd 2.56  ·  EV +16.1%\n🔸 <b>Mais de 1.5 gols</b>  ·  prob 86%  ·  odd 1.18  ·  EV +1.9%\n\n🟢 Core: faixa de odd validada como +EV no histórico (mais segura).\n🔸 Espec.: valor fora dessa faixa — maior risco/retorno.\n\nProbabilidade própria calibrada (▷ OMNIA ◁) × odd real. EV não é garantia de lucro."
+            "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n❤️📈 PULSO OMNIA\n<b>Casemiro</b> 🇧🇷 MF\n━━━━━━━━━━━━━━━\n   13/04    8.09  ▬\n   18/04    7.82  ▼ -3%\n   27/04    8.79  ▲ +12%\n   03/05    7.22  ▼ -18%\n   17/05    6.36  ▼ -12%\n   31/05    8.00  ▲ +26%\n   06/06    6.00  ▼ -25%\n   13/06    5.80  ▼ -3%\n\n<b>JOGOS</b>\n   13/04 Premier League · Casa 1–2 vs Leeds\n        90′ · 2 chutes ao gol\n   18/04 Premier League · Fora 1–0 vs Chelsea\n        90′ · 3 desarmes\n   27/04 Premier League · Casa 2–1 vs Brentford\n        90′ · 1 chutes ao gol · 4 desarmes\n   03/05 Premier League · Casa 3–2 vs Liverpool\n        90′ · 1 chutes ao gol · 2 desarmes\n   17/05 Premier League · Casa 3–2 vs Nottingham\n        79′\n   31/05 Amistoso · Casa 6–2 vs Panamá\n        45′ · 1 assist.\n   06/06 Amistoso · Neutro 2–1 vs Egito\n        45′\n   13/06 Copa · 1–1 vs Marrocos\n        45′\n━━━━━━━━━━━━━━━\n📅 <b>Próximo jogo:</b> 19/06 21h30 · vs 🇭🇹 Haiti\n━━━━━━━━━━━━━━━\nℹ️ A captura do momento do jogador, segundo o Índice Omnia.\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
           }
         }
       ],
-      "jogadores": [],
-      "duelos": []
-    },
-    {
-      "game_key": "2026-06-16_argentina_vs_algeria",
-      "data": "2026-06-16",
-      "hora_brasil": "22:00",
-      "kickoff_iso": "2026-06-16T22:00:00-03:00",
-      "fase": "Grupos",
-      "grupo": "J",
-      "mandante": "Argentina",
-      "visitante": "Algeria",
-      "mandante_ptbr": "Argentina",
-      "visitante_ptbr": "Argélia",
-      "melhor_pick": {
-        "mercado": "Vitória no 2º tempo — Argentina",
-        "prob_pct": 64.0,
-        "odd": 1.71,
-        "ev_pct": 9.1,
-        "regime": "core"
-      },
-      "agenda": [
+      "duelos": [
         {
-          "tipo": "confronto",
-          "publicar_em": "2026-06-16T21:30:00-03:00",
-          "card": {
-            "arquivo": "wc2026/seleção_cards/_jogos/ArgentinaXArgélia.2026.06.16.txt",
-            "chars": 998,
-            "excede": false,
-            "texto": "🎯 PICKS OMNIA — <b>🇦🇷 Argentina</b>  🆚  <b>🇩🇿 Argélia</b>\n🏆 Copa do Mundo 2026 · Grupos\n📅 16/06/2026 · 🕒 22h00 · 📍 🇺🇸 Kansas City, EUA · GEHA Field at Arrowhead Stadium\n⚖️ Campo neutro\n● Escalação Provável\nArgentina: 🏆 3× campeão (1978 ★ 1986 ★ 2022)\n🏅 Ranking FIFA: Argentina #1 = · Argélia #27 ▲1\n\n🟢 <b>Vitória no 2º tempo — Argentina</b>  ·  prob 64%  ·  odd 1.71  ·  EV +9.1%\n🟢 <b>Vitória no 1º tempo — Argentina</b>  ·  prob 58%  ·  odd 1.87  ·  EV +8.2%\n🟢 <b>Ambas marcam: Não</b>  ·  prob 66%  ·  odd 1.62  ·  EV +6.6%\n🟢 <b>Mais de 2.5 gols</b>  ·  prob 54%  ·  odd 1.96  ·  EV +4.9%\n🔸 <b>Vitória — Argentina</b>  ·  prob 79%  ·  odd 1.39  ·  EV +10.3%\n🔸 <b>Mais de 3.5 gols</b>  ·  prob 31%  ·  odd 3.42  ·  EV +6.8%\n🔸 <b>Mais de 1.5 gols</b>  ·  prob 78%  ·  odd 1.30  ·  EV +0.8%\n\n🟢 Core: faixa de odd validada como +EV no histórico (mais segura).\n🔸 Espec.: valor fora dessa faixa — maior risco/retorno.\n\nProbabilidade própria calibrada (▷ OMNIA ◁) × odd real. EV não é garantia de lucro."
-          }
+          "arquivo": "wc2026/player_cards/_duelos/casemiroXfabinho.2026.06.17.txt",
+          "chars": 2125,
+          "excede": false,
+          "texto": "🏆 COPA DO MUNDO 2026\n━━━━━━━━━━━━━━━\n⚔️ DUELO\n<b>Casemiro</b>  🆚  <b>Fabinho</b>\n🇧🇷 MF  ×  🇧🇷 DF-MF\n━━━━━━━━━━━━━━━\n<b>🌎 ELIMINATÓRIAS</b>\n   Casemiro: Brasil · Eliminatórias\n   Fabinho: Brasil · Eliminatórias\n   📈 Índice Omnia   6.58  ▶ 6.90\n   Jogos ................        7 ·· 9\n   Como titular .........        7 ·· 6\n   Finalizações .........        7 ◀  2\n   Desarmes .............     1.67  ▶ 2.71\n   Interceptações .......     0.76  ▶ 1.69\n   Cartões amarelos .....     0.30 ◀  0.34\n   Faltas cometidas .....     0.91  ▶ 0.85\n   Faltas sofridas ......     0.76 ·· 1.36\n\n<b>📊 CLUBE · ÚLTIMA TEMPORADA</b>\n   Casemiro: Manchester Utd · Premier League\n   Fabinho: Al-Ittihad · Pro League\n   📈 Índice Omnia   7.00 ◀  6.50\n   Jogos ................       34 ·· 30\n   Como titular .........       33 ·· 30\n   Min/jogo .............      76′ ·· 88′\n   % dos minutos ........    75.1% ·· 86.3%\n   Gols .................        9 ◀  1\n   Assistências .........        2  ▶ 3\n   Finalizações .........       52 ◀  14\n   Chutes ao gol ........       18 ◀  6\n   % no alvo ............    34.6%  ▶ 42.9%\n   Gols/90 ..............     0.32 ◀  0.03\n   Assist./90 ...........     0.07  ▶ 0.10\n   Finalizações/90 ......     1.82 ◀  0.48\n   Chutes ao gol/90 .....     0.63 ◀  0.20\n   Desarmes .............     1.57 ◀  1.26\n   Interceptações .......     1.05  ▶ 1.19\n   Cruzamentos ..........     0.66 ◀  0.14\n   Cartões amarelos .....     0.38  ▶ 0.24\n   Cartões vermelhos ....     0.03 ◀  0.07\n   Faltas cometidas .....     1.61  ▶ 1.54\n   Faltas sofridas ......     1.26 ·· 0.99\n   Pontos/jogo ..........     1.97 ◀  1.80\n   Saldo de gols em campo       +24 ◀  +11\n   Saldo/90 .............     0.84 ◀  0.37\n━━━━━━━━━━━━━━━\n📅 <b>Próximos Jogos:</b>\nCasemiro vs 19/06 21h30 🇭🇹 Haiti\nFabinho vs 19/06 21h30 🇭🇹 Haiti\n━━━━━━━━━━━━━━━\n📈 Índice Omnia — a leitura do nosso modelo para o desempenho do jogador em campo, de 0 a 10, ponderada pela posição e calculada a partir dos eventos da partida.\nℹ️ Demais médias por 90 min. ◀ ▶ apontam quem leva (em gols sofridos, cartões e faltas, menos é melhor).\nAnálise ▷ OMNIA ◁ · 📲 @BetMasterson"
         }
-      ],
-      "jogadores": [],
-      "duelos": []
-    },
-    {
-      "game_key": "2026-06-17_portugal_vs_congo-dr",
-      "data": "2026-06-17",
-      "hora_brasil": "14:00",
-      "kickoff_iso": "2026-06-17T14:00:00-03:00",
-      "fase": "Grupos",
-      "grupo": "K",
-      "mandante": "Portugal",
-      "visitante": "Congo DR",
-      "mandante_ptbr": "Portugal",
-      "visitante_ptbr": "RD do Congo",
-      "melhor_pick": null,
-      "agenda": [],
-      "jogadores": [],
-      "duelos": []
-    },
-    {
-      "game_key": "2026-06-17_england_vs_croatia",
-      "data": "2026-06-17",
-      "hora_brasil": "17:00",
-      "kickoff_iso": "2026-06-17T17:00:00-03:00",
-      "fase": "Grupos",
-      "grupo": "L",
-      "mandante": "England",
-      "visitante": "Croatia",
-      "mandante_ptbr": "Inglaterra",
-      "visitante_ptbr": "Croácia",
-      "melhor_pick": null,
-      "agenda": [],
-      "jogadores": [],
-      "duelos": []
-    },
-    {
-      "game_key": "2026-06-17_ghana_vs_panama",
-      "data": "2026-06-17",
-      "hora_brasil": "20:00",
-      "kickoff_iso": "2026-06-17T20:00:00-03:00",
-      "fase": "Grupos",
-      "grupo": "L",
-      "mandante": "Ghana",
-      "visitante": "Panama",
-      "mandante_ptbr": "Gana",
-      "visitante_ptbr": "Panamá",
-      "melhor_pick": null,
-      "agenda": [],
-      "jogadores": [],
-      "duelos": []
-    },
-    {
-      "game_key": "2026-06-17_uzbekistan_vs_colombia",
-      "data": "2026-06-17",
-      "hora_brasil": "23:00",
-      "kickoff_iso": "2026-06-17T23:00:00-03:00",
-      "fase": "Grupos",
-      "grupo": "K",
-      "mandante": "Uzbekistan",
-      "visitante": "Colombia",
-      "mandante_ptbr": "Uzbequistão",
-      "visitante_ptbr": "Colômbia",
-      "melhor_pick": null,
-      "agenda": [],
-      "jogadores": [],
-      "duelos": []
+      ]
     }
   ]
 }

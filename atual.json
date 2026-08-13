@@ -1,12 +1,12 @@
 {
   "meta": {
-    "timestamp": "2026.08.12-23H33H47",
+    "timestamp": "2026.08.13-01H03H53",
     "omnia_version": "0.2.0",
     "cerebro_version": "0.10.0",
     "scripts": [
       "ORQ-ORQ-cron_diario.py"
     ],
-    "generated_at": "2026-08-12T23:33:47-03:00",
+    "generated_at": "2026-08-13T01:03:53-03:00",
     "schema_version": "1.11",
     "engine": "omnia_calibrado",
     "rotulos_mercado": {
@@ -302,8 +302,8 @@
     "janela": {
       "tipo": "multi",
       "dias": [
-        "2026-08-12",
-        "2026-08-13"
+        "2026-08-13",
+        "2026-08-14"
       ]
     },
     "fontes": [

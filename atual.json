@@ -1,12 +1,12 @@
 {
   "meta": {
-    "timestamp": "2026.08.19-00H56H13",
+    "timestamp": "2026.08.19-10H55H57",
     "omnia_version": "0.2.0",
     "cerebro_version": "0.12.0",
     "scripts": [
       "ORQ-ORQ-cron_diario.py"
     ],
-    "generated_at": "2026-08-19T00:56:13-03:00",
+    "generated_at": "2026-08-19T10:55:57-03:00",
     "schema_version": "1.11",
     "engine": "omnia_calibrado",
     "rotulos_mercado": {

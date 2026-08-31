@@ -1,12 +1,12 @@
 {
   "meta": {
-    "timestamp": "2026.08.31-01H12H57",
+    "timestamp": "2026.08.31-10H56H01",
     "omnia_version": "0.2.0",
     "cerebro_version": "0.12.0",
     "scripts": [
       "ORQ-ORQ-cron_diario.py"
     ],
-    "generated_at": "2026-08-31T01:12:57-03:00",
+    "generated_at": "2026-08-31T10:56:01-03:00",
     "schema_version": "1.12",
     "engine": "omnia_calibrado",
     "rotulos_mercado": {
@@ -312,187 +312,10 @@
     ],
     "regra": "D0+D+1 · por data, o produto MAIS RECENTE define o conjunto · upsert game_key|mercado · só jogo com kickoff > agora+15min · jogos COM e SEM pick (`tem_pick`)"
   },
-  "n_jogos": 35,
+  "n_jogos": 34,
   "n_jogos_com_pick": 22,
-  "n_jogos_analisados": 13,
+  "n_jogos_analisados": 12,
   "jogos": [
-    {
-      "game_key": "2026-08-31|EG_ASYUT_PETROL|EG_NATIONAL_BANK",
-      "data": "2026-08-31",
-      "hora": "11h00",
-      "pais": "Egito",
-      "campeonato": "Premier League Egípcia",
-      "competicao_id": "EG_EGYPTIAN_PREMIER_LEAGUE",
-      "mandante": "Asyut Petrol",
-      "visitante": "National Bank",
-      "venue": "home",
-      "estadio": "Mubarak Stadium",
-      "h2h_url": "https://footystats.org/egypt/asyut-petroleum-vs-national-bank-of-egypt-sc-h2h-stats",
-      "predictions_url": "https://footystats.org/egypt/asyut-petroleum-vs-national-bank-of-egypt-sc-h2h-stats/predictions",
-      "forca": {
-        "backend": null,
-        "lambda_home": null,
-        "lambda_away": null
-      },
-      "picks": [],
-      "motivo_sem_analise": "sem_cobertura",
-      "mercados": [],
-      "servico": {
-        "disponivel": true,
-        "fonte": "pagina",
-        "cross_check": {
-          "coerencia": {
-            "home": true,
-            "away": true
-          },
-          "ambos_coerentes": true,
-          "indice_vs_pagina": {
-            "home": {
-              "indice": 1.0,
-              "pagina": 1.0,
-              "delta": 0.0
-            },
-            "away": {
-              "indice": 0.0,
-              "pagina": 0.0,
-              "delta": 0.0
-            }
-          }
-        },
-        "home": {
-          "recorte_nominal": "home",
-          "pagina": "asyut-petroleum-17826.html",
-          "coerente": true,
-          "gw": {
-            "overall": 2,
-            "home": 1,
-            "away": 1
-          },
-          "forma": {
-            "overall": {
-              "pld": 2,
-              "w": 0,
-              "d": 2,
-              "l": 0,
-              "gf": 1,
-              "ga": 1,
-              "gd": 0,
-              "ppg": 1.0
-            },
-            "home": {
-              "pld": 1,
-              "w": 0,
-              "d": 1,
-              "l": 0,
-              "gf": 1,
-              "ga": 1,
-              "gd": 0,
-              "ppg": 1.0
-            },
-            "away": {
-              "pld": 1,
-              "w": 0,
-              "d": 1,
-              "l": 0,
-              "gf": 0,
-              "ga": 0,
-              "gd": 0,
-              "ppg": 1.0
-            }
-          },
-          "taxas_gol": {
-            "overall": {
-              "pro": 0.5,
-              "contra": 0.5
-            },
-            "home": {
-              "pro": 1.0,
-              "contra": 1.0
-            },
-            "away": {
-              "pro": 0.0,
-              "contra": 0.0
-            }
-          },
-          "prediction_risk": {
-            "pct": 0,
-            "label": "Low Risk"
-          },
-          "scalars": {
-            "goals_match": 1.0
-          }
-        },
-        "away": {
-          "recorte_nominal": "away",
-          "pagina": "national-bank-of-egypt-sc-688349.html",
-          "coerente": true,
-          "gw": {
-            "overall": 2,
-            "home": 1,
-            "away": 1
-          },
-          "forma": {
-            "overall": {
-              "pld": 2,
-              "w": 0,
-              "d": 0,
-              "l": 2,
-              "gf": 0,
-              "ga": 4,
-              "gd": -4,
-              "ppg": 0.0
-            },
-            "home": {
-              "pld": 1,
-              "w": 0,
-              "d": 0,
-              "l": 1,
-              "gf": 0,
-              "ga": 3,
-              "gd": -3,
-              "ppg": 0.0
-            },
-            "away": {
-              "pld": 1,
-              "w": 0,
-              "d": 0,
-              "l": 1,
-              "gf": 0,
-              "ga": 1,
-              "gd": -1,
-              "ppg": 0.0
-            }
-          },
-          "taxas_gol": {
-            "overall": {
-              "pro": 0.0,
-              "contra": 2.0
-            },
-            "home": {
-              "pro": 0.0,
-              "contra": 3.0
-            },
-            "away": {
-              "pro": 0.0,
-              "contra": 1.0
-            }
-          },
-          "prediction_risk": {
-            "pct": 50,
-            "label": "Medium Risk"
-          },
-          "scalars": {
-            "goals_match": 2.0
-          }
-        }
-      },
-      "preguicoso": {
-        "disponivel": false
-      },
-      "corujao": false,
-      "indice_omnia": null,
-      "tem_pick": false
-    },
     {
       "game_key": "2026-08-31|GEO_TORPEDO_KUTAISI|GEO_FC_MESHAKHTE_TKIBULI",
       "data": "2026-08-31",

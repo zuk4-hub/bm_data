@@ -1,12 +1,12 @@
 {
   "meta": {
-    "timestamp": "2026.09.23-11H36H57",
+    "timestamp": "2026.09.23-20H56H04",
     "omnia_version": "0.2.0",
     "cerebro_version": "0.12.0",
     "scripts": [
       "ORQ-ORQ-cron_diario.py"
     ],
-    "generated_at": "2026-09-23T11:36:57-03:00",
+    "generated_at": "2026-09-23T20:56:04-03:00",
     "schema_version": "1.12",
     "engine": "omnia_calibrado",
     "calibracao": "calibracao_2026.08.17-13H47H54.json",
@@ -313,187 +313,10 @@
     ],
     "regra": "D0+D+1 · por data, o produto MAIS RECENTE define o conjunto · upsert game_key|mercado · só jogo com kickoff > agora+15min · jogos COM e SEM pick (`tem_pick`)"
   },
-  "n_jogos": 8,
+  "n_jogos": 7,
   "n_jogos_com_pick": 1,
-  "n_jogos_analisados": 7,
+  "n_jogos_analisados": 6,
   "jogos": [
-    {
-      "game_key": "2026-09-23|BRA_ITABAIANA|BRA_LAGARTO",
-      "data": "2026-09-23",
-      "hora": "15h00",
-      "pais": "Brasil",
-      "campeonato": "Sergipano U20",
-      "competicao_id": "BR_SERGIPANO_U20",
-      "mandante": "Itabaiana",
-      "visitante": "Lagarto",
-      "venue": "home",
-      "estadio": null,
-      "h2h_url": "https://footystats.org/brazil/lagarto-fc-under-20-vs-associacao-olimpica-de-itabaiana-under-20-h2h-stats",
-      "predictions_url": "https://footystats.org/brazil/lagarto-fc-under-20-vs-associacao-olimpica-de-itabaiana-under-20-h2h-stats/predictions",
-      "forca": {
-        "backend": null,
-        "lambda_home": null,
-        "lambda_away": null
-      },
-      "picks": [],
-      "motivo_sem_analise": "sem_cobertura",
-      "mercados": [],
-      "servico": {
-        "disponivel": true,
-        "fonte": "pagina",
-        "cross_check": {
-          "coerencia": {
-            "home": true,
-            "away": true
-          },
-          "ambos_coerentes": true,
-          "indice_vs_pagina": {
-            "home": {
-              "indice": 2.0,
-              "pagina": 1.5,
-              "delta": -0.5
-            },
-            "away": {
-              "indice": 1.0,
-              "pagina": 0.0,
-              "delta": -1.0
-            }
-          }
-        },
-        "home": {
-          "recorte_nominal": "home",
-          "pagina": "associacao-olimpica-de-itabaiana-under-20-1226648.html",
-          "coerente": true,
-          "gw": {
-            "overall": 3,
-            "home": 2,
-            "away": 1
-          },
-          "forma": {
-            "overall": {
-              "pld": 3,
-              "w": 2,
-              "d": 0,
-              "l": 1,
-              "gf": 7,
-              "ga": 7,
-              "gd": 0,
-              "ppg": 2.0
-            },
-            "home": {
-              "pld": 2,
-              "w": 1,
-              "d": 0,
-              "l": 1,
-              "gf": 5,
-              "ga": 7,
-              "gd": -2,
-              "ppg": 1.5
-            },
-            "away": {
-              "pld": 1,
-              "w": 1,
-              "d": 0,
-              "l": 0,
-              "gf": 2,
-              "ga": 0,
-              "gd": 2,
-              "ppg": 3.0
-            }
-          },
-          "taxas_gol": {
-            "overall": {
-              "pro": 2.333,
-              "contra": 2.333
-            },
-            "home": {
-              "pro": 2.5,
-              "contra": 3.5
-            },
-            "away": {
-              "pro": 2.0,
-              "contra": 0.0
-            }
-          },
-          "prediction_risk": {
-            "pct": 333,
-            "label": "Very High Risk"
-          },
-          "scalars": {
-            "goals_match": 4.67
-          }
-        },
-        "away": {
-          "recorte_nominal": "away",
-          "pagina": "lagarto-fc-under-20-1226642.html",
-          "coerente": true,
-          "gw": {
-            "overall": 4,
-            "home": 2,
-            "away": 2
-          },
-          "forma": {
-            "overall": {
-              "pld": 4,
-              "w": 1,
-              "d": 1,
-              "l": 2,
-              "gf": 4,
-              "ga": 4,
-              "gd": 0,
-              "ppg": 1.0
-            },
-            "home": {
-              "pld": 2,
-              "w": 1,
-              "d": 1,
-              "l": 0,
-              "gf": 3,
-              "ga": 0,
-              "gd": 3,
-              "ppg": 2.0
-            },
-            "away": {
-              "pld": 2,
-              "w": 0,
-              "d": 0,
-              "l": 2,
-              "gf": 1,
-              "ga": 4,
-              "gd": -3,
-              "ppg": 0.0
-            }
-          },
-          "taxas_gol": {
-            "overall": {
-              "pro": 1.0,
-              "contra": 1.0
-            },
-            "home": {
-              "pro": 1.5,
-              "contra": 0.0
-            },
-            "away": {
-              "pro": 0.5,
-              "contra": 2.0
-            }
-          },
-          "prediction_risk": {
-            "pct": 125,
-            "label": "Very High Risk"
-          },
-          "scalars": {
-            "goals_match": 2.0
-          }
-        }
-      },
-      "preguicoso": {
-        "disponivel": false
-      },
-      "corujao": false,
-      "indice_omnia": null,
-      "tem_pick": false
-    },
     {
       "game_key": "2026-09-23|CO_AMERICA_DE_CALI|CO_AGUILAS_DORADAS",
       "data": "2026-09-23",
